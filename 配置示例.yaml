@@ -1,0 +1,134 @@
+#代理端口
+mixed-port: 7890
+
+# 允许局域网的连接
+allow-lan: false
+
+## 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
+mode: Rule
+
+# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
+# 5 个级别：silent / info / warning / error / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启
+log-level: silent
+
+# Clash 的 RESTful API
+external-controller: 127.0.0.1:9090
+
+proxy-providers:
+  A1:  
+    type: http
+    path: ./profiles/ruleset/A1.yaml
+    url: "https://***."  # 机场订阅连接
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 3600
+  A1-us:
+    type: http
+    path: ./profiles/ruleset/A1.yaml
+    url: "https://***."  # 机场订阅连接
+    interval: 96400
+    filter: '美国'  #筛选机场的美国节点
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 3600
+proxies: # 自建节点
+  - name: 🇺🇸 美国01
+    type: ss
+    server: 1.***.**.1**  
+    port: "49876"
+    cipher: chacha20-ietf-poly1305
+    password: 21bddddd61feed
+  - name: 🇺🇸 美国02
+    type: ss
+    server: 1**.***.13
+    port: "53186"
+    cipher: chacha20-ietf-poly1305
+    password: fade677ee2b4291mk  
+
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 3600
+    use:
+      - A1
+    proxies:
+      - DIRECT
+      - 🇺🇸 美国01
+      - 🇺🇸 美国02
+  - name: 📺 Netflix
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 3600
+    use:
+      - amy
+    proxies:  
+      - 🇺🇸 美国01
+      - 🇺🇸 美国02
+  - name: 🌐 PayPal
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 3600
+    use:
+      - amy-us
+    proxies:  
+      - 🇺🇸 美国01
+      - 🇺🇸 美国02
+
+#将Clash/Providers路径下的规则按照rule-providers的配置规则写了下，方便手动配置。
+#同时把rules下的使用规则简单分了类，[PROXY]替换为要使用的代理即可。
+#rule-providers和rules按自己需求增减。
+
+rule-providers:  #按需求增减
+  China:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/China.yaml"
+    path: ./ruleset/China.yaml
+    interval: 86400
+      
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Netflix.yaml"
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+    
+  PayPal:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/PayPal.yaml"
+    path: ./ruleset/Palpayl.yaml
+    interval: 86400 
+
+rules:
+
+  - DOMAIN-KEYWORD,Authy,DIRECT
+  - DOMAIN-SUFFIX,Authy.com,DIRECT
+  - DOMAIN-KEYWORD,uTorrent,DIRECT
+  - DOMAIN-KEYWORD,aria2,DIRECT
+  - DOMAIN-KEYWORD,DownloadService,DIRECT
+  - DOMAIN-KEYWORD,Folx.exe,DIRECT
+  - DOMAIN-KEYWORD,Transmission,DIRECT
+  - DOMAIN-KEYWORD,WebTorrent Helper,DIRECT
+  - DOMAIN-KEYWORD,WebTorrent,DIRECT
+  - DOMAIN-KEYWORD,bittorrent,DIRECT
+  - DOMAIN-KEYWORD,qbittorrent,DIRECT
+  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
+  - DOMAIN-SUFFIX,ip6-loopback,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-SUFFIX,localhost,DIRECT
+
+  # 国内
+  - RULE-SET,China,DIRECT
+  
+  # 国外 （可根据需求修改增加）
+  - RULE-SET,Netflix,📺 Netflix
+  - RULE-SET,PayPal,🌐 PayPal
+  # GEOIP
+  - GEOIP,CN,DIRECT
+  # 必须
+  - MATCH,🚀 节点选择
