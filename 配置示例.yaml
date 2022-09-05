@@ -64,7 +64,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 3600
     use:
-      - amy
+      - A1
     proxies:  
       - 🇺🇸 美国01
       - 🇺🇸 美国02
@@ -73,7 +73,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 3600
     use:
-      - amy-us
+      - A1-us
     proxies:  
       - 🇺🇸 美国01
       - 🇺🇸 美国02
