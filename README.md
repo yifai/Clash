@@ -7,6 +7,7 @@
 #特别注意：rule-provider、proxy-provider 适用于 Clash Premium 内核的规则集（RULE-SET），同时适用于所有使用 Clash Premium 内核的 Clash 图形用户界面（GUI）客户端。
 # 配置规则参考文档： https://github.com/Dreamacro/clash/wiki/configuration
 
+#  按自己的需求选择规则集合，例如，你想国内直连，其它的代理，就可以选择China.yaml这个规则集（rule-provider），再加上GEOIP,CN，最后MATCH代理即可（即China.yaml和GEOIP,CN之外的规则全部代理）；在China.yaml和GEOIP,CN之外，也可以加上特定的规则集，比如Paypal单独选择代理节点，分流（rule）添加于MATCH前面
 
 # 参考资料（不分先后顺序）：感谢各位大佬的无私分享
 
