@@ -1,5 +1,14 @@
 # NAME: PayPal
 payload:
+  - PROCESS-NAME,com.paypal.android.p2pmobile
+  - DOMAIN-KEYWORD,paypal*
+  - DOMAIN-KEYWORD,paypal
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypal-mktg.com
+  - DOMAIN-SUFFIX,paypalobjects.com
+  
+  # 更多
   - DOMAIN-SUFFIX,account-paypal.info
   - DOMAIN-SUFFIX,account-paypal.net
   - DOMAIN-SUFFIX,account-paypal.org
@@ -110,7 +119,6 @@ payload:
   - DOMAIN-SUFFIX,paypal-marketing.com
   - DOMAIN-SUFFIX,paypal-media.com
   - DOMAIN-SUFFIX,paypal-merchantloyalty.com
-  - DOMAIN-SUFFIX,paypal-mktg.com
   - DOMAIN-SUFFIX,paypal-mobilemoney.com
   - DOMAIN-SUFFIX,paypal-network.org
   - DOMAIN-SUFFIX,paypal-notice.com
@@ -152,14 +160,11 @@ payload:
   - DOMAIN-SUFFIX,paypal-team.com
   - DOMAIN-SUFFIX,paypal-viewpoints.net
   - DOMAIN-SUFFIX,paypal.ca
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.com.cn
   - DOMAIN-SUFFIX,paypal.com.hk
   - DOMAIN-SUFFIX,paypal.com.sg
   - DOMAIN-SUFFIX,paypal.hk
   - DOMAIN-SUFFIX,paypal.info
   - DOMAIN-SUFFIX,paypal.jp
-  - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypal.net.cn
   - DOMAIN-SUFFIX,paypal.org.cn
   - DOMAIN-SUFFIX,paypal.so
@@ -194,7 +199,6 @@ payload:
   - DOMAIN-SUFFIX,paypalnetwork.info
   - DOMAIN-SUFFIX,paypalnetwork.net
   - DOMAIN-SUFFIX,paypalnetwork.org
-  - DOMAIN-SUFFIX,paypalobjects.com
   - DOMAIN-SUFFIX,paypalonline.net
   - DOMAIN-SUFFIX,paypalonline.org
   - DOMAIN-SUFFIX,paypalprepagata.com
@@ -246,4 +250,3 @@ payload:
   - DOMAIN-SUFFIX,xoom.net.cn
   - DOMAIN-SUFFIX,xoom.us
   - DOMAIN-SUFFIX,xoomcom.com
-  - DOMAIN-KEYWORD,paypal
