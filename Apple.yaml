@@ -1,6 +1,6 @@
 payload:
   # 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
-  
+  # 🍎 苹果服务
   # > App Store
   - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN,iosapps.itunes.apple.com
@@ -184,3 +184,14 @@ payload:
   - DOMAIN,mask-t.apple-dns.net
   - DOMAIN,mask.apple-dns.net
   - DOMAIN,mask.icloud.com
+# 🍎 苹果服务 , no-resolve
+  - IP-CIDR,139.178.128.0/18
+  - IP-CIDR,144.178.0.0/19
+  - IP-CIDR,144.178.36.0/22
+  - IP-CIDR,144.178.48.0/20
+  - IP-CIDR,17.0.0.0/8
+  - IP-CIDR,192.35.50.0/24
+  - IP-CIDR,198.183.17.0/24
+  - IP-CIDR,205.180.175.0/24
+  - IP-CIDR,63.92.224.0/19
+  - IP-CIDR,65.199.22.0/23
