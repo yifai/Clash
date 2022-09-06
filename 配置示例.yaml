@@ -105,7 +105,7 @@ rule-providers:  #按需求增减
     interval: 86400 
 
 rules:
-
+  # rules规则由上往下遍历，如上面规则已经命中，则不再往下处理
   - DOMAIN-KEYWORD,Authy,DIRECT
   - DOMAIN-SUFFIX,Authy.com,DIRECT
   - DOMAIN-KEYWORD,uTorrent,DIRECT
@@ -128,7 +128,7 @@ rules:
   # 国外 （可根据需求修改增加）
   - RULE-SET,Netflix,📺 Netflix
   - RULE-SET,PayPal,🌐 PayPal
-  # GEOIP
+  # GEOIP，如你不希望进行 DNS 解析，可在 GEOIP 规则的最后加上 ,no-resolve，如 GEOIP,CN,DIRECT,no-resolve。
   - GEOIP,CN,DIRECT
   # 必须
   - MATCH,🚀 节点选择
