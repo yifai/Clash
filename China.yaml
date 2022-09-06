@@ -856,7 +856,6 @@ payload:
   - DOMAIN-SUFFIX,ip6-localhost
   - DOMAIN-SUFFIX,ip6-loopback
   - DOMAIN-SUFFIX,p.to
-  - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,ocsp.pki.goog
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,redirector.gvt1.com
