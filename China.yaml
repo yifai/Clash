@@ -1,6 +1,5 @@
 # NAME: China  直连
 payload:
- 
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
   - DOMAIN-KEYWORD,uTorrent
