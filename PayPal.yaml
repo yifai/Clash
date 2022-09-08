@@ -7,7 +7,6 @@ payload:
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypal-mktg.com
   - DOMAIN-SUFFIX,paypalobjects.com
-  
   # 更多
   - DOMAIN-SUFFIX,account-paypal.info
   - DOMAIN-SUFFIX,account-paypal.net
