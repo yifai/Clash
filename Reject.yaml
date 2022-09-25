@@ -1,6 +1,26 @@
 payload:
-
-  - DOMAIN-SUFFIX,navi.gd.chinamobile.com
+  # > Google
+  - DOMAIN,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,ads.google.com
+  - DOMAIN-SUFFIX,adservice.google.com
+  - DOMAIN-SUFFIX,afd.l.google.com
+  - DOMAIN-SUFFIX,badad.googleplex.com
+  - DOMAIN-SUFFIX,csi.gstatic.com
+  - DOMAIN-SUFFIX,doubleclick.com
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,googleadsserving.cn
+  - DOMAIN-SUFFIX,googlecommerce.com
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,mobileads.google.com
+  - DOMAIN-SUFFIX,pagead-tpc.l.google.com
+  - DOMAIN-SUFFIX,pagead.google.com
+  - DOMAIN-SUFFIX,pagead.l.google.com
+  
+  # > Tencent
+  - DOMAIN,safebrowsing.urlsec.qq.com
+  # > 
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
   - DOMAIN-KEYWORD,adsage
@@ -29,23 +49,8 @@ payload:
   - DOMAIN-KEYWORD,wlmonitor
   - DOMAIN-KEYWORD,zjtoolbar
   - DOMAIN-SUFFIX,admob.com
+  - DOMAIN-SUFFIX,navi.gd.chinamobile.com
   - DOMAIN-SUFFIX,ads.gmodules.com
-  - DOMAIN-SUFFIX,ads.google.com
-  - DOMAIN-SUFFIX,adservice.google.com
-  - DOMAIN-SUFFIX,afd.l.google.com
-  - DOMAIN-SUFFIX,badad.googleplex.com
-  - DOMAIN-SUFFIX,csi.gstatic.com
-  - DOMAIN-SUFFIX,doubleclick.com
-  - DOMAIN-SUFFIX,doubleclick.net
-  - DOMAIN-SUFFIX,google-analytics.com
-  - DOMAIN-SUFFIX,googleadservices.com
-  - DOMAIN-SUFFIX,googleadsserving.cn
-  - DOMAIN-SUFFIX,googlecommerce.com
-  - DOMAIN-SUFFIX,googlesyndication.com
-  - DOMAIN-SUFFIX,mobileads.google.com
-  - DOMAIN-SUFFIX,pagead-tpc.l.google.com
-  - DOMAIN-SUFFIX,pagead.google.com
-  - DOMAIN-SUFFIX,pagead.l.google.com
   - DOMAIN-SUFFIX,service.urchin.com
   - DOMAIN-SUFFIX,09mk.cn
   - DOMAIN-SUFFIX,100peng.com
@@ -1894,7 +1899,3 @@ payload:
   - DOMAIN-SUFFIX,yuanchengxiezuo.com
   - DOMAIN-SUFFIX,zbrushcn.com
   - DOMAIN-SUFFIX,zhzzx.com
-  # > Google
-  - DOMAIN,safebrowsing.googleapis.com
-  # > Tencent
-  - DOMAIN,safebrowsing.urlsec.qq.com
