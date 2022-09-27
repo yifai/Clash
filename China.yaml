@@ -16,7 +16,7 @@ payload:
   - DOMAIN-KEYWORD,qBittorrent
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,weibo.cn
-  - DOMAIN-KEYWORD,.tmall.com
+  - DOMAIN-KEYWORD,tmall.com
   - DOMAIN-KEYWORD,aliyun
   - DOMAIN-KEYWORD,baidu
   - DOMAIN-KEYWORD,taobao
@@ -178,8 +178,6 @@ payload:
   - DOMAIN-SUFFIX,360buy.com
   - DOMAIN-SUFFIX,360buyimg.com
   - DOMAIN-SUFFIX,jcloudcs.com
-  - DOMAIN-SUFFIX,中国
-  - DOMAIN-SUFFIX,公司
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-SUFFIX,paipai.com
   - DOMAIN-SUFFIX,iciba.com
