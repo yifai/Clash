@@ -12,8 +12,6 @@ payload:
   - DOMAIN-KEYWORD,WebTorrent Helper
   - DOMAIN-KEYWORD,WebTorrent
   - DOMAIN-KEYWORD,BitComet
-  - DOMAIN-SUFFIX,BitComet
-  - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
   - DOMAIN-KEYWORD,qBittorrent
   - DOMAIN-SUFFIX,acl4.ssr
