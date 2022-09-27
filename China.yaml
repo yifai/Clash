@@ -15,7 +15,7 @@ payload:
   - DOMAIN-SUFFIX,BitComet
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
-  - DOMAIN-KEYWORD,qbittorrent
+  - DOMAIN-KEYWORD,qBittorrent
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-KEYWORD,.tmall.com
