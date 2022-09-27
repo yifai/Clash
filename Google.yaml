@@ -672,11 +672,6 @@ payload:
   - DOMAIN-KEYWORD,gstatic
   - DOMAIN-KEYWORD,recaptcha
   - DOMAIN-KEYWORD,www.google.
-  - IP-CIDR,172.110.32.0/21,no-resolve
-  - IP-CIDR,173.194.0.0/16,no-resolve
-  - IP-CIDR,216.73.80.0/20,no-resolve
-  - IP-CIDR,74.125.0.0/16,no-resolve
-  - IP-CIDR6,2620:120:e000::/40,no-resolve
   - PROCESS-NAME,backupandsync
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms
@@ -703,7 +698,7 @@ payload:
   - DOMAIN,imap.gmail.com
   - DOMAIN,smtp.gmail.com
   
-  #  谷歌ip, no-resolve
+  #  谷歌ip, no-resolve  
   - IP-CIDR,64.233.177.188/32,no-resolve
   - IP-CIDR,64.233.186.188/32,no-resolve
   - IP-CIDR,64.233.187.188/32,no-resolve
@@ -722,6 +717,10 @@ payload:
   - IP-CIDR,142.250.10.188/32,no-resolve
   - IP-CIDR,142.250.31.188/32,no-resolve
   - IP-CIDR,142.250.96.188/32,no-resolve
+  - IP-CIDR,172.110.32.0/21,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR,216.73.80.0/20,no-resolve
+  - IP-CIDR,74.125.0.0/16,no-resolve
   - IP-CIDR,172.217.194.188/32,no-resolve
   - IP-CIDR,172.217.218.188/32,no-resolve
   - IP-CIDR,172.217.219.188/32,no-resolve
@@ -730,3 +729,4 @@ payload:
   - IP-CIDR,173.194.175.188/32,no-resolve
   - IP-CIDR,173.194.218.188/32,no-resolve
   - IP-CIDR,209.85.233.188/32,no-resolve
+  - IP-CIDR6,2620:120:e000::/40,no-resolve
