@@ -8,7 +8,6 @@ payload:
 # homepage: https://github.com/VirgilClyne/GetSomeFries/wiki/🌐-ASN
 # icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 
-rules:
   - IP-ASN,4134,DIRECT,no-resolve // 金融街31号
   - IP-ASN,4538,DIRECT,no-resolve // 中国教育科研网络中心
   - IP-ASN,4611,DIRECT,no-resolve // CNNIC会员
