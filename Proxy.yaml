@@ -9,6 +9,7 @@ payload:
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,edgedatg.com
   - DOMAIN-SUFFIX,gateway.instagram.com
+  - DOMAIN-KEYWORD,instagram
   - DOMAIN-SUFFIX,go.com
   - DOMAIN-KEYWORD,abematv.akamaized.net
   - DOMAIN-SUFFIX,abema.io
