@@ -42,6 +42,7 @@ payload:
   - DOMAIN-SUFFIX,jdcloud.com
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-KEYWORD,jdpay
+  - DOMAIN-SUFFIX,gzonline.gov.cn
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,taobaocdn.com
   - DOMAIN-SUFFIX,tbcdn.com
