@@ -1,9 +1,13 @@
 NAME: China  直连
 payload:
-  
+  - DOMAIN-SUFFIX,localhost
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-SUFFIX,ip6-localhost
+  - DOMAIN-SUFFIX,ip6-loopback
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
-  - DOMAIN-SUFFIX,discfan.net
+  - DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org
+  - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-KEYWORD,uTorrent
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,DownloadService
@@ -12,20 +16,18 @@ payload:
   - DOMAIN-KEYWORD,WebTorrent Helper
   - DOMAIN-KEYWORD,WebTorrent
   - DOMAIN-KEYWORD,BitComet
+  - DOMAIN-SUFFIX,BitComet
+  - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
-  - DOMAIN-KEYWORD,qBittorrent
+  - DOMAIN-KEYWORD,qbittorrent
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,weibo.cn
-  - DOMAIN-KEYWORD,tmall.com
-  - DOMAIN-KEYWORD,aliyun
-  - DOMAIN-KEYWORD,baidu
-  - DOMAIN-KEYWORD,taobao
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
   - DOMAIN-SUFFIX,dizhensubao.getui.com
   - DOMAIN,origin-a.akamaihd.net
-  - DOMAIN-KEYWORD,alimama
-  - DOMAIN-KEYWORD,alipay
+  - DOMAIN-SUFFIX,pauyun.gd.cn
+  - DOMAIN-SUFFIX,gzonline.gov.cn
   - DOMAIN,analytics.strava.com
   - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN,msg.umeng.com
@@ -38,15 +40,17 @@ payload:
   - DOMAIN-SUFFIX,baidubcr.com
   - DOMAIN-SUFFIX,baidupcs.com
   - DOMAIN-SUFFIX,baidustatic.com
+  - DOMAIN-KEYWORD,baidu
   - DOMAIN-SUFFIX,jd.com
   - DOMAIN-SUFFIX,jdcloud.com
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-KEYWORD,jdpay
-  - DOMAIN-SUFFIX,gzonline.gov.cn
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,taobaocdn.com
+  - DOMAIN-KEYWORD,taobao
   - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,tmall.com
+  - DOMAIN-KEYWORD,tmall.com
   - DOMAIN-KEYWORD,alicdn
   - DOMAIN-SUFFIX,kaikeba.com
   - DOMAIN-SUFFIX,laomo.me
@@ -63,7 +67,6 @@ payload:
   - DOMAIN-KEYWORD,qhimg
   - DOMAIN-KEYWORD,vpimg
   - DOMAIN-KEYWORD,xiami
-  - DOMAIN-KEYWORD,xiaomi
   - DOMAIN-SUFFIX,360.com
   - DOMAIN-SUFFIX,360kuai.com
   - DOMAIN-SUFFIX,360safe.com
@@ -88,6 +91,9 @@ payload:
   - DOMAIN-SUFFIX,aliyuncdn.com
   - DOMAIN-SUFFIX,aliyuncs.com
   - DOMAIN-SUFFIX,aliyundrive.com
+  - DOMAIN-KEYWORD,aliyun
+  - DOMAIN-KEYWORD,alimama
+  - DOMAIN-KEYWORD,alipay
   - DOMAIN-SUFFIX,amap.com
   - DOMAIN-SUFFIX,autonavi.com
   - DOMAIN-SUFFIX,dingtalk.com
@@ -179,6 +185,8 @@ payload:
   - DOMAIN-SUFFIX,360buy.com
   - DOMAIN-SUFFIX,360buyimg.com
   - DOMAIN-SUFFIX,jcloudcs.com
+  - DOMAIN-SUFFIX,中国
+  - DOMAIN-SUFFIX,公司
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-SUFFIX,paipai.com
   - DOMAIN-SUFFIX,iciba.com
@@ -201,10 +209,6 @@ payload:
   - DOMAIN-SUFFIX,mgtv.com
   - DOMAIN-SUFFIX,duokan.com
   - DOMAIN-SUFFIX,mi-img.com
-  - DOMAIN-SUFFIX,mi.com
-  - DOMAIN-SUFFIX,miui.com
-  - DOMAIN-SUFFIX,xiaomi.com
-  - DOMAIN-SUFFIX,xiaomi.net
   - DOMAIN-SUFFIX,xiaomicp.com
   - DOMAIN-SUFFIX,126.com
   - DOMAIN-SUFFIX,126.net
@@ -1055,7 +1059,7 @@ payload:
   - IP-CIDR,127.0.0.0/8,no-resolve
   - IP-CIDR,172.16.0.0/12,no-resolve
   - IP-CIDR,192.168.0.0/16,no-resolve
-  #- IP-CIDR,198.18.0.0/16,no-resolve
+  - IP-CIDR,198.18.0.0/16,no-resolve
   - IP-CIDR6,::1/128,no-resolve
   - IP-CIDR6,fc00::/7,no-resolve
   - IP-CIDR6,fe80::/10,no-resolve
