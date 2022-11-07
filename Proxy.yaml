@@ -1,5 +1,5 @@
 payload:
-  # Proxy
+  # Proxy 其它代理
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
   - DOMAIN-SUFFIX,telegra.ph
@@ -9,8 +9,26 @@ payload:
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,edgedatg.com
   - DOMAIN-SUFFIX,gateway.instagram.com
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,instagr.am
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-SUFFIX,go.com
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twimg.org
+  - DOMAIN-SUFFIX,mediawiki.org
+  - DOMAIN-SUFFIX,wikibooks.org
+  - DOMAIN-SUFFIX,wikidata.org
+  - DOMAIN-SUFFIX,wikileaks.org
+  - DOMAIN-SUFFIX,wikimedia.org
+  - DOMAIN-SUFFIX,wikinews.org
+  - DOMAIN-SUFFIX,wikipedia.org
+  - DOMAIN-SUFFIX,wikiquote.org
+  - DOMAIN-SUFFIX,wikisource.org
+  - DOMAIN-SUFFIX,wikiversity.org
+  - DOMAIN-SUFFIX,wikivoyage.org
+  - DOMAIN-SUFFIX,wiktionary.org
+  - DOMAIN-SUFFIX,whoer.net/
   - DOMAIN-KEYWORD,abematv.akamaized.net
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
@@ -45,7 +63,7 @@ payload:
   - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN-SUFFIX,hinet.net
   - DOMAIN-KEYWORD,livedazn
-  - DOMAIN-KEYWORD,voddazn 
+  - DOMAIN-KEYWORD,voddazn
   - DOMAIN,d349g9zuie06uo.cloudfront.net
   - DOMAIN,dai3fd1oh325y.cloudfront.net
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net 
@@ -233,6 +251,8 @@ payload:
   - DOMAIN-SUFFIX,viu.com
   - DOMAIN-SUFFIX,viu.now.com
   - DOMAIN-SUFFIX,viu.tv
+  - DOMAIN-SUFFIX,signal.org
+  - DOMAIN-KEYWORD,signal
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,youtube-nocookie.com
@@ -273,7 +293,7 @@ payload:
   - DOMAIN-KEYWORD,dropbox
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
-  - DOMAIN-KEYWORD,instagram
+
   - DOMAIN-KEYWORD,sci-hub
   - DOMAIN-KEYWORD,spotify
   - DOMAIN-KEYWORD,twitter
@@ -429,9 +449,6 @@ payload:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,instagram.com
-  - DOMAIN-SUFFIX,instagr.am
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
   - DOMAIN-SUFFIX,kakaocdn.net
@@ -483,24 +500,11 @@ payload:
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,jtvnw.net
   - DOMAIN-SUFFIX,t.co
-  - DOMAIN-SUFFIX,twimg.com
-  - DOMAIN-SUFFIX,twimg.org
-  - DOMAIN-SUFFIX,mediawiki.org
-  - DOMAIN-SUFFIX,wikibooks.org
-  - DOMAIN-SUFFIX,wikidata.org
-  - DOMAIN-SUFFIX,wikileaks.org
-  - DOMAIN-SUFFIX,wikimedia.org
-  - DOMAIN-SUFFIX,wikinews.org
-  - DOMAIN-SUFFIX,wikipedia.org
-  - DOMAIN-SUFFIX,wikiquote.org
-  - DOMAIN-SUFFIX,wikisource.org
-  - DOMAIN-SUFFIX,wikiversity.org
-  - DOMAIN-SUFFIX,wikivoyage.org
-  - DOMAIN-SUFFIX,wiktionary.org
+
   - DOMAIN-SUFFIX,neulion.com
   - DOMAIN-SUFFIX,icntv.xyz
   - DOMAIN-SUFFIX,flzbcdn.xyz
-  - DOMAIN-SUFFIX,whoer.net/
+
   - DOMAIN-SUFFIX,xiaomi.eu
   #  no-resolve
   - IP-CIDR,91.108.0.0/16,no-resolve
