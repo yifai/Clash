@@ -1,5 +1,5 @@
 payload:
-  # > Google
+  # > Reject
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
