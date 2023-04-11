@@ -1,4 +1,4 @@
-NAME: China  直连
+#NAME: China  直连
 payload:
   - DOMAIN-SUFFIX,localhost
   - DOMAIN-SUFFIX,local,DIRECT
