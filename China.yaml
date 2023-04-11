@@ -28,6 +28,22 @@ payload:
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN-SUFFIX,gzonline.gov.cn
+  - DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org
+  - DOMAIN-SUFFIX,i.jzj9999.com
+  - DOMAIN-SUFFIX,jzj9999.com
+  - DOMAIN-SUFFIX,kingdee.com
+  - DOMAIN-SUFFIX,jin10.com
+  - DOMAIN-SUFFIX,weixinbridge.com
+  - DOMAIN-SUFFIX,jzl9999.vip
+  - DOMAIN-SUFFIX,hjzb.vip
+  - DOMAIN-SUFFIX,rty.hjzb.vip
+  - DOMAIN-SUFFIX,qiyukf.net
+  - DOMAIN-SUFFIX,faimallusr.com
+  - DOMAIN-SUFFIX,kfw.com
+  - DOMAIN-SUFFIX,kgimg.com
+  - DOMAIN-SUFFIX,95516.com
+  - DOMAIN-SUFFIX,oss.eple1.top
+  - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN,analytics.strava.com
   - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN,msg.umeng.com
