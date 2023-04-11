@@ -1,5 +1,5 @@
+#NAME: Chinaip  直连
 payload:
-  #  ChinaIP
   - IP-CIDR,1.0.1.0/24,no-resolve
   - IP-CIDR,1.0.2.0/23,no-resolve
   - IP-CIDR,1.0.8.0/21,no-resolve
