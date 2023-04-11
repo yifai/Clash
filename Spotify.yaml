@@ -1,5 +1,5 @@
-# spotify
 payload:
+  # spotify
   - DOMAIN-SUFFIX,byspotify.com
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,scdn.co
