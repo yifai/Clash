@@ -1,9 +1,6 @@
 #NAME: China  直连
 payload:
-  - DOMAIN-SUFFIX,localhost
-  - DOMAIN-SUFFIX,local,DIRECT
-  - DOMAIN-SUFFIX,ip6-localhost
-  - DOMAIN-SUFFIX,ip6-loopback
+
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
   - DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org
@@ -24,6 +21,28 @@ payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
+  - DOMAIN-SUFFIX,dlied1.cdntips.net
+  - DOMAIN-SUFFIX,shenzhentong.com
+  - DOMAIN-SUFFIX,cdn.bcebos.com
+  - DOMAIN-SUFFIX,shenxianfaka.top
+  - DOMAIN-SUFFIX,jmlldsc.com
+  - DOMAIN-SUFFIX,ixpsge.com
+  - DOMAIN-SUFFIX,alibabachengdun.com
+  - DOMAIN-SUFFIX,s-gm.mmstat.com
+  - DOMAIN-SUFFIX,mmstat.com
+  - DOMAIN-SUFFIX,kuaidadi.com
+  - DOMAIN-SUFFIX,daijia.kuaidadi.com
+  - DOMAIN-SUFFIX,tencent-cloud.com
+  - DOMAIN-SUFFIX,kingsoft-office-service.com
+  - DOMAIN-SUFFIX,toblog.ctobsnssdk.com
+  - DOMAIN-SUFFIX,dutils.com
+  - DOMAIN-SUFFIX,ip138.com
+  - DOMAIN-SUFFIX,toutiao.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com
+  - DOMAIN-KEYWORD,toutiao
+  - DOMAIN-SUFFIX,nv00.cdn.bcebos.com
+  - DOMAIN-SUFFIX,cdn.bcebos.com
+  - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,dizhensubao.getui.com
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN-SUFFIX,pauyun.gd.cn
