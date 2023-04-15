@@ -38,7 +38,9 @@ payload:
   - DOMAIN-SUFFIX,dutils.com
   - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,toutiao.com
-  - DOMAIN-SUFFIX,ipchaxun.com/
+  - DOMAIN-SUFFIX,ipchaxun.com
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,gateway.icloud.com.cn
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
   - DOMAIN-KEYWORD,toutiao
   - DOMAIN-SUFFIX,nv00.cdn.bcebos.com
