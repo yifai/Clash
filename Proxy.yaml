@@ -43,11 +43,7 @@ payload:
   - DOMAIN-KEYWORD,mastodon
   - DOMAIN-SUFFIX,wasabisys.com
   - DOMAIN-SUFFIX,coloros.com
-  - DOMAIN-SUFFIX,
-  - DOMAIN-SUFFIX,
-  - DOMAIN-SUFFIX,
   - DOMAIN-SUFFIX,allawnos.com
-  
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,ameba.jp
@@ -56,7 +52,8 @@ payload:
   - DOMAIN-SUFFIX,channel4.com
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,fls-na.amazon.com
-  - DOMAIN-SUFFIX, media-amazon.com
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,amazonaws.co.uk
   - DOMAIN-SUFFIX,amazonaws.com
