@@ -32,6 +32,22 @@ payload:
   - DOMAIN-SUFFIX,wiktionary.org
   - DOMAIN-SUFFIX,whoer.net/
   - DOMAIN-KEYWORD,abematv.akamaized.net
+  - DOMAIN-SUFFIX,g.api.mega.co.nz
+  - DOMAIN-SUFFIX,mega.io
+  - DOMAIN-SUFFIX,aol.com
+  - DOMAIN-SUFFIX,zoho.com
+  - DOMAIN-SUFFIX,httpdns-push.heytapmobile.com
+  - DOMAIN-SUFFIX,heytapmobile.com
+  - DOMAIN-SUFFIX,nxtlnodes.com
+  - DOMAIN-SUFFIX,mastodon.world
+  - DOMAIN-KEYWORD,mastodon
+  - DOMAIN-SUFFIX,wasabisys.com
+  - DOMAIN-SUFFIX,coloros.com
+  - DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,allawnos.com
+  
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,ameba.jp
@@ -277,7 +293,6 @@ payload:
   - DOMAIN-SUFFIX,gameloft.com
   - DOMAIN-SUFFIX,garena.com
   - DOMAIN-SUFFIX,inoreader.com
-  - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ping.pe
   - DOMAIN-SUFFIX,teddysun.com
   - DOMAIN-SUFFIX,tumbex.com
@@ -285,17 +300,16 @@ payload:
   - DOMAIN-SUFFIX,unsplash.com
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
   - DOMAIN-SUFFIX,yunpanjingling.com
-  - DOMAIN-SUFFIX,eu
-  - DOMAIN-SUFFIX,hk
-  - DOMAIN-SUFFIX,jp
-  - DOMAIN-SUFFIX,kr
-  - DOMAIN-SUFFIX,sg
-  - DOMAIN-SUFFIX,tw
-  - DOMAIN-SUFFIX,uk
-  - DOMAIN-SUFFIX,us
+  - DOMAIN-SUFFIX,*.eu
+  - DOMAIN-SUFFIX,*.hk
+  - DOMAIN-SUFFIX,*.jp
+  - DOMAIN-SUFFIX,*.kr
+  - DOMAIN-SUFFIX,*.sg
+  - DOMAIN-SUFFIX,*.tw
+  - DOMAIN-SUFFIX,*.uk
+  - DOMAIN-SUFFIX,*.us
   - DOMAIN-KEYWORD,1e100
   - DOMAIN-KEYWORD,abema
-  - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,avtb
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,blogspot
@@ -517,6 +531,12 @@ payload:
   - DOMAIN-SUFFIX,flzbcdn.xyz
   - DOMAIN-SUFFIX,xiaomi.eu
   #  no-resolve
+  - IP-CIDR,129.227.17.166,no-resolve
+  - IP-CIDR,129.227.17.135/50,no-resolve
+  - IP-CIDR,192.169.107.36/40,no-resolve
+  - IP-CIDR,192.169.107.40/30,no-resolve
+  - IP-CIDR,192.169.107.45,no-resolve
+  - IP-CIDR,192.169.107.54,no-resolve
   - IP-CIDR,91.108.4.0/22,no-resolve
   - IP-CIDR,91.108.8.0/22,no-resolve
   - IP-CIDR,91.108.12.0/22,no-resolve
