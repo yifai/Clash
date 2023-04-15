@@ -1,6 +1,7 @@
 # NAME: Microsoft
 payload:
   - DOMAIN-SUFFIX,1drv.com
+  - DOMAIN-SUFFIX,appcenter.ms
   - DOMAIN-SUFFIX,a-msedge.net
   - DOMAIN-SUFFIX,a1158.g.akamai.net
   - DOMAIN-SUFFIX,a122.dscg3.akamai.net
