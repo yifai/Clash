@@ -1,8 +1,7 @@
 payload: 
   # Proxy
-
+  
   # (DNS Cache Pollution Protection)
-
   - DOMAIN-KEYWORD,blogspot
   
   # > Line
@@ -17,6 +16,7 @@ payload:
   - IP-CIDR,125.209.208.0/20,no-resolve
   - IP-CIDR,147.92.128.0/17,no-resolve
   - IP-CIDR,203.104.144.0/21,no-resolve
+  
   # > Other
   - DOMAIN-SUFFIX,4shared.com
   - DOMAIN-SUFFIX,520cc.cc
@@ -818,14 +818,14 @@ payload:
   - DOMAIN-SUFFIX,unsplash.com
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
   - DOMAIN-SUFFIX,yunpanjingling.com
-  - DOMAIN-SUFFIX,*.eu
-  - DOMAIN-SUFFIX,*.hk
-  - DOMAIN-SUFFIX,*.jp
-  - DOMAIN-SUFFIX,*.kr
-  - DOMAIN-SUFFIX,*.sg
-  - DOMAIN-SUFFIX,*.tw
-  - DOMAIN-SUFFIX,*.uk
-  - DOMAIN-SUFFIX,*.us
+  - DOMAIN-SUFFIX,eu
+  - DOMAIN-SUFFIX,hk
+  - DOMAIN-SUFFIX,jp
+  - DOMAIN-SUFFIX,kr
+  - DOMAIN-SUFFIX,sg
+  - DOMAIN-SUFFIX,tw
+  - DOMAIN-SUFFIX,uk
+  - DOMAIN-SUFFIX,us
   - DOMAIN-KEYWORD,1e100
   - DOMAIN-KEYWORD,abema
   - DOMAIN-KEYWORD,avtb
