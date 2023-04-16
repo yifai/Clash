@@ -2,6 +2,7 @@
 payload:
 
   - DOMAIN-KEYWORD,Authy
+  - DOMAIN-KEYWORD,heytapmobi.com
   - DOMAIN-SUFFIX,Authy.com
   - DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org
   - DOMAIN-SUFFIX,aliapp.org
