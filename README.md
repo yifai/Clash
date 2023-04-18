@@ -25,3 +25,5 @@ proxy-provider：俗称代理集合，通过它，可以提取指定 Clash订阅
   https://github.com/Dreamacro/clash/wiki/configuration#proxy-groups
   
   https://github.com/justdoiting/clash-rule
+
+  https://github.com/blackmatrix7/ios_rule_script
