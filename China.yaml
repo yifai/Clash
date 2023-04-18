@@ -24,6 +24,32 @@ payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
+  - DOMAIN-SUFFIX,s.ssl.qhres2.com
+  - DOMAIN-SUFFIX,qhres2.com
+  - DOMAIN-SUFFIX,icplishi.com
+  - DOMAIN-SUFFIX,whois.aizhan.com
+  - DOMAIN-SUFFIX,aizhan.com
+  - DOMAIN-SUFFIX,yowindow.com
+  - DOMAIN-SUFFIX,lejuliang.com
+  - DOMAIN-SUFFIX,fp.unicompayment.com
+  - DOMAIN-SUFFIX,unicompayment.com
+  - DOMAIN-SUFFIX,bdcloudapi.com
+  - DOMAIN-SUFFIX,gwgp-cekvddtwkob.n.bdcloudapi.com
+  - DOMAIN-SUFFIX,bdcloudapi.com
+  - DOMAIN-SUFFIX,changyoyo.com
+  - DOMAIN-SUFFIX,bsy.resstatic.tcdnos.com
+  - DOMAIN-SUFFIX,tcdnos.com
+  - DOMAIN-SUFFIX,s.ssl.qhres2.com
+  - DOMAIN-SUFFIX,qhres2.com
+  - DOMAIN-SUFFIX,jvod.300hu.com
+  - DOMAIN-SUFFIX,dnsdaquan.com
+  #- DOMAIN-SUFFIX,nstool.haowu.link
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  
   - DOMAIN-SUFFIX,dizhensubao.getui.com
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN-SUFFIX,pauyun.gd.cn
@@ -203,7 +229,7 @@ payload:
   - DOMAIN-SUFFIX,jcloudcs.com
   - DOMAIN-SUFFIX,中国
   - DOMAIN-SUFFIX,公司
-  - DOMAIN-KEYWORD,.cn
+  - DOMAIN-KEYWORD,-cn
   - DOMAIN-SUFFIX,paipai.com
   - DOMAIN-SUFFIX,iciba.com
   - DOMAIN-SUFFIX,ksosoft.com
@@ -3828,20 +3854,20 @@ payload:
   - DOMAIN-SUFFIX,doordu.sobot.com
   - DOMAIN-SUFFIX,bsy.resstatic.tcdnos.com
   - DOMAIN-SUFFIX,zhidao.3533.com
-  - IP-CIDR,1.255.62.0/24
-  - IP-CIDR,101.32.118.0/23
-  - IP-CIDR,101.32.96.0/20
-  - IP-CIDR,119.28.28.28/32
-  - IP-CIDR,129.226.0.0/16
-  - IP-CIDR,182.254.116.0/24
-  - IP-CIDR,183.128.0.0/11
-  - IP-CIDR,185.188.32.0/22
-  - IP-CIDR,203.205.238.0/23
-  - IP-CIDR,203.205.254.0/23
-  - IP-CIDR6,2a0b:b580::/48
-  - IP-CIDR6,2a0b:b581::/48
-  - IP-CIDR6,2a0b:b582::/48
-  - IP-CIDR6,2a0b:b583::/48
+  - IP-CIDR,1.255.62.0/24,no-resolve
+  - IP-CIDR,101.32.118.0/23,no-resolve
+  - IP-CIDR,101.32.96.0/20,no-resolve
+  - IP-CIDR,119.28.28.28/32,no-resolve
+  - IP-CIDR,129.226.0.0/16,no-resolve
+  - IP-CIDR,182.254.116.0/24,no-resolve
+  - IP-CIDR,183.128.0.0/11,no-resolve
+  - IP-CIDR,185.188.32.0/22,no-resolve
+  - IP-CIDR,203.205.238.0/23,no-resolve
+  - IP-CIDR,203.205.254.0/23,no-resolve
+  - IP-CIDR6,2a0b:b580::/48,no-resolve
+  - IP-CIDR6,2a0b:b581::/48,no-resolve
+  - IP-CIDR6,2a0b:b582::/48,no-resolve
+  - IP-CIDR6,2a0b:b583::/48,no-resolve
   - IP-CIDR,8.128.0.0/10,no-resolve
   - IP-CIDR,8.208.0.0/12,no-resolve
   - IP-CIDR,14.1.112.0/22,no-resolve
