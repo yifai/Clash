@@ -1,5 +1,38 @@
 payload:
   # Proxy 代理
+  - DOMAIN-SUFFIX,httpdns-push.heytapmobile.com
+  - DOMAIN-SUFFIX,heytapmobile.com
+  - DOMAIN-SUFFIX,mdp-appconf-in.heytapdl.com
+  - DOMAIN-SUFFIX,heytapdl.com
+  - DOMAIN-SUFFIX,icosa-service-in.allawnos.com
+  - DOMAIN-SUFFIX,allawnos.com
+  - DOMAIN-SUFFIX,classify-app-in.allawnos.com
+  - DOMAIN-SUFFIX,www.jinbo123.com
+  - DOMAIN-SUFFIX,jinbo123.com
+  - DOMAIN-SUFFIX,imhautomotive.com
+  - DOMAIN-SUFFIX,xingshenghair.com
+  - DOMAIN-SUFFIX,dolatiaschan.com
+  - DOMAIN-SUFFIX,diromalxx.com
+  - DOMAIN-SUFFIX,rtmark.net
+  - DOMAIN-SUFFIX,waicaiwhosha.com
+  - DOMAIN-SUFFIX,cmtrafmaster.club
+  - DOMAIN-SUFFIX,time.android.com
+  - DOMAIN-SUFFIX,wasabisys.com
+  - DOMAIN-SUFFIX,s3.eu-central-2.wasabisys.com
+  - DOMAIN-SUFFIX,52.mk
+  - DOMAIN-SUFFIX,api.nxtlnodes.com
+  - DOMAIN-SUFFIX,mxplayer.in
+  - DOMAIN-SUFFIX,mxplay.com
+  - DOMAIN-SUFFIX,mx.j2inter.com
+  - DOMAIN-SUFFIX,oneplus.net
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
   - DOMAIN-SUFFIX,telegra.ph
@@ -266,7 +299,6 @@ payload:
   - DOMAIN-SUFFIX,gameloft.com
   - DOMAIN-SUFFIX,garena.com
   - DOMAIN-SUFFIX,inoreader.com
-  - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ping.pe
   - DOMAIN-SUFFIX,teddysun.com
   - DOMAIN-SUFFIX,tumbex.com
@@ -6390,6 +6422,8 @@ payload:
   - DOMAIN-SUFFIX,homemadevids.net
   - DOMAIN-SUFFIX,homemoviestube.com
   - DOMAIN-SUFFIX,homephoneplus.com
+  - DOMAIN-SUFFIX,routergtest14.oneplus.com
+  - DOMAIN-SUFFIX,oneplus.com
   - DOMAIN-SUFFIX,homepod.cn
   - DOMAIN-SUFFIX,homepornbay.com
   - DOMAIN-SUFFIX,homepornking.com
@@ -37689,6 +37723,8 @@ payload:
   - DOMAIN-SUFFIX,zzy.namedns.xyz
   - DOMAIN-SUFFIX,zzz.healthsection.xyz
   - DOMAIN-SUFFIX,zzz36.net
+  - DOMAIN-SUFFIX,zoho.com
+  - DOMAIN-KEYWORD,zoho
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-KEYWORD,jav
   - DOMAIN-KEYWORD,pinterest
@@ -37705,6 +37741,43 @@ payload:
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-KEYWORD,tiktok
   - DOMAIN-KEYWORD,whatsapp
+  - IP-CIDR,149.154.172.0/22,no-resolve
+  - IP-CIDR,91.108.56.0/23,no-resolve
+  - IP-CIDR,155.248.192.0/19,no-resolve
+  - IP-CIDR,103.200.28.0/22,no-resolve
+  - IP-CIDR,199.59.148.0/24,no-resolve
+  - IP-CIDR,104.244.42.0/23,no-resolve
+  - IP-CIDR,142.250.196.0/22,no-resolve
+  - IP-CIDR,172.217.24.0/23,no-resolve
+  - IP-CIDR,172.217.25.32/27,no-resolve
+  - IP-CIDR,172.217.25.64/26,no-resolve
+  - IP-CIDR,172.217.25.128/26,no-resolve
+  - IP-CIDR,172.217.24.0/22,no-resolve
+  - IP-CIDR,104.225.144.0/20,no-resolve
+  - IP-CIDR,209.239.192.0/19,no-resolve
+  - IP-CIDR,209.237.192.0/19,no-resolve
+  - IP-CIDR,185.199.108.0/22,no-resolve
+  - IP-CIDR,20.27.128.0/18,no-resolve
+  - IP-CIDR,142.251.16.0/20,no-resolve
+  - IP-CIDR,216.58.203.0/26,no-resolve
+  - IP-CIDR,216.58.203.64/27,no-resolve
+  - IP-CIDR,216.58.203.96/27,no-resolve
+  - IP-CIDR,216.58.203.128/25,no-resolve
+  - IP-CIDR,216.58.203.224/27,no-resolve
+  - IP-CIDR,104.16.0.0/12,no-resolve
+  - IP-CIDR,52.8.0.0/13,no-resolve
+  - IP-CIDR,144.76.0.0/16,no-resolve
+  - IP-CIDR,116.203.0.0/16,no-resolve
+  - IP-CIDR,64.233.184.0/21,no-resolve
+  - IP-CIDR,101.33.26.0/23,no-resolve
+  - IP-CIDR,198.187.28.0/22,no-resolve
+  - IP-CIDR,52.0.0.0/13,no-resolve
+  - IP-CIDR,35.190.0.0/17,no-resolve
+  #- IP-CIDR,
+  #- IP-CIDR,
+  #- IP-CIDR,
+  #- IP-CIDR,
+  
   - IP-CIDR,1.201.0.0/24,no-resolve
   - IP-CIDR,101.32.118.0/23,no-resolve
   - IP-CIDR,101.32.96.0/20,no-resolve
