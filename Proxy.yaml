@@ -24858,6 +24858,7 @@ payload:
   - DOMAIN-SUFFIX,link2know.co
   - DOMAIN-SUFFIX,linkbucks.com
   - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-KEYWORD,linkedin
   - DOMAIN-SUFFIX,linkideo.com
   - DOMAIN-SUFFIX,linkmetube.com
   - DOMAIN-SUFFIX,links.org.au
@@ -37773,6 +37774,16 @@ payload:
   - IP-CIDR,198.187.28.0/22,no-resolve
   - IP-CIDR,52.0.0.0/13,no-resolve
   - IP-CIDR,35.190.0.0/17,no-resolve
+  - IP-CIDR,172.69.132.0/22,no-resolve
+  - IP-CIDR,172.71.0.0/16,no-resolve
+  - IP-CIDR,172.69.16.0/20,no-resolve
+  #- IP-CIDR,
+  #- IP-CIDR,
+  #- IP-CIDR,
+  #- IP-CIDR,
+  #- IP-CIDR,
+  #- IP-CIDR,
+  #- IP-CIDR,
   #- IP-CIDR,
   #- IP-CIDR,
   #- IP-CIDR,
