@@ -24,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
+  - DOMAIN-SUFFIX,authy.com
   - DOMAIN-SUFFIX,s.ssl.qhres2.com
   - DOMAIN-SUFFIX,qhres2.com
   - DOMAIN-SUFFIX,icplishi.com
