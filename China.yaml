@@ -24,7 +24,6 @@ payload:
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN,livew.l.qq.com
   - DOMAIN,vd.l.qq.com
-  - DOMAIN-SUFFIX,authy.com
   - DOMAIN-SUFFIX,s.ssl.qhres2.com
   - DOMAIN-SUFFIX,qhres2.com
   - DOMAIN-SUFFIX,icplishi.com
@@ -39,6 +38,7 @@ payload:
   - DOMAIN-SUFFIX,bdcloudapi.com
   - DOMAIN-SUFFIX,changyoyo.com
   - DOMAIN-SUFFIX,bsy.resstatic.tcdnos.com
+  - DOMAIN-SUFFIX,resstatic.tcdnos.com
   - DOMAIN-SUFFIX,tcdnos.com
   - DOMAIN-SUFFIX,s.ssl.qhres2.com
   - DOMAIN-SUFFIX,qhres2.com
@@ -47,6 +47,15 @@ payload:
   - DOMAIN-SUFFIX,nstool.haowu.link
   - DOMAIN-SUFFIX,yqkk.link
   - DOMAIN-SUFFIX,321fenx.com
+  - DOMAIN-SUFFIX,shenzhenton.com
+  - DOMAIN-SUFFIX,alibabachengdun.com
+  - DOMAIN-SUFFIX,umini.shujupie.com
+  - DOMAIN-SUFFIX,shujupie.com
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
