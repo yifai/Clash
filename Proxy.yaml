@@ -21,18 +21,20 @@ payload:
   - DOMAIN-SUFFIX,s3.eu-central-2.wasabisys.com
   - DOMAIN-SUFFIX,52.mk
   - DOMAIN-SUFFIX,api.nxtlnodes.com
+  - DOMAIN-SUFFIX,nxtlnodes.com
   - DOMAIN-SUFFIX,mxplayer.in
   - DOMAIN-SUFFIX,mxplay.com
   - DOMAIN-SUFFIX,mx.j2inter.com
   - DOMAIN-SUFFIX,oneplus.net
+  - DOMAIN-SUFFIX,mastodon.world
+  - DOMAIN-KEYWORD,mastodon
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
-  #- DOMAIN-SUFFIX,
-
+  
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
   - DOMAIN-SUFFIX,telegra.ph
