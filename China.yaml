@@ -35,34 +35,53 @@ payload:
   - DOMAIN-SUFFIX,unicompayment.com
   - DOMAIN-SUFFIX,bdcloudapi.com
   - DOMAIN-SUFFIX,gwgp-cekvddtwkob.n.bdcloudapi.com
-  - DOMAIN-SUFFIX,bdcloudapi.com
   - DOMAIN-SUFFIX,changyoyo.com
   - DOMAIN-SUFFIX,bsy.resstatic.tcdnos.com
   - DOMAIN-SUFFIX,resstatic.tcdnos.com
   - DOMAIN-SUFFIX,tcdnos.com
-  - DOMAIN-SUFFIX,s.ssl.qhres2.com
-  - DOMAIN-SUFFIX,qhres2.com
   - DOMAIN-SUFFIX,jvod.300hu.com
   - DOMAIN-SUFFIX,dnsdaquan.com
   - DOMAIN-SUFFIX,nstool.haowu.link
   - DOMAIN-SUFFIX,yqkk.link
   - DOMAIN-SUFFIX,321fenx.com
-  - DOMAIN-SUFFIX,shenzhenton.com
+  - DOMAIN-SUFFIX,shenzhentong.com
   - DOMAIN-SUFFIX,alibabachengdun.com
   - DOMAIN-SUFFIX,umini.shujupie.com
   - DOMAIN-SUFFIX,shujupie.com
   - DOMAIN-SUFFIX,api-fc.dutils.com
   - DOMAIN-SUFFIX,doordu.com
   - DOMAIN-SUFFIX,doordu.sobot.com
-  - DOMAIN-SUFFIX,bsy.resstatic.tcdnos.com
   - DOMAIN-SUFFIX,zhidao.3533.com
   - DOMAIN-SUFFIX,leisu.com
-  #- DOMAIN-SUFFIX,
-  #- DOMAIN-SUFFIX,
-  #- DOMAIN-SUFFIX,
-  #- DOMAIN-SUFFIX,
-  #- DOMAIN-SUFFIX,
-  #- DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,lejuliang.com,DIRECT
+  - DOMAIN-SUFFIX,gzonline.gov.cn,DIRECT
+  - DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org,DIRECT
+  - DOMAIN-SUFFIX,i.jzj9999.com,DIRECT
+  - DOMAIN-SUFFIX,jzj9999.com,DIRECT
+  - DOMAIN-SUFFIX,kingdee.com,DIRECT
+  - DOMAIN-SUFFIX,jin10.com,DIRECT
+  - DOMAIN-SUFFIX,weixinbridge.com,DIRECT
+  - DOMAIN-SUFFIX,jzl9999.vip,DIRECT
+  - DOMAIN-SUFFIX,hjzb.vip,DIRECT
+  - DOMAIN-SUFFIX,rty.hjzb.vip,DIRECT
+  - DOMAIN-SUFFIX,qiyukf.net,DIRECT
+  - DOMAIN-SUFFIX,faimallusr.com,DIRECT
+  - DOMAIN-SUFFIX,kfw.com,DIRECT
+  - DOMAIN-SUFFIX,kgimg.com,DIRECT
+  - DOMAIN-SUFFIX,95516.com,DIRECT
+  - DOMAIN-SUFFIX,oss.eple1.top,DIRECT
+  - DOMAIN-SUFFIX,ksepton.com,DIRECT
+  - DOMAIN-SUFFIX,dxmqtt.doordu.com,DIRECT
+  - DOMAIN-SUFFIX,doordu.com,DIRECT
+  - DOMAIN-SUFFIX,doordu.sobot.com,DIRECT
+  - DOMAIN-SUFFIX,bsy.resstatic.tcdnos.com,DIRECT
+  - DOMAIN-SUFFIX,authy.com,DIRECT
+  - DOMAIN-SUFFIX,zhidao.3533.com,DIRECT
+  - DOMAIN-SUFFIX,api-fc.dutils.com,DIRECT
+  - DOMAIN-SUFFIX,ip138.com,DIRECT
+  - DOMAIN-SUFFIX,ipchaxun.net,DIRECT
+  - DOMAIN-SUFFIX,gd95105888.com,DIRECT
+  - DOMAIN-SUFFIX,dzp.tv,DIRECT
   #- DOMAIN-SUFFIX,
   
   - DOMAIN-SUFFIX,dizhensubao.getui.com
@@ -866,7 +885,6 @@ payload:
   - DOMAIN-KEYWORD,beplay
   - DOMAIN-KEYWORD,officecdn
   - DOMAIN-SUFFIX,dm0.cc
-  - DOMAIN-SUFFIX,local
   - DOMAIN,router.asus.com
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,leike.cc
@@ -1174,7 +1192,6 @@ payload:
   - DOMAIN-SUFFIX,aitransfy.com
   - DOMAIN-SUFFIX,aixcoder.com
   - DOMAIN-SUFFIX,aiyunxiao.com
-  - DOMAIN-SUFFIX,aizhan.com
   - DOMAIN-SUFFIX,ajzq.com
   - DOMAIN-SUFFIX,aldwx.com
   - DOMAIN-SUFFIX,ali213.net
@@ -1296,7 +1313,6 @@ payload:
   - DOMAIN-SUFFIX,bcvbw.com
   - DOMAIN-SUFFIX,bcy.net
   - DOMAIN-SUFFIX,bcyimg.com
-  - DOMAIN-SUFFIX,bdcloudapi.com
   - DOMAIN-SUFFIX,bdtjrcv.com
   - DOMAIN-SUFFIX,bdxiguaimg.com
   - DOMAIN-SUFFIX,bdxiguastatic.com
@@ -3018,7 +3034,6 @@ payload:
   - DOMAIN-SUFFIX,qhimgs6.com
   - DOMAIN-SUFFIX,qhmsg.com
   - DOMAIN-SUFFIX,qhres.com
-  - DOMAIN-SUFFIX,qhres2.com
   - DOMAIN-SUFFIX,qhstatic.com
   - DOMAIN-SUFFIX,qhupdate.com
   - DOMAIN-SUFFIX,qiangbus.com
@@ -3271,7 +3286,6 @@ payload:
   - DOMAIN-SUFFIX,tcdnlive.com
   - DOMAIN-SUFFIX,tcdnlivebak1.com
   - DOMAIN-SUFFIX,tcdnlivebak2.com
-  - DOMAIN-SUFFIX,tcdnos.com
   - DOMAIN-SUFFIX,tcdnos.net
   - DOMAIN-SUFFIX,tcdntip.com
   - DOMAIN-SUFFIX,tcdnvod.com
@@ -3876,14 +3890,9 @@ payload:
   - PROCESS-NAME,transmission-daemon
   - PROCESS-NAME,transmission-qt
   - PROCESS-NAME,uTorrent
-  - PROCESS-NAME,aria2c
-  - PROCESS-NAME,fdm
   - PROCESS-NAME,Folx
-  - PROCESS-NAME,NetTransport
-  - PROCESS-NAME,Thunder
   - PROCESS-NAME,Transmission
   - PROCESS-NAME,transmission
-  - PROCESS-NAME,uTorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
   - PROCESS-NAME,v2ray
