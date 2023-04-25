@@ -53,40 +53,6 @@ payload:
   - DOMAIN-SUFFIX,doordu.sobot.com
   - DOMAIN-SUFFIX,zhidao.3533.com
   - DOMAIN-SUFFIX,leisu.com
-  - DOMAIN-SUFFIX,lejuliang.com,DIRECT
-  - DOMAIN-SUFFIX,gzonline.gov.cn,DIRECT
-  - DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org,DIRECT
-  - DOMAIN-SUFFIX,i.jzj9999.com,DIRECT
-  - DOMAIN-SUFFIX,jzj9999.com,DIRECT
-  - DOMAIN-SUFFIX,kingdee.com,DIRECT
-  - DOMAIN-SUFFIX,jin10.com,DIRECT
-  - DOMAIN-SUFFIX,weixinbridge.com,DIRECT
-  - DOMAIN-SUFFIX,jzl9999.vip,DIRECT
-  - DOMAIN-SUFFIX,hjzb.vip,DIRECT
-  - DOMAIN-SUFFIX,rty.hjzb.vip,DIRECT
-  - DOMAIN-SUFFIX,qiyukf.net,DIRECT
-  - DOMAIN-SUFFIX,faimallusr.com,DIRECT
-  - DOMAIN-SUFFIX,kfw.com,DIRECT
-  - DOMAIN-SUFFIX,kgimg.com,DIRECT
-  - DOMAIN-SUFFIX,95516.com,DIRECT
-  - DOMAIN-SUFFIX,oss.eple1.top,DIRECT
-  - DOMAIN-SUFFIX,ksepton.com,DIRECT
-  - DOMAIN-SUFFIX,dxmqtt.doordu.com,DIRECT
-  - DOMAIN-SUFFIX,doordu.com,DIRECT
-  - DOMAIN-SUFFIX,doordu.sobot.com,DIRECT
-  - DOMAIN-SUFFIX,bsy.resstatic.tcdnos.com,DIRECT
-  - DOMAIN-SUFFIX,authy.com,DIRECT
-  - DOMAIN-SUFFIX,zhidao.3533.com,DIRECT
-  - DOMAIN-SUFFIX,api-fc.dutils.com,DIRECT
-  - DOMAIN-SUFFIX,ip138.com,DIRECT
-  - DOMAIN-SUFFIX,ipchaxun.net,DIRECT
-  - DOMAIN-SUFFIX,gd95105888.com,DIRECT
-  - DOMAIN-SUFFIX,dzp.tv,DIRECT
-  #- DOMAIN-SUFFIX,
-  
-  - DOMAIN-SUFFIX,dizhensubao.getui.com
-  - DOMAIN,origin-a.akamaihd.net
-  - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN-SUFFIX,gzonline.gov.cn
   - DOMAIN-SUFFIX,i.jzj9999.com
   - DOMAIN-SUFFIX,jzj9999.com
@@ -103,6 +69,37 @@ payload:
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,oss.eple1.top
   - DOMAIN-SUFFIX,ksepton.com
+  - DOMAIN-SUFFIX,dxmqtt.doordu.com
+  - DOMAIN-SUFFIX,authy.com
+  - DOMAIN-SUFFIX,ip138.com
+  - DOMAIN-SUFFIX,ipchaxun.net
+  - DOMAIN-SUFFIX,gd95105888.com
+  - DOMAIN-SUFFIX,dzp.tv
+  - DOMAIN-SUFFIX,palmestore.com
+  - DOMAIN-SUFFIX,bgwxc.com
+  - DOMAIN-SUFFIX,xmkanshu.com
+  - DOMAIN-SUFFIX,55shuba.com
+  - DOMAIN-SUFFIX,wan123x.com
+  - DOMAIN-SUFFIX,dutils.com
+  - DOMAIN-SUFFIX,kanxue.com
+  - DOMAIN-SUFFIX,wanshangdata.com
+  - DOMAIN-SUFFIX,wanshu.com
+  - DOMAIN-SUFFIX,hgq26.com
+  - DOMAIN-SUFFIX,www.ddyueshu.com
+  - DOMAIN-SUFFIX,aixiawx.com
+  - DOMAIN-SUFFIX,app.api.bgwxc.com
+  - DOMAIN-SUFFIX,wtzw.com
+  - DOMAIN-SUFFIX,yousuu.com
+  - DOMAIN-SUFFIX,read.xiaoshuo1-sm.com
+  - DOMAIN-SUFFIX,souxs.pigqq.com
+  - DOMAIN-SUFFIX,sma.yueyouxs.com
+  - DOMAIN-SUFFIX,anduril.xmkanshu.com
+  - DOMAIN-SUFFIX,xread8.com
+  
+  #- DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,dizhensubao.getui.com
+  - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN-SUFFIX,shenxianfaka.top
   - DOMAIN,analytics.strava.com
   - DOMAIN-SUFFIX,zhihu.com
@@ -2358,8 +2355,6 @@ payload:
   - DOMAIN-SUFFIX,infoqstatic.com
   - DOMAIN-SUFFIX,inftab.com
   - DOMAIN-SUFFIX,intltencentcos.com
-  - DOMAIN-SUFFIX,ipchaxun.net
-  - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ipanda.com
   - DOMAIN-SUFFIX,ipanda.net
   - DOMAIN-SUFFIX,ipinyou.com
@@ -3879,7 +3874,6 @@ payload:
   - DOMAIN-SUFFIX,zyh365.com
   - DOMAIN-SUFFIX,zzdtec.com
   - DOMAIN-KEYWORD,.tmall.com
-  - DOMAIN-SUFFIX,dxmqtt.doordu.com
 
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,BitComet
@@ -3906,6 +3900,7 @@ payload:
   - PROCESS-NAME,hysteria
   - PROCESS-NAME,UUBooster
   - PROCESS-NAME,uugamebooster
+  
   - IP-CIDR,1.255.62.0/24,no-resolve
   - IP-CIDR,101.32.118.0/23,no-resolve
   - IP-CIDR,101.32.96.0/20,no-resolve
@@ -3941,6 +3936,7 @@ payload:
   - IP-CIDR,47.252.0.0/15,no-resolve
   - IP-CIDR,47.254.0.0/16,no-resolve
   - IP-CIDR,59.82.0.0/20,no-resolve
+  - IP-CIDR,47.96.0.0/14,no-resolve
   - IP-CIDR,59.82.240.0/21,no-resolve
   - IP-CIDR,59.82.248.0/22,no-resolve
   - IP-CIDR,72.254.0.0/16,no-resolve
@@ -3951,6 +3947,7 @@ payload:
   - IP-CIDR,110.76.23.0/24,no-resolve
   - IP-CIDR,112.125.0.0/17,no-resolve
   - IP-CIDR,116.251.64.0/18,no-resolve
+  - IP-CIDR,116.255.128.0/17,no-resolve
   - IP-CIDR,119.38.208.0/20,no-resolve
   - IP-CIDR,119.38.224.0/20,no-resolve
   - IP-CIDR,119.42.224.0/20,no-resolve
