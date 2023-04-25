@@ -28,7 +28,7 @@ payload:
   - DOMAIN-SUFFIX,oneplus.net
   - DOMAIN-SUFFIX,mastodon.world
   - DOMAIN-KEYWORD,mastodon
-  #- DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,ixpsge.com
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
@@ -37748,6 +37748,7 @@ payload:
   - IP-CIDR,155.248.192.0/19,no-resolve
   - IP-CIDR,103.200.28.0/22,no-resolve
   - IP-CIDR,199.59.148.0/24,no-resolve
+  - IP-CIDR,104.233.192.0/18,no-resolve
   - IP-CIDR,104.244.42.0/23,no-resolve
   - IP-CIDR,142.250.196.0/22,no-resolve
   - IP-CIDR,172.217.24.0/23,no-resolve
