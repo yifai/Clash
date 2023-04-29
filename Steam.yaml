@@ -1,5 +1,5 @@
+# NAME Steam
 payload:
-  # Steam
   - DOMAIN-SUFFIX,steam-chat.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamgames.com
@@ -47,4 +47,4 @@ payload:
   - DOMAIN-KEYWORD,steambroadcast
   - DOMAIN-KEYWORD,steamstore
   - DOMAIN-KEYWORD,steamuserimages
-  
+  - DOMAIN-KEYWORD,steam
