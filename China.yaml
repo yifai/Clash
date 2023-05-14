@@ -1,9 +1,5 @@
 #NAME: China  直连
 payload:
-  - DOMAIN-SUFFIX,localhost
-  - DOMAIN-SUFFIX,local
-  - DOMAIN-SUFFIX,ip6-localhost
-  - DOMAIN-SUFFIX,ip6-loopback
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
   - DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org
@@ -78,14 +74,11 @@ payload:
   - DOMAIN-SUFFIX,palmestore.com
   - DOMAIN-SUFFIX,bgwxc.com
   - DOMAIN-SUFFIX,xmkanshu.com
-  - DOMAIN-SUFFIX,55shuba.com
   - DOMAIN-SUFFIX,wan123x.com
   - DOMAIN-SUFFIX,dutils.com
   - DOMAIN-SUFFIX,kanxue.com
   - DOMAIN-SUFFIX,wanshangdata.com
-  - DOMAIN-SUFFIX,wanshu.com
   - DOMAIN-SUFFIX,hgq26.com
-  - DOMAIN-SUFFIX,www.ddyueshu.com
   - DOMAIN-SUFFIX,aixiawx.com
   - DOMAIN-SUFFIX,app.api.bgwxc.com
   - DOMAIN-SUFFIX,wtzw.com
@@ -94,13 +87,9 @@ payload:
   - DOMAIN-SUFFIX,souxs.pigqq.com
   - DOMAIN-SUFFIX,sma.yueyouxs.com
   - DOMAIN-SUFFIX,anduril.xmkanshu.com
-  - DOMAIN-SUFFIX,xread8.com
-  
   #- DOMAIN-SUFFIX,
   - DOMAIN-SUFFIX,dizhensubao.getui.com
-  - DOMAIN,origin-a.akamaihd.net
   - DOMAIN-SUFFIX,pauyun.gd.cn
-  - DOMAIN-SUFFIX,shenxianfaka.top
   - DOMAIN,analytics.strava.com
   - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN,msg.umeng.com
