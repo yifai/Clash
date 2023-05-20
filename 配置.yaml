@@ -243,9 +243,9 @@ proxy-providers:  #提取机场节点
     
     
 proxies: #自建节点
-  #- {name: 🇺🇸 圣荷西01, type: ss, server: 192.9.146.195, port: "61593", cipher: chacha20-ietf-poly1305, password: juhwygalmcnbvsenuakynepz}
+  #- {name: 🇺🇸 圣荷西01, type: ss, server: 112.9.146.195, port: "61553", cipher: chacha20-ietf-poly1305, password: juhwygalmcnbvsenuakynepz}
     
-  #- {name: 🇺🇸 圣荷西02, type: ss, server: 192.18.141.26, port: "47516", cipher: chacha20-ietf-poly1305, password: ksheilmb2167ehxhwxvmeuk}
+  #- {name: 🇺🇸 圣荷西02, type: ss, server: 192.18.141.26, port: "41516", cipher: chacha20-ietf-poly1305, password: ksheilmb2167ehxhwxvmeuk}
  
 
 proxy-groups: #策略组，配合分流规则使用
@@ -256,7 +256,7 @@ proxy-groups: #策略组，配合分流规则使用
       - AP
       
     proxies:  #引用自建节点
-      - 🇺🇸 圣荷西01
+      #- 🇺🇸 圣荷西01
       #- 🇺🇸 圣荷西02
 
   - name: 📢Google
@@ -374,7 +374,14 @@ rule-providers: #远程分流规则
     url: "https://raw.githubusercontent.com/yeefaye/Clash/main/China.yaml"
     path: ./providers/rule/China.yaml
     interval: 864000
-    
+
+  Private:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Private.yaml"
+    path: ./providers/rule/Private.yaml
+    interval: 864000
+
   ChinaIP:
     type: http
     behavior: ipcidr
