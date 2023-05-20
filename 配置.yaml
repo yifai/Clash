@@ -1,0 +1,496 @@
+#此配置只需将订阅复制到对应位置即可使用
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 0.0.0.0:9090
+clash-for-android:
+  append-system-dns: false
+profile:
+  tracing: true
+experimental:
+  sniff-tls-sni: true
+dns:
+  enable: true
+  listen: 127.0.0.1:8853
+  default-nameserver:
+    - 223.5.5.5
+    - 8.8.4.4
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+    - msftconnecttest.com
+    - msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.ipv6.microsoft.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
+    - ff.dorado.sdo.com
+    - "*.mcdn.bilivideo.cn"
+    - +.media.dssott.com
+    - +.pvp.net
+  nameserver:
+    - 114.114.114.114
+    - tls://223.5.5.5:853
+    - tls://223.6.6.6:853
+    - tls://1.12.12.12
+    - tls://120.53.53.53
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://doh.opendns.com/dns-query
+    - tls://8.8.4.4:853
+    
+  fallback-filter:
+    geoip: true
+    geoip-code: "CN"
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.168.0.0/16
+      - 192.88.99.0/24
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - +.facebook.com
+      - +.twitter.com
+      - +.google.com
+      - +.googleapis.com
+      - +.google.cn
+      - +.googleapis.cn
+      - +.xn--ngstr-lra8j.com
+      - +.googlevideo.com
+      - +.gvt1.com
+      - +.gmail.com
+      - +.youtube.com
+      - +.youtu.be
+      - +.gvt0.com
+      - +.gvt2.com
+      - +.gvt3.com
+      - +.gstatic.com
+      - +.265.com
+      - +.2mdn.net
+      - +.app-measurement.com
+      - +.c.admob.com
+      - +.clickserve.dartsearch.net
+      - +.crl.pki.goog
+      - +.doubleclick.net
+      - +.firebase-settings.crashlytics.com
+      - +.google-analytics.com
+      - +.googleadservices.com
+      - +.googleanalytics.com
+      - +.googleoptimize.com
+      - +.googlesyndication.com
+      - +.googletagmanager.com
+      - +.googletagservices.com
+      
+proxy-providers:  #提取机场节点
+  AP:
+    type: http
+    path: ./providers/proxy/AP.yaml
+    url: "复制以clash订阅到此替换" 
+    interval: 86400
+    health-check:
+      enable: true
+      url: "https://i.ytimg.com/generate_204"
+      interval: 600
+  
+  #HK: #筛选国家/地区节点,需要筛选可删除行首的“#”号
+    #type: file
+    #path: ./providers/proxy/AP.yaml
+    #filter: 港|HK|(?i)Hong
+    #interval: 86400
+    #health-check:
+     # enable: true
+      #url: https://i.ytimg.com/generate_204
+      #interval: 600
+ 
+  #JP: #筛选国家/地区节点,需要筛选可删除行首的“#”号
+    #type: file
+    #path: ./providers/proxy/AP.yaml
+    #filter: 日|东京|JP|(?i)Japan
+    #health-check:
+      #enable: true
+      #url: https://i.ytimg.com/generate_204
+      #interval: 600
+ 
+  #US: #筛选国家/地区节点,需要筛选可删除行首的“#”号
+    #type: file
+    #path: ./providers/proxy/AP.yaml
+    #filter: 美|US|(?i)States|American
+    #health-check:
+      #enable: true
+      #url: https://i.ytimg.com/generate_204
+      #interval: 600
+ 
+  #TW: #筛选国家/地区节点,需要筛选可删除行首的“#”号
+   # type: file
+   # path: ./providers/proxy/AP.yaml
+   # filter: 台|湾|TW|(?i)Taiwan
+   # health-check:
+   #   enable: true
+    #  url: https://i.ytimg.com/generate_204
+    #  interval: 600
+     
+  #SG: #新加坡节点
+   # type: file
+    #path: ./providers/proxy/AP.yaml
+   # filter: 狮|🇸🇬|加坡|SG|(?i)Singapore
+   # health-check:
+     # enable: true
+     # url: https://i.ytimg.com/generate_204
+     # interval: 600
+    
+    
+proxies: #自建节点
+  #- {name: 🇺🇸 圣荷西01, type: ss, server: 192.9.146.195, port: "61593", cipher: chacha20-ietf-poly1305, password: juhwygalmcnbvsenuakynepz}
+    
+  #- {name: 🇺🇸 圣荷西02, type: ss, server: 192.18.141.26, port: "47516", cipher: chacha20-ietf-poly1305, password: ksheilmb2167ehxhwxvmeuk}
+ 
+
+proxy-groups: #策略组，配合分流规则使用
+  - name: 🔰手动切换
+
+    type: select
+    use: #引用机场节点
+      - AP
+      
+    proxies:  #引用自建节点
+      - 🇺🇸 圣荷西01
+      #- 🇺🇸 圣荷西02
+
+  - name: 📢Google
+    type: select
+    proxies:
+      - 🔰手动切换
+      ##- 🇺🇸美国节点
+      #- 🇭🇰香港节点
+      #- 🇹🇼台湾节点
+      #- 🇸🇬新加坡节点
+      #- 🇯🇵日本节点
+      
+  - name: 🍎苹果服务
+    type: select
+    proxies:
+      - 🔰手动切换
+      - DIRECT
+      #- 🇺🇸美国节点
+      #- 🇭🇰香港节点
+      #- 🇹🇼台湾节点
+      #- 🇸🇬新加坡节点
+      #- 🇯🇵日本节点
+      
+  - name: Ⓜ️微软服务
+    type: select
+    proxies:
+      - 🔰手动切换
+      - DIRECT
+      #- 🇺🇸美国节点
+      #- 🇭🇰香港节点
+      #- 🇹🇼台湾节点
+      #- 🇸🇬新加坡节点
+      #- 🇯🇵日本节点
+  
+  - name: 🎮Steam
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰手动切换 
+      #- 🇭🇰香港节点
+      #- 🇹🇼台湾节点
+      #- 🇸🇬新加坡节点
+      #- 🇯🇵日本节点
+      #- 🇺🇸美国节点
+      
+  - name: 🌐 PayPal
+    type: select
+    proxies:
+      - 🔰手动切换
+      #- 🇺🇸 圣荷西02
+       
+  - name: 🐟漏网之鱼
+    type: select
+    proxies:
+      - 🔰手动切换
+      - DIRECT
+
+  #- name: 🇭🇰香港节点
+    #type: url-test
+    #url: "https://i.ytimg.com/generate_204"
+    #interval: 600
+    #tolerance: 50
+    #use:
+      #- HK
+      
+  #- name: 🇹🇼台湾节点
+    #type: url-test
+    ##url: "https://i.ytimg.com/generate_204"
+    #interval: 600
+    #tolerance: 50
+    #use:
+     # - TW
+      
+  #- name: 🇸🇬新加坡节点
+    #type: url-test
+   # url: "https://i.ytimg.com/generate_204"
+    #interval: 600
+    #tolerance: 50
+   # use:
+      #- SG
+      
+  #- name: 🇯🇵日本节点
+    #type: url-test
+    #url: "https://i.ytimg.com/generate_204"
+    #interval: 600
+    #tolerance: 50
+    #use:
+      #- JP
+      
+  #- name: 🇺🇸美国节点
+    #type: select
+    #url: "https://i.ytimg.com/generate_204"
+    #interval: 600
+    #tolerance: 50
+    #use:
+      #- US
+      
+    #proxies:
+      #- 🇺🇸 圣荷西01
+      #- 🇺🇸 圣荷西02
+ 
+
+rule-providers: #远程分流规则
+
+  Reject:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Reject.yaml"
+    path: ./providers/rule/Reject.yaml
+    interval: 864000
+  
+  China:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/China.yaml"
+    path: ./providers/rule/China.yaml
+    interval: 864000
+    
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/ChinaIP.yaml"
+    path: ./providers/rule/ChinaIP.yaml
+    interval: 864000
+
+  Google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Google.yaml"
+    path: ./providers/rule/Google.yaml
+    interval: 864000
+    
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Apple.yaml"
+    path: ./providers/rule/Apple.yaml
+    interval: 864000
+    
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Microsoft.yaml"
+    path: ./providers/rule/Microsoft.yaml
+    interval: 864000
+
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Netflix.yaml"
+    path: ./providers/rule/Netflix.yaml
+    interval: 864000
+  
+  PayPal:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/PayPal.yaml"
+    path: ./providers/rule/PayPal.yaml
+    interval: 864000
+
+  Sony:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Sony.yaml"
+    path: ./providers/rule/Sony.yaml
+    interval: 864000
+  
+  Steam:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Steam.yaml"
+    path: ./providers/rule/Steam.yaml
+    interval: 864000
+  
+  GitHub:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/GitHub.yaml"
+    path: ./providers/rule/GitHub.yaml
+    interval: 864000
+    
+  Proxy:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Proxy.yaml"
+    path: ./providers/rule/Proxy.yaml
+    interval: 864000
+
+# rules规则由上往下遍历，如上面规则已经命中，则不再往下处理
+rules:
+  #本地/局域网
+  - DOMAIN-SUFFIX,ip6-localhost,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,ip6-loopback,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,local,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,localhost,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,lan,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰手动切换
+  - DOMAIN-SUFFIX,services.googleapis.cn,🔰手动切换
+  #- IP-CIDR,120.232.181.162/32,🔰手动切换,no-resolve
+  #- IP-CIDR,120.241.147.226/32,🔰手动切换,no-resolve
+  #- IP-CIDR,120.253.253.226/32,🔰手动切换,no-resolve
+  #- IP-CIDR,120.253.255.162/32,🔰手动切换,no-resolve
+  #- IP-CIDR,120.253.255.34/32,🔰手动切换,no-resolve
+  #- IP-CIDR,120.253.255.98/32,🔰手动切换,no-resolve
+  #- IP-CIDR,180.163.150.162/32,🔰手动切换,no-resolve
+  #- IP-CIDR,180.163.150.34/32,🔰手动切换,no-resolve
+  #- IP-CIDR,180.163.151.162/32,🔰手动切换,no-resolve
+  #- IP-CIDR,180.163.151.34/32,🔰手动切换,no-resolve
+  #- IP-CIDR,203.208.39.0/24,🔰手动切换,no-resolve
+  #- IP-CIDR,203.208.40.0/24,🔰手动切换,no-resolve
+  #- IP-CIDR,203.208.41.0/24,🔰手动切换,no-resolve
+  #- IP-CIDR,203.208.43.0/24,🔰手动切换,no-resolve
+  #- IP-CIDR,203.208.50.0/24,🔰手动切换,no-resolve
+  #- IP-CIDR,220.181.174.162/32,🔰手动切换,no-resolve
+  #- IP-CIDR,220.181.174.226/32,🔰手动切换,no-resolve
+  #- IP-CIDR,220.181.174.34/32,🔰手动切换,no-resolve
+  - PROCESS-NAME,BitComet,DIRECT
+  - PROCESS-NAME,qbittorrent,DIRECT
+  
+  # 策略分流RULE-SET
+  - RULE-SET,Reject,REJECT
+  - RULE-SET,Google,📢Google
+  - RULE-SET,GitHub,🔰手动切换
+  - RULE-SET,Apple,🍎苹果服务
+  - RULE-SET,Microsoft,Ⓜ️微软服务
+  - RULE-SET,Steam,🎮Steam
+  - RULE-SET,Sony,🔰手动切换
+  - RULE-SET,Netflix,🔰手动切换
+  - RULE-SET,PayPal,🌐 PayPal
+  - RULE-SET,Proxy,🔰手动切换
+  - RULE-SET,China,DIRECT
+  - RULE-SET,ChinaIP,DIRECT,no-resolve
+
+  # GEOIP ，如你不希望进行 DNS 解析，可在 GEOIP 规则的最后加上 ,no-resolve，如 GEOIP,CN,DIRECT,no-resolve。
+  - GEOIP,CN,DIRECT,no-resolve
+  # 必须，MATCH，前面的规则都没有命中，走MATCH，放在最后。
+  - MATCH,🐟漏网之鱼
