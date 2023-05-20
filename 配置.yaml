@@ -1,7 +1,7 @@
 # 此配置只需将订阅复制到对应位置即可使用
 # proxy-providers：只使用机场的节点，完全使用自定义分流规则、策略
 # 配置内的分流规则、策略可根据个人需求增减
-# https://github.com/yeefaye/Clash/blob/main/%E9%85%8D%E7%BD%AE.yaml
+# https://raw.githubusercontent.com/yeefaye/Clash/main/%E9%85%8D%E7%BD%AE.yaml
 
 port: 7890
 socks-port: 7891
