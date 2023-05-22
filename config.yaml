@@ -246,9 +246,9 @@ proxy-providers:  #提取机场节点
     
     
 proxies: #自建节点
-  #- {name: 🇺🇸 圣荷西01, type: ss, server: 112.9.146.195, port: "61553", cipher: chacha20-ietf-poly1305, password: juhwygalmcnbvsenuakynepz}
+  #- {name: 🇺🇸 圣荷西01, type: ss, server: 112.9.146.195, port: "61553", cipher: chacha20-ietf-poly1305, password: juhwygalmcnbvsenuakynepz, udp: true}
     
-  #- {name: 🇺🇸 圣荷西02, type: ss, server: 192.18.141.26, port: "41516", cipher: chacha20-ietf-poly1305, password: ksheilmb2167ehxhwxvmeuk}
+  #- {name: 🇺🇸 圣荷西02, type: ss, server: 192.18.141.26, port: "41516", cipher: chacha20-ietf-poly1305, password: ksheilmb2167ehxhwxvmeuk, udp: true}
  
 
 proxy-groups: #策略组，配合分流规则使用
