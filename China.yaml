@@ -87,7 +87,8 @@ payload:
   - DOMAIN-SUFFIX,souxs.pigqq.com
   - DOMAIN-SUFFIX,sma.yueyouxs.com
   - DOMAIN-SUFFIX,anduril.xmkanshu.com
-  #- DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,andns.co
+  - DOMAIN,48afe871-i.andns.co
   - DOMAIN-SUFFIX,dizhensubao.getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN,analytics.strava.com
@@ -1721,6 +1722,10 @@ payload:
   - DOMAIN-SUFFIX,cowlevel.net
   - DOMAIN-SUFFIX,cowtransfer.com
   - DOMAIN-SUFFIX,cppblog.com
+  - DOMAIN-SUFFIX,ctobsnssdk.com
+  - DOMAIN-SUFFIX,adukwai.com
+  - DOMAIN-SUFFIX,volces.com
+  - DOMAIN-SUFFIX,ys7.com
   - DOMAIN-SUFFIX,cpppf.org
   - DOMAIN-SUFFIX,cqccn.com
   - DOMAIN-SUFFIX,cqvip.com
