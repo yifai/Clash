@@ -2,6 +2,7 @@
 # proxy-providers：只使用机场的节点，完全使用自定义分流规则、策略
 # 配置内的分流规则、策略可根据个人需求增减
 # https://raw.githubusercontent.com/yeefaye/Clash/main/config.yaml
+# 行首有“#”号表示该行不起作用，如需使用请删除“#”号
 
 port: 7890
 socks-port: 7891
@@ -191,7 +192,7 @@ proxy-providers:  #提取机场节点
   AP:
     type: http
     path: ./providers/proxy/AP.yaml
-    url: "复制以clash订阅到此替换" 
+    url: "复制clash订阅到此替换" 
     interval: 86400
     health-check:
       enable: true
@@ -246,64 +247,67 @@ proxy-providers:  #提取机场节点
     
     
 proxies: #自建节点
-  #- {name: 🇺🇸 圣荷西01, type: ss, server: 112.9.146.195, port: "61553", cipher: chacha20-ietf-poly1305, password: juhwygalmcnbvsenuakynepz, udp: true}
+  #- {name: 🇺🇸 圣荷西01, type: ss, server: 112.9.146.195, port: "61553", cipher: chacha20-ietf-poly1305, password: juhwygalmcnbvsynepz, udp: true}
     
-  #- {name: 🇺🇸 圣荷西02, type: ss, server: 192.18.141.26, port: "41516", cipher: chacha20-ietf-poly1305, password: ksheilmb2167ehxhwxvmeuk, udp: true}
+  #- {name: 🇺🇸 圣荷西02, type: ss, server: 112.18.141.26, port: "41516", cipher: chacha20-ietf-poly1305, password: ksheilmb216hwxvmeuk, udp: true}
  
 
 proxy-groups: #策略组，配合分流规则使用
   - name: 🔰手动切换
-
     type: select
     use: #引用机场节点
       - AP
-      
-    proxies:  #引用自建节点
+    #proxies:  #引用自建节点
       #- 🇺🇸 圣荷西01
       #- 🇺🇸 圣荷西02
 
   - name: 📢Google
     type: select
-    proxies:
-      - 🔰手动切换
-      ##- 🇺🇸美国节点
+    #proxies:
+      #- 🔰手动切换
+      #- 🇺🇸美国节点
       #- 🇭🇰香港节点
       #- 🇹🇼台湾节点
       #- 🇸🇬新加坡节点
       #- 🇯🇵日本节点
+    use: #引用机场节点
+      - AP  
       
   - name: 🍎苹果服务
     type: select
     proxies:
-      - 🔰手动切换
       - DIRECT
       #- 🇺🇸美国节点
       #- 🇭🇰香港节点
       #- 🇹🇼台湾节点
       #- 🇸🇬新加坡节点
       #- 🇯🇵日本节点
-      
+    use: #引用机场节点
+      - AP
+  
   - name: Ⓜ️微软服务
     type: select
-    proxies:
-      - 🔰手动切换
+    proxies: 
       - DIRECT
       #- 🇺🇸美国节点
       #- 🇭🇰香港节点
       #- 🇹🇼台湾节点
       #- 🇸🇬新加坡节点
       #- 🇯🇵日本节点
-  
+    use: #引用机场节点
+      - AP
+      
   - name: 🎮Steam
     type: select
     proxies:
-      - DIRECT
-      - 🔰手动切换 
+      - DIRECT 
       #- 🇭🇰香港节点
       #- 🇹🇼台湾节点
       #- 🇸🇬新加坡节点
       #- 🇯🇵日本节点
       #- 🇺🇸美国节点
+    use: #引用机场节点
+      - AP
       
   - name: 🌐 PayPal
     type: select
@@ -376,20 +380,6 @@ rule-providers: #远程分流规则
     behavior: classical
     url: "https://raw.githubusercontent.com/yeefaye/Clash/main/China.yaml"
     path: ./providers/rule/China.yaml
-    interval: 864000
-
-  Private:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/Private.yaml"
-    path: ./providers/rule/Private.yaml
-    interval: 864000
-
-  ChinaIP:
-    type: http
-    behavior: ipcidr
-    url: "https://raw.githubusercontent.com/yeefaye/Clash/main/ChinaIP.yaml"
-    path: ./providers/rule/ChinaIP.yaml
     interval: 864000
 
   Google:
@@ -465,24 +455,7 @@ rules:
   - DOMAIN-SUFFIX,lan,DIRECT,no-resolve
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰手动切换
   - DOMAIN-SUFFIX,services.googleapis.cn,🔰手动切换
-  #- IP-CIDR,120.232.181.162/32,🔰手动切换,no-resolve
-  #- IP-CIDR,120.241.147.226/32,🔰手动切换,no-resolve
-  #- IP-CIDR,120.253.253.226/32,🔰手动切换,no-resolve
-  #- IP-CIDR,120.253.255.162/32,🔰手动切换,no-resolve
-  #- IP-CIDR,120.253.255.34/32,🔰手动切换,no-resolve
-  #- IP-CIDR,120.253.255.98/32,🔰手动切换,no-resolve
-  #- IP-CIDR,180.163.150.162/32,🔰手动切换,no-resolve
-  #- IP-CIDR,180.163.150.34/32,🔰手动切换,no-resolve
-  #- IP-CIDR,180.163.151.162/32,🔰手动切换,no-resolve
-  #- IP-CIDR,180.163.151.34/32,🔰手动切换,no-resolve
-  #- IP-CIDR,203.208.39.0/24,🔰手动切换,no-resolve
-  #- IP-CIDR,203.208.40.0/24,🔰手动切换,no-resolve
-  #- IP-CIDR,203.208.41.0/24,🔰手动切换,no-resolve
-  #- IP-CIDR,203.208.43.0/24,🔰手动切换,no-resolve
-  #- IP-CIDR,203.208.50.0/24,🔰手动切换,no-resolve
-  #- IP-CIDR,220.181.174.162/32,🔰手动切换,no-resolve
-  #- IP-CIDR,220.181.174.226/32,🔰手动切换,no-resolve
-  #- IP-CIDR,220.181.174.34/32,🔰手动切换,no-resolve
+  - DOMAIN-SUFFIX,ghvpie.xyz,DIRECT
   - PROCESS-NAME,BitComet,DIRECT
   - PROCESS-NAME,qbittorrent,DIRECT
   
@@ -498,7 +471,6 @@ rules:
   - RULE-SET,PayPal,🌐 PayPal
   - RULE-SET,Proxy,🔰手动切换
   - RULE-SET,China,DIRECT
-  #- RULE-SET,ChinaIP,DIRECT,no-resolve
 
   # GEOIP ，如你不希望进行 DNS 解析，可在 GEOIP 规则的最后加上 ,no-resolve，如 GEOIP,CN,DIRECT,no-resolve。
   - GEOIP,CN,DIRECT,no-resolve
