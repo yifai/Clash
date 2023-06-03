@@ -498,7 +498,7 @@ rules:
   - RULE-SET,PayPal,🌐 PayPal
   - RULE-SET,Proxy,🔰手动切换
   - RULE-SET,China,DIRECT
-  - RULE-SET,ChinaIP,DIRECT,no-resolve
+  #- RULE-SET,ChinaIP,DIRECT,no-resolve
 
   # GEOIP ，如你不希望进行 DNS 解析，可在 GEOIP 规则的最后加上 ,no-resolve，如 GEOIP,CN,DIRECT,no-resolve。
   - GEOIP,CN,DIRECT,no-resolve
