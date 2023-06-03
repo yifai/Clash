@@ -1,7 +1,6 @@
-payload:
-  # Proxy 代理列表
+# Proxy 代理列表
 
-  # MyList && Other
+  # MyList & Other
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,bit.no.com
@@ -43,16 +42,22 @@ payload:
   - DOMAIN-SUFFIX,time.android.com
   - DOMAIN-SUFFIX,wasabisys.com
   - DOMAIN-SUFFIX,s3.eu-central-2.wasabisys.com
+  - DOMAIN-SUFFIX,speedtest.com
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,onetrust.com
   - DOMAIN-SUFFIX,52.mk
   - DOMAIN-SUFFIX,api.nxtlnodes.com
   - DOMAIN-SUFFIX,nxtlnodes.com
   - DOMAIN-SUFFIX,mxplayer.in
   - DOMAIN-SUFFIX,mxplay.com
+  - DOMAIN-SUFFIX,bluekai.com
   - DOMAIN-SUFFIX,mx.j2inter.com
   - DOMAIN-SUFFIX,oneplus.net
   - DOMAIN-SUFFIX,mastodon.world
   - DOMAIN-KEYWORD,mastodon
+  - DOMAIN-KEYWORD,speedtest
   - DOMAIN-SUFFIX,ixpsge.com
+  
   - IP-CIDR,149.154.172.0/22,no-resolve
   - IP-CIDR,91.108.56.0/23,no-resolve
   - IP-CIDR,155.248.192.0/19,no-resolve
@@ -6138,7 +6143,15 @@ payload:
   - DOMAIN-SUFFIX,wikiversity.org
   - DOMAIN-SUFFIX,wikivoyage.org
   - DOMAIN-SUFFIX,wiktionary.org
-  
+
+  #飞流直播
+  - DOMAIN-SUFFIX,neulion.com
+  - DOMAIN-SUFFIX,icntv.xyz
+  - DOMAIN-SUFFIX,flzbcdn.xyz
+
+  #华文电视
+  - DOMAIN-SUFFIX,ocnttv.com
+
   # VikACG
   - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,picjs.xyz
