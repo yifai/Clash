@@ -1,4 +1,4 @@
-#NAME: China  直连
+#NAME: China  直连Clash
 payload:
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
@@ -64,6 +64,7 @@ payload:
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,oss.eple1.top
+  
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,dxmqtt.doordu.com
   - DOMAIN-SUFFIX,authy.com
@@ -88,7 +89,20 @@ payload:
   - DOMAIN-SUFFIX,sma.yueyouxs.com
   - DOMAIN-SUFFIX,anduril.xmkanshu.com
   - DOMAIN-SUFFIX,andns.co
-  - DOMAIN,48afe871-i.andns.co
+  - DOMAIN-SUFFIX,tongbu.com
+  - DOMAIN-SUFFIX,ipchaxun.com
+  - DOMAIN-SUFFIX,globalsign.com
+  - DOMAIN-SUFFIX,bcevod.com
+  - DOMAIN-SUFFIX,shakingcloud.com
+  - DOMAIN-SUFFIX,en888.top
+  
+  - DOMAIN-SUFFIX,ctobsnssdk.com
+  - DOMAIN-SUFFIX,adukwai.com
+  - DOMAIN-SUFFIX,volces.com
+  - DOMAIN-SUFFIX,ys7.com
+  - DOMAIN-SUFFIX,pyhome.com
+  - DOMAIN-SUFFIX,yjaqpx.com
+  
   - DOMAIN-SUFFIX,dizhensubao.getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN,analytics.strava.com
@@ -1722,10 +1736,7 @@ payload:
   - DOMAIN-SUFFIX,cowlevel.net
   - DOMAIN-SUFFIX,cowtransfer.com
   - DOMAIN-SUFFIX,cppblog.com
-  - DOMAIN-SUFFIX,ctobsnssdk.com
-  - DOMAIN-SUFFIX,adukwai.com
-  - DOMAIN-SUFFIX,volces.com
-  - DOMAIN-SUFFIX,ys7.com
+
   - DOMAIN-SUFFIX,cpppf.org
   - DOMAIN-SUFFIX,cqccn.com
   - DOMAIN-SUFFIX,cqvip.com
