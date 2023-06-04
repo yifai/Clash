@@ -12,7 +12,7 @@ allow-lan: false
 mode: rule
 log-level: info
 ipv6: false
-external-controller: 0.0.0.0:9090
+#external-controller: 127.0.0.1:8537
 clash-for-android:
   append-system-dns: false
 profile:
@@ -21,12 +21,26 @@ experimental:
   sniff-tls-sni: true
 dns:
   enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
   listen: 127.0.0.1:8853
   default-nameserver:
     - 223.5.5.5
     - 8.8.4.4
-  ipv6: false
-  enhanced-mode: fake-ip
+  nameserver:
+    - 114.114.114.114
+    - tls://223.5.5.5:853
+    - tls://223.6.6.6:853
+    - tls://1.12.12.12
+    - tls://120.53.53.53
+    
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://doh.opendns.com/dns-query
+    - tls://8.8.4.4:853
+    
   fake-ip-filter:
     - "*.lan"
     - "*.localdomain"
@@ -123,17 +137,6 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
     - +.pvp.net
-  nameserver:
-    - 114.114.114.114
-    - tls://223.5.5.5:853
-    - tls://223.6.6.6:853
-    - tls://1.12.12.12
-    - tls://120.53.53.53
-  fallback:
-    - https://1.1.1.1/dns-query
-    - https://public.dns.iij.jp/dns-query
-    - https://doh.opendns.com/dns-query
-    - tls://8.8.4.4:853
     
   fallback-filter:
     geoip: true
@@ -476,3 +479,4 @@ rules:
   - GEOIP,CN,DIRECT,no-resolve
   # 必须，MATCH，前面的规则都没有命中，走MATCH，放在最后。
   - MATCH,🐟漏网之鱼
+  
