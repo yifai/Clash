@@ -95,7 +95,10 @@ payload:
   - DOMAIN-SUFFIX,bcevod.com
   - DOMAIN-SUFFIX,shakingcloud.com
   - DOMAIN-SUFFIX,en888.top
-  
+  - DOMAIN-SUFFIX,yowindow.ru
+  - DOMAIN-SUFFIX,deppon.com
+  - DOMAIN-SUFFIX,huolala.co
+  - DOMAIN-SUFFIX,huolala.cn
   - DOMAIN-SUFFIX,ctobsnssdk.com
   - DOMAIN-SUFFIX,adukwai.com
   - DOMAIN-SUFFIX,volces.com
@@ -103,7 +106,7 @@ payload:
   - DOMAIN-SUFFIX,pyhome.com
   - DOMAIN-SUFFIX,yjaqpx.com
   
-  - DOMAIN-SUFFIX,dizhensubao.getui.com
+  - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN,analytics.strava.com
   - DOMAIN-SUFFIX,zhihu.com
@@ -812,7 +815,6 @@ payload:
   - DOMAIN-SUFFIX,nim-lang-cn.org
   - DOMAIN-SUFFIX,novipnoad.com
   - DOMAIN-SUFFIX,oecd-ilibrary.org
-  - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,osapublishing.org
   - DOMAIN-SUFFIX,oup.com
   - DOMAIN-SUFFIX,ovid.com
@@ -1682,7 +1684,6 @@ payload:
   - DOMAIN-SUFFIX,cmf.ltd
   - DOMAIN-SUFFIX,cmfchina.com
   - DOMAIN-SUFFIX,cmpassport.com
-  - DOMAIN-SUFFIX,cn
   - DOMAIN-SUFFIX,cn-east-2.myhuaweicloud.com
   - DOMAIN-SUFFIX,cn-east-3.myhuaweicloud.com
   - DOMAIN-SUFFIX,cn-north-1.myhuaweicloud.com
@@ -2065,7 +2066,6 @@ payload:
   - DOMAIN-SUFFIX,gdrc.com
   - DOMAIN-SUFFIX,gdtimg.com
   - DOMAIN-SUFFIX,geekpark.net
-  - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,gezida.com
   - DOMAIN-SUFFIX,gfan.com
   - DOMAIN-SUFFIX,gfund.com
