@@ -13,6 +13,7 @@ payload:
   - DOMAIN-KEYWORD,WebTorrent
   - DOMAIN-KEYWORD,BitComet
   - DOMAIN-SUFFIX,BitComet
+  
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
   - DOMAIN-KEYWORD,qbittorrent
@@ -64,6 +65,9 @@ payload:
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,oss.eple1.top
+  - DOMAIN-SUFFIX,deppon.com
+  - DOMAIN-SUFFIX,huolala.co
+  - DOMAIN-SUFFIX,huolala.cn
   
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,dxmqtt.doordu.com
@@ -116,6 +120,8 @@ payload:
   - DOMAIN,app.adjust.com
   - DOMAIN,bdtj.tagtic.cn
   - DOMAIN-KEYWORD,jd
+  - DOMAIN-KEYWORD,.cn
+  
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidubcr.com
   - DOMAIN-SUFFIX,baidupcs.com
