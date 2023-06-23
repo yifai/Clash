@@ -65,13 +65,30 @@ payload:
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,oss.eple1.top
+  
   - DOMAIN-SUFFIX,deppon.com
   - DOMAIN-SUFFIX,huolala.co
   - DOMAIN-SUFFIX,huolala.cn
-  
+  - DOMAIN-SUFFIX,daweilai211.com
+  - DOMAIN,www.shenxianfaka.top
+  - DOMAIN,m.shenxianfaka.top
+  - DOMAIN-SUFFIX,fqnovel.com
+  - DOMAIN-SUFFIX,qishuta.la
+  - DOMAIN-SUFFIX,guodongxsw.com
+  - DOMAIN-SUFFIX,guiguaiwu.com
+  - DOMAIN-SUFFIX,heiyan.com
+  - DOMAIN-SUFFIX,wanshu.com
+  - DOMAIN-SUFFIX,bsgslb.com
+  - DOMAIN-SUFFIX,yumixiu768.com
+  - DOMAIN-SUFFIX,yowindow.ru
+  - DOMAIN-SUFFIX,deppon.com
+  - DOMAIN-SUFFIX,huolala.co
+  - DOMAIN-SUFFIX,huolala.cn
+  - DOMAIN-SUFFIX,funshion.net
+  - DOMAIN-SUFFIX,funshion.com
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,dxmqtt.doordu.com
-  - DOMAIN-SUFFIX,authy.com
+  
   - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ipchaxun.net
   - DOMAIN-SUFFIX,gd95105888.com
