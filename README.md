@@ -14,6 +14,10 @@
 
   https://www.jamesdailylife.com/rule-proxy-provider
 
+  https://github.com/DivineEngine/Profiles/tree/master
+
+  https://github.com/ACL4SSR/ACL4SSR/tree/master
+  
   https://github.com/Semporia
 
   https://github.com/helmiau/clashrules
