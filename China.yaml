@@ -1,4 +1,4 @@
-#NAME: China  直连Clash
+#NAME: China  网络收集
 payload:
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
@@ -13,7 +13,6 @@ payload:
   - DOMAIN-KEYWORD,WebTorrent
   - DOMAIN-KEYWORD,BitComet
   - DOMAIN-SUFFIX,BitComet
-  
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
   - DOMAIN-KEYWORD,qbittorrent
@@ -66,29 +65,9 @@ payload:
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,oss.eple1.top
   
-  - DOMAIN-SUFFIX,deppon.com
-  - DOMAIN-SUFFIX,huolala.co
-  - DOMAIN-SUFFIX,huolala.cn
-  - DOMAIN-SUFFIX,daweilai211.com
-  - DOMAIN,www.shenxianfaka.top
-  - DOMAIN,m.shenxianfaka.top
-  - DOMAIN-SUFFIX,fqnovel.com
-  - DOMAIN-SUFFIX,qishuta.la
-  - DOMAIN-SUFFIX,guodongxsw.com
-  - DOMAIN-SUFFIX,guiguaiwu.com
-  - DOMAIN-SUFFIX,heiyan.com
-  - DOMAIN-SUFFIX,wanshu.com
-  - DOMAIN-SUFFIX,bsgslb.com
-  - DOMAIN-SUFFIX,yumixiu768.com
-  - DOMAIN-SUFFIX,yowindow.ru
-  - DOMAIN-SUFFIX,deppon.com
-  - DOMAIN-SUFFIX,huolala.co
-  - DOMAIN-SUFFIX,huolala.cn
-  - DOMAIN-SUFFIX,funshion.net
-  - DOMAIN-SUFFIX,funshion.com
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,dxmqtt.doordu.com
-  
+  - DOMAIN-SUFFIX,authy.com
   - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ipchaxun.net
   - DOMAIN-SUFFIX,gd95105888.com
@@ -134,11 +113,8 @@ payload:
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
   - DOMAIN,tracking.miui.com
-  - DOMAIN,app.adjust.com
   - DOMAIN,bdtj.tagtic.cn
   - DOMAIN-KEYWORD,jd
-  - DOMAIN-KEYWORD,.cn
-  
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidubcr.com
   - DOMAIN-SUFFIX,baidupcs.com
@@ -1760,7 +1736,7 @@ payload:
   - DOMAIN-SUFFIX,cowlevel.net
   - DOMAIN-SUFFIX,cowtransfer.com
   - DOMAIN-SUFFIX,cppblog.com
-
+  - DOMAIN-SUFFIX,shushi100.com
   - DOMAIN-SUFFIX,cpppf.org
   - DOMAIN-SUFFIX,cqccn.com
   - DOMAIN-SUFFIX,cqvip.com
