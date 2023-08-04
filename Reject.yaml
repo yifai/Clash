@@ -94,6 +94,9 @@ payload:
   - DOMAIN-SUFFIX,adinfuse.com
   - DOMAIN-SUFFIX,adirects.com
   - DOMAIN-SUFFIX,adjust.io
+  - DOMAIN-SUFFIX,adjust.com
+  - DOMAIN-SUFFIX,adjust.world
+  - DOMAIN-SUFFIX,adjust.net
   - DOMAIN-SUFFIX,adkmob.com
   - DOMAIN-SUFFIX,adlive.cn
   - DOMAIN-SUFFIX,adlocus.com
