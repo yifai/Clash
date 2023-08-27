@@ -1,4 +1,4 @@
-#NAME: China  直连Clash 网络收集及整理
+#NAME: China  直连Clash，网络收集整理
 payload:
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
@@ -119,6 +119,30 @@ payload:
   - DOMAIN-SUFFIX,wanshu.com
   - DOMAIN-SUFFIX,bsgslb.com
   - DOMAIN-SUFFIX,yumixiu768.com
+  - DOMAIN-SUFFIX,dragonfly.fun
+  - DOMAIN,www.shenxianfaka.top
+  - DOMAIN,m.shenxianfaka.top
+  - DOMAIN-SUFFIX,fqnovel.com
+  - DOMAIN-SUFFIX,qishuta.la
+  - DOMAIN-SUFFIX,guodongxsw.com
+  - DOMAIN-SUFFIX,guiguaiwu.com
+  - DOMAIN-SUFFIX,heiyan.com
+  - DOMAIN-SUFFIX,wanshu.com
+  - DOMAIN-SUFFIX,bsgslb.com
+  - DOMAIN-SUFFIX,yumixiu768.com
+  - DOMAIN-SUFFIX,yowindow.ru
+  - DOMAIN-SUFFIX,yowindow.com
+  - DOMAIN-SUFFIX,bjmeishu.com
+  - DOMAIN-SUFFIX,yishuyun.com
+  - DOMAIN-SUFFIX,yixiaobang.com
+  - DOMAIN-SUFFIX,dragonfly.fun
+  - DOMAIN-SUFFIX,ksepton.com
+  - DOMAIN-SUFFIX,oss.eple1.top
+  - DOMAIN-SUFFIX,daweilai211.com
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
   
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
