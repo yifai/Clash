@@ -28,6 +28,8 @@ payload:
   # > Tencent
   - DOMAIN,safebrowsing.urlsec.qq.com
   # > 
+  - DOMAIN,whois.pconline.com.cn
+  - DOMAIN-SUFFIX,pinyin.sogou.com
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
   - DOMAIN-KEYWORD,adsage
