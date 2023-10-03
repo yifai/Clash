@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,pagead-tpc.l.google.com
   - DOMAIN-SUFFIX,pagead.google.com
   - DOMAIN-SUFFIX,pagead.l.google.com
+  - DOMAIN,zhanzhang.toutiao.com
   
   #反诈
   - DOMAIN,miav-cse.avlyun.com
