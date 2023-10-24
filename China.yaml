@@ -1,9 +1,6 @@
 # NAME: China  直连Clash，网络收集整理
 payload:
   - DOMAIN-KEYWORD,Authy
-  - DOMAIN-SUFFIX,Authy.com
-  - DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org
-  - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-KEYWORD,uTorrent
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,DownloadService
@@ -11,11 +8,13 @@ payload:
   - DOMAIN-KEYWORD,Transmission
   - DOMAIN-KEYWORD,WebTorrent Helper
   - DOMAIN-KEYWORD,WebTorrent
-  - DOMAIN-KEYWORD,BitComet
-  - DOMAIN-SUFFIX,BitComet
-  - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
   - DOMAIN-KEYWORD,qbittorrent
+  - DOMAIN-KEYWORD,BitComet
+  - DOMAIN-SUFFIX,Authy.com
+  - DOMAIN-SUFFIX,aliapp.org 
+  - DOMAIN-SUFFIX,BitComet
+  - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN,livew.l.qq.com
@@ -26,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,whois.aizhan.com
   - DOMAIN-SUFFIX,aizhan.com
   - DOMAIN-SUFFIX,yowindow.com
+  - DOMAIN-SUFFIX,yowindow.ru
   - DOMAIN-SUFFIX,lejuliang.com
   - DOMAIN-SUFFIX,fp.unicompayment.com
   - DOMAIN-SUFFIX,unicompayment.com
@@ -62,11 +62,9 @@ payload:
   - DOMAIN-SUFFIX,faimallusr.com
   - DOMAIN-SUFFIX,kfw.com
   - DOMAIN-SUFFIX,kgimg.com
-  - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,oss.eple1.top
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,dxmqtt.doordu.com
-  - DOMAIN-SUFFIX,authy.com
   - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ipchaxun.net
   - DOMAIN-SUFFIX,gd95105888.com
@@ -94,7 +92,7 @@ payload:
   - DOMAIN-SUFFIX,bcevod.com
   - DOMAIN-SUFFIX,shakingcloud.com
   - DOMAIN-SUFFIX,en888.top
-  - DOMAIN-SUFFIX,yowindow.ru
+  - DOMAIN-SUFFIX,wechatpay.cn
   - DOMAIN-SUFFIX,deppon.com
   - DOMAIN-SUFFIX,huolala.co
   - DOMAIN-SUFFIX,huolala.cn
@@ -120,6 +118,9 @@ payload:
   - DOMAIN-SUFFIX,yumixiu768.com
   - DOMAIN-SUFFIX,dragonfly.fun
   - DOMAIN-SUFFIX,daxiaamu.com
+  - DOMAIN-SUFFIX,abchina.com.cn
+  - DOMAIN-SUFFIX,169jk.com
+  - DOMAIN-SUFFIX,pool.ntp.org
   
   #- DOMAIN-SUFFIX,
   - DOMAIN-SUFFIX,getui.com
@@ -1152,15 +1153,19 @@ payload:
   - DOMAIN-SUFFIX,917.com
   - DOMAIN-SUFFIX,91danji.com
   - DOMAIN-SUFFIX,91yunxiao.com
-  - DOMAIN-SUFFIX,95095.com
-  - DOMAIN-SUFFIX,95508.com
+  - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,95516.net
-  - DOMAIN-SUFFIX,9553.com
+  - DOMAIN-SUFFIX,95533.com
   - DOMAIN-SUFFIX,95588.com
   - DOMAIN-SUFFIX,962.net
   - DOMAIN-SUFFIX,9718.com
   - DOMAIN-SUFFIX,97973.com
   - DOMAIN-SUFFIX,99166.com
+  - DOMAIN-SUFFIX,95095.com
+  - DOMAIN-SUFFIX,95508.com
+  - DOMAIN-SUFFIX,962.net
+  - DOMAIN-SUFFIX,9718.com
+  - DOMAIN-SUFFIX,97973.com
   - DOMAIN-SUFFIX,998.com
   - DOMAIN-SUFFIX,999d.com
   - DOMAIN-SUFFIX,99danji.com
