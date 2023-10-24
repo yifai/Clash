@@ -18,7 +18,6 @@ payload:
   - DOMAIN-SUFFIX,pagead-tpc.l.google.com
   - DOMAIN-SUFFIX,pagead.google.com
   - DOMAIN-SUFFIX,pagead.l.google.com
-  - DOMAIN,zhanzhang.toutiao.com
   
   #反诈
   - DOMAIN,miav-cse.avlyun.com
@@ -29,6 +28,7 @@ payload:
   # > Tencent
   - DOMAIN,safebrowsing.urlsec.qq.com
   # > 
+  - DOMAIN,zhanzhang.toutiao.com
   - DOMAIN,whois.pconline.com.cn
   - DOMAIN-SUFFIX,pinyin.sogou.com
   - DOMAIN-KEYWORD,admarvel
