@@ -184,6 +184,7 @@ payload:
   - DOMAIN-SUFFIX,digisfera.com
   - DOMAIN-SUFFIX,digitalassetlinks.org
   - DOMAIN-SUFFIX,digitalattackmap.com
+  - DOMAIN,dl.google.com
   - DOMAIN-SUFFIX,doubleclick-cn.net
   - DOMAIN-SUFFIX,doubleclick.com
   - DOMAIN-SUFFIX,doubleclick.net
@@ -443,6 +444,7 @@ payload:
   - DOMAIN-SUFFIX,googleanalytics.com
   - DOMAIN-SUFFIX,googleapis-cn.com
   - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,googleapps-cn.com
   - DOMAIN-SUFFIX,googleapps.com
@@ -456,7 +458,7 @@ payload:
   - DOMAIN-SUFFIX,googlecommerce.com
   - DOMAIN-SUFFIX,googlecompare.co.uk
   - DOMAIN-SUFFIX,googledanmark.com
-  - DOMAIN-SUFFIX,googledomains.com
+  - DOMAIN-SUFFIX,google  - DOMAINs.com
   - DOMAIN-SUFFIX,googledrive.com
   - DOMAIN-SUFFIX,googlee.com
   - DOMAIN-SUFFIX,googleearth.com
@@ -663,6 +665,7 @@ payload:
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,i.ytimg.com
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,zynamics.com
   - DOMAIN-KEYWORD,appspot
@@ -699,7 +702,7 @@ payload:
   - DOMAIN,imap.gmail.com
   - DOMAIN,smtp.gmail.com
   
-  #  谷歌FCM,可直连
+#  谷歌FCM,可直连
   - DOMAIN,alt1-mtalk.google.com
   - DOMAIN,alt2-mtalk.google.com
   - DOMAIN,alt3-mtalk.google.com
