@@ -1,6 +1,9 @@
-# NAME: China  直连Clash，网络收集整理
+#NAME: China  直连Clash，网络收集整理
 payload:
   - DOMAIN-KEYWORD,Authy
+  - DOMAIN-SUFFIX,Authy.com
+  - DOMAIN-SUFFIX,lcdn.ynuf.aliapp.org
+  - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-KEYWORD,uTorrent
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,DownloadService
@@ -8,13 +11,11 @@ payload:
   - DOMAIN-KEYWORD,Transmission
   - DOMAIN-KEYWORD,WebTorrent Helper
   - DOMAIN-KEYWORD,WebTorrent
-  - DOMAIN-KEYWORD,bittorrent
-  - DOMAIN-KEYWORD,qbittorrent
   - DOMAIN-KEYWORD,BitComet
-  - DOMAIN-SUFFIX,Authy.com
-  - DOMAIN-SUFFIX,aliapp.org 
   - DOMAIN-SUFFIX,BitComet
   - DOMAIN-SUFFIX,discfan.net
+  - DOMAIN-KEYWORD,bittorrent
+  - DOMAIN-KEYWORD,qbittorrent
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN,livew.l.qq.com
@@ -25,7 +26,6 @@ payload:
   - DOMAIN-SUFFIX,whois.aizhan.com
   - DOMAIN-SUFFIX,aizhan.com
   - DOMAIN-SUFFIX,yowindow.com
-  - DOMAIN-SUFFIX,yowindow.ru
   - DOMAIN-SUFFIX,lejuliang.com
   - DOMAIN-SUFFIX,fp.unicompayment.com
   - DOMAIN-SUFFIX,unicompayment.com
@@ -62,9 +62,13 @@ payload:
   - DOMAIN-SUFFIX,faimallusr.com
   - DOMAIN-SUFFIX,kfw.com
   - DOMAIN-SUFFIX,kgimg.com
+  - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,oss.eple1.top
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-KEYWORD,-cn,DIRECT
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,dxmqtt.doordu.com
+  - DOMAIN-SUFFIX,authy.com
   - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ipchaxun.net
   - DOMAIN-SUFFIX,gd95105888.com
@@ -92,7 +96,7 @@ payload:
   - DOMAIN-SUFFIX,bcevod.com
   - DOMAIN-SUFFIX,shakingcloud.com
   - DOMAIN-SUFFIX,en888.top
-  - DOMAIN-SUFFIX,wechatpay.cn
+  - DOMAIN-SUFFIX,yowindow.ru
   - DOMAIN-SUFFIX,deppon.com
   - DOMAIN-SUFFIX,huolala.co
   - DOMAIN-SUFFIX,huolala.cn
@@ -117,12 +121,28 @@ payload:
   - DOMAIN-SUFFIX,bsgslb.com
   - DOMAIN-SUFFIX,yumixiu768.com
   - DOMAIN-SUFFIX,dragonfly.fun
-  - DOMAIN-SUFFIX,daxiaamu.com
-  - DOMAIN-SUFFIX,abchina.com.cn
-  - DOMAIN-SUFFIX,169jk.com
-  - DOMAIN-SUFFIX,pool.ntp.org
-  
+  - DOMAIN,www.shenxianfaka.top
+  - DOMAIN,m.shenxianfaka.top
+  - DOMAIN-SUFFIX,fqnovel.com
+  - DOMAIN-SUFFIX,qishuta.la
+  - DOMAIN-SUFFIX,guodongxsw.com
+  - DOMAIN-SUFFIX,guiguaiwu.com
+  - DOMAIN-SUFFIX,heiyan.com
+  - DOMAIN-SUFFIX,wanshu.com
+  - DOMAIN-SUFFIX,bsgslb.com
+  - DOMAIN-SUFFIX,yumixiu768.com
+  - DOMAIN-SUFFIX,yowindow.ru
+  - DOMAIN-SUFFIX,yowindow.com
+  - DOMAIN-SUFFIX,bjmeishu.com
+  - DOMAIN-SUFFIX,yishuyun.com
+  - DOMAIN-SUFFIX,yixiaobang.com
+  - DOMAIN-SUFFIX,dragonfly.fun
+  - DOMAIN-SUFFIX,ksepton.com
+  - DOMAIN-SUFFIX,oss.eple1.top
+  - DOMAIN-SUFFIX,daweilai211.com
   #- DOMAIN-SUFFIX,
+  #- DOMAIN-SUFFIX,
+  
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN,analytics.strava.com
@@ -163,6 +183,7 @@ payload:
   - DOMAIN-KEYWORD,qhimg
   - DOMAIN-KEYWORD,vpimg
   - DOMAIN-KEYWORD,xiami
+  
   - DOMAIN-SUFFIX,360.com
   - DOMAIN-SUFFIX,360kuai.com
   - DOMAIN-SUFFIX,360safe.com
@@ -1153,19 +1174,15 @@ payload:
   - DOMAIN-SUFFIX,917.com
   - DOMAIN-SUFFIX,91danji.com
   - DOMAIN-SUFFIX,91yunxiao.com
-  - DOMAIN-SUFFIX,95516.com
+  - DOMAIN-SUFFIX,95095.com
+  - DOMAIN-SUFFIX,95508.com
   - DOMAIN-SUFFIX,95516.net
-  - DOMAIN-SUFFIX,95533.com
+  - DOMAIN-SUFFIX,9553.com
   - DOMAIN-SUFFIX,95588.com
   - DOMAIN-SUFFIX,962.net
   - DOMAIN-SUFFIX,9718.com
   - DOMAIN-SUFFIX,97973.com
   - DOMAIN-SUFFIX,99166.com
-  - DOMAIN-SUFFIX,95095.com
-  - DOMAIN-SUFFIX,95508.com
-  - DOMAIN-SUFFIX,962.net
-  - DOMAIN-SUFFIX,9718.com
-  - DOMAIN-SUFFIX,97973.com
   - DOMAIN-SUFFIX,998.com
   - DOMAIN-SUFFIX,999d.com
   - DOMAIN-SUFFIX,99danji.com
@@ -3898,7 +3915,6 @@ payload:
   - DOMAIN-SUFFIX,zybang.com
   - DOMAIN-SUFFIX,zyh365.com
   - DOMAIN-SUFFIX,zzdtec.com
-  - DOMAIN-KEYWORD,.tmall.com
 
   - PROCESS-NAME,hysteria
   - PROCESS-NAME,hysteria.exe
@@ -3908,6 +3924,7 @@ payload:
   - PROCESS-NAME,naive.exe
   - PROCESS-NAME,privoxy
   - PROCESS-NAME,privoxy.exe
+  - PROCESS-NAME,proxifier
   - PROCESS-NAME,proxifier
   - PROCESS-NAME,shadowsocks
   - PROCESS-NAME,shadowsocks.exe
@@ -3978,6 +3995,7 @@ payload:
   - PROCESS-NAME,xdm.exe
   - PROCESS-NAME,xdman
   - PROCESS-NAME,xdman.exe
+  
   - IP-CIDR,1.255.62.0/24,no-resolve
   - IP-CIDR,101.32.118.0/23,no-resolve
   - IP-CIDR,101.32.96.0/20,no-resolve
