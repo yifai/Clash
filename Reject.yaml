@@ -1,6 +1,6 @@
-# 网络收集整理
+# # > Reject  网络收集整理
 payload:
-  # > Reject
+  
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
@@ -28,9 +28,11 @@ payload:
   # > Tencent
   - DOMAIN,safebrowsing.urlsec.qq.com
   # > 
+  - DOMAIN,appcenter.ms
+  - DOMAIN,app-meaturement.com
+  - DOMAIN,firebase.io
+  - DOMAIN,crashlytics.com
   - DOMAIN,zhanzhang.toutiao.com
-  - DOMAIN,whois.pconline.com.cn
-  - DOMAIN-SUFFIX,pinyin.sogou.com
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
   - DOMAIN-KEYWORD,adsage
@@ -1847,7 +1849,6 @@ payload:
   - DOMAIN-SUFFIX,flash.cn
   - DOMAIN,geo2.adobe.com
   # > C&J Marketing
-  # https://www.zhihu.com/question/46746200
   - DOMAIN-SUFFIX,4009997658.com
   - DOMAIN-SUFFIX,abbyychina.com
   - DOMAIN-SUFFIX,alienskins.cn
