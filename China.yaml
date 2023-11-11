@@ -1,4 +1,4 @@
-#NAME: China  直连Clash，网络收集整理
+#NAME: China  直连，网络收集整理
 payload:
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
@@ -12,6 +12,9 @@ payload:
   - DOMAIN-KEYWORD,WebTorrent Helper
   - DOMAIN-KEYWORD,WebTorrent
   - DOMAIN-KEYWORD,BitComet
+  - DOMAIN-KEYWORD,alicdn
+  - DOMAIN-KEYWORD,alipay
+  - DOMAIN-KEYWORD,taobao
   - DOMAIN-SUFFIX,BitComet
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
@@ -63,8 +66,8 @@ payload:
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,oss.eple1.top
-  - DOMAIN-SUFFIX,cn,DIRECT
-  - DOMAIN-KEYWORD,-cn,DIRECT
+  - DOMAIN-SUFFIX,cn
+  - DOMAIN-KEYWORD,-cn
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,dxmqtt.doordu.com
   - DOMAIN-SUFFIX,authy.com
