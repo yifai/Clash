@@ -124,7 +124,7 @@ payload:
   - DOMAIN-SUFFIX,dragonfly.fun
   - DOMAIN-SUFFIX,yowindow.ru
   - DOMAIN-SUFFIX,yowindow.com
-  #- DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,yhzb9999.com
   #- DOMAIN-SUFFIX,
   
   - DOMAIN-SUFFIX,getui.com
