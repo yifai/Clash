@@ -12,22 +12,22 @@
 
 ## 参考/引用资源（不分先后顺序），感谢各位大佬的无私分享。
 
-  https://www.jamesdailylife.com/rule-proxy-provider
+  [@jamesdailylife](https://www.jamesdailylife.com/rule-proxy-provider)
 
-  https://github.com/DivineEngine/Profiles/tree/master
+  [@DivineEngine]9https://github.com/DivineEngine/Profiles/tree/master)
 
-  https://github.com/ACL4SSR/ACL4SSR/tree/master
+  [@ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
   
-  https://github.com/Semporia
+  [@Semporia](https://github.com/Semporia)
 
-  https://github.com/helmiau/clashrules
+  [@helmiau](https://github.com/helmiau/clashrules)
 
-  https://github.com/Loyalsoldier/clash-rules
+  [@Loyalsoldier](https://github.com/Loyalsoldier/clash-rules)
 
-  https://gist.github.com/ricky9w/31fffc1b6eadadba2603f323dc92bebf
+  [@ricky9w](https://gist.github.com/ricky9w/31fffc1b6eadadba2603f323dc92bebf)
 
-  https://github.com/Dreamacro/clash/wiki/configuration#proxy-groups
+  [@Dreamacro](https://github.com/Dreamacro/clash/wiki/configuration#proxy-groups)
   
-  https://github.com/justdoiting/clash-rule
+  [@justdoiting](https://github.com/justdoiting/clash-rule)
 
-  https://github.com/blackmatrix7/ios_rule_script
+  [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
