@@ -14,7 +14,7 @@
 
   [@jamesdailylife](https://www.jamesdailylife.com/rule-proxy-provider)
 
-  [@DivineEngine]9https://github.com/DivineEngine/Profiles/tree/master)
+  [@DivineEngine]https://github.com/DivineEngine/Profiles/tree/master)
 
   [@ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
   
