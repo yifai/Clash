@@ -125,7 +125,7 @@ payload:
   - DOMAIN-SUFFIX,yowindow.ru
   - DOMAIN-SUFFIX,yowindow.com
   - DOMAIN-SUFFIX,yhzb9999.com
-  #- DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,daxiaamu.com
   
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
