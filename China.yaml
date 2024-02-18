@@ -127,10 +127,12 @@ payload:
   - DOMAIN-SUFFIX,daxiaamu.com
   - DOMAIN,minipay.gdwxyf.com
   - DOMAIN-SUFFIX,gdwxyf.com
-
   - DOMAIN-SUFFIX,51pos.com
   - DOMAIN-SUFFIX,sf-pay.com
+  - DOMAIN-SUFFIX,118pan.com
+  - DOMAIN-SUFFIX,kejishou.com
   - DOMAIN,ed9a3d8.vvpgwg.xyz
+  
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN,analytics.strava.com
