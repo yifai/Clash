@@ -1,6 +1,5 @@
 # # > Reject  网络收集整理
-payload:
-  
+payload:  
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
@@ -287,8 +286,6 @@ payload:
   - DOMAIN-SUFFIX,keyrun.cn
   - DOMAIN-SUFFIX,kmd365.com
   - DOMAIN-SUFFIX,krux.net
-  - DOMAIN-SUFFIX,lnk0.com
-  - DOMAIN-SUFFIX,lnk8.cn
   - DOMAIN-SUFFIX,localytics.com
   - DOMAIN-SUFFIX,lomark.cn
   - DOMAIN-SUFFIX,lotuseed.com
