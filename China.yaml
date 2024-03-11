@@ -123,6 +123,7 @@ payload:
   - DOMAIN-SUFFIX,wnflb2023.com
   - DOMAIN-SUFFIX,zybwhsb.com
   - DOMAIN-SUFFIX,qiyuesuo.com
+  - DOMAIN,bailingual.marmot-cloud.com
   #- DOMAIN-SUFFIX,
   
   - DOMAIN-SUFFIX,getui.com
