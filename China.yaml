@@ -127,6 +127,11 @@ payload:
   - DOMAIN-SUFFIX,hunbei.com
   - DOMAIN-SUFFIX,hiecheimaetu.com
   - DOMAIN-SUFFIX,e-sscard.com
+  - DOMAIN-SUFFIX,chinaums.com
+  - DOMAIN-SUFFIX,e-sscard.com
+  - DOMAIN,bailingual.marmot-cloud.com,DIRECT
+  - DOMAIN-SUFFIX,gdrcu.com
+  - DOMAIN-SUFFIX,75510010.com
   #- DOMAIN-SUFFIX,
   
   - DOMAIN-SUFFIX,getui.com
