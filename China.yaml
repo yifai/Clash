@@ -133,7 +133,8 @@ payload:
   - DOMAIN-SUFFIX,gdrcu.com
   - DOMAIN-SUFFIX,75510010.com
   - DOMAIN-SUFFIX,lnk0.com
-  #- DOMAIN-SUFFIX
+  - DOMAIN-SUFFIX,pa18.com
+  #- DOMAIN-SUFFIX,laip-iopc-scan-prd.pa18.com
   
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
