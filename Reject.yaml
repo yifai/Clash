@@ -381,7 +381,7 @@ payload:
   - DOMAIN-SUFFIX,talkingdata.net
   - DOMAIN-SUFFIX,tansuotv.com
   - DOMAIN-SUFFIX,tanv.com
-  - DOMAIN-SUFFIX,tanx.com
+  #- DOMAIN-SUFFIX,tanx.com
   - DOMAIN-SUFFIX,tapjoy.cn
   - DOMAIN-SUFFIX,th7.cn
   - DOMAIN-SUFFIX,thoughtleadr.com
@@ -1607,7 +1607,7 @@ payload:
   - DOMAIN-SUFFIX,analytics.ganji.com
   - DOMAIN-SUFFIX,api-deal.kechenggezi.com
   - DOMAIN-SUFFIX,api-z.weidian.com
-  - DOMAIN-SUFFIX,app-monitor.ele.me
+  #- DOMAIN-SUFFIX,app-monitor.ele.me
   - DOMAIN-SUFFIX,bat.bing.com
   - DOMAIN-SUFFIX,bd1.52che.com
   - DOMAIN-SUFFIX,bd2.52che.com
@@ -1620,7 +1620,7 @@ payload:
   - DOMAIN-SUFFIX,click.ganji.com
   - DOMAIN-SUFFIX,click.tianya.cn
   - DOMAIN-SUFFIX,click.tianyaui.cn
-  - DOMAIN-SUFFIX,client-api.ele.me
+  #- DOMAIN-SUFFIX,client-api.ele.me
   - DOMAIN-SUFFIX,collector.githubapp.com
   - DOMAIN-SUFFIX,counter.csdn.net
   - DOMAIN-SUFFIX,d0.xcar.com.cn
@@ -1633,7 +1633,7 @@ payload:
   - DOMAIN-SUFFIX,exp.17wo.cn
   - DOMAIN-SUFFIX,game.51yund.com
   - DOMAIN-SUFFIX,ganjituiguang.ganji.com
-  - DOMAIN-SUFFIX,grand.ele.me
+  #- DOMAIN-SUFFIX,grand.ele.me
   - DOMAIN-SUFFIX,hosting.miarroba.info
   - DOMAIN-SUFFIX,iadsdk.apple.com
   - DOMAIN-SUFFIX,image.gentags.com
@@ -1642,10 +1642,10 @@ payload:
   - DOMAIN-SUFFIX,m.12306media.com
   - DOMAIN-SUFFIX,media.cheshi-img.com
   - DOMAIN-SUFFIX,media.cheshi.com
-  - DOMAIN-SUFFIX,mobile-pubt.ele.me
+  #- DOMAIN-SUFFIX,mobile-pubt.ele.me
   - DOMAIN-SUFFIX,mobileads.msn.com
   - DOMAIN-SUFFIX,n.cosbot.cn
-  - DOMAIN-SUFFIX,newton-api.ele.me
+  #- DOMAIN-SUFFIX,newton-api.ele.me
   - DOMAIN-SUFFIX,ozone.10jqka.com.cn
   - DOMAIN-SUFFIX,pdl.gionee.com
   - DOMAIN-SUFFIX,pica-juicy.picacomic.com
