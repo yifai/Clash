@@ -700,14 +700,14 @@ payload:
   - DOMAIN,smtp.gmail.com
   
   #  谷歌FCM,可直连
-  - DOMAIN,alt1-mtalk.google.com
-  - DOMAIN,alt2-mtalk.google.com
-  - DOMAIN,alt3-mtalk.google.com
-  - DOMAIN,alt4-mtalk.google.com
-  - DOMAIN,alt5-mtalk.google.com
-  - DOMAIN,alt6-mtalk.google.com
-  - DOMAIN,alt7-mtalk.google.com
-  - DOMAIN,alt8-mtalk.google.com
+  #- DOMAIN,alt1-mtalk.google.com
+  #- DOMAIN,alt2-mtalk.google.com
+  #- DOMAIN,alt3-mtalk.google.com
+  #- DOMAIN,alt4-mtalk.google.com
+  #- DOMAIN,alt5-mtalk.google.com
+  #- DOMAIN,alt6-mtalk.google.com
+  #- DOMAIN,alt7-mtalk.google.com
+  #- DOMAIN,alt8-mtalk.google.com
   - DOMAIN,mtalk.google.com
   - IP-CIDR,64.233.177.188/32,no-resolve
   - IP-CIDR,64.233.186.188/32,no-resolve
@@ -723,6 +723,24 @@ payload:
   - IP-CIDR,74.125.203.188/32,no-resolve
   - IP-CIDR,74.125.204.188/32,no-resolve
   - IP-CIDR,74.125.206.188/32,no-resolve
+  - IP-CIDR,120.232.181.162/32,no-resolve
+  - IP-CIDR,120.241.147.226/32,no-resolve
+  - IP-CIDR,120.253.253.226/32,no-resolve
+  - IP-CIDR,120.253.255.162/32,no-resolve
+  - IP-CIDR,120.253.255.34/32,no-resolve
+  - IP-CIDR,120.253.255.98/32,no-resolve
+  - IP-CIDR,180.163.150.162/32,no-resolve
+  - IP-CIDR,180.163.150.34/32,no-resolve
+  - IP-CIDR,180.163.151.162/32,no-resolve
+  - IP-CIDR,180.163.151.34/32,no-resolve
+  - IP-CIDR,203.208.39.0/24,no-resolve
+  - IP-CIDR,203.208.40.0/24,no-resolve
+  - IP-CIDR,203.208.41.0/24,no-resolve
+  - IP-CIDR,203.208.43.0/24,no-resolve
+  - IP-CIDR,203.208.50.0/24,no-resolve
+  - IP-CIDR,220.181.174.162/32,no-resolve
+  - IP-CIDR,220.181.174.226/32,no-resolve
+  - IP-CIDR,220.181.174.34/32,no-resolve
   - IP-CIDR,108.177.125.188/32,no-resolve
   - IP-CIDR,142.250.4.188/32,no-resolve
   - IP-CIDR,142.250.10.188/32,no-resolve
