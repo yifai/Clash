@@ -134,13 +134,13 @@ payload:
   - DOMAIN-SUFFIX,pa18.com
   - DOMAIN-SUFFIX,wwentua.com
   - DOMAIN,bailingual.marmot-cloud.com
-  - DOMAIN,s-83.lanzog.com
+  - DOMAIN-SUFFIX,lanzog.com
   - DOMAIN-SUFFIX,zntx.cc
-  - DOMAIN,cloudservice7.kingsoft-office-service.com
   - DOMAIN-SUFFIX,kingsoft-office-service.com
   - DOMAIN-SUFFIX,taisantech.com
   - DOMAIN-SUFFIX,h5.xiaoeknow.com
   - DOMAIN-SUFFIX,ylxweb.com
+  - DOMAIN-SUFFIX,mhpin.com
   #- DOMAIN-SUFFIX,
   #- DOMAIN-SUFFIX,
   
