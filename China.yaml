@@ -12,15 +12,12 @@ payload:
   - DOMAIN-SUFFIX,whois.aizhan.com
   - DOMAIN-SUFFIX,aizhan.com
   - DOMAIN-SUFFIX,lejuliang.com
-  - DOMAIN-SUFFIX,fp.unicompayment.com
   - DOMAIN-SUFFIX,unicompayment.com
   - DOMAIN-SUFFIX,bdcloudapi.com
-  - DOMAIN-SUFFIX,gwgp-cekvddtwkob.n.bdcloudapi.com
   - DOMAIN-SUFFIX,changyoyo.com
-  - DOMAIN-SUFFIX,bsy.resstatic.tcdnos.com
   - DOMAIN-SUFFIX,resstatic.tcdnos.com
   - DOMAIN-SUFFIX,tcdnos.com
-  - DOMAIN-SUFFIX,jvod.300hu.com
+  - DOMAIN-SUFFIX,300hu.com
   - DOMAIN-SUFFIX,dnsdaquan.com
   - DOMAIN-SUFFIX,nstool.haowu.link
   - DOMAIN-SUFFIX,yqkk.link
@@ -30,8 +27,6 @@ payload:
   - DOMAIN-SUFFIX,umini.shujupie.com
   - DOMAIN-SUFFIX,shujupie.com
   - DOMAIN-SUFFIX,api-fc.dutils.com
-  - DOMAIN-SUFFIX,doordu.com
-  - DOMAIN-SUFFIX,doordu.sobot.com
   - DOMAIN-SUFFIX,zhidao.3533.com
   - DOMAIN-SUFFIX,leisu.com
   - DOMAIN-SUFFIX,gzonline.gov.cn
@@ -142,7 +137,7 @@ payload:
   - DOMAIN-SUFFIX,ylxweb.com
   - DOMAIN-SUFFIX,mhpin.com
   - DOMAIN-SUFFIX,wnflb2023.com
-  #- DOMAIN-SUFFIX,
+  - DOMAIN-SUFFIX,ampproject.org
   #- DOMAIN-SUFFIX,
   
   - DOMAIN-SUFFIX,getui.com
