@@ -28,6 +28,7 @@ payload:
   - DOMAIN,safebrowsing.urlsec.qq.com
   # > 
   - DOMAIN,whois.pconline.com.cn
+  - DOMAIN,dxmqtt.doordu.com
   - DOMAIN-SUFFIX,pinyin.sogou.com
   - DOMAIN,appcenter.ms
   - DOMAIN,app-meaturement.com
