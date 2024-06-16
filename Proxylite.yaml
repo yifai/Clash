@@ -740,7 +740,8 @@ payload:
   - DOMAIN-SUFFIX,cmtrafmaster.club
   - DOMAIN-SUFFIX,time.android.com
   - DOMAIN-SUFFIX,wasabisys.com
-  - DOMAIN-SUFFIX,s3.eu-central-2.wasabisys.com
+  - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,zoho.com
   - DOMAIN-SUFFIX,speedtest.com
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,onetrust.com
