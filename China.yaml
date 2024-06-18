@@ -138,6 +138,7 @@ payload:
   - DOMAIN-SUFFIX,mhpin.com
   - DOMAIN-SUFFIX,wnflb2023.com
   - DOMAIN-SUFFIX,ampproject.org
+  - DOMAIN-SUFFIX,doordu.com
   #- DOMAIN-SUFFIX,
   
   - DOMAIN-SUFFIX,getui.com
