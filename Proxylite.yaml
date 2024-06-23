@@ -325,11 +325,11 @@ payload:
   - DOMAIN-SUFFIX,wasabisys.com
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,zoho.com
+  - DOMAIN-SUFFIX,aol.com
   - DOMAIN-SUFFIX,speedtest.com
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,onetrust.com
   - DOMAIN-SUFFIX,52.mk
-  - DOMAIN-SUFFIX,api.nxtlnodes.com
   - DOMAIN-SUFFIX,nxtlnodes.com
   - DOMAIN-SUFFIX,mxplayer.in
   - DOMAIN-SUFFIX,mxplay.com
