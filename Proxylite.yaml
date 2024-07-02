@@ -119,8 +119,8 @@ payload:
   - DOMAIN-SUFFIX,fb.me
   - DOMAIN-SUFFIX,fbcdn.com
   - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fbsbx.com
   
-  ######
   #- DOMAIN-SUFFIX,achat-followers-instagram.com
   #- DOMAIN-SUFFIX,acheter-followers-instagram.com
   #- DOMAIN-SUFFIX,acheterdesfollowersinstagram.com
@@ -214,6 +214,7 @@ payload:
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,whatsapp
   - IP-CIDR,108.168.176.192/26,no-resolve
   - IP-CIDR,108.168.177.0/27,no-resolve
   - IP-CIDR,108.168.180.96/27,no-resolve
