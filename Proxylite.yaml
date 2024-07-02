@@ -290,6 +290,8 @@ payload:
   - DOMAIN-SUFFIX,rawgithub.com
   - DOMAIN-SUFFIX,thegithubshop.com
   - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
+  - DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
 
   # MyList & Other
   - DOMAIN-SUFFIX,1password.com
