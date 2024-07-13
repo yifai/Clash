@@ -29,7 +29,7 @@ payload:
   - DOMAIN-SUFFIX,pagead.google.com
   - DOMAIN-SUFFIX,pagead.l.google.com
   
-  #反诈
+  #屏蔽追踪
   - DOMAIN,miav-cse.avlyun.com
   - DOMAIN,a0.app.xiaomi.com  #小米云备份异常请注释或删除这行
   - DOMAIN,miui-fxcse.avlyun.com
@@ -38,14 +38,12 @@ payload:
   - DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
   - DOMAIN,beacon-api.aliyuncs.com
   - DOMAIN,mpush-api.aliyun.com
-  
-  # > Tencent
   - DOMAIN,safebrowsing.urlsec.qq.com
+  
   # > 
   - DOMAIN,whois.pconline.com.cn
-  - DOMAIN,shouji.sougou.com
   - DOMAIN,appcenter.ms
-  - DOMAIN,app-meaturement.com
+  #- DOMAIN,app-meaturement.com
   - DOMAIN,firebase.io
   - DOMAIN,crashlytics.com
   - DOMAIN,zhanzhang.toutiao.com
@@ -58,6 +56,10 @@ payload:
   - DOMAIN-SUFFIX,syndication.twitter.com
   - DOMAIN-SUFFIX,tellapart.com
   - DOMAIN-SUFFIX,urls.api.twitter.com
+  - DOMAIN-SUFFIX,shouji.sougou.com
+  #- DOMAIN,ifs.tanx.com
+  - DOMAIN,ef-dongfeng.tanx.com
+  # > 
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
   - DOMAIN-KEYWORD,adsage
@@ -86,7 +88,7 @@ payload:
   - DOMAIN-KEYWORD,wlmonitor
   - DOMAIN-KEYWORD,zjtoolbar
   - DOMAIN-SUFFIX,admob.com
-  
+  # > IP-CIDR
   - IP-CIDR,117.177.248.17/32,no-resolve
   - IP-CIDR,117.177.248.41/32,no-resolve
   - IP-CIDR,223.87.176.139/32,no-resolve
@@ -167,8 +169,7 @@ payload:
   - IP-CIDR,220.115.251.25/32,no-resolve
   - IP-CIDR,222.73.156.235/32,no-resolve
   
-  
-  #以下规则来自 AWAvenue 秋风广告规则，个人有修改
+  #以下规则来自 AWAvenue 秋风广告规则，个人有修改（精简）
   - DOMAIN,1010pic.com
   - DOMAIN,8le8le.com
   - DOMAIN,aaid.umeng.com
@@ -211,9 +212,6 @@ payload:
   - DOMAIN,ads-api.tiktok.com
   - DOMAIN,ads-api.twitter.com
   - DOMAIN,ads-img-qc.xhscdn.com
-  - DOMAIN,ads-jp.tiktok.com
-  - DOMAIN,ads-sg.tiktok.com
-  - DOMAIN,ads-us.tiktok.com
   - DOMAIN,ads-video-al.xhscdn.com
   - DOMAIN,ads-video-qc.xhscdn.com
   - DOMAIN,ads.95516.com
@@ -376,7 +374,6 @@ payload:
   - DOMAIN,dxp.baidu.com
   - DOMAIN,e.ad.xiaomi.com
   - DOMAIN,eclick.baidu.com
-  - DOMAIN,ef-dongfeng.tanx.com
   - DOMAIN,entry.baidu.com
   - DOMAIN,errlog.umeng.com
   - DOMAIN,errnewlog.umeng.com
@@ -427,7 +424,6 @@ payload:
   - DOMAIN,iadsdk.apple.com
   - DOMAIN,iadworkbench.apple.com
   - DOMAIN,ifacelog.iqiyi.com
-  - DOMAIN,ifs.tanx.com
   - DOMAIN,image-ad.sm.cn
   - DOMAIN,imageplus.baidu.com
   - DOMAIN,images.pinduoduo.com
@@ -742,7 +738,6 @@ payload:
   - DOMAIN,widgets.pinterest.com
   - DOMAIN,win.gdt.qq.com
   - DOMAIN,wn.x.jd.com
-  - DOMAIN,ws-keyboard.shouji.sogou.com
   - DOMAIN,ws.sj.qq.com
   - DOMAIN,www42.zskwai.com
   - DOMAIN,wxa.wxs.qq.com
@@ -764,18 +759,18 @@ payload:
   - DOMAIN,youku-acs.m.taobao.com
   - DOMAIN,youxi.kugou.com
   - DOMAIN,zeus.ad.xiaomi.com
-  - DOMAIN,*.*.shouji.sogou.com
-  - DOMAIN,*.[a-zA-Z0-9.-]skwai.com
-  - DOMAIN,*.a.market.xiaomi.com
-  - DOMAIN,*.data.hicloud.com
-  - DOMAIN,*.log.aliyuncs.com
-  - DOMAIN,*.shouji.sogou.com
-  - DOMAIN,[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com
-  - DOMAIN,[a-zA-Z0-9.-]*-ad.sm.cn
-  - DOMAIN,[a-zA-Z0-9.-]*-ad.video.yximgs.com
-  - DOMAIN,[a-zA-Z0-9.-]*-ad.wtzw.com
-  - DOMAIN,[a-zA-Z0-9.-]*-be-pack-sign.pglstatp-toutiao.com
-  - DOMAIN,[a-zA-Z0-9.-]*-lm.adkwai.com
-  - DOMAIN,[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*.zijieapi.com
-  - DOMAIN,[a-zA-Z0-9.-]*-normal.zijieapi.com
-  - DOMAIN,cloudinject[a-zA-Z0-9.-]*-dev.*.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*.amazonaws.com
+  - DOMAIN,"*.*.shouji.sogou.com"
+  - DOMAIN,"*.[a-zA-Z0-9.-]skwai.com"
+  - DOMAIN,"*.a.market.xiaomi.com"
+  - DOMAIN,"*.data.hicloud.com"
+  - DOMAIN,"*.log.aliyuncs.com"
+  - DOMAIN,"*.shouji.sogou.com"
+  - DOMAIN,""[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com"
+  - DOMAIN,"[a-zA-Z0-9.-]*-ad.sm.cn"
+  - DOMAIN,"[a-zA-Z0-9.-]*-ad.video.yximgs.com"
+  - DOMAIN,"[a-zA-Z0-9.-]*-ad.wtzw.com"
+  - DOMAIN,"[a-zA-Z0-9.-]*-be-pack-sign.pglstatp-toutiao.com"
+  - DOMAIN,"[a-zA-Z0-9.-]*-lm.adkwai.com"
+  - DOMAIN,"[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*.zijieapi.com"
+  - DOMAIN,"[a-zA-Z0-9.-]*-normal.zijieapi.com"
+  - DOMAIN,"cloudinject[a-zA-Z0-9.-]*-dev.*.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*.amazonaws.com"
