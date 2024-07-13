@@ -139,7 +139,14 @@ payload:
   - DOMAIN-SUFFIX,wnflb2023.com
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,doordu.com
+  - DOMAIN-SUFFIX,umva-china.com
+  - DOMAIN-SUFFIX,ifs.tanx.com
   #- DOMAIN-SUFFIX,
+  
+  - PROCESS-NAME,org.localsend.localsend_app
+  - PROCESS-NAME,localsend
+  - PROCESS-NAME,com.eg.android.AlipayGphone
+  #- PROCESS-NAME,
   
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
