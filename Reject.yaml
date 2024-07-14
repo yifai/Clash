@@ -42,7 +42,7 @@ payload:
   - DOMAIN,safebrowsing.urlsec.qq.com
   # > 
   - DOMAIN,whois.pconline.com.cn
-  - DOMAIN,shouji.sogou.com
+  - DOMAIN-SUFFIX,shouji.sogou.com
   - DOMAIN,appcenter.ms
   #- DOMAIN,app-meaturement.com
   - DOMAIN,firebase.io
