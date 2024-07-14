@@ -749,4 +749,4 @@ payload:
   - DOMAIN,'[a-zA-Z0-9.-]*-lm.adkwai.com'
   - DOMAIN,'[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*.zijieapi.com'
   - DOMAIN,'[a-zA-Z0-9.-]*-normal.zijieapi.com'
-  - DOMAIN,'cloudinject[a-zA-Z0-9.-]*-dev.*.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*.amazonaws.com'
+  #- DOMAIN,'cloudinject[a-zA-Z0-9.-]*-dev.*.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*.amazonaws.com'
