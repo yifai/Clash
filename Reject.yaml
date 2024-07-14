@@ -1,4 +1,4 @@
-#屏蔽追踪，去广告，大分部分规则来自 AWAvenue 秋风广告规则，有修改，项目地址https://github.com/TG-Twilight/AWAvenue-Ads-Rule
+#屏蔽追踪，去广告
 
 payload:
   - DOMAIN,safebrowsing.googleapis.com
