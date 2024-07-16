@@ -1,26 +1,26 @@
 ## NAME:AppleUpdate
 ## 屏蔽苹果系统更新，OpenClash或Stash使用
 payload:
-  - DOMAIN,ns.itunes.apple.com,REJECT
-  - DOMAIN,appldnld.apple.com,REJECT
-  - DOMAIN,mesu.apple.com,REJECT
-  - DOMAIN,xp.apple.com,REJECT
-  - DOMAIN,gdmf.apple.com,REJECT
-  ###
-  - DOMAIN,updates-http.cdn-apple.com,REJECT
-  - DOMAIN,updates.cdn-apple.com,REJECT
-  - DOMAIN-SUFFIX,appldnld-lb.apple.com.akadns.net,REJECT
-  - DOMAIN-SUFFIX,appldnld.apple.com,REJECT
-  - DOMAIN-SUFFIX,appldnld.apple.com.akadns.net,REJECT
-  - DOMAIN-SUFFIX,appldnld.g.aaplimg.com,REJECT
-  - DOMAIN-SUFFIX,gdmf.apple.com,REJECT
-  - DOMAIN-SUFFIX,gdmf.apple.com.akadns.net,REJECT
-  - DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net,REJECT
-  - DOMAIN-SUFFIX,mesu-cdn.origin-apple.com.akadns.net,REJECT
-  - DOMAIN-SUFFIX,mesu.apple.com,REJECT
-  - DOMAIN-SUFFIX,mesu.g.aaplimg.com,REJECT
-  - DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net,REJECT
-  - DOMAIN-SUFFIX,ocsp.apple.com,REJECT
-  - DOMAIN-SUFFIX,ocsp.g.aaplimg.com,REJECT
-  - DOMAIN-SUFFIX,gg.apple.com,REJECT
-  - DOMAIN-SUFFIX,swscan.apple.com,REJECT
+  - DOMAIN,ns.itunes.apple.com
+  - DOMAIN,appldnld.apple.com
+  - DOMAIN,mesu.apple.com
+  - DOMAIN,xp.apple.com
+  - DOMAIN,gdmf.apple.com
+  ##以下域名或无需使用
+  - DOMAIN,updates-http.cdn-apple.com
+  - DOMAIN,updates.cdn-apple.com
+  - DOMAIN-SUFFIX,appldnld-lb.apple.com.akadns.net
+  - DOMAIN-SUFFIX,appldnld.apple.com
+  - DOMAIN-SUFFIX,appldnld.apple.com.akadns.net
+  - DOMAIN-SUFFIX,appldnld.g.aaplimg.com
+  - DOMAIN-SUFFIX,gdmf.apple.com
+  - DOMAIN-SUFFIX,gdmf.apple.com.akadns.net
+  - DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
+  - DOMAIN-SUFFIX,mesu-cdn.origin-apple.com.akadns.net
+  - DOMAIN-SUFFIX,mesu.apple.com
+  - DOMAIN-SUFFIX,mesu.g.aaplimg.com
+  - DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
+  - DOMAIN-SUFFIX,ocsp.apple.com
+  - DOMAIN-SUFFIX,ocsp.g.aaplimg.com
+  - DOMAIN-SUFFIX,gg.apple.com
+  - DOMAIN-SUFFIX,swscan.apple.com
