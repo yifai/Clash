@@ -57,6 +57,10 @@ payload:
   - DOMAIN-SUFFIX,syndication.twitter.com
   - DOMAIN-SUFFIX,tellapart.com
   - DOMAIN-SUFFIX,urls.api.twitter.com
+  - DOMAIN,conn-service-in-03.allawnos.com
+  - DOMAIN,conn-service-in-04.allawnos.com
+  - DOMAIN,conn-service-in-05.allawnos.com
+  - DOMAIN,icosa-service-in.allawnos.com
   
   - IP-CIDR,117.177.248.17/32,no-resolve
   - IP-CIDR,117.177.248.41/32,no-resolve
