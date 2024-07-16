@@ -61,6 +61,12 @@ payload:
   - DOMAIN,conn-service-in-04.allawnos.com
   - DOMAIN,conn-service-in-05.allawnos.com
   - DOMAIN,icosa-service-in.allawnos.com
+  - DOMAIN,hya.comp.360os.com
+  - DOMAIN,hye.comp.360os.com
+  - DOMAIN,hyt.comp.360os.com
+  - DOMAIN,c.sayhi.360.cn
+  - DOMAIN,p.s.360.cn
+
   
   - IP-CIDR,117.177.248.17/32,no-resolve
   - IP-CIDR,117.177.248.41/32,no-resolve
