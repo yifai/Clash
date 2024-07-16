@@ -49,7 +49,7 @@ payload:
   - DOMAIN,dm.toutiao.com
   - DOMAIN,ad.toutiao.com
   - DOMAIN,log-api.pangolin-sdk-toutiao-b.com
-  - DOMAIN,'*.adkwai.com'
+  #- DOMAIN,'*.adkwai.com'
   - DOMAIN,p3-tt.byteimg.com
   - DOMAIN,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
