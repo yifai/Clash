@@ -1,7 +1,9 @@
-#NAME：REJECT，屏蔽追踪、去广告
+#屏蔽追踪，去广告，大分部分规则来自 AWAvenue 秋风广告规则，有修改，项目地址https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 
 payload:
   - DOMAIN,safebrowsing.googleapis.com
+  - DOMAIN,pagead2.googleadservices.com
+  - DOMAIN,pagead2.googlesyndication.com
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
   - DOMAIN,adsense.google.cn
@@ -9,18 +11,19 @@ payload:
   - DOMAIN,adservice.google.cn
   - DOMAIN,crashlyticsreports-pa.googleapis.com
   - DOMAIN,firebaselogging-pa.googleapis.com
+  - DOMAIN,afs.googlesyndication.com
   - DOMAIN,analytics.google.com
   - DOMAIN,afd.l.google.com
   - DOMAIN,badad.googleplex.com
   - DOMAIN,csi.gstatic.com
-  - DOMAIN-SUFFIX,doubleclick.com
-  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN,doubleclick.com
+  - DOMAIN,doubleclick.net
   - DOMAIN,google-analytics.com
-  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN,googleadservices.com
   - DOMAIN,googleadsserving.cn
   - DOMAIN,googlecommerce.com
-  - DOMAIN-SUFFIX,googlesyndication.com
-  - DOMAIN-SUFFIX,mobileads.google.com
+  - DOMAIN,googlesyndication.com
+  - DOMAIN,mobileads.google.com
   - DOMAIN,pagead-tpc.l.google.com
   - DOMAIN,pagead.google.com
   - DOMAIN,pagead.l.google.com
@@ -39,39 +42,13 @@ payload:
   - DOMAIN,safebrowsing.urlsec.qq.com
   # > 
   - DOMAIN,whois.pconline.com.cn
-  - DOMAIN,shouji.sogou.com
-  - DOMAIN,pinyin.sogou.com
+  - DOMAIN-SUFFIX,shouji.sogou.com
   - DOMAIN,appcenter.ms
   #- DOMAIN,app-meaturement.com
   - DOMAIN,firebase.io
   - DOMAIN,crashlytics.com
   - DOMAIN,zhanzhang.toutiao.com
-  - DOMAIN,dm.toutiao.com
-  - DOMAIN,ad.toutiao.com
-  - DOMAIN,log-api.pangolin-sdk-toutiao-b.com
-  #- DOMAIN,'*.adkwai.com'
-  #- DOMAIN,p3-tt.byteimg.com
-  - DOMAIN,pangolin-sdk-toutiao-b.com
-  - DOMAIN-SUFFIX,pglstatp-toutiao.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao1.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao2.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao3.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao4.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao5.com
-  - DOMAIN,ad.xiaomi.com
-  - DOMAIN,ad.ximalaya.com
-  - DOMAIN,adx.ads.heytapmobi.com
-  - DOMAIN,adx.ads.oppomobile.com
-  - DOMAIN,adxlog-adnet.vivo.com.cn
-  - DOMAIN,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
-  - DOMAIN,conn-service-in-03.allawnos.com
-  - DOMAIN,conn-service-in-04.allawnos.com
-  - DOMAIN,conn-service-in-05.allawnos.com
-  - DOMAIN,icosa-service-in.allawnos.com
-  ####
   - DOMAIN-SUFFIX,staticxx.facebook.com
-  - DOMAIN-SUFFIX,an.facebook.com
   - DOMAIN-SUFFIX,ads.twitter.com
   - DOMAIN-SUFFIX,analytics.twitter.com
   - DOMAIN-SUFFIX,p.twitter.com
@@ -80,50 +57,7 @@ payload:
   - DOMAIN-SUFFIX,syndication.twitter.com
   - DOMAIN-SUFFIX,tellapart.com
   - DOMAIN-SUFFIX,urls.api.twitter.com
-  - DOMAIN,hya.comp.360os.com
-  - DOMAIN,hye.comp.360os.com
-  - DOMAIN,hyt.comp.360os.com
-  - DOMAIN,c.sayhi.360.cn
-  - DOMAIN,p.s.360.cn
-  - DOMAIN,youxi.kugou.com
-  - DOMAIN,zeus.ad.xiaomi.com
-  - DOMAIN,'*.*.shouji.sogou.com'
-  - DOMAIN,adsfile.bssdlbig.kugou.com
-  - DOMAIN,adsfilebssdlbig.ali.kugou.com
-  - DOMAIN,adsfileretry.service.kugou.com
-  - DOMAIN,adserviceretry.kugou.com
-  ####
-  - DOMAIN-KEYWORD,admarvel
-  - DOMAIN-KEYWORD,admaster
-  - DOMAIN-KEYWORD,adsage
-  - DOMAIN-KEYWORD,adsensor
-  - DOMAIN-KEYWORD,adservice
-  - DOMAIN-KEYWORD,adsmogo
-  - DOMAIN-KEYWORD,adsrvmedia
-  - DOMAIN-KEYWORD,adsserving
-  - DOMAIN-KEYWORD,adsystem
-  - DOMAIN-KEYWORD,adwords
-  - DOMAIN-KEYWORD,analysis
-  - DOMAIN-KEYWORD,applovin
-  - DOMAIN-KEYWORD,appsflyer
-  - DOMAIN-KEYWORD,domob
-  - DOMAIN-KEYWORD,duomeng
-  - DOMAIN-KEYWORD,dwtrack
-  - DOMAIN-KEYWORD,guanggao
-  - DOMAIN-KEYWORD,omgmta
-  - DOMAIN-KEYWORD,omniture
-  - DOMAIN-KEYWORD,openx
-  - DOMAIN-KEYWORD,partnerad
-  - DOMAIN-KEYWORD,pingfore
-  - DOMAIN-KEYWORD,socdm
-  - DOMAIN-KEYWORD,supersonicads
-  - DOMAIN-KEYWORD,usage
-  - DOMAIN-KEYWORD,wlmonitor
-  - DOMAIN-KEYWORD,zjtoolbar
-  - DOMAIN-SUFFIX,admob.com
   
-  #IP-CIDR
-  - IP-CIDR,114.119.160.0/21,no-resolve
   - IP-CIDR,117.177.248.17/32,no-resolve
   - IP-CIDR,117.177.248.41/32,no-resolve
   - IP-CIDR,223.87.176.139/32,no-resolve
@@ -203,3 +137,4 @@ payload:
   - IP-CIDR,211.161.101.110/32,no-resolve
   - IP-CIDR,220.115.251.25/32,no-resolve
   - IP-CIDR,222.73.156.235/32,no-resolve
+  
