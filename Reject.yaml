@@ -1,4 +1,5 @@
 #NAME：REJECT，屏蔽追踪、去广告
+
 payload:
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,ads.google.com
@@ -48,9 +49,7 @@ payload:
   - DOMAIN,dm.toutiao.com
   - DOMAIN,ad.toutiao.com
   - DOMAIN,log-api.pangolin-sdk-toutiao-b.com
-  - DOMAIN,p1-lm.adkwai.com
-  - DOMAIN,p2-lm.adkwai.com
-  - DOMAIN,p3-lm.adkwai.com
+  - DOMAIN,'*.adkwai.com'
   - DOMAIN,p3-tt.byteimg.com
   - DOMAIN,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
@@ -66,14 +65,11 @@ payload:
   - DOMAIN,adx.ads.oppomobile.com
   - DOMAIN,adxlog-adnet.vivo.com.cn
   - DOMAIN,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
-  - DOMAIN,conn-service-cn-03.allawntech.com
-  - DOMAIN,conn-service-cn-04.allawntech.com
-  - DOMAIN,conn-service-cn-05.allawntech.com
   - DOMAIN,conn-service-in-03.allawnos.com
   - DOMAIN,conn-service-in-04.allawnos.com
   - DOMAIN,conn-service-in-05.allawnos.com
   - DOMAIN,icosa-service-in.allawnos.com
-  
+  ####
   - DOMAIN-SUFFIX,staticxx.facebook.com
   - DOMAIN-SUFFIX,an.facebook.com
   - DOMAIN-SUFFIX,ads.twitter.com
