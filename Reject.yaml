@@ -50,7 +50,7 @@ payload:
   - DOMAIN,ad.toutiao.com
   - DOMAIN,log-api.pangolin-sdk-toutiao-b.com
   #- DOMAIN,'*.adkwai.com'
-  - DOMAIN,p3-tt.byteimg.com
+  #- DOMAIN,p3-tt.byteimg.com
   - DOMAIN,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
   - DOMAIN,api-access.pangolin-sdk-toutiao.com
@@ -203,4 +203,3 @@ payload:
   - IP-CIDR,211.161.101.110/32,no-resolve
   - IP-CIDR,220.115.251.25/32,no-resolve
   - IP-CIDR,222.73.156.235/32,no-resolve
-  
