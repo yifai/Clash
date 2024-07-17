@@ -254,6 +254,7 @@ payload:
   # MyList & Other
   - DOMAIN-SUFFIX,mega.co.nz
   - DOMAIN-SUFFIX,mega.io
+  - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,bit.no.com
   - DOMAIN-SUFFIX,btlibrary.me
