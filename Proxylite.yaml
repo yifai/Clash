@@ -33,22 +33,12 @@ payload:
   - IP-CIDR,8.25.196.0/23,no-resolve
   - IP-CIDR,64.63.0.0/18,no-resolve
   - IP-CIDR,69.195.160.0/19,no-resolve
-  - IP-CIDR,91.105.192.0/23,no-resolve
-  - IP-CIDR,91.108.0.0/16,no-resolve
-  - IP-CIDR,91.108.4.0/22,no-resolve
-  - IP-CIDR,91.108.8.0/21,no-resolve
-  - IP-CIDR,91.108.16.0/21,no-resolve
-  - IP-CIDR,91.108.56.0/22,no-resolve
-  - IP-CIDR,95.161.64.0/20,no-resolve
   - IP-CIDR,103.252.112.0/22,no-resolve
   - IP-CIDR,104.244.40.0/23,no-resolve
   - IP-CIDR,104.244.42.0/24,no-resolve
   - IP-CIDR,104.244.44.0/22,no-resolve
   - IP-CIDR,104.244.46.0/23,no-resolve
-  - IP-CIDR,109.239.140.0/24,no-resolve
-  - IP-CIDR,149.154.160.0/20,no-resolve
   - IP-CIDR,185.45.4.0/22,no-resolve
-  - IP-CIDR,185.76.151.0/24,no-resolve
   - IP-CIDR,188.64.224.0/21,no-resolve
   - IP-CIDR,192.133.76.0/22,no-resolve
   - IP-CIDR,199.16.156.0/22,no-resolve
@@ -56,8 +46,6 @@ payload:
   - IP-CIDR,199.96.56.0/23,no-resolve
   - IP-CIDR,202.160.128.0/22,no-resolve
   - IP-CIDR,209.237.192.0/19,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,no-resolve
   - IP-CIDR6,2001:b28:f23c::/47,no-resolve
   - IP-CIDR6,2a0a:f280::/32,no-resolve
@@ -79,6 +67,7 @@ payload:
   - DOMAIN-SUFFIX,telegram.dog
   - DOMAIN-SUFFIX,telegram.me
   - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telegram-web.org
   - DOMAIN-SUFFIX,telegram.space
   - DOMAIN-SUFFIX,telegramdownload.com
   - DOMAIN-SUFFIX,telesco.pe
@@ -87,25 +76,27 @@ payload:
   - DOMAIN-SUFFIX,usercontent.dev
   - DOMAIN-KEYWORD,nicegram
   - DOMAIN-KEYWORD,telegram
-  - IP-CIDR,91.105.192.0/23,no-resolve
-  - IP-CIDR,91.108.0.0/16,no-resolve
-  - IP-CIDR,95.161.64.0/20,no-resolve
-  - IP-CIDR,91.108.4.0/22,no-resolve
-  - IP-CIDR,91.108.8.0/21,no-resolve
+  #DC5,新加坡
   - IP-CIDR,91.108.16.0/21,no-resolve
-  - IP-CIDR,91.108.56.0/22,no-resolve
-  - IP-CIDR,109.239.140.0/24,no-resolve
-  - IP-CIDR,149.154.160.0/20,no-resolve
-  - IP-CIDR,185.76.151.0/24,no-resolve
-  - IP-CIDR,2001:67c:4e8::/48,no-resolve
-  - IP-CIDR,2001:b28:f23c::/47,no-resolve
-  - IP-CIDR,2001:b28:f23f::/48,no-resolve
-  - IP-CIDR,2a0a:f280::/32,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR,91.108.56.0/23,no-resolve
+  - IP-CIDR,149.154.168.0/22,no-resolve
+  - IP-CIDR6,2001:b28:f23c::/48,no-resolve
+  #DC1,美国
+  - IP-CIDR,91.108.12.0/22,no-resolve
+  - IP-CIDR,149.154.172.0/22,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,no-resolve
-  - IP-CIDR6,2001:b28:f23c::/47,no-resolve
-  - IP-CIDR6,2a0a:f280::/32,no-resolve
+  #DC2和DC4,欧洲
+  - IP-CIDR,5.28.192.0/18,no-resolve
+  - IP-CIDR,91.105.192.0/23,no-resolve
+  - IP-CIDR,91.108.4.0/22,no-resolve
+  - IP-CIDR,91.108.8.0/22,no-resolve
+  - IP-CIDR,91.108.56.0/22,no-resolve
+  - IP-CIDR,95.161.64.0/20,no-resolve
+  - IP-CIDR,109.239.140.0/24,no-resolve
+  - IP-CIDR,149.154.160.0/21,no-resolve
+  - IP-CIDR,185.76.151.0/24,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR6,2a0a:f280:203::/48,no-resolve
   - PROCESS-NAME,nekox.messenger
   - PROCESS-NAME,org.telegram.messenger
   - PROCESS-NAME,telegram.exe
@@ -127,21 +118,14 @@ payload:
   - DOMAIN-SUFFIX,gfacecbook.com
   - DOMAIN-SUFFIX,groups.com
   - DOMAIN-SUFFIX,hacklang.org
-  
-  #- DOMAIN-SUFFIX,achat-followers-instagram.com
-  #- DOMAIN-SUFFIX,acheter-followers-instagram.com
-  #- DOMAIN-SUFFIX,acheterdesfollowersinstagram.com
-  #- DOMAIN-SUFFIX,acheterfollowersinstagram.com
-  #- DOMAIN-SUFFIX,bookstagram.com
-  #- DOMAIN-SUFFIX,carstagram.com
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,chickstagram.com
   - DOMAIN-SUFFIX,ig.me
   - DOMAIN-SUFFIX,igcdn.com
   - DOMAIN-SUFFIX,igsonar.com
   - DOMAIN-SUFFIX,igtv.com
-  - DOMAIN-SUFFIX,imstagram.com
-  - DOMAIN-SUFFIX,imtagram.com
+  #- DOMAIN-SUFFIX,imstagram.com
+  #- DOMAIN-SUFFIX,imtagram.com
   - DOMAIN-SUFFIX,instaadder.com
   - DOMAIN-SUFFIX,instagram-brand.com
   - DOMAIN-SUFFIX,instagram-engineering.com
@@ -162,15 +146,12 @@ payload:
   - DOMAIN-SUFFIX,intagram.com
   - DOMAIN-SUFFIX,intagrm.com
   - DOMAIN-SUFFIX,intgram.com
-  - DOMAIN-SUFFIX,kingstagram.com
+  #- DOMAIN-SUFFIX,kingstagram.com
   - DOMAIN-SUFFIX,lnstagram-help.com
   - DOMAIN-SUFFIX,theinstagramhack.com
   - DOMAIN-SUFFIX,oninstagram.com
   - DOMAIN-SUFFIX,web-instagram.net
-  - DOMAIN-SUFFIX,instagram.com
-  
   - DOMAIN-SUFFIX,wa.me
-  - DOMAIN-SUFFIX,web-instagram.net
   - DOMAIN-SUFFIX,whatsapp-plus.info
   - DOMAIN-SUFFIX,whatsapp-plus.me
   - DOMAIN-SUFFIX,whatsapp-plus.net
@@ -269,10 +250,9 @@ payload:
   - DOMAIN-KEYWORD,github
   - DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
   - DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
-
-  # MyList & Other
   
-  - DOMAIN-SUFFIX,1password.com
+  # MyList & Other
+  - DOMAIN-SUFFIX,mega.co.nz
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,bit.no.com
   - DOMAIN-SUFFIX,btlibrary.me
@@ -321,10 +301,6 @@ payload:
   - DOMAIN-KEYWORD,mastodon
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-SUFFIX,ixpsge.com
-  - DOMAIN-SUFFIX,qbittorrent.org
-  
-  - IP-CIDR,149.154.172.0/22,no-resolve
-  - IP-CIDR,91.108.56.0/23,no-resolve
   - IP-CIDR,155.248.192.0/19,no-resolve
   - IP-CIDR,103.200.28.0/22,no-resolve
   - IP-CIDR,199.59.148.0/24,no-resolve
@@ -338,7 +314,6 @@ payload:
   - IP-CIDR,172.217.24.0/22,no-resolve
   - IP-CIDR,104.225.144.0/20,no-resolve
   - IP-CIDR,209.239.192.0/19,no-resolve
-  - IP-CIDR,209.237.192.0/19,no-resolve
   - IP-CIDR,185.199.108.0/22,no-resolve
   - IP-CIDR,20.27.128.0/18,no-resolve
   - IP-CIDR,142.251.16.0/20,no-resolve
@@ -381,25 +356,6 @@ payload:
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-SUFFIX,bbc.co
   
-  # Developer 开发者常用国外网站、镜像和论坛
-  - DOMAIN-SUFFIX,apache.org
-  - DOMAIN-SUFFIX,docker.com
-  - DOMAIN-SUFFIX,elastic.co
-  - DOMAIN-SUFFIX,elastic.com
-  - DOMAIN-SUFFIX,jitpack.io
-  - DOMAIN-SUFFIX,maven.org
-  - DOMAIN-SUFFIX,mvnrepository.com
-  - DOMAIN-SUFFIX,quay.io
-  - DOMAIN-SUFFIX,redhat.com
-  - DOMAIN-SUFFIX,sonatype.org
-  - DOMAIN-SUFFIX,sourcegraph.com
-  - DOMAIN-SUFFIX,spring.io
-  - DOMAIN-SUFFIX,spring.net
-  
-  # Discord
-  - DOMAIN-SUFFIX,discord.co
-  - DOMAIN-SUFFIX,discord.media
-  
   # Line
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line-cdn.net
@@ -407,10 +363,7 @@ payload:
   - DOMAIN-SUFFIX,nhncorp.jp
   - IP-CIDR,103.2.28.0/24,no-resolve
   - IP-CIDR,103.2.30.0/23,no-resolve
-  - IP-CIDR,119.235.224.0/24,no-resolve
-  - IP-CIDR,119.235.232.0/24,no-resolve
   - IP-CIDR,119.235.235.0/24,no-resolve
-  - IP-CIDR,119.235.236.0/23,no-resolve
   - IP-CIDR,147.92.128.0/17,no-resolve
   - IP-CIDR,203.104.128.0/19,no-resolve
   
