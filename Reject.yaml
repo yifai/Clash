@@ -42,7 +42,7 @@ payload:
   - DOMAIN,shouji.sogou.com
   - DOMAIN,pinyin.sogou.com
   - DOMAIN,appcenter.ms
-  #- DOMAIN,app-meaturement.com
+  - DOMAIN,app-meaturement.com
   - DOMAIN,firebase.io
   - DOMAIN,crashlytics.com
   - DOMAIN,zhanzhang.toutiao.com
