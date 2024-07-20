@@ -53,7 +53,7 @@ payload:
   #- DOMAIN,p3-tt.byteimg.com
   - DOMAIN,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao.com
+  #- DOMAIN,api-access.pangolin-sdk-toutiao.com
   - DOMAIN,api-access.pangolin-sdk-toutiao1.com
   - DOMAIN,api-access.pangolin-sdk-toutiao2.com
   - DOMAIN,api-access.pangolin-sdk-toutiao3.com
