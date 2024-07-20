@@ -48,17 +48,17 @@ payload:
   - DOMAIN,zhanzhang.toutiao.com
   - DOMAIN,dm.toutiao.com
   - DOMAIN,ad.toutiao.com
-  - DOMAIN,log-api.pangolin-sdk-toutiao-b.com
+  #- DOMAIN,log-api.pangolin-sdk-toutiao-b.com
   - DOMAIN,'*.adkwai.com'
   - DOMAIN,p3-tt.byteimg.com
-  - DOMAIN,pangolin-sdk-toutiao-b.com
+  #- DOMAIN,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao1.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao2.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao3.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao4.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao5.com
+  #- DOMAIN,api-access.pangolin-sdk-toutiao.com
+  #- DOMAIN,api-access.pangolin-sdk-toutiao1.com
+  #- DOMAIN,api-access.pangolin-sdk-toutiao2.com
+  #- DOMAIN,api-access.pangolin-sdk-toutiao3.com
+  #- DOMAIN,api-access.pangolin-sdk-toutiao4.com
+  #- DOMAIN,api-access.pangolin-sdk-toutiao5.com
   - DOMAIN,ad.xiaomi.com
   - DOMAIN,ad.ximalaya.com
   - DOMAIN,adx.ads.heytapmobi.com
