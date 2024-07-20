@@ -1,5 +1,4 @@
 #NAME：REJECT，屏蔽追踪、去广告
-
 payload:
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,ads.google.com
@@ -42,18 +41,20 @@ payload:
   - DOMAIN,shouji.sogou.com
   - DOMAIN,pinyin.sogou.com
   - DOMAIN,appcenter.ms
-  - DOMAIN,app-meaturement.com
+  #- DOMAIN,app-meaturement.com
   - DOMAIN,firebase.io
   - DOMAIN,crashlytics.com
   - DOMAIN,zhanzhang.toutiao.com
   - DOMAIN,dm.toutiao.com
   - DOMAIN,ad.toutiao.com
-  3- DOMAIN,log-api.pangolin-sdk-toutiao-b.com
-  #- DOMAIN,'*.adkwai.com'
-  #- DOMAIN,p3-tt.byteimg.com
-  #- DOMAIN,pangolin-sdk-toutiao-b.com
+  - DOMAIN,log-api.pangolin-sdk-toutiao-b.com
+  - DOMAIN,p1-lm.adkwai.com
+  - DOMAIN,p2-lm.adkwai.com
+  - DOMAIN,p3-lm.adkwai.com
+  - DOMAIN,p3-tt.byteimg.com
+  - DOMAIN,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
-  #- DOMAIN,api-access.pangolin-sdk-toutiao.com
+  - DOMAIN,api-access.pangolin-sdk-toutiao.com
   - DOMAIN,api-access.pangolin-sdk-toutiao1.com
   - DOMAIN,api-access.pangolin-sdk-toutiao2.com
   - DOMAIN,api-access.pangolin-sdk-toutiao3.com
@@ -65,11 +66,14 @@ payload:
   - DOMAIN,adx.ads.oppomobile.com
   - DOMAIN,adxlog-adnet.vivo.com.cn
   - DOMAIN,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
+  - DOMAIN,conn-service-cn-03.allawntech.com
+  - DOMAIN,conn-service-cn-04.allawntech.com
+  - DOMAIN,conn-service-cn-05.allawntech.com
   - DOMAIN,conn-service-in-03.allawnos.com
   - DOMAIN,conn-service-in-04.allawnos.com
   - DOMAIN,conn-service-in-05.allawnos.com
   - DOMAIN,icosa-service-in.allawnos.com
-  ####
+  
   - DOMAIN-SUFFIX,staticxx.facebook.com
   - DOMAIN-SUFFIX,an.facebook.com
   - DOMAIN-SUFFIX,ads.twitter.com
@@ -92,16 +96,6 @@ payload:
   - DOMAIN,adsfilebssdlbig.ali.kugou.com
   - DOMAIN,adsfileretry.service.kugou.com
   - DOMAIN,adserviceretry.kugou.com
-  ######
-  - DOMAIN,api-access.pangolin-sdk-toutiao1.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao2.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao3.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao4.com
-  - DOMAIN,api-access.pangolin-sdk-toutiao5.com
-  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-  - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
-  - DOMAIN-SUFFIX,pglstatp-toutiao.com
-  
   ####
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
