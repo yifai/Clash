@@ -66,7 +66,7 @@ payload:
   - DOMAIN,hyt.comp.360os.com
   - DOMAIN,c.sayhi.360.cn
   - DOMAIN,p.s.360.cn
-
+  - DOMAIN,api-access.pangolin-sdk-toutiao.com
   
   - IP-CIDR,117.177.248.17/32,no-resolve
   - IP-CIDR,117.177.248.41/32,no-resolve
