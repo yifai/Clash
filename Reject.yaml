@@ -44,7 +44,7 @@ payload:
   - DOMAIN,whois.pconline.com.cn
   - DOMAIN-SUFFIX,shouji.sogou.com
   - DOMAIN,appcenter.ms
-  #- DOMAIN,app-meaturement.com
+  - DOMAIN,app-meaturement.com
   - DOMAIN,firebase.io
   - DOMAIN,crashlytics.com
   - DOMAIN,zhanzhang.toutiao.com
