@@ -255,9 +255,6 @@ rules:
   
 ### 注意：rule-providers、proxy-providers 适用于Premium和META内核的规则集（RULE-SET）
 
-## 更详细说明请参考
-[James Daily Life](https://jamesdaily.life/rule-proxy-provider)
-
 ## 参考/引用资源，感谢各位大佬的无私分享。
 
   [@jamesdailylife](https://www.jamesdailylife.com/rule-proxy-provider)
@@ -266,7 +263,7 @@ rules:
 
   [@ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
   
-[@Semporia](https://github.com/Semporia)
+  [@Semporia](https://github.com/Semporia)
 
   [@helmiau](https://github.com/helmiau/clashrules)
 
