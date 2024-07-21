@@ -6,7 +6,7 @@
 
 ### 分流规则（策略）看个人使用习惯，适合增加/减少，无特别要求，使用GFW列表规则走代理，其它直连即可。
 # 示例配置，可按个人需求增减
-、、、mixed-port: 7890      # 本地混合代理(http和socks5合并）端口
+```mixed-port: 7890      # 本地混合代理(http和socks5合并）端口
 mode: rule            # clash工作模式（rule/global/direct,meta暂不支持script）
 ipv6: false           # ip6开关，当为false时，停止解析hostanmes为ip6地址
 log-level: info       # 日志等级 （info/warning/error/debug/silent）
@@ -251,15 +251,13 @@ rules:
   - GEOIP,CN,DIRECT,no-resolve
   
   # 必须，MATCH，前面的规则都没有命中，走MATCH，放在最后。
-  - MATCH,🏁Final、、、
+  - MATCH,🏁Final```
   
 ### 注意：rule-providers、proxy-providers 适用于Premium和META内核的规则集（RULE-SET）
  列表里的config.yaml是一个简单的配置文件，复制里面的内容，修改配置文件中相应位置的机场订阅保存后为yaml文件，导入Clash或Openclash即可正常使用。
 
 ### 参考文档1： https://github.com/Dreamacro/clash/wiki/configuration, 
 ### 参考文档2:  https://www.920.im/clash-proxy-providers-configuration/
-                   
- 按自己的需求选择规则集合，例如，你想国内直连，其它的代理，就可以选择China.yaml这个规则集（rule-provider），再加上GEOIP,CN，最后MATCH代理即可（即China.yaml和GEOIP,CN之外的规则全部代理）；在China.yaml和GEOIP,CN之外，也可以加上特定的规则集，比如Paypal单独选择代理节点，分流（rule）添加于MATCH前面
 
 ## 参考/引用资源，感谢各位大佬的无私分享。
 
