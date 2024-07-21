@@ -254,10 +254,9 @@ rules:
   - MATCH,🏁Final```
   
 ### 注意：rule-providers、proxy-providers 适用于Premium和META内核的规则集（RULE-SET）
- 列表里的config.yaml是一个简单的配置文件，复制里面的内容，修改配置文件中相应位置的机场订阅保存后为yaml文件，导入Clash或Openclash即可正常使用。
 
-### 参考文档1： https://github.com/Dreamacro/clash/wiki/configuration, 
-### 参考文档2:  https://www.920.im/clash-proxy-providers-configuration/
+## 更详细说明请参考
+[James Daily Life](https://jamesdaily.life/rule-proxy-provider)
 
 ## 参考/引用资源，感谢各位大佬的无私分享。
 
@@ -267,7 +266,7 @@ rules:
 
   [@ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
   
-  [@Semporia](https://github.com/Semporia)
+[@Semporia](https://github.com/Semporia)
 
   [@helmiau](https://github.com/helmiau/clashrules)
 
