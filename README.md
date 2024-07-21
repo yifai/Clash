@@ -263,7 +263,7 @@ rules:
 
   [@ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
   
-  [@Semporia](https://github.com/Semporia)
+ [@Semporia](https://github.com/Semporia)
 
   [@helmiau](https://github.com/helmiau/clashrules)
 
