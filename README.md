@@ -1,4 +1,4 @@
-### 分流规则收集自网络，部分有修改，自用Clash分流规则集合（rule-provider）
+8### 分流规则收集自网络，部分有修改，自用Clash分流规则集合（rule-provider）
 
  rule-providers：俗称规则集合，通过它，可以引用不同类型的在线规则集 （URL），clash 就能自动根据访问目标是否在规则集中，然后匹配到对应的规则，从而选择代理/节点或者本地网络进行访问。简单地说，rule-provider 能让在线的规则集，下载到本地供我们使用，配合rules/RULE-SET使用。
 
@@ -251,7 +251,8 @@ rules:
   - GEOIP,CN,DIRECT,no-resolve
   
   # 必须，MATCH，前面的规则都没有命中，走MATCH，放在最后。
-  - MATCH,🏁Final```
+  - MATCH,🏁Final
+```
   
 ### 注意：rule-providers、proxy-providers 适用于Premium和META内核的规则集（RULE-SET）
 
