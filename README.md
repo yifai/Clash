@@ -1,11 +1,11 @@
-8### 分流规则收集自网络，部分有修改，自用Clash分流规则集合（rule-provider）
+### 分流规则收集自网络，整理修改，自用Clash分流规则集合
 
  rule-providers：俗称规则集合，通过它，可以引用不同类型的在线规则集 （URL），clash 就能自动根据访问目标是否在规则集中，然后匹配到对应的规则，从而选择代理/节点或者本地网络进行访问。简单地说，rule-provider 能让在线的规则集，下载到本地供我们使用，配合rules/RULE-SET使用。
 
  proxy-providers：俗称代理集合，通过它，可以提取指定 Clash订阅链接或者本地配置文件中的proxies字段中的所有内容。简单地说，proxy-providers 帮助我们提取订阅链接或者配置文件中所包含的节点信息，到当前配置文件中供我们使用（不使用机场/原来的分流规则）
 
 ### 分流规则（策略）看个人使用习惯，适合增加/减少，无特别要求，使用GFW列表规则走代理，其它直连即可。
-# 示例配置，可按个人需求增减
+## 下方示例配置，在proxy-providers下的url填入clash订阅即可使用，规则集(rule-providers)及proxy-groups(策略或代理组)可按个人需求增减
 ```mixed-port: 7890      # 本地混合代理(http和socks5合并）端口
 mode: rule            # clash工作模式（rule/global/direct,meta暂不支持script）
 ipv6: false           # ip6开关，当为false时，停止解析hostanmes为ip6地址
@@ -253,10 +253,8 @@ rules:
   # 必须，MATCH，前面的规则都没有命中，走MATCH，放在最后。
   - MATCH,🏁Final
 ```
-  
-### 注意：rule-providers、proxy-providers 适用于Premium和META内核的规则集（RULE-SET）
 
-## 参考/引用资源，感谢各位大佬的无私分享。
+## 鸣谢
 
   [@jamesdailylife](https://www.jamesdailylife.com/rule-proxy-provider)
 
