@@ -9,17 +9,15 @@ payload:
   - DOMAIN,vd.l.qq.com
   - DOMAIN-SUFFIX,qhres2.com
   - DOMAIN-SUFFIX,icplishi.com
-  - DOMAIN-SUFFIX,whois.aizhan.com
   - DOMAIN-SUFFIX,aizhan.com
   - DOMAIN-SUFFIX,lejuliang.com
   - DOMAIN-SUFFIX,unicompayment.com
   - DOMAIN-SUFFIX,bdcloudapi.com
   - DOMAIN-SUFFIX,changyoyo.com
-  - DOMAIN-SUFFIX,resstatic.tcdnos.com
   - DOMAIN-SUFFIX,tcdnos.com
   - DOMAIN-SUFFIX,300hu.com
   - DOMAIN-SUFFIX,dnsdaquan.com
-  - DOMAIN-SUFFIX,nstool.haowu.link
+  - DOMAIN-SUFFIX,haowu.link
   - DOMAIN-SUFFIX,yqkk.link
   - DOMAIN-SUFFIX,321fenx.com
   - DOMAIN-SUFFIX,shenzhentong.com
@@ -42,10 +40,10 @@ payload:
   - DOMAIN-SUFFIX,kfw.com
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
-  - DOMAIN-SUFFIX,oss.eple1.top
+  - DOMAIN-SUFFIX,eple1.top
   - DOMAIN-SUFFIX,.cn
   - DOMAIN-SUFFIX,ksepton.com
-  - DOMAIN-SUFFIX,dxmqtt.doordu.com
+  - DOMAIN-SUFFIX,doordu.com
   - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ipchaxun.net
   - DOMAIN-SUFFIX,gd95105888.com
