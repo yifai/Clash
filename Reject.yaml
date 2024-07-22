@@ -37,7 +37,7 @@ payload:
   - DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
   - DOMAIN,beacon-api.aliyuncs.com
   - DOMAIN,mpush-api.aliyun.com
-  - DOMAIN,ifs.tanx.com
+  #- DOMAIN,ifs.tanx.com
   
   # > Tencent
   - DOMAIN,safebrowsing.urlsec.qq.com
