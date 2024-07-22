@@ -256,7 +256,7 @@ rules:
 
 ## 鸣谢
 
-  [@jamesdailylife](https://www.jamesdailylife.com/rule-proxy-provider)
+  [@jamesdailylife](https://jamesdaily.life/rule-proxy-provider)
 
   [@DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)
 
