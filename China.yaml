@@ -140,6 +140,7 @@ payload:
   - DOMAIN-SUFFIX,doordu.com
   - DOMAIN-SUFFIX,umva-china.com
   - DOMAIN-SUFFIX,ifs.tanx.com
+  - DOMAIN-SUFFIX,szscmc.com
   #- DOMAIN-SUFFIX,
   
   - PROCESS-NAME,org.localsend.localsend_app
