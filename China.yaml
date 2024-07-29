@@ -130,6 +130,8 @@ payload:
   - DOMAIN-SUFFIX,lanzog.com
   - DOMAIN-SUFFIX,zntx.cc
   - DOMAIN-SUFFIX,szscmc.com
+  - DOMAIN-SUFFIX,osslan.com
+  - DOMAIN-SUFFIX,ourl.co
   - DOMAIN-SUFFIX,kingsoft-office-service.com
   - DOMAIN-SUFFIX,taisantech.com
   - DOMAIN-SUFFIX,h5.xiaoeknow.com
@@ -140,7 +142,6 @@ payload:
   - DOMAIN-SUFFIX,doordu.com
   - DOMAIN-SUFFIX,umva-china.com
   - DOMAIN-SUFFIX,ifs.tanx.com
-  - DOMAIN-SUFFIX,szscmc.com
   #- DOMAIN-SUFFIX,
   
   - PROCESS-NAME,org.localsend.localsend_app
