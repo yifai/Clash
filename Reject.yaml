@@ -1,16 +1,9 @@
 #屏蔽追踪，去广告
 
 payload:
-  - DOMAIN,safebrowsing.googleapis.com
-  - DOMAIN,pagead2.googleadservices.com
-  - DOMAIN,pagead2.googlesyndication.com
-  - DOMAIN-SUFFIX,ads.google.com
-  - DOMAIN-SUFFIX,adservice.google.com
   - DOMAIN,adsense.google.cn
   - DOMAIN,ads.google.cn
   - DOMAIN,adservice.google.cn
-  - DOMAIN,crashlyticsreports-pa.googleapis.com
-  - DOMAIN,firebaselogging-pa.googleapis.com
   - DOMAIN,afs.googlesyndication.com
   - DOMAIN,analytics.google.com
   - DOMAIN,afd.l.google.com
@@ -27,6 +20,16 @@ payload:
   - DOMAIN,pagead-tpc.l.google.com
   - DOMAIN,pagead.google.com
   - DOMAIN,pagead.l.google.com
+  - DOMAIN,googleadservices-cn.com
+  - DOMAIN,googletagservices-cn.com
+  - DOMAIN,googletagservices.com
+  - DOMAIN,crashlyticsreports-pa.googleapis.com
+  - DOMAIN,firebaselogging-pa.googleapis.com
+  - DOMAIN,safebrowsing.googleapis.com
+  - DOMAIN,pagead2.googleadservices.com
+  - DOMAIN,pagead2.googlesyndication.com
+  - DOMAIN-SUFFIX,ads.google.com
+  - DOMAIN-SUFFIX,adservice.google.com
   
   #反诈
   - DOMAIN,miav-cse.avlyun.com
@@ -67,18 +70,100 @@ payload:
   - DOMAIN,hyt.comp.360os.com
   - DOMAIN,c.sayhi.360.cn
   - DOMAIN,p.s.360.cn
+  #####
+  - DOMAIN,ads.oppomobile.com
+  - DOMAIN,adsfs.oppomobile.com
+  - DOMAIN,adx.ads.oppomobile.com
+  - DOMAIN,bdapi.ads.oppomobile.com
+  - DOMAIN,ck.ads.oppomobile.com
+  - DOMAIN,data.ads.oppomobile.com
+  - DOMAIN,httpdns.ocloud.oppomobile.com
+  - DOMAIN,sms.ads.oppomobile.com
+  - DOMAIN,adxlog-adnet.vivo.com.cn
+  - DOMAIN,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
+  
+  - DOMAIN,*.a.market.xiaomi.com
+  - DOMAIN,a0.app.xiaomi.com
+  - DOMAIN,ad.xiaomi.com
+  - DOMAIN,api.ad.xiaomi.com
+  - DOMAIN,api.installer.xiaomi.com
+  - DOMAIN,cdn.ad.xiaomi.com
+  - DOMAIN,data.mistat.india.xiaomi.com
+  - DOMAIN,data.mistat.rus.xiaomi.com
+  - DOMAIN,data.mistat.xiaomi.com
+  - DOMAIN,diagnosis.ad.xiaomi.com
+  - DOMAIN,e.ad.xiaomi.com
+  - DOMAIN,globalapi.ad.xiaomi.com
+  - DOMAIN,log.ad.xiaomi.com
+  - DOMAIN,o2o.api.xiaomi.com
+  - DOMAIN,sdkconfig.ad.intl.xiaomi.com
+  - DOMAIN,sdkconfig.ad.xiaomi.com
+  - DOMAIN,t.track.ad.xiaomi.com
+  - DOMAIN,t1.a.market.xiaomi.com
+  - DOMAIN,t2.a.market.xiaomi.com
+  - DOMAIN,t3.a.market.xiaomi.com
+  - DOMAIN,test.ad.xiaomi.com
+  - DOMAIN,test.e.ad.xiaomi.com
+  - DOMAIN,tracker.ai.xiaomi.com
+  - DOMAIN,tz.sec.xiaomi.com
+  - DOMAIN,adv.sec.intl.miui.com
+  - DOMAIN,adv.sec.miui.com
+  - DOMAIN,log.avlyun.sec.intl.miui.com
+  - DOMAIN,logupdate.avlyun.sec.miui.com
+  - DOMAIN,metok.sys.miui.com
+  - DOMAIN,miui-fxcse.avlyun.com
+  - DOMAIN,tracking.miui.com
+  - DOMAIN,tracking.rus.miui.com
+  - DOMAIN,update.avlyun.sec.miui.com
+
+  - DOMAIN,xiaomi-dtv.m.cn.miaozhen.com
+  - DOMAIN,zeus.ad.xiaomi.com
+  - DOMAIN,ads.heytapmobi.com
+  - DOMAIN,adx.ads.heytapmobi.com
+  - DOMAIN,b1-data.ads.heytapmobi.com
+  - DOMAIN,stg-data.ads.heytapmobi.com
+  - DOMAIN,uapi.ads.heytapmobi.com
+  - DOMAIN,virusinfo-cloudscan-cn.heytapmobi.com
+  - DOMAIN,[a-zA-Z0-9.-]*-be-pack-sign.pglstatp-toutiao.com
+  - DOMAIN,ad.toutiao.com
   - DOMAIN,api-access.pangolin-sdk-toutiao.com
   - DOMAIN,api-access.pangolin-sdk-toutiao1.com
   - DOMAIN,api-access.pangolin-sdk-toutiao2.com
   - DOMAIN,api-access.pangolin-sdk-toutiao3.com
   - DOMAIN,api-access.pangolin-sdk-toutiao4.com
   - DOMAIN,api-access.pangolin-sdk-toutiao5.com
-  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-  - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
-  - DOMAIN-SUFFIX,pglstatp-toutiao.com
   - DOMAIN,dm.toutiao.com
-  - DOMAIN,ad.toutiao.com
-
+  - DOMAIN,gromore.pangolin-sdk-toutiao.com
+  - DOMAIN,lf3-ad-union-sdk.pglstatp-toutiao.com
+  - DOMAIN,log-api.pangolin-sdk-toutiao.com
+  - DOMAIN,log-api.pangolin-sdk-toutiao-b.com
+  - DOMAIN,monsetting.toutiao.com
+  - DOMAIN,p1-be-pack-sign.pglstatp-toutiao.com
+  - DOMAIN,p2-be-pack-sign.pglstatp-toutiao.com
+  - DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com
+  - DOMAIN,p4-be-pack-sign.pglstatp-toutiao.com
+  - DOMAIN,p5-be-pack-sign.pglstatp-toutiao.com
+  - DOMAIN,p6-be-pack-sign.pglstatp-toutiao.com
+  - DOMAIN,pangolin-sdk-toutiao-b.com
+  - DOMAIN,pglstatp-toutiao.com
+  - DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
+  - DOMAIN,tnc3-aliec1.toutiaoapi.com
+  - DOMAIN,tnc3-aliec2.toutiaoapi.com
+  - DOMAIN,tnc3-bjlgy.toutiaoapi.com
+  - DOMAIN,dxp.baidu.com
+  - DOMAIN,eclick.baidu.com
+  - DOMAIN,entry.baidu.com
+  - DOMAIN,hm.baidu.com
+  - DOMAIN,hmma.baidu.com
+  - DOMAIN,imageplus.baidu.com
+  - DOMAIN,mime.baidu.com
+  - DOMAIN,mine.baidu.com
+  - DOMAIN,mobads.baidu.com
+  - DOMAIN,mobads-logs.baidu.com
+  - DOMAIN,mtj.baidu.com
+  - DOMAIN,nsclick.baidu.com
+  - DOMAIN,union.baidu.com
+  #########
   - IP-CIDR,114.119.160.0/21,no-resolve
   - IP-CIDR,117.177.248.17/32,no-resolve
   - IP-CIDR,117.177.248.41/32,no-resolve
