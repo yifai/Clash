@@ -5,7 +5,7 @@
  proxy-providers：俗称代理集合，通过它，可以提取指定 Clash订阅链接或者本地配置文件中的proxies字段中的所有内容。简单地说，proxy-providers 帮助我们提取订阅链接或者配置文件中所包含的节点信息，到当前配置文件中供我们使用（不使用机场/原来的分流规则）
 
 ##### 分流规则（策略）看个人使用习惯，适合增加/减少，无特别要求，使用GFW列表规则走代理，其它直连即可。
-### 下方示例配置适用于使用各个clash内核的客户端，包括苹果的Stash。
+### 下方示例配置适用于使用各个clash内核的客户端，包括苹果的Stash，考虑到配置文件通用性，故没有使用meta内核的特性。
 #### 在proxy-providers下的url填入clash订阅即可使用，规则集(rule-providers)及proxy-groups(策略或代理组)可按个人需求增减
 ```mixed-port: 7890      # 本地混合代理(http和socks5合并）端口
 mode: rule            # clash工作模式（rule/global/direct,meta暂不支持script）
