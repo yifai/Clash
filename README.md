@@ -7,6 +7,7 @@
 ##### 分流规则（策略）看个人使用习惯，适合增加/减少，无特别要求，使用GFW列表规则走代理，其它直连即可。
 ### 下方示例配置适用于使用各个clash内核的客户端，包括苹果的Stash，考虑到配置文件通用性，故没有使用meta内核的特性。
 #### 在proxy-providers下的url填入clash订阅即可使用，规则集(rule-providers)及proxy-groups(策略或代理组)可按个人需求增减
+
 ```mixed-port: 7890      # 本地混合代理(http和socks5合并）端口
 mode: rule            # clash工作模式（rule/global/direct,meta暂不支持script）
 ipv6: false           # ip6开关，当为false时，停止解析hostanmes为ip6地址
