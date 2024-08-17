@@ -168,9 +168,9 @@ proxy-providers:
       enable: true
       url: "https://i.ytimg.com/generate_204"
       #url: "http://cp.cloudflare.com/generate_204"
-      interval: 600
+      interval: 1200
     filter: "(?i)United States|美国|Hong kong|香港|taiwan|台湾|Singapore|新加坡|Japan|日本"  #筛选包含关键字的节点
-    #filter: "^(?!.*?海外).*(香港|台湾|日本|新加坡|美国|(SS))" #筛选包含关键字及排队包含“海外”的节点
+    #filter: "^(?!.*?海外).*(香港|台湾|日本|新加坡|美国)" #筛选包含关键字及排队包含“海外”的节点
     #exclude-filter: "海外"  #排队包含“海外”的节点
     
 #proxies自建
@@ -194,15 +194,15 @@ proxy-groups:
   
   - {name: 🏁Final, type: select, proxies: [🚀select, DIRECT]}
   
-  - {name: 🇭🇰HongKong, type: url-test, filter: "(?i)香港|Hongkong|hong kong", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 300, tolerance: 50}}
+  - {name: 🇭🇰HongKong, type: url-test, filter: "(?i)香港|Hongkong|hong kong", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 1200, tolerance: 50}}
   
-  - {name: 🇹🇼Taiwan, type: url-test, filter: "(?i)台湾|Taiwan", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 300, tolerance: 50}}
+  - {name: 🇹🇼Taiwan, type: url-test, filter: "(?i)台湾|Taiwan", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 1200, tolerance: 50}}
   
-  - {name: 🇸🇬Singapore, type: url-test, filter: "(?i)新加坡|SG|Singapore", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 300, tolerance: 50}}
+  - {name: 🇸🇬Singapore, type: url-test, filter: "(?i)新加坡|SG|Singapore", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 1200, tolerance: 50}}
   
-  - {name: 🇯🇵Japan, type: url-test, filter: "(?i)日本|JP|Japan", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 300, tolerance: 50}}
+  - {name: 🇯🇵Japan, type: url-test, filter: "(?i)日本|JP|Japan", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 1200, tolerance: 50}}
   
-  - {name: 🇺🇸American, type: url-test, filter: "🇺🇸|United States|美国", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 300, tolerance: 50}}
+  - {name: 🇺🇸American, type: url-test, filter: "🇺🇸|United States|美国", use: [Sub], health-check: {enable: true, url: "https://i.ytimg.com/generate_204", interval: 1200, tolerance: 50}}
   
 #rule-providers：远程分流规则
 rule-providers:
@@ -235,7 +235,6 @@ rules:
   - PROCESS-NAME,qbittorrent,DIRECT
   - DOMAIN-SUFFIX,yowindow.ru,DIRECT
   - DOMAIN-SUFFIX,yowindow.com,DIRECT
-  - DOMAIN-SUFFIX,doordu.com,DIRECT
   
   # 策略分流RULE-SET
   - RULE-SET,Reject,REJECT
