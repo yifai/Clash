@@ -12,6 +12,7 @@ payload:
   - DOMAIN,doubleclick.com
   - DOMAIN,doubleclick.net
   - DOMAIN,google-analytics.com
+  - DOMAIN,doubleclick-cn.net
   - DOMAIN,googleadservices.com
   - DOMAIN,googleadsserving.cn
   - DOMAIN,googlecommerce.com
@@ -81,7 +82,27 @@ payload:
   - DOMAIN,sms.ads.oppomobile.com
   - DOMAIN,adxlog-adnet.vivo.com.cn
   - DOMAIN,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
-  
+  #######
+  - DOMAIN,adashbc.ut.taobao.com
+  - DOMAIN,amdcopen.m.taobao.com
+  - DOMAIN,audid-api.taobao.com
+  - DOMAIN,h-adashx.ut.taobao.com
+  - DOMAIN,umengacs.m.taobao.com
+  - DOMAIN,umengjmacs.m.taobao.com
+  - DOMAIN,youku-acs.m.taobao.com
+  - DOMAIN,*.log.aliyuncs.com
+  - DOMAIN,adsfilebssdlbig.ali.kugou.com
+  - DOMAIN,ali-ad.a.yximgs.com
+  - DOMAIN,beacon-api.aliyuncs.com
+  - DOMAIN,cdn.ynuf.aliapp.org
+  - DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com
+  - DOMAIN,tnc3-aliec1.toutiaoapi.com
+  - DOMAIN,tnc3-aliec2.bytedance.com
+  - DOMAIN,tnc3-aliec2.toutiaoapi.com
+  - DOMAIN,tnc3-alisc1.bytedance.com
+  - DOMAIN,tnc3-alisc1.zijieapi.com
+  - DOMAIN,tnc3-alisc2.zijieapi.com
+  ###############
   - DOMAIN,*.a.market.xiaomi.com
   - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,ad.xiaomi.com
@@ -115,7 +136,7 @@ payload:
   - DOMAIN,tracking.miui.com
   - DOMAIN,tracking.rus.miui.com
   - DOMAIN,update.avlyun.sec.miui.com
-
+  ##############
   - DOMAIN,xiaomi-dtv.m.cn.miaozhen.com
   - DOMAIN,zeus.ad.xiaomi.com
   - DOMAIN,ads.heytapmobi.com
@@ -150,6 +171,7 @@ payload:
   - DOMAIN,tnc3-aliec1.toutiaoapi.com
   - DOMAIN,tnc3-aliec2.toutiaoapi.com
   - DOMAIN,tnc3-bjlgy.toutiaoapi.com
+  ###############
   - DOMAIN,dxp.baidu.com
   - DOMAIN,eclick.baidu.com
   - DOMAIN,entry.baidu.com
@@ -163,6 +185,72 @@ payload:
   - DOMAIN,mtj.baidu.com
   - DOMAIN,nsclick.baidu.com
   - DOMAIN,union.baidu.com
+  #########
+  - DOMAIN,ads.heytapmobi.com
+  - DOMAIN,adx.ads.heytapmobi.com
+  - DOMAIN,b1-data.ads.heytapmobi.com
+  - DOMAIN,stg-data.ads.heytapmobi.com
+  - DOMAIN,uapi.ads.heytapmobi.com
+  - DOMAIN,virusinfo-cloudscan-cn.heytapmobi.com
+  ################
+  - DOMAIN,ad.qq.com
+  - DOMAIN,adfilter.imtt.qq.com
+  - DOMAIN,beacon.qq.com
+  - DOMAIN,bugly.qq.com
+  - DOMAIN,c.gj.qq.com
+  - DOMAIN,c2.gdt.qq.com
+  - DOMAIN,cfg.imtt.qq.com
+  - DOMAIN,commdata.v.qq.com
+  - DOMAIN,h.trace.qq.com
+  - DOMAIN,jpush.html5.qq.com
+  - DOMAIN,lives.l.ott.video.qq.com
+  - DOMAIN,log.tbs.qq.com
+  - DOMAIN,m.kubiqq.com
+  - DOMAIN,masdkv6.3g.qq.com
+  - DOMAIN,mazu.m.qq.com
+  - DOMAIN,mi.gdt.qq.com
+  - DOMAIN,monitor.music.qq.com
+  - DOMAIN,monitor.uu.qq.com
+  - DOMAIN,oth.eve.mdt.qq.com
+  - DOMAIN,oth.str.mdt.qq.com
+  - DOMAIN,p.l.qq.com
+  - DOMAIN,q.i.gdt.qq.com
+  - DOMAIN,qqdata.ab.qq.com
+  - DOMAIN,rpt.gdt.qq.com
+  - DOMAIN,s1.qq.com
+  - DOMAIN,s2.qq.com
+  - DOMAIN,s3.qq.com
+  - DOMAIN,scdown.qq.com
+  - DOMAIN,sdk.e.qq.com
+  - DOMAIN,sdk-ab-config.qquanquan.com
+  - DOMAIN,sdkconfig.video.qq.com
+  - DOMAIN,sngmta.qq.com
+  - DOMAIN,stat.y.qq.com
+  - DOMAIN,t.l.qq.com
+  - DOMAIN,tangram.e.qq.com
+  - DOMAIN,tdc.qq.com
+  - DOMAIN,tj.b.qq.com
+  - DOMAIN,tj.video.qq.com
+  - DOMAIN,tmead.y.qq.com
+  - DOMAIN,tmfmazu.m.qq.com
+  - DOMAIN,tmfmazu-wangka.m.qq.com
+  - DOMAIN,tmfsdk.m.qq.com
+  - DOMAIN,tmfsdktcpv4.m.qq.com
+  - DOMAIN,trace.qq.com
+  - DOMAIN,tracelog-debug.qquanquan.com
+  - DOMAIN,us.l.qq.com
+  - DOMAIN,v2.gdt.qq.com
+  - DOMAIN,vlive.qqvideo.tc.qq.com
+  - DOMAIN,w.l.qq.com
+  - DOMAIN,win.gdt.qq.com
+  - DOMAIN,ws.sj.qq.com
+  - DOMAIN,wxa.wxs.qq.com
+  - DOMAIN,wximg.wxs.qq.com
+  - DOMAIN,wxsmw.wxs.qq.com
+  - DOMAIN,wxsnsad.tc.qq.com
+  - DOMAIN,wxsnsdy.wxs.qq.com
+  - DOMAIN,wxsnsdythumb.wxs.qq.com
+  - DOMAIN,xc.gdt.qq.com
   #########
   - IP-CIDR,114.119.160.0/21,no-resolve
   - IP-CIDR,117.177.248.17/32,no-resolve
