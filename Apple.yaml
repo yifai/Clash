@@ -1,7 +1,6 @@
 # NAME: Apple
 payload:
   - DOMAIN,api.smoot.apple.cn
-  - DOMAIN,apple-events.akamaized.net
   - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple.co
@@ -195,7 +194,7 @@ payload:
   - DOMAIN-SUFFIX,macruby.com
   - DOMAIN-SUFFIX,macruby.net
   - DOMAIN-SUFFIX,macruby.org
-  - DOMAIN-SUFFIX,p-events-delivery.akamaized.net
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,researchandcare.org
   - DOMAIN-SUFFIX,researchkit.cn
   - DOMAIN-SUFFIX,researchkit.com.cn
@@ -349,4 +348,3 @@ payload:
   - DOMAIN-KEYWORD,icloud
   #- DOMAIN-KEYWORD,
   #- DOMAIN-KEYWORD,
-  
