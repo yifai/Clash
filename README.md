@@ -1,4 +1,4 @@
-### 自用Clash分流规则集合及配置文件，分流规则收集自网络，个人整理。
+### 自用Clash分流规则集合及配置文件，分流规则收集自网络，个人整理。个人自用规则，国内规则很少，只包含部分常用网站，不一定适合你使用，请自行斟酌。
 
  rule-providers：俗称规则集合，通过它，可以引用不同类型的在线规则集 （URL），clash 就能自动根据访问目标是否在规则集中，然后匹配到对应的规则，从而选择代理/节点或者本地网络进行访问。简单地说，rule-provider 能让在线的规则集，下载到本地供我们使用，配合rules/RULE-SET使用。
 
@@ -6,7 +6,7 @@
 
 ##### 分流规则（策略）看个人使用习惯，适合增加/减少，无特别要求，使用GFW列表规则走代理，其它直连即可。
 ### 下方示例配置适用于使用各个clash内核的客户端，包括苹果的Stash，考虑到配置文件通用性，故没有使用meta内核的特性。
-#### 在proxy-providers下的url填入clash订阅即可使用，规则集(rule-providers)及proxy-groups(策略或代理组)可按个人需求增减
+#### 在proxy-providers下的url填入clash订阅即可使用（节点筛选部分请根据自己机场节点名关键词书写)，规则集(rule-providers)及proxy-groups(策略或代理组)可按个人需求增减
 
 ```mixed-port: 7890      # 本地混合代理(http和socks5合并）端口
 mode: rule            # clash工作模式（rule/global/direct,meta暂不支持script）
