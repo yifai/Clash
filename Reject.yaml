@@ -211,8 +211,8 @@ payload:
   - DOMAIN,mi.gdt.qq.com
   - DOMAIN,monitor.music.qq.com
   - DOMAIN,monitor.uu.qq.com
-  - DOMAIN,oth.eve.mdt.qq.com
-  - DOMAIN,oth.str.mdt.qq.com
+  #- DOMAIN,oth.eve.mdt.qq.com
+  #- DOMAIN,oth.str.mdt.qq.com
   - DOMAIN,p.l.qq.com
   - DOMAIN,q.i.gdt.qq.com
   - DOMAIN,qqdata.ab.qq.com
