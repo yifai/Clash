@@ -1,6 +1,5 @@
 # https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/stoverride/ASN.China.stoverride
 # https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
-
 payload:
 # name: 🌐 ASN for Mainland China
 # desc: 按ASN分流中国大陆IP与域名直连
