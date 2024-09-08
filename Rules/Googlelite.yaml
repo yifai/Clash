@@ -100,7 +100,6 @@ payload:
   - DOMAIN-KEYWORD,gstatic
   - DOMAIN-KEYWORD,recaptcha
   - DOMAIN-KEYWORD,youtube
-  - DOMAIN-KEYWORD,www.google.
   - PROCESS-NAME,backupandsync
   - PROCESS-NAME,com.android.vending
   - PROCESS-NAME,com.google.android.gms
