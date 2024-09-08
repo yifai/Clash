@@ -1,13 +1,71 @@
-# NAME: Googlelite 精简
+# NAME: Google
 payload:
-  - DOMAIN-SUFFIX,265.com
+  - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
+  - DOMAIN-SUFFIX,1ucrs.com
+  - DOMAIN-SUFFIX,265.com
+  - DOMAIN-SUFFIX,2mdn-cn.net
   - DOMAIN-SUFFIX,2mdn.net
+  - DOMAIN-SUFFIX,466453.com
+  - DOMAIN-SUFFIX,abc.xyz
+  - DOMAIN-SUFFIX,adgoogle.net
+  - DOMAIN-SUFFIX,admeld.com
+  - DOMAIN-SUFFIX,admob-cn.com
+  - DOMAIN-SUFFIX,admob.com
+  - DOMAIN-SUFFIX,adsense.com
+  - DOMAIN-SUFFIX,adsensecustomsearchads.com
+  - DOMAIN-SUFFIX,adsenseformobileapps.com
+  - DOMAIN-SUFFIX,advertisercommunity.com
+  - DOMAIN-SUFFIX,advertiserscommunity.com
+  - DOMAIN-SUFFIX,adwords-community.com
+  - DOMAIN-SUFFIX,adwords.com
+  - DOMAIN-SUFFIX,adwordsexpress.com
+  - DOMAIN-SUFFIX,amp.dev
+  - DOMAIN-SUFFIX,ampproject.com
+  - DOMAIN-SUFFIX,ampproject.net
+  - DOMAIN-SUFFIX,ampproject.org
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,androidify.com
+  - DOMAIN-SUFFIX,androidtv.com
+  - DOMAIN-SUFFIX,angulardart.org
+  - DOMAIN-SUFFIX,api.ai
+  - DOMAIN-SUFFIX,apigee.com
+  - DOMAIN-SUFFIX,app-measurement-cn.com
   - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,app-measurement.net
+  - DOMAIN-SUFFIX,appbridge.ca
+  - DOMAIN-SUFFIX,appbridge.io
+  - DOMAIN-SUFFIX,appbridge.it
+  - DOMAIN-SUFFIX,appspot.com
+  - DOMAIN-SUFFIX,apture.com
+  - DOMAIN-SUFFIX,area120.com
+  - DOMAIN-SUFFIX,asp-cc.com
+  - DOMAIN-SUFFIX,autodraw.com
+  - DOMAIN-SUFFIX,bandpage.com
+  - DOMAIN-SUFFIX,baselinestudy.com
+  - DOMAIN-SUFFIX,baselinestudy.org
+  - DOMAIN-SUFFIX,bazel.build
+  - DOMAIN-SUFFIX,bdn.dev
+  - DOMAIN-SUFFIX,beatthatquote.com
+  - DOMAIN-SUFFIX,blink.org
   - DOMAIN-SUFFIX,blogblog.com
   - DOMAIN-SUFFIX,blogger.com
-  - DOMAIN-SUFFIX,clickserve.dartsearch.net
-  - DOMAIN-SUFFIX,crl.pki.goog
+  - DOMAIN-SUFFIX,blogspot.com
+  - DOMAIN-SUFFIX,brocaproject.com
+  - DOMAIN-SUFFIX,brotli.org
+  - DOMAIN-SUFFIX,bumpshare.com
+  - DOMAIN-SUFFIX,bumptop.ca
+  - DOMAIN-SUFFIX,bumptop.com
+  - DOMAIN-SUFFIX,bumptop.net
+  - DOMAIN-SUFFIX,bumptop.org
+  - DOMAIN-SUFFIX,bumptunes.com
+  - DOMAIN-SUFFIX,campuslondon.com
+  - DOMAIN-SUFFIX,capitalg.com
+  - DOMAIN-SUFFIX,certificate-transparency.dev
+  - DOMAIN-SUFFIX,certificate-transparency.org
+  - DOMAIN-SUFFIX,charlestonroadregistry.com
+  - DOMAIN-SUFFIX,chat.gle
+  - DOMAIN-SUFFIX,chrome.com
   - DOMAIN-SUFFIX,chromebook.com
   - DOMAIN-SUFFIX,chromecast.com
   - DOMAIN-SUFFIX,chromeexperiments.com
@@ -17,18 +75,80 @@ payload:
   - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,chronicle.security
   - DOMAIN-SUFFIX,chroniclesec.com
-  - DOMAIN-SUFFIX,googletagmanager.com
-  - DOMAIN-SUFFIX,googletagservices.com
-  - DOMAIN-SUFFIX,gtm.oasisfeng.com
-  - DOMAIN-SUFFIX,ocsp.pki.goog
-  - DOMAIN-SUFFIX,recaptcha.net
-  - DOMAIN-SUFFIX,settings.crashlytics.com
-  - DOMAIN-SUFFIX,app-measurement.net
+  - DOMAIN-SUFFIX,clickserver.googleads.com
+  - DOMAIN-SUFFIX,cloudburstresearch.com
+  - DOMAIN-SUFFIX,cloudfunctions.net
+  - DOMAIN-SUFFIX,cloudrobotics.com
+  - DOMAIN-SUFFIX,cobrasearch.com
+  - DOMAIN-SUFFIX,codespot.com
+  - DOMAIN-SUFFIX,conscrypt.com
+  - DOMAIN-SUFFIX,conscrypt.org
+  - DOMAIN-SUFFIX,cookiechoices.org
+  - DOMAIN-SUFFIX,coova.com
+  - DOMAIN-SUFFIX,coova.net
+  - DOMAIN-SUFFIX,coova.org
+  - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN-SUFFIX,crbug.com
+  - DOMAIN-SUFFIX,creativelab5.com
+  - DOMAIN-SUFFIX,crossmediapanel.com
+  - DOMAIN-SUFFIX,crr.com
+  - DOMAIN-SUFFIX,crrev.com
+  - DOMAIN-SUFFIX,cs4hs.com
+  - DOMAIN-SUFFIX,dart.dev
+  - DOMAIN-SUFFIX,dartlang.org
+  - DOMAIN-SUFFIX,dartpad.dev
+  - DOMAIN-SUFFIX,dartsearch-cn.net
+  - DOMAIN-SUFFIX,dartsearch.net
+  - DOMAIN-SUFFIX,data-vocabulary.org
+  - DOMAIN-SUFFIX,dataliberation.org
+  - DOMAIN-SUFFIX,debug.com
+  - DOMAIN-SUFFIX,debugproject.com
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deja.com
+  - DOMAIN-SUFFIX,deps.dev
+  - DOMAIN-SUFFIX,deps.info
+  - DOMAIN-SUFFIX,devsitetest.how
+  - DOMAIN-SUFFIX,dialogflow.com
+  - DOMAIN-SUFFIX,digisfera.com
+  - DOMAIN-SUFFIX,digitalassetlinks.org
+  - DOMAIN-SUFFIX,digitalattackmap.com
+  - DOMAIN-SUFFIX,doubleclick-cn.net
+  - DOMAIN-SUFFIX,doubleclick.com
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,episodic.com
+  - DOMAIN-SUFFIX,fastlane.ci
+  - DOMAIN-SUFFIX,fastlane.tools
+  - DOMAIN-SUFFIX,feedburner.com
+  - DOMAIN-SUFFIX,fflick.com
+  - DOMAIN-SUFFIX,financeleadsonline.com
+  - DOMAIN-SUFFIX,firebaseapp.com
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,flutter.dev
+  - DOMAIN-SUFFIX,flutterapp.com
+  - DOMAIN-SUFFIX,foofle.com
+  - DOMAIN-SUFFIX,froogle.com
+  - DOMAIN-SUFFIX,fuchsia.dev
+  - DOMAIN-SUFFIX,g-tun.com
+  - DOMAIN-SUFFIX,g.cn
   - DOMAIN-SUFFIX,g.co
+  - DOMAIN-SUFFIX,g.dev
+  - DOMAIN-SUFFIX,g.page
+  - DOMAIN-SUFFIX,gateway.dev
+  - DOMAIN-SUFFIX,gcr.io
+  - DOMAIN-SUFFIX,gerritcodereview.com
+  - DOMAIN-SUFFIX,get.app
+  - DOMAIN-SUFFIX,get.dev
+  - DOMAIN-SUFFIX,get.how
+  - DOMAIN-SUFFIX,get.page
+  - DOMAIN-SUFFIX,getbumptop.com
+  - DOMAIN-SUFFIX,getmdl.io
+  - DOMAIN-SUFFIX,getoutline.org
+  - DOMAIN-SUFFIX,ggoogle.com
+  - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,goo.gl
-  - DOMAIN-SUFFIX,googleapis.cn
-  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gipscorp.com
+  - DOMAIN-SUFFIX,gkecnapps.cn
+  - DOMAIN-SUFFIX,globaledu.org
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,gmodules.com
   - DOMAIN-SUFFIX,go-lang.com
@@ -42,8 +162,65 @@ payload:
   - DOMAIN-SUFFIX,golang.net
   - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,gonglchuangl.net
-  - DOMAIN-SUFFIX,gstatic.cn
-  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,googel.com
+  - DOMAIN-SUFFIX,googil.com
+  - DOMAIN-SUFFIX,googl.com
+  - DOMAIN-SUFFIX,google-analytics-cn.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,google-syndication.com
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,googleacquisitionmigration.com
+  - DOMAIN-SUFFIX,googleadapis.com
+  - DOMAIN-SUFFIX,googleadservices-cn.com
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,googleanalytics.com
+  - DOMAIN-SUFFIX,googleapis-cn.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googleapps-cn.com
+  - DOMAIN-SUFFIX,googleapps.com
+  - DOMAIN-SUFFIX,googlearth.com
+  - DOMAIN-SUFFIX,googleblog.com
+  - DOMAIN-SUFFIX,googlebot.com
+  - DOMAIN-SUFFIX,googlecapital.com
+  - DOMAIN-SUFFIX,googlecert.net
+  - DOMAIN-SUFFIX,googlecnapps.cn
+  - DOMAIN-SUFFIX,googlecode.com
+  - DOMAIN-SUFFIX,googlecommerce.com
+  - DOMAIN-SUFFIX,googlecompare.co.uk
+  - DOMAIN-SUFFIX,googledanmark.com
+  - DOMAIN-SUFFIX,googledomains.com
+  - DOMAIN-SUFFIX,googledrive.com
+  - DOMAIN-SUFFIX,googlee.com
+  - DOMAIN-SUFFIX,googleearth.com
+  - DOMAIN-SUFFIX,googlefiber.net
+  - DOMAIN-SUFFIX,googlefinland.com
+  - DOMAIN-SUFFIX,googleflights-cn.net
+  - DOMAIN-SUFFIX,googlemail.com
+  - DOMAIN-SUFFIX,googlemaps.com
+  - DOMAIN-SUFFIX,googlemashups.com
+  - DOMAIN-SUFFIX,googleoptimize-cn.com
+  - DOMAIN-SUFFIX,googleoptimize.com
+  - DOMAIN-SUFFIX,googlepagecreator.com
+  - DOMAIN-SUFFIX,googlephotos.com
+  - DOMAIN-SUFFIX,googleplay.com
+  - DOMAIN-SUFFIX,googleplus.com
+  - DOMAIN-SUFFIX,googlescholar.com
+  - DOMAIN-SUFFIX,googlesource.com
+  - DOMAIN-SUFFIX,googlestore.com
+  - DOMAIN-SUFFIX,googlesverige.com
+  - DOMAIN-SUFFIX,googlesyndication-cn.com
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,googletagmanager-cn.com
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,googletagservices-cn.com
+  - DOMAIN-SUFFIX,googletagservices.com
+  - DOMAIN-SUFFIX,googletraveladservices-cn.com
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googlevads-cn.com
+  - DOMAIN-SUFFIX,googleventures.com
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,googlr.com
   - DOMAIN-SUFFIX,goolge.com
@@ -65,33 +242,164 @@ payload:
   - DOMAIN-SUFFIX,gvt6.com
   - DOMAIN-SUFFIX,gvt7.com
   - DOMAIN-SUFFIX,gvt9.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN-SUFFIX,services.googleapis.cn
+  - DOMAIN-SUFFIX,gwtproject.org
+  - DOMAIN-SUFFIX,hdrplusdata.org
+  - DOMAIN-SUFFIX,hey.gle
+  - DOMAIN-SUFFIX,hindiweb.com
+  - DOMAIN-SUFFIX,howtogetmo.co.uk
+  - DOMAIN-SUFFIX,html5rocks.com
+  - DOMAIN-SUFFIX,hwgo.com
+  - DOMAIN-SUFFIX,iam.soy
+  - DOMAIN-SUFFIX,iamremarkable.org
+  - DOMAIN-SUFFIX,igoogle.com
+  - DOMAIN-SUFFIX,impermium.com
+  - DOMAIN-SUFFIX,itasoftware.com
+  - DOMAIN-SUFFIX,j2objc.org
+  - DOMAIN-SUFFIX,jibemobile.com
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,kaggle.io
+  - DOMAIN-SUFFIX,keyhole.com
+  - DOMAIN-SUFFIX,keytransparency.com
+  - DOMAIN-SUFFIX,keytransparency.foo
+  - DOMAIN-SUFFIX,keytransparency.org
+  - DOMAIN-SUFFIX,lanternal.com
+  - DOMAIN-SUFFIX,like.com
+  - DOMAIN-SUFFIX,madewithcode.com
+  - DOMAIN-SUFFIX,material.io
+  - DOMAIN-SUFFIX,mdialog.com
+  - DOMAIN-SUFFIX,meet.new
+  - DOMAIN-SUFFIX,mfg-inspector.com
+  - DOMAIN-SUFFIX,mobileview.page
+  - DOMAIN-SUFFIX,moodstocks.com
+  - DOMAIN-SUFFIX,near.by
+  - DOMAIN-SUFFIX,nest.com
+  - DOMAIN-SUFFIX,neverware.com
+  - DOMAIN-SUFFIX,nomulus.foo
+  - DOMAIN-SUFFIX,oasisfeng.com
+  - DOMAIN-SUFFIX,oauthz.com
+  - DOMAIN-SUFFIX,ok.gle
+  - DOMAIN-SUFFIX,on.here
+  - DOMAIN-SUFFIX,on2.com
+  - DOMAIN-SUFFIX,onefifteen.net
+  - DOMAIN-SUFFIX,onefifteen.org
+  - DOMAIN-SUFFIX,oneworldmanystories.com
+  - DOMAIN-SUFFIX,opensourceinsight.dev
+  - DOMAIN-SUFFIX,opensourceinsights.dev
+  - DOMAIN-SUFFIX,openthread.io
+  - DOMAIN-SUFFIX,openweave.io
+  - DOMAIN-SUFFIX,orbitera.com
+  - DOMAIN-SUFFIX,page.link
+  - DOMAIN-SUFFIX,pagespeedmobilizer.com
+  - DOMAIN-SUFFIX,pageview.mobi
+  - DOMAIN-SUFFIX,panoramio.com
+  - DOMAIN-SUFFIX,partylikeits1986.org
+  - DOMAIN-SUFFIX,paxlicense.org
+  - DOMAIN-SUFFIX,picasa.com
+  - DOMAIN-SUFFIX,picasaweb.com
+  - DOMAIN-SUFFIX,picasaweb.net
+  - DOMAIN-SUFFIX,picasaweb.org
+  - DOMAIN-SUFFIX,picnik.com
+  - DOMAIN-SUFFIX,pittpatt.com
+  - DOMAIN-SUFFIX,pixate.com
+  - DOMAIN-SUFFIX,pki.goog
+  - DOMAIN-SUFFIX,plus.codes
+  - DOMAIN-SUFFIX,polymer-project.org
+  - DOMAIN-SUFFIX,polymerproject.org
+  - DOMAIN-SUFFIX,postini.com
+  - DOMAIN-SUFFIX,privacysandbox.com
+  - DOMAIN-SUFFIX,projectara.com
+  - DOMAIN-SUFFIX,projectbaseline.com
+  - DOMAIN-SUFFIX,publishproxy.com
+  - DOMAIN-SUFFIX,questvisual.com
+  - DOMAIN-SUFFIX,quickoffice.com
+  - DOMAIN-SUFFIX,quiksee.com
+  - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,redhotlabs.com
+  - DOMAIN-SUFFIX,registry.google
+  - DOMAIN-SUFFIX,revolv.com
+  - DOMAIN-SUFFIX,ridepenguin.com
+  - DOMAIN-SUFFIX,run.app
+  - DOMAIN-SUFFIX,savethedate.foo
+  - DOMAIN-SUFFIX,saynow.com
+  - DOMAIN-SUFFIX,schema.org
+  - DOMAIN-SUFFIX,schemer.com
+  - DOMAIN-SUFFIX,screenwisetrends.com
+  - DOMAIN-SUFFIX,screenwisetrendspanel.com
+  - DOMAIN-SUFFIX,shattered.io
+  - DOMAIN-SUFFIX,snapseed.com
+  - DOMAIN-SUFFIX,solveforx.com
+  - DOMAIN-SUFFIX,stadia.dev
+  - DOMAIN-SUFFIX,stcroixmosquito.com
+  - DOMAIN-SUFFIX,stcroixmosquitoproject.com
+  - DOMAIN-SUFFIX,studywatchbyverily.com
+  - DOMAIN-SUFFIX,studywatchbyverily.org
+  - DOMAIN-SUFFIX,stxmosquito.com
+  - DOMAIN-SUFFIX,stxmosquitoproject.com
+  - DOMAIN-SUFFIX,stxmosquitoproject.net
+  - DOMAIN-SUFFIX,stxmosquitoproject.org
+  - DOMAIN-SUFFIX,synergyse.com
+  - DOMAIN-SUFFIX,teachparentstech.org
+  - DOMAIN-SUFFIX,telephony.goog
+  - DOMAIN-SUFFIX,tensorflow.org
+  - DOMAIN-SUFFIX,tfhub.dev
+  - DOMAIN-SUFFIX,thecleversense.com
+  - DOMAIN-SUFFIX,thegooglestore.com
+  - DOMAIN-SUFFIX,thinkquarterly.co.uk
+  - DOMAIN-SUFFIX,thinkquarterly.com
+  - DOMAIN-SUFFIX,thinkwithgoogle.com
+  - DOMAIN-SUFFIX,tiltbrush.com
+  - DOMAIN-SUFFIX,txcloud.net
+  - DOMAIN-SUFFIX,txvia.com
+  - DOMAIN-SUFFIX,unfiltered.news
+  - DOMAIN-SUFFIX,urchin.com
+  - DOMAIN-SUFFIX,useplannr.com
+  - DOMAIN-SUFFIX,usvimosquito.com
+  - DOMAIN-SUFFIX,usvimosquitoproject.com
+  - DOMAIN-SUFFIX,v8.dev
+  - DOMAIN-SUFFIX,v8project.org
+  - DOMAIN-SUFFIX,velostrata.com
+  - DOMAIN-SUFFIX,verily.com
+  - DOMAIN-SUFFIX,verilylifesciences.com
+  - DOMAIN-SUFFIX,verilystudyhub.com
+  - DOMAIN-SUFFIX,verilystudywatch.com
+  - DOMAIN-SUFFIX,verilystudywatch.org
+  - DOMAIN-SUFFIX,wallet.com
+  - DOMAIN-SUFFIX,waveprotocol.org
+  - DOMAIN-SUFFIX,waymo.com
+  - DOMAIN-SUFFIX,waze.com
+  - DOMAIN-SUFFIX,web.app
+  - DOMAIN-SUFFIX,web.dev
+  - DOMAIN-SUFFIX,webappfieldguide.com
+  - DOMAIN-SUFFIX,webmproject.org
+  - DOMAIN-SUFFIX,webpkgcache.com
+  - DOMAIN-SUFFIX,webrtc.org
+  - DOMAIN-SUFFIX,weltweitwachsen.de
+  - DOMAIN-SUFFIX,whatbrowser.org
+  - DOMAIN-SUFFIX,widevine.com
+  - DOMAIN-SUFFIX,withgoogle.com
+  - DOMAIN-SUFFIX,womenwill.com
+  - DOMAIN-SUFFIX,womenwill.com.br
+  - DOMAIN-SUFFIX,womenwill.id
+  - DOMAIN-SUFFIX,womenwill.in
+  - DOMAIN-SUFFIX,womenwill.mx
+  - DOMAIN-SUFFIX,x.company
+  - DOMAIN-SUFFIX,x.team
   - DOMAIN-SUFFIX,xn--9kr7l.com
   - DOMAIN-SUFFIX,xn--9trs65b.com
   - DOMAIN-SUFFIX,xn--flw351e.com
   - DOMAIN-SUFFIX,xn--ggle-55da.com
   - DOMAIN-SUFFIX,xn--gogl-0nd52e.com
   - DOMAIN-SUFFIX,xn--gogl-1nd42e.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
   - DOMAIN-SUFFIX,xplr.co
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,google.com
-  - DOMAIN-SUFFIX,googledrive.com
-  - DOMAIN-SUFFIX,gmail.com
-  - DOMAIN-SUFFIX,googledanmark.com
-  - DOMAIN-SUFFIX,googledomains.com
-  - DOMAIN-SUFFIX,googledrive.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,googleads.com
-  - DOMAIN-SUFFIX,blogblog.com
-  - DOMAIN-SUFFIX,go-lang.com
-  - DOMAIN-SUFFIX,go-lang.net
-  - DOMAIN-SUFFIX,go-lang.org
-
+  - DOMAIN-SUFFIX,zukunftswerkstatt.de
+  - DOMAIN-SUFFIX,zynamics.com
+  #######
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,appspot
@@ -107,6 +415,16 @@ payload:
   - PROCESS-NAME,com.google.android.play.games
   - PROCESS-NAME,googledrivefs.exe
   
+  #  谷歌FCM,可直连
+  #- DOMAIN,alt1-mtalk.google.com
+  #- DOMAIN,alt2-mtalk.google.com
+  #- DOMAIN,alt3-mtalk.google.com
+  #- DOMAIN,alt4-mtalk.google.com
+  #- DOMAIN,alt5-mtalk.google.com
+  #- DOMAIN,alt6-mtalk.google.com
+  #- DOMAIN,alt7-mtalk.google.com
+  #- DOMAIN,alt8-mtalk.google.com
+  #- DOMAIN,mtalk.google.com
   - IP-CIDR,64.233.177.188/32,no-resolve
   - IP-CIDR,64.233.186.188/32,no-resolve
   - IP-CIDR,64.233.187.188/32,no-resolve
@@ -121,25 +439,12 @@ payload:
   - IP-CIDR,74.125.203.188/32,no-resolve
   - IP-CIDR,74.125.204.188/32,no-resolve
   - IP-CIDR,74.125.206.188/32,no-resolve
-  - IP-CIDR,108.177.125.188/32,no-resolve
   - IP-CIDR,120.232.181.162/32,no-resolve
   - IP-CIDR,120.241.147.226/32,no-resolve
   - IP-CIDR,120.253.253.226/32,no-resolve
   - IP-CIDR,120.253.255.162/32,no-resolve
   - IP-CIDR,120.253.255.34/32,no-resolve
   - IP-CIDR,120.253.255.98/32,no-resolve
-  - IP-CIDR,142.250.4.188/32,no-resolve
-  - IP-CIDR,142.250.10.188/32,no-resolve
-  - IP-CIDR,142.250.31.188/32,no-resolve
-  - IP-CIDR,142.250.96.188/32,no-resolve
-  - IP-CIDR,172.217.194.188/32,no-resolve
-  - IP-CIDR,172.217.218.188/32,no-resolve
-  - IP-CIDR,172.217.219.188/32,no-resolve
-  - IP-CIDR,172.253.63.188/32,no-resolve
-  - IP-CIDR,172.253.122.188/32,no-resolve
-  - IP-CIDR,173.194.0.0/16,no-resolve
-  - IP-CIDR,173.194.175.188/32,no-resolve
-  - IP-CIDR,173.194.218.188/32,no-resolve
   - IP-CIDR,180.163.150.162/32,no-resolve
   - IP-CIDR,180.163.150.34/32,no-resolve
   - IP-CIDR,180.163.151.162/32,no-resolve
@@ -149,10 +454,23 @@ payload:
   - IP-CIDR,203.208.41.0/24,no-resolve
   - IP-CIDR,203.208.43.0/24,no-resolve
   - IP-CIDR,203.208.50.0/24,no-resolve
-  - IP-CIDR,209.85.233.188/32,no-resolve
-  - IP-CIDR,216.73.80.0/20,no-resolve
   - IP-CIDR,220.181.174.162/32,no-resolve
   - IP-CIDR,220.181.174.226/32,no-resolve
   - IP-CIDR,220.181.174.34/32,no-resolve
+  - IP-CIDR,108.177.125.188/32,no-resolve
+  - IP-CIDR,142.250.4.188/32,no-resolve
+  - IP-CIDR,142.250.10.188/32,no-resolve
+  - IP-CIDR,142.250.31.188/32,no-resolve
+  - IP-CIDR,142.250.96.188/32,no-resolve
+  - IP-CIDR,172.217.194.188/32,no-resolve
+  - IP-CIDR,172.217.218.188/32,no-resolve
+  - IP-CIDR,172.217.219.188/32,no-resolve
+  - IP-CIDR,172.253.63.188/32,no-resolve  
+  - IP-CIDR,172.253.122.188/32,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR,173.194.175.188/32,no-resolve
+  - IP-CIDR,173.194.218.188/32,no-resolve
+  - IP-CIDR,209.85.233.188/32,no-resolve
+  - IP-CIDR,216.73.80.0/20,no-resolve
   - IP-CIDR6,2620:120:e000::/40,no-resolve
   
