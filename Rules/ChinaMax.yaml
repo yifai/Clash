@@ -1,24 +1,18 @@
-#NAME: China  直连，网络收集整理
+#NAME: ChinaMax 直连 包括大部分国内域名及ip，网络收集整理
 payload:	
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
   - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,weibo.cn
-  - DOMAIN,livew.l.qq.com
-  - DOMAIN,vd.l.qq.com
   - DOMAIN-SUFFIX,qhres2.com
   - DOMAIN-SUFFIX,icplishi.com
-  - DOMAIN-SUFFIX,whois.aizhan.com
   - DOMAIN-SUFFIX,aizhan.com
   - DOMAIN-SUFFIX,lejuliang.com
-  - DOMAIN-SUFFIX,fp.unicompayment.com
+  - DOMAIN-SUFFIX,unicompayment.com
   - DOMAIN-SUFFIX,unicompayment.com
   - DOMAIN-SUFFIX,bdcloudapi.com
-  - DOMAIN-SUFFIX,gwgp-cekvddtwkob.n.bdcloudapi.com
   - DOMAIN-SUFFIX,changyoyo.com
-  - DOMAIN-SUFFIX,bsy.resstatic.tcdnos.com
-  - DOMAIN-SUFFIX,resstatic.tcdnos.com
   - DOMAIN-SUFFIX,tcdnos.com
   - DOMAIN-SUFFIX,jvod.300hu.com
   - DOMAIN-SUFFIX,dnsdaquan.com
@@ -27,9 +21,8 @@ payload:
   - DOMAIN-SUFFIX,321fenx.com
   - DOMAIN-SUFFIX,shenzhentong.com
   - DOMAIN-SUFFIX,alibabachengdun.com
-  - DOMAIN-SUFFIX,umini.shujupie.com
   - DOMAIN-SUFFIX,shujupie.com
-  - DOMAIN-SUFFIX,api-fc.dutils.com
+  - DOMAIN-SUFFIX,dutils.com
   - DOMAIN-SUFFIX,doordu.com
   - DOMAIN-SUFFIX,doordu.sobot.com
   - DOMAIN-SUFFIX,zhidao.3533.com
@@ -47,10 +40,9 @@ payload:
   - DOMAIN-SUFFIX,kfw.com
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
-  - DOMAIN-SUFFIX,oss.eple1.top
+  - DOMAIN-SUFFIX,eple1.top
   - DOMAIN-SUFFIX,.cn
   - DOMAIN-SUFFIX,ksepton.com
-  - DOMAIN-SUFFIX,dxmqtt.doordu.com
   - DOMAIN-SUFFIX,ip138.com
   - DOMAIN-SUFFIX,ipchaxun.net
   - DOMAIN-SUFFIX,gd95105888.com
@@ -106,14 +98,12 @@ payload:
   - DOMAIN-SUFFIX,yowindow.com
   - DOMAIN-SUFFIX,yhzb9999.com
   - DOMAIN-SUFFIX,daxiaamu.com
-  - DOMAIN,minipay.gdwxyf.com
   - DOMAIN-SUFFIX,gdwxyf.com
   - DOMAIN-SUFFIX,51pos.com
   - DOMAIN-SUFFIX,sf-pay.com
   - DOMAIN-SUFFIX,118pan.com
   - DOMAIN-SUFFIX,kejishou.com
   - DOMAIN-SUFFIX,rzurl.com
-  - DOMAIN,ed9a3d8.vvpgwg.xyz
   - DOMAIN-SUFFIX,downpp.com
   - DOMAIN-SUFFIX,fly2cn.top
   - DOMAIN-SUFFIX,ipshudi.com
@@ -153,7 +143,7 @@ payload:
   - DOMAIN-KEYWORD,qbittorrent
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-KEYWORD,.cn
-
+  #############
   - PROCESS-NAME,hysteria
   - PROCESS-NAME,hysteria.exe
   - PROCESS-NAME,leaf
@@ -232,22 +222,11 @@ payload:
   - PROCESS-NAME,xdm.exe
   - PROCESS-NAME,xdman
   - PROCESS-NAME,xdman.exe
+  ############
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN,analytics.strava.com
-  - DOMAIN-SUFFIX,alibaba
   - DOMAIN-SUFFIX,wang
-  - DOMAIN-SUFFIX,unicom
-  - DOMAIN-SUFFIX,tmall
-  - DOMAIN-SUFFIX,taobao
-  - DOMAIN-SUFFIX,sohu
-  - DOMAIN-SUFFIX,ms
-  - DOMAIN-SUFFIX,icbc
-  - DOMAIN-SUFFIX,full
-  - DOMAIN-SUFFIX,cn
-  - DOMAIN-SUFFIX,citic
-  - DOMAIN-SUFFIX,baidu
-  - DOMAIN-SUFFIX,alipay
   - DOMAIN-SUFFIX,jowto.com
   - DOMAIN-SUFFIX,malingguzhai.com
   - DOMAIN-SUFFIX,05eg.com
@@ -926,7 +905,7 @@ payload:
   - DOMAIN-SUFFIX,123.cc
   - DOMAIN-SUFFIX,12301.cc
   - DOMAIN-SUFFIX,1230539.com
-  - DOMAIN-SUFFIX,12306.com
+  - DOMAIN-SUFFIX,12306.cn
   - DOMAIN-SUFFIX,12306bypass.com
   - DOMAIN-SUFFIX,12308.com
   - DOMAIN-SUFFIX,123123.net
@@ -2944,6 +2923,7 @@ payload:
   - DOMAIN-SUFFIX,360-jr.com
   - DOMAIN-SUFFIX,360.com
   - DOMAIN-SUFFIX,360.net
+  - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,3600.net
   - DOMAIN-SUFFIX,3600d.com
   - DOMAIN-SUFFIX,3600du.com
@@ -9544,7 +9524,6 @@ payload:
   - DOMAIN-SUFFIX,alipay-inc.com
   - DOMAIN-SUFFIX,alipay-traffic.com
   - DOMAIN-SUFFIX,alipay.com
-  - DOMAIN-SUFFIX,alipay.hk
   - DOMAIN-SUFFIX,alipay.net
   - DOMAIN-SUFFIX,alipayauto.com
   - DOMAIN-SUFFIX,alipaycs.com
@@ -14613,7 +14592,6 @@ payload:
   - DOMAIN-SUFFIX,brother-movie.com
   - DOMAIN-SUFFIX,zzxx.org
   - DOMAIN-SUFFIX,brownwings.com
-  - DOMAIN-SUFFIX,browserleaks.com
   - DOMAIN-SUFFIX,browurl.com
   - DOMAIN-SUFFIX,brpcb.com
   - DOMAIN-SUFFIX,brrub.us
@@ -14789,6 +14767,7 @@ payload:
   - DOMAIN-SUFFIX,btten.com
   - DOMAIN-SUFFIX,bttiantang.cc
   - DOMAIN-SUFFIX,bttiantang.com
+  - DOMAIN-SUFFIX,bttrack.com
   - DOMAIN-SUFFIX,btttg.com
   - DOMAIN-SUFFIX,btv.org
   - DOMAIN-SUFFIX,btvcd.net
@@ -74444,6 +74423,7 @@ payload:
   - DOMAIN-SUFFIX,tracestour.com
   - DOMAIN-SUFFIX,track-roller.com
   - DOMAIN-SUFFIX,tracker.ink
+  - DOMAIN-SUFFIX,tracker
   - DOMAIN-SUFFIX,trackingmore.com
   - DOMAIN-SUFFIX,tracup.com
   - DOMAIN-SUFFIX,tracyclass.com
@@ -85677,7 +85657,6 @@ payload:
   - DOMAIN-SUFFIX,yidianer.com
   - DOMAIN-SUFFIX,yidianfenqi.com
   - DOMAIN-SUFFIX,yidianhulian.com
-  - DOMAIN-SUFFIX,yidianliangdiansandiansidianwudianliudianqidianbadianjiudianshi.com
   - DOMAIN-SUFFIX,yidianling.com
   - DOMAIN-SUFFIX,yidianliulan.com
   - DOMAIN-SUFFIX,yidiansz.com
