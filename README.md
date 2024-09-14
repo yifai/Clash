@@ -210,19 +210,19 @@ proxy-groups:
 #rule-providers：远程分流规则
 rule-providers:
 
-  Reject: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Reject.yaml", path: ./providers/rule/Reject.yaml, interval: 864000}
+  Reject: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Rules/Reject.yaml", path: ./providers/rule/Reject.yaml, interval: 864000}
   
-  China: {type: http,behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/China.yaml", path: ./providers/rule/China.yaml, nterval: 864000}
+  China: {type: http,behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Rules/China.yaml", path: ./providers/rule/China.yaml, nterval: 864000}
   
-  Google: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Google.yaml", path: ./providers/rule/Google.yaml, interval: 864000}
+  Google: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Rules/Google.yaml", path: ./providers/rule/Google.yaml, interval: 864000}
     
-  Apple: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Apple.yaml", path: ./providers/rule/Apple.yaml, interval: 864000}
+  Apple: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Rules/Apple.yaml", path: ./providers/rule/Apple.yaml, interval: 864000}
     
-  Microsoft: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Microsoft.yaml", path: ./providers/rule/Microsoft.yaml, interval: 864000}
+  Microsoft: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Rules/Microsoft.yaml", path: ./providers/rule/Microsoft.yaml, interval: 864000}
   
-  PayPal: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/PayPal.yaml", path: ./providers/rule/PayPal.yaml, interval: 864000}
+  PayPal: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Rules/PayPal.yaml", path: ./providers/rule/PayPal.yaml, interval: 864000}
     
-  Proxy: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Proxylite.yaml", path: ./providers/rule/Proxy.yaml, interval: 864000}
+  Proxy: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/yifai/Clash/main/Rules/Proxylite.yaml", path: ./providers/rule/Proxy.yaml, interval: 864000}
   
 # rules规则由上往下遍历，如上面规则已经命中，则不再往下处理
 rules:
