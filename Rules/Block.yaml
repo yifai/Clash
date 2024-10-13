@@ -314,12 +314,11 @@ payload:
   - IP-CIDR,220.115.251.25/32,no-resolve
   - IP-CIDR,222.73.156.235/32,no-resolve
 
-#Title: AWAvenue Ads Rule秋风去广告
-#Total lines: 689
-#Version: 1.5.3-release
-#Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
-#License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
-
+  #Title: AWAvenue Ads Rule秋风去广告
+  #Total lines: 689
+  #Version: 1.5.3-release
+  #Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
+  #License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
   - DOMAIN,1010pic.com
   - DOMAIN,16dd-advertise-1252317822.file.myqcloud.com
   - DOMAIN,16dd-advertise-1252317822.image.myqcloud.com
