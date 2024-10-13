@@ -1,5 +1,4 @@
 #Block,与Reject的差别是加上了秋风去广告，去重
-
 payload:
   - DOMAIN,adsense.google.cn
   - DOMAIN,ads.google.cn
@@ -32,7 +31,7 @@ payload:
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
   
-  ##  反诈
+  #反诈
   - DOMAIN,miav-cse.avlyun.com
   - DOMAIN,a0.app.xiaomi.com  #小米云备份异常请注释或删除这行
   - DOMAIN,miui-fxcse.avlyun.com
@@ -44,7 +43,7 @@ payload:
   #- DOMAIN,ifs.tanx.com
   # > Tencent
   - DOMAIN,safebrowsing.urlsec.qq.com
-  ## > 
+  # > 
   - DOMAIN,whois.pconline.com.cn
   - DOMAIN-SUFFIX,shouji.sogou.com
   - DOMAIN,in.appcenter.ms
@@ -313,12 +312,11 @@ payload:
   - IP-CIDR,211.161.101.110/32,no-resolve
   - IP-CIDR,220.115.251.25/32,no-resolve
   - IP-CIDR,222.73.156.235/32,no-resolve
-
-  #Title: AWAvenue Ads Rule秋风去广告
-  #Total lines: 689
-  #Version: 1.5.3-release
-  #Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
-  #License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
+#Title: AWAvenue Ads Rule
+#Total lines: 689
+#Version: 1.5.3-release
+#Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
+#License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
   - DOMAIN,1010pic.com
   - DOMAIN,16dd-advertise-1252317822.file.myqcloud.com
   - DOMAIN,16dd-advertise-1252317822.image.myqcloud.com
@@ -824,3 +822,4 @@ payload:
   - DOMAIN,[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com
   - DOMAIN,[a-zA-Z0-9.-]*-normal\.zijieapi\.com
   - DOMAIN,cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com
+  
