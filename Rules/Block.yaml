@@ -549,7 +549,6 @@ payload:
   - DOMAIN,iadsdk.apple.com
   - DOMAIN,iadworkbench.apple.com
   - DOMAIN,ifacelog.iqiyi.com
-  - DOMAIN,ifs.tanx.com
   - DOMAIN,ii.gdt.qq.com
   - DOMAIN,imag8.pubmatic.com
   - DOMAIN,imag86.pubmatic.com
