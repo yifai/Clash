@@ -32,7 +32,7 @@ payload:
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
   
-  #反诈
+  #屏蔽上传
   - DOMAIN,miav-cse.avlyun.com
   - DOMAIN,a0.app.xiaomi.com  #小米云备份异常请注释或删除这行
   - DOMAIN,miui-fxcse.avlyun.com
