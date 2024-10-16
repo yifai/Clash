@@ -206,8 +206,8 @@ payload:
   - DOMAIN,mi.gdt.qq.com
   - DOMAIN,monitor.music.qq.com
   - DOMAIN,monitor.uu.qq.com
-  #- DOMAIN,oth.eve.mdt.qq.com
-  #- DOMAIN,oth.str.mdt.qq.com
+  - DOMAIN,oth.eve.mdt.qq.com
+  - DOMAIN,oth.str.mdt.qq.com
   - DOMAIN,p.l.qq.com
   - DOMAIN,q.i.gdt.qq.com
   - DOMAIN,qqdata.ab.qq.com
@@ -312,7 +312,7 @@ payload:
   - IP-CIDR,211.161.101.110/32,no-resolve
   - IP-CIDR,220.115.251.25/32,no-resolve
   - IP-CIDR,222.73.156.235/32,no-resolve
-#Title: AWAvenue Ads Rule
+#Title: AWAvenue Ads Rule 秋风去广告
 #Total lines: 689
 #Version: 1.5.3-release
 #Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
@@ -645,8 +645,6 @@ payload:
   - DOMAIN,open.kwaizt.com
   - DOMAIN,optimus-ads.amap.com
   - DOMAIN,orbit.jd.com
-  - DOMAIN,oth.eve.mdt.qq.com
-  - DOMAIN,oth.str.mdt.qq.com
   - DOMAIN,otheve.play.aiseet.atianqi.com
   - DOMAIN,outlookads.live.com
   - DOMAIN,p1-lm.adkwai.com
