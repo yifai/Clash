@@ -136,6 +136,17 @@ payload:
   - DOMAIN,tracking.miui.com
   - DOMAIN,tracking.rus.miui.com
   - DOMAIN,update.avlyun.sec.miui.com
+  - DOMAIN,api.sec.miui.com
+  - DOMAIN,auth.be.sec.miui.com
+  - DOMAIN,app.chat.xiaomi.net
+  - DOMAIN,auth.be.sec.miui.com
+  - DOMAIN,resolver.msg.xiaomi.net
+  - IP-CIDR,114.54.0.0/18,no-resolve
+  - IP-CIDR,120.92.0.0/17,no-resolve
+  - IP-CIDR,42.62.0.0/18,no-resolve
+  - IP-CIDR,111.206.199.0/22,no-resolve
+  - IP-CIDR,111.13.94.0/17,no-resolve
+  
   ##############
   - DOMAIN,xiaomi-dtv.m.cn.miaozhen.com
   - DOMAIN,zeus.ad.xiaomi.com
@@ -211,8 +222,8 @@ payload:
   - DOMAIN,mi.gdt.qq.com
   - DOMAIN,monitor.music.qq.com
   - DOMAIN,monitor.uu.qq.com
-  #- DOMAIN,oth.eve.mdt.qq.com
-  #- DOMAIN,oth.str.mdt.qq.com
+  - DOMAIN,oth.eve.mdt.qq.com
+  - DOMAIN,oth.str.mdt.qq.com
   - DOMAIN,p.l.qq.com
   - DOMAIN,q.i.gdt.qq.com
   - DOMAIN,qqdata.ab.qq.com
