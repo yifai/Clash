@@ -133,6 +133,7 @@ payload:
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,umva-china.com
   - DOMAIN-SUFFIX,tanx.com
+  - DOMAIN-SUFFIX,bdj9999.com
   #- DOMAIN-SUFFIX,
   
   - PROCESS-NAME,org.localsend.localsend_app
