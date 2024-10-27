@@ -112,7 +112,6 @@ payload:
   - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,fbsbx.com
   - DOMAIN-SUFFIX,fb.watch
-  - DOMAIN-SUFFIX,fbpigeon.com
   - DOMAIN-SUFFIX,futureofbusinesssurvey.org
   - DOMAIN-SUFFIX,gacebook.com
   - DOMAIN-SUFFIX,gameroom.com
@@ -354,6 +353,12 @@ payload:
   - IP-CIDR,54.156.0.0/14,no-resolve
   - IP-CIDR,54.226.0.0/15,no-resolve
   - IP-CIDR,54.230.156.0/22,no-resolve
+  
+  # Qnap NAS
+  - DOMAIN-SUFFIX,myqnapcloud.io
+  - DOMAIN-SUFFIX,myqnapcloud.com
+  - DOMAIN-KEYWORD,myqnapcloud
+  - DOMAIN-SUFFIX,qnap.com
   
   # BBC
   - DOMAIN-KEYWORD,uk-live
