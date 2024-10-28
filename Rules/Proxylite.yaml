@@ -357,7 +357,7 @@ payload:
   # Qnap NAS
   - DOMAIN-SUFFIX,myqnapcloud.io
   - DOMAIN-SUFFIX,myqnapcloud.com
-  - DOMAIN-KEYWORD,myqnapcloud
+  #- DOMAIN-KEYWORD,myqnapcloud
   - DOMAIN-SUFFIX,qnap.com
   
   # BBC
