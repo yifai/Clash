@@ -133,7 +133,6 @@ payload:
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,umva-china.com
   - DOMAIN-SUFFIX,tanx.com
-  - DOMAIN-SUFFIX,bdj9999.com
   #- DOMAIN-SUFFIX,
   
   - PROCESS-NAME,org.localsend.localsend_app
@@ -482,8 +481,6 @@ payload:
   - DOMAIN-SUFFIX,clouddn.com
   - DOMAIN-SUFFIX,cloudxns.net
   - DOMAIN-SUFFIX,cn163.net
-  - DOMAIN-SUFFIX,cnbeta.com
-  - DOMAIN-SUFFIX,cnbetacdn.com
   - DOMAIN-SUFFIX,cnblogs.com
   - DOMAIN-SUFFIX,cnki.net
   - DOMAIN-SUFFIX,cnmstl.net
