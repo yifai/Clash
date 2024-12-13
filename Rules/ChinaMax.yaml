@@ -39,7 +39,7 @@ payload:
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,eple1.top
-  - DOMAIN-SUFFIX,.cn
+
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,doordu.com
   - DOMAIN-SUFFIX,ip138.com
@@ -134,6 +134,8 @@ payload:
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,umva-china.com
   - DOMAIN-SUFFIX,tanx.com
+  - DOMAIN-SUFFIX,jjh9999.com
+  - DOMAIN-SUFFIX,ipshu.com
   
   - PROCESS-NAME,org.localsend.localsend_app
   - PROCESS-NAME,localsend
@@ -157,8 +159,7 @@ payload:
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
   - DOMAIN-KEYWORD,qbittorrent
-  - DOMAIN-KEYWORD,-cn
-  - DOMAIN-KEYWORD,.cn
+  
   #############
   - PROCESS-NAME,hysteria
   - PROCESS-NAME,hysteria.exe
@@ -55611,6 +55612,7 @@ payload:
   - DOMAIN-SUFFIX,mcfsji.com
   - DOMAIN-SUFFIX,mcfun.tv
   - DOMAIN-SUFFIX,mcfxw.com
+  - DOMAIN-SUFFIX,slooong.com
   - DOMAIN-SUFFIX,mcgcebill.com
   - DOMAIN-SUFFIX,mchat.com
   - DOMAIN-SUFFIX,mchifi.com
@@ -64302,7 +64304,7 @@ payload:
   - DOMAIN-SUFFIX,qmz5.com
   - DOMAIN-SUFFIX,qmzs.com
   - DOMAIN-SUFFIX,qnali.com
-  - DOMAIN-SUFFIX,qnapcn.com
+  #- DOMAIN-SUFFIX,qnapcn.com
   - DOMAIN-SUFFIX,qnbar.com
   - DOMAIN-SUFFIX,qncd.com
   - DOMAIN-SUFFIX,qncyw.com
@@ -92870,6 +92872,9 @@ payload:
   - DOMAIN-SUFFIX,dcn01.ps4.update.playstation.net
   - DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
   - DOMAIN-SUFFIX,gs.ww.np.dl.playstation.net
+  - DOMAIN-SUFFIX,.cn
+  - DOMAIN-KEYWORD,-cn
+  - DOMAIN-KEYWORD,.cn
   ##### 
   - IP-CIDR,1.0.1.0/24,no-resolve
   - IP-CIDR,1.0.2.0/23,no-resolve
