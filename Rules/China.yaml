@@ -37,7 +37,7 @@ payload:
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,eple1.top
-  - DOMAIN-SUFFIX,.cn
+  #####
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,doordu.com
   - DOMAIN-SUFFIX,ip138.com
@@ -134,7 +134,9 @@ payload:
   - DOMAIN-SUFFIX,umva-china.com
   - DOMAIN-SUFFIX,tanx.com
   - DOMAIN-SUFFIX,vsean.net
-  
+  - DOMAIN-SUFFIX,jjh9999.com
+  - DOMAIN-SUFFIX,bdj9999.com
+  - DOMAIN-SUFFIX,ipshu.com
   - PROCESS-NAME,org.localsend.localsend_app
   - PROCESS-NAME,localsend
   - PROCESS-NAME,com.eg.android.AlipayGphone
@@ -939,6 +941,7 @@ payload:
   - DOMAIN,www.libvideo.com
   - DOMAIN,www.yxssp.com
   - DOMAIN-SUFFIX,0123456789.com
+  - DOMAIN-SUFFIX,slooong.com
   - DOMAIN-SUFFIX,0379home.com
   - DOMAIN-SUFFIX,055110.com
   - DOMAIN-SUFFIX,05sun.com
@@ -3847,6 +3850,7 @@ payload:
   - DOMAIN-KEYWORD,bittorrent
   - DOMAIN-KEYWORD,qbittorrent
   - DOMAIN-KEYWORD,-cn
+  - DOMAIN-SUFFIX,.cn
   - DOMAIN-KEYWORD,.cn
 
   - PROCESS-NAME,hysteria
