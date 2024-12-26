@@ -42,7 +42,47 @@ payload:
   - DOMAIN,beacon-api.aliyuncs.com
   - DOMAIN,mpush-api.aliyun.com
   #- DOMAIN,ifs.tanx.com
-  
+  # 禁止PCDN
+  - DOMAIN-SUFFIX,gjfzpt.cn
+  - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,bsccdn.net
+  - DOMAIN-SUFFIX,pkoplink.com
+  - DOMAIN-SUFFIX,saxysec.com
+  - DOMAIN-SUFFIX,uhabo.com
+  - DOMAIN-SUFFIX,xycdn.com
+  - DOMAIN-SUFFIX,kuiniuca.com
+  - DOMAIN-SUFFIX,onethingpcs.com
+  - DOMAIN-SUFFIX,jomodns.cn
+  - DOMAIN-SUFFIX,p2p.huya.com
+  - DOMAIN,stun.douyucdn.cn
+  - DOMAIN,stun1.douyucdn.cn
+  - DOMAIN,stun.hitv.com
+  - DOMAIN,mcdn.bilivideo.cn
+  - DOMAIN,pcdn.yximgs.com
+  - DOMAIN,dyp2p-ali.douyucdn.cn
+  - DOMAIN,dyp2p-hw.douyucdn.cn
+  - DOMAIN,tx-gz-live-p2p-01.chat.bilibili.com
+  - DOMAIN,ppio.cloud
+  - DOMAIN,p2p-ali.douyucdn.cn
+  - DOMAIN,p2p.qq.com
+  - DOMAIN,p2pchunk-hw.douyucdn.cn
+  - DOMAIN,p2pchunk-table.douyucdn.cn
+  - DOMAIN,p2pchunk-ws.douyucdn.cn
+  - DOMAIN,p2perrorlog.douyucdn.cn
+  - DOMAIN,p2plive-ali.douyucdn.cn
+  - DOMAIN,p2plive-ws.douyucdn.cn
+  - DOMAIN,p2plog.douyucdn.cn
+  - DOMAIN,p2ptun.qq.com
+  - DOMAIN,p2pupdate.gamedl.qq.com
+  - DOMAIN,p2pupgrade.gamedl.qq.com
+  - DOMAIN,p2pvod-ws.douyucdn.cn
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com
+  - DOMAIN-SUFFIX,pcdn.xmcdn.com
+  - DOMAIN-REGEX,.*pcdn.*biliapi\.net
+  - DOMAIN-REGEX,.*pcdn.*youku\.com
+  - DOMAIN-REGEX,.*p2p.*douyucdn\.cn
+  - DOMAIN-REGEX,.*p2p.*qq\.com
   # > Tencent
   - DOMAIN,safebrowsing.urlsec.qq.com
   # > 
@@ -93,7 +133,6 @@ payload:
   - DOMAIN,*.log.aliyuncs.com
   - DOMAIN,adsfilebssdlbig.ali.kugou.com
   - DOMAIN,ali-ad.a.yximgs.com
-  - DOMAIN,beacon-api.aliyuncs.com
   - DOMAIN,cdn.ynuf.aliapp.org
   - DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com
   - DOMAIN,tnc3-aliec1.toutiaoapi.com
@@ -107,7 +146,6 @@ payload:
   - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,ad.xiaomi.com
   - DOMAIN,api.ad.xiaomi.com
-  - DOMAIN,api.installer.xiaomi.com
   - DOMAIN,cdn.ad.xiaomi.com
   - DOMAIN,data.mistat.india.xiaomi.com
   - DOMAIN,data.mistat.rus.xiaomi.com
@@ -132,21 +170,18 @@ payload:
   - DOMAIN,log.avlyun.sec.intl.miui.com
   - DOMAIN,logupdate.avlyun.sec.miui.com
   - DOMAIN,metok.sys.miui.com
-  - DOMAIN,miui-fxcse.avlyun.com
   - DOMAIN,tracking.miui.com
   - DOMAIN,tracking.rus.miui.com
   - DOMAIN,update.avlyun.sec.miui.com
   - DOMAIN,api.sec.miui.com
   - DOMAIN,auth.be.sec.miui.com
   - DOMAIN,app.chat.xiaomi.net
-  - DOMAIN,auth.be.sec.miui.com
   - DOMAIN,resolver.msg.xiaomi.net
   - IP-CIDR,114.54.0.0/18,no-resolve
   - IP-CIDR,120.92.0.0/17,no-resolve
   - IP-CIDR,42.62.0.0/18,no-resolve
   - IP-CIDR,111.206.199.0/22,no-resolve
   - IP-CIDR,111.13.94.0/17,no-resolve
-  
   ##############
   - DOMAIN,xiaomi-dtv.m.cn.miaozhen.com
   - DOMAIN,zeus.ad.xiaomi.com
@@ -179,10 +214,7 @@ payload:
   - DOMAIN,pangolin-sdk-toutiao-b.com
   - DOMAIN,pglstatp-toutiao.com
   - DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
-  - DOMAIN,tnc3-aliec1.toutiaoapi.com
-  - DOMAIN,tnc3-aliec2.toutiaoapi.com
   - DOMAIN,tnc3-bjlgy.toutiaoapi.com
-  ###############
   - DOMAIN,dxp.baidu.com
   - DOMAIN,eclick.baidu.com
   - DOMAIN,entry.baidu.com
@@ -196,14 +228,7 @@ payload:
   - DOMAIN,mtj.baidu.com
   - DOMAIN,nsclick.baidu.com
   - DOMAIN,union.baidu.com
-  #########
-  - DOMAIN,ads.heytapmobi.com
-  - DOMAIN,adx.ads.heytapmobi.com
-  - DOMAIN,b1-data.ads.heytapmobi.com
-  - DOMAIN,stg-data.ads.heytapmobi.com
-  - DOMAIN,uapi.ads.heytapmobi.com
-  - DOMAIN,virusinfo-cloudscan-cn.heytapmobi.com
-  ################
+  ######
   - DOMAIN,ad.qq.com
   - DOMAIN,adfilter.imtt.qq.com
   - DOMAIN,beacon.qq.com
@@ -262,7 +287,6 @@ payload:
   - DOMAIN,wxsnsdy.wxs.qq.com
   - DOMAIN,wxsnsdythumb.wxs.qq.com
   - DOMAIN,xc.gdt.qq.com
-  #########
   - IP-CIDR,114.119.160.0/21,no-resolve
   - IP-CIDR,117.177.248.17/32,no-resolve
   - IP-CIDR,117.177.248.41/32,no-resolve
@@ -283,20 +307,6 @@ payload:
   - IP-CIDR,101.227.200.28/32,no-resolve
   - IP-CIDR,101.227.97.240/32,no-resolve
   - IP-CIDR,124.192.153.42/32,no-resolve
-  - IP-CIDR,117.177.248.17/32,no-resolve
-  - IP-CIDR,117.177.248.41/32,no-resolve
-  - IP-CIDR,223.87.176.139/32,no-resolve
-  - IP-CIDR,223.87.176.176/32,no-resolve
-  - IP-CIDR,223.87.177.180/32,no-resolve
-  - IP-CIDR,223.87.177.182/32,no-resolve
-  - IP-CIDR,223.87.177.184/32,no-resolve
-  - IP-CIDR,223.87.177.43/32,no-resolve
-  - IP-CIDR,223.87.177.47/32,no-resolve
-  - IP-CIDR,223.87.177.80/32,no-resolve
-  - IP-CIDR,223.87.182.101/32,no-resolve
-  - IP-CIDR,223.87.182.102/32,no-resolve
-  - IP-CIDR,223.87.182.11/32,no-resolve
-  - IP-CIDR,223.87.182.52/32,no-resolve
   - IP-CIDR,39.107.15.115/32,no-resolve
   - IP-CIDR,47.89.59.182/32,no-resolve
   - IP-CIDR,103.49.209.27/32,no-resolve
@@ -343,4 +353,3 @@ payload:
   - IP-CIDR,211.161.101.110/32,no-resolve
   - IP-CIDR,220.115.251.25/32,no-resolve
   - IP-CIDR,222.73.156.235/32,no-resolve
-  
