@@ -54,11 +54,11 @@ payload:
   - DOMAIN-SUFFIX,onethingpcs.com
   - DOMAIN-SUFFIX,jomodns.cn
   - DOMAIN-SUFFIX,p2p.huya.com
-  - DOMAIN,stun.douyucdn.cn
-  - DOMAIN,stun1.douyucdn.cn
-  - DOMAIN,stun.hitv.com
-  - DOMAIN,mcdn.bilivideo.cn
-  - DOMAIN,pcdn.yximgs.com
+  - DOMAIN-SUFFIX,stun.douyucdn.cn
+  - DOMAIN-SUFFIX,stun1.douyucdn.cn
+  - DOMAIN-SUFFIX,stun.hitv.com
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,pcdn.yximgs.com
   - DOMAIN,dyp2p-ali.douyucdn.cn
   - DOMAIN,dyp2p-hw.douyucdn.cn
   - DOMAIN,tx-gz-live-p2p-01.chat.bilibili.com
