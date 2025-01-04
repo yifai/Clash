@@ -1,8 +1,7 @@
-#NAME: China  国内直连，部分网络收集
+#NAME: China  直连，部分网络收集
 payload:
   - DOMAIN-KEYWORD,Authy
   - DOMAIN-SUFFIX,Authy.com
-  - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,weibo.cn
