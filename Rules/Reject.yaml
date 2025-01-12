@@ -116,8 +116,8 @@ payload:
   - DOMAIN,pfg.coocaa.wasu.tv
   - DOMAIN,data-hoisin.coocaa.wasu.tv
   - DOMAIN,api-upgrade.coocaa.wasu.tv
-  - IP-CIDR,193.112.97.61/32
-  - IP-CIDR,175.178.207.9232
+  - IP-CIDR,193.112.97.61/32,no-resolve
+  - IP-CIDR,175.178.207.9232,no-resolve
   #优酷
   - DOMAIN,atm.youku.com
   - DOMAIN,Fvid.atm.youku.com
