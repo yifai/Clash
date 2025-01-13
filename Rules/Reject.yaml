@@ -1,4 +1,4 @@
-#Reject,屏蔽追踪/去广告
+# Reject,屏蔽追踪/去广告
 
 payload:
   - DOMAIN,adsense.google.cn
@@ -84,7 +84,7 @@ payload:
   - DOMAIN-REGEX,.*pcdn.*youku\.com
   - DOMAIN-REGEX,.*p2p.*douyucdn\.cn
   - DOMAIN-REGEX,.*p2p.*qq\.com
-  #########
+  ###
   - DOMAIN,api.app.skysrt.com
   - DOMAIN,api.upgrade.skysrt.com
   - DOMAIN,update01.skyworth-cloud.com
@@ -234,7 +234,7 @@ payload:
   - DOMAIN,tnc3-alisc1.bytedance.com
   - DOMAIN,tnc3-alisc1.zijieapi.com
   - DOMAIN,tnc3-alisc2.zijieapi.com
-  ###############
+  ###########
   - DOMAIN,*.a.market.xiaomi.com
   - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,ad.xiaomi.com
@@ -275,7 +275,7 @@ payload:
   - IP-CIDR,42.62.0.0/18,no-resolve
   - IP-CIDR,111.206.199.0/22,no-resolve
   - IP-CIDR,111.13.94.0/17,no-resolve
-  ##############
+  #########
   - DOMAIN,xiaomi-dtv.m.cn.miaozhen.com
   - DOMAIN,zeus.ad.xiaomi.com
   - DOMAIN,ads.heytapmobi.com
