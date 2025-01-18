@@ -37,55 +37,14 @@ payload:
   - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,miui-fxcse.avlyun.com
   - DOMAIN,api.installer.xiaomi.com
-  - DOMAIN,applog.uc.cn
   - IP-CIDR,157.148.0.0/16,no-resolve
   - DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
   - DOMAIN,beacon-api.aliyuncs.com
   - DOMAIN,mpush-api.aliyun.com
-  # > Tencent
   - DOMAIN,safebrowsing.urlsec.qq.com
   #- DOMAIN,ifs.tanx.com
+  
   # 禁止PCDN
-  - DOMAIN-SUFFIX,gjfzpt.cn
-  - DOMAIN-SUFFIX,szbdyd.com
-  - DOMAIN-SUFFIX,bsccdn.net
-  - DOMAIN-SUFFIX,pkoplink.com
-  - DOMAIN-SUFFIX,saxysec.com
-  - DOMAIN-SUFFIX,uhabo.com
-  - DOMAIN-SUFFIX,xycdn.com
-  - DOMAIN-SUFFIX,kuiniuca.com
-  - DOMAIN-SUFFIX,onethingpcs.com
-  - DOMAIN-SUFFIX,jomodns.cn
-  - DOMAIN-SUFFIX,p2p.huya.com
-  - DOMAIN-SUFFIX,stun.douyucdn.cn
-  - DOMAIN-SUFFIX,stun1.douyucdn.cn
-  - DOMAIN-SUFFIX,stun.hitv.com
-  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
-  - DOMAIN-SUFFIX,pcdn.yximgs.com
-  - DOMAIN,dyp2p-ali.douyucdn.cn
-  - DOMAIN,dyp2p-hw.douyucdn.cn
-  - DOMAIN,tx-gz-live-p2p-01.chat.bilibili.com
-  - DOMAIN,ppio.cloud
-  - DOMAIN,p2p-ali.douyucdn.cn
-  - DOMAIN,p2p.qq.com
-  - DOMAIN,p2pchunk-hw.douyucdn.cn
-  - DOMAIN,p2pchunk-table.douyucdn.cn
-  - DOMAIN,p2pchunk-ws.douyucdn.cn
-  - DOMAIN,p2perrorlog.douyucdn.cn
-  - DOMAIN,p2plive-ali.douyucdn.cn
-  - DOMAIN,p2plive-ws.douyucdn.cn
-  - DOMAIN,p2plog.douyucdn.cn
-  - DOMAIN,p2ptun.qq.com
-  - DOMAIN,p2pupdate.gamedl.qq.com
-  - DOMAIN,p2pupgrade.gamedl.qq.com
-  - DOMAIN,p2pvod-ws.douyucdn.cn
-  - DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com
-  - DOMAIN-SUFFIX,pcdn.xmcdn.com
-  - DOMAIN-REGEX,.*pcdn.*biliapi\.net
-  - DOMAIN-REGEX,.*pcdn.*youku\.com
-  - DOMAIN-REGEX,.*p2p.*douyucdn\.cn
-  - DOMAIN-REGEX,.*p2p.*qq\.com
-  ###
   - DOMAIN,api.app.skysrt.com
   - DOMAIN,api.upgrade.skysrt.com
   - DOMAIN,update01.skyworth-cloud.com
@@ -118,7 +77,7 @@ payload:
   - DOMAIN,data-hoisin.coocaa.wasu.tv
   - DOMAIN,api-upgrade.coocaa.wasu.tv
   - IP-CIDR,193.112.97.61/32,no-resolve
-  - IP-CIDR,175.178.207.92/32,no-resolve
+  - IP-CIDR,175.178.207.9232,no-resolve
   #优酷
   - DOMAIN,atm.youku.com
   - DOMAIN,Fvid.atm.youku.com
@@ -181,6 +140,46 @@ payload:
   - DOMAIN,d.cntv.cn
   - DOMAIN,adguanggao.eee114.com
   - DOMAIN,cctv.adsunion.com
+  ######
+  - DOMAIN,dyp2p-ali.douyucdn.cn
+  - DOMAIN,dyp2p-hw.douyucdn.cn
+  - DOMAIN,tx-gz-live-p2p-01.chat.bilibili.com
+  - DOMAIN,ppio.cloud
+  - DOMAIN,p2p-ali.douyucdn.cn
+  - DOMAIN,p2p.qq.com
+  - DOMAIN,p2pchunk-hw.douyucdn.cn
+  - DOMAIN,p2pchunk-table.douyucdn.cn
+  - DOMAIN,p2pchunk-ws.douyucdn.cn
+  - DOMAIN,p2perrorlog.douyucdn.cn
+  - DOMAIN,p2plive-ali.douyucdn.cn
+  - DOMAIN,p2plive-ws.douyucdn.cn
+  - DOMAIN,p2plog.douyucdn.cn
+  - DOMAIN,p2ptun.qq.com
+  - DOMAIN,p2pupdate.gamedl.qq.com
+  - DOMAIN,p2pupgrade.gamedl.qq.com
+  - DOMAIN,p2pvod-ws.douyucdn.cn
+  - DOMAIN-SUFFIX,gjfzpt.cn
+  - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,bsccdn.net
+  - DOMAIN-SUFFIX,pkoplink.com
+  - DOMAIN-SUFFIX,saxysec.com
+  - DOMAIN-SUFFIX,uhabo.com
+  - DOMAIN-SUFFIX,xycdn.com
+  - DOMAIN-SUFFIX,kuiniuca.com
+  - DOMAIN-SUFFIX,onethingpcs.com
+  - DOMAIN-SUFFIX,jomodns.cn
+  - DOMAIN-SUFFIX,p2p.huya.com
+  - DOMAIN-SUFFIX,stun.douyucdn.cn
+  - DOMAIN-SUFFIX,stun1.douyucdn.cn
+  - DOMAIN-SUFFIX,stun.hitv.com
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,pcdn.yximgs.com
+  - DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com
+  - DOMAIN-SUFFIX,pcdn.xmcdn.com
+  - DOMAIN-REGEX,.*pcdn.*biliapi\.net
+  - DOMAIN-REGEX,.*pcdn.*youku\.com
+  - DOMAIN-REGEX,.*p2p.*douyucdn\.cn
+  - DOMAIN-REGEX,.*p2p.*qq\.com
   # > 
   - DOMAIN,whois.pconline.com.cn
   - DOMAIN-SUFFIX,shouji.sogou.com
@@ -237,7 +236,6 @@ payload:
   - DOMAIN,tnc3-alisc2.zijieapi.com
   ###########
   - DOMAIN,*.a.market.xiaomi.com
-  - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,ad.xiaomi.com
   - DOMAIN,api.ad.xiaomi.com
   - DOMAIN,cdn.ad.xiaomi.com
