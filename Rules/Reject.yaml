@@ -37,6 +37,7 @@ payload:
   - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,miui-fxcse.avlyun.com
   - DOMAIN,api.installer.xiaomi.com
+  - DOMAIN,applog.uc.cn
   - IP-CIDR,157.148.0.0/16,no-resolve
   - DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
   - DOMAIN,beacon-api.aliyuncs.com
