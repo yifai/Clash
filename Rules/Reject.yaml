@@ -32,7 +32,7 @@ payload:
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
   
-  #屏蔽上传
+  #屏蔽追踪
   - DOMAIN,miav-cse.avlyun.com
   - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,miui-fxcse.avlyun.com
@@ -43,6 +43,13 @@ payload:
   - DOMAIN,mpush-api.aliyun.com
   - DOMAIN,safebrowsing.urlsec.qq.com
   #- DOMAIN,ifs.tanx.com
+  - DOMAIN,tracker.sns.iqiyi.com
+  - DOMAIN,adeventtracker.spotify.com
+  - DOMAIN,epowernetworktrackerimages.s3.amazonaws.com
+  - DOMAIN,eviltracker.net
+  - DOMAIN,tracker.baidu.com
+  - DOMAIN,tracker.yhd.com
+  - DOMAIN,tracker.tgbus.com
   
   # 禁止PCDN
   - DOMAIN,api.app.skysrt.com
