@@ -233,8 +233,8 @@ payload:
   - DOMAIN,*.log.aliyuncs.com
   - DOMAIN,adsfilebssdlbig.ali.kugou.com
   - DOMAIN,ali-ad.a.yximgs.com
-  - DOMAIN,cdn.ynuf.aliapp.org
-  - DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com
+  #- DOMAIN,cdn.ynuf.aliapp.org
+  #- DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com
   - DOMAIN,tnc3-aliec1.toutiaoapi.com
   - DOMAIN,tnc3-aliec2.bytedance.com
   - DOMAIN,tnc3-aliec2.toutiaoapi.com
