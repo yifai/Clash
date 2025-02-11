@@ -25,7 +25,7 @@ payload:
   - DOMAIN,googletagservices-cn.com
   - DOMAIN,googletagservices.com
   - DOMAIN,crashlyticsreports-pa.googleapis.com
-  - DOMAIN,firebaselogging-pa.googleapis.com
+  #- DOMAIN,firebaselogging-pa.googleapis.com
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,pagead2.googleadservices.com
   - DOMAIN,pagead2.googlesyndication.com
