@@ -92820,10 +92820,6 @@ payload:
   - DOMAIN-SUFFIX,cn.windowssearch.com
   - DOMAIN-SUFFIX,bankcomm.com.tw
   - DOMAIN-SUFFIX,cn.msi.com
-  - DOMAIN-SUFFIX,banner668.com.hk
-  - DOMAIN-SUFFIX,cn.bing.net
-  - DOMAIN-SUFFIX,cn.bing.com
-  - DOMAIN-SUFFIX,cmbi.com.hk
   - DOMAIN-SUFFIX,cm.ipinyou.com
   - DOMAIN-SUFFIX,cm.fancyapi.com
   - DOMAIN-SUFFIX,blog.htc.com
@@ -100122,10 +100118,10 @@ payload:
   - IP-CIDR,223.255.0.0/17,no-resolve
   - IP-CIDR,223.255.236.0/22,no-resolve
   - IP-CIDR,223.255.252.0/23,no-resolve  
-  - IP-CIDR6,2a0b:b580::/48,no-resolve
-  - IP-CIDR6,2a0b:b581::/48,no-resolve
-  - IP-CIDR6,2a0b:b582::/48,no-resolve
-  - IP-CIDR6,2a0b:b583::/48,no-resolve
+  #- IP-CIDR6,2a0b:b580::/48,no-resolve
+  #- IP-CIDR6,2a0b:b581::/48,no-resolve
+  #- IP-CIDR6,2a0b:b582::/48,no-resolve
+  #- IP-CIDR6,2a0b:b583::/48,no-resolve
   #- IP-CIDR6,::1/128,no-resolve
   #- IP-CIDR6,fc00::/7,no-resolve
   #- IP-CIDR6,fe80::/10,no-resolve
