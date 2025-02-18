@@ -1,17 +1,17 @@
 ## Giffgaff wifi-call 使用英国节点
 payload:
   # 地区检测
-  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
   # 沃达丰
-  - DOMAIN-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
-  - DOMAIN-SUFFIX,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
-  - DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
-  - DOMAIN-SUFFIX,entsrv-uk.vodafone.com
-  - DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
+  - DOMAIN,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+  - DOMAIN,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+  - DOMAIN,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
+  - DOMAIN,entsrv-uk.vodafone.com
+  - DOMAIN,vuk-gto.prod.ondemandconnectivity.com
   # CMLinkUK EE
-  - IP-CIDR,46.68.0.0/17
+  - IP-CIDR,46.68.0.0/17,no-resolve
   # Giffgaff
-  - IP-CIDR,87.194.0.0/16
+  - IP-CIDR,87.194.0.0/16,no-resolve
   - DOMAIN-SUFFIX,3gppnetwork.org
   - DOMAIN-SUFFIX,giffgaff.com
   - DOMAIN-SUFFIX,gbqofs.io
