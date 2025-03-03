@@ -1,6 +1,7 @@
 # NAME: HKMedia
 
 payload:
+  #Viu TV
   - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,viu.com
