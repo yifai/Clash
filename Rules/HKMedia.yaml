@@ -1,6 +1,28 @@
-# NAME: HKMedia
+# NAME: HKMedia 香港电视直播 
 
 payload:
+  # TVB
+  - DOMAIN,bcbolt446c5271-a.akamaihd.net
+  - DOMAIN,edge.api.brightcove.com
+  - DOMAIN,tvbtracking.azurewebsites.net
+  - DOMAIN-SUFFIX,bigbigchannel.com.hk
+  - DOMAIN-SUFFIX,bigbigshop.com
+  - DOMAIN-SUFFIX,content.jwplatform.com
+  - DOMAIN-SUFFIX,encoretvb.com
+  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
+  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
+  - DOMAIN-SUFFIX,tvb.com
+  #- DOMAIN-SUFFIX,tvb.com.au
+  #- DOMAIN-SUFFIX,tvbanywhere.com
+  #- DOMAIN-SUFFIX,tvbanywhere.com.sg
+  #- DOMAIN-SUFFIX,tvbc.com.cn
+  - DOMAIN-SUFFIX,tvbeventpower.com.hk
+  #- DOMAIN-SUFFIX,tvbusa.com
+  - DOMAIN-SUFFIX,tvbweekly.com
+  - DOMAIN-SUFFIX,tvmedia.net.au
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
+  - DOMAIN-SUFFIX,youboranqs01.com 
   #Viu TV
   - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
@@ -16,10 +38,11 @@ payload:
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,jwpcdn.com
   - DOMAIN-SUFFIX,jwplayer.com
-  - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,hklive.tv
-  - DOMAIN-SUFFIX,mytvsuper.com
-
+  - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
+  - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
+  - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
+  - PROCESS-NAME,com.vuclip.viu   
   # RTHK
   - DOMAIN,rthklive2-lh.akamaihd.net
   - DOMAIN,rthkradio1-live.akamaized.net
@@ -35,28 +58,10 @@ payload:
   - DOMAIN-SUFFIX,etvonline.hk
   - DOMAIN-SUFFIX,rthk.hk
   - DOMAIN-SUFFIX,rthk.org.hk
-  # TVB
-  - DOMAIN,bcbolt446c5271-a.akamaihd.net
-  - DOMAIN,edge.api.brightcove.com
-  - DOMAIN,tvbtracking.azurewebsites.net
-  - DOMAIN-SUFFIX,bigbigchannel.com.hk
-  - DOMAIN-SUFFIX,bigbigshop.com
-  - DOMAIN-SUFFIX,content.jwplatform.com
-  - DOMAIN-SUFFIX,encoretvb.com
-  - DOMAIN-SUFFIX,mytvsuper.com
-  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
-  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
-  - DOMAIN-SUFFIX,tvb.com
-  #- DOMAIN-SUFFIX,tvb.com.au
-  - DOMAIN-SUFFIX,tvbanywhere.com
-  #- DOMAIN-SUFFIX,tvbanywhere.com.sg
-  - DOMAIN-SUFFIX,tvbc.com.cn
-  - DOMAIN-SUFFIX,tvbeventpower.com.hk
-  #- DOMAIN-SUFFIX,tvbusa.com
-  - DOMAIN-SUFFIX,tvbweekly.com
-  - DOMAIN-SUFFIX,tvmedia.net.au
-  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
-  - DOMAIN-SUFFIX,youboranqs01.com
   # Nowe
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,nowestatic.com
+  - DOMAIN-SUFFIX,now-ashare.com
+  - DOMAIN-SUFFIX,now-tv.com
+  - DOMAIN-SUFFIX,now.com.hk
+  - DOMAIN-SUFFIX,nowe.hk
