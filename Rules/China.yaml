@@ -88,8 +88,8 @@ payload:
   - DOMAIN-SUFFIX,bsgslb.com
   - DOMAIN-SUFFIX,yumixiu768.com
   - DOMAIN-SUFFIX,dragonfly.fun
-  - DOMAIN-SUFFIX,yowindow.ru
-  - DOMAIN-SUFFIX,yowindow.com
+  #- DOMAIN-SUFFIX,yowindow.ru
+  #- DOMAIN-SUFFIX,yowindow.com
   - DOMAIN-SUFFIX,yhzb9999.com
   - DOMAIN-SUFFIX,daxiaamu.com
   - DOMAIN,minipay.gdwxyf.com
