@@ -401,6 +401,10 @@ payload:
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,tracker
+  - DOMAIN-KEYWORD,peer_id=
+  - DOMAIN-KEYWORD,info_hash
+  - DOMAIN-KEYWORD,get_peers
+  - DOMAIN-KEYWORD,find_node
   - DOMAIN-SUFFIX,animebytes.tv
   - DOMAIN-SUFFIX,animetorrents.me
   - DOMAIN-SUFFIX,awesome-hd.me
