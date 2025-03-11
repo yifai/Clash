@@ -31,6 +31,7 @@ payload:
   - DOMAIN,pagead2.googlesyndication.com
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
+  - DOMAINapp-analytics-services.com
   
   #屏蔽追踪
   - DOMAIN,miav-cse.avlyun.com
