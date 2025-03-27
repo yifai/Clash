@@ -140,7 +140,8 @@ payload:
   - PROCESS-NAME,localsend
   - PROCESS-NAME,com.eg.android.AlipayGphone
   #- PROCESS-NAME,
-  
+
+  - DOMAIN-SUFFIX,lg3h.com
   - DOMAIN-SUFFIX,szsti.org
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
