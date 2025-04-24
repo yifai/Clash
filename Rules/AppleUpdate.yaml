@@ -4,7 +4,7 @@ payload:
   - DOMAIN,ns.itunes.apple.com
   - DOMAIN,appldnld.apple.com
   - DOMAIN,mesu.apple.com
-  - DOMAIN,xp.apple.com
+  #- DOMAIN,xp.apple.com
   - DOMAIN,gdmf.apple.com
   ##以下域名或者无需使用
   - DOMAIN,updates-http.cdn-apple.com
@@ -15,9 +15,9 @@ payload:
   - DOMAIN,gdmf.apple.com.akadns.net
   - DOMAIN,mesu-cdn.apple.com.akadns.net
   - DOMAIN,mesu-cdn.origin-apple.com.akadns.net
-  - DOMAIN,mesu.g.aaplimg.com
+  #- DOMAIN,mesu.g.aaplimg.com
   - DOMAIN,ocsp-lb.apple.com.akadns.net
   - DOMAIN,ocsp.apple.com
-  - DOMAIN,ocsp.g.aaplimg.com
-  - DOMAIN,gg.apple.com
-  - DOMAIN,swscan.apple.com
+  #- DOMAIN,ocsp.g.aaplimg.com
+  #- DOMAIN,gg.apple.com
+  #- DOMAIN,swscan.apple.com
