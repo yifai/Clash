@@ -29,7 +29,7 @@ payload:
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,pagead2.googleadservices.com
   - DOMAIN,pagead2.googlesyndication.com
-  - DOMAIN,app-analytics-services.com
+  #- DOMAIN,app-analytics-services.com
   - DOMAIN,ads.google.com
   - DOMAIN,adservice.google.com
   - DOMAIN,api.google.com
