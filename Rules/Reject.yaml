@@ -51,6 +51,9 @@ payload:
   - DOMAIN,tracker.baidu.com
   - DOMAIN,tracker.yhd.com
   - DOMAIN,tracker.tgbus.com
+  - IP-CIDR,221.228.32.13/24,no-resolve # 江苏电信
+  - DOMAIN-KEYWORD,96110
+  - PROCESS-NAME,com.iqoo.secure
   
   # 禁止PCDN
   - DOMAIN,api.app.skysrt.com
