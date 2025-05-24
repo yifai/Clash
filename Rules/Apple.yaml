@@ -1,6 +1,5 @@
 # NAME: Apple
 payload:
-  - DOMAIN,api.smoot.apple.cn
   - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple.co
@@ -173,12 +172,6 @@ payload:
   - DOMAIN-SUFFIX,icloudpay.net
   - DOMAIN-SUFFIX,icloudsecure.net
   - DOMAIN-SUFFIX,icloudsetup.com
-# NAME: AppleMail
-  - DOMAIN-SUFFIX,mail.icloud.com.cn
-  - DOMAIN-SUFFIX,mail.me.com
-# NAME: AppleNews
-  - DOMAIN,apple.comscoreresearch.com
-# NAME: FindMy
   - DOMAIN-SUFFIX,mwcname.com
 # NAME: AppleProxy
   - DOMAIN-SUFFIX,appsto.re
@@ -342,9 +335,6 @@ payload:
   - DOMAIN-SUFFIX,applemusic.berlin
   - DOMAIN-SUFFIX,applemusic.co
   - DOMAIN-SUFFIX,appletv.fr
-  
   - DOMAIN-KEYWORD,applestore
   - DOMAIN-KEYWORD,itunes
   - DOMAIN-KEYWORD,icloud
-  #- DOMAIN-KEYWORD,
-  #- DOMAIN-KEYWORD,
