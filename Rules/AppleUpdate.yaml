@@ -4,11 +4,11 @@ payload:
   - DOMAIN,ns.itunes.apple.com
   - DOMAIN,appldnld.apple.com
   - DOMAIN,mesu.apple.com
+  - DOMAIN,updates.cdn-apple.com
+  - DOMAIN,updates-http.cdn-apple.com
   #- DOMAIN,xp.apple.com
   - DOMAIN,gdmf.apple.com
   ##以下域名或者无需使用
-  - DOMAIN,updates-http.cdn-apple.com
-  - DOMAIN,updates.cdn-apple.com
   - DOMAIN,appldnld-lb.apple.com.akadns.net
   - DOMAIN,appldnld.apple.com.akadns.net
   - DOMAIN,appldnld.g.aaplimg.com
