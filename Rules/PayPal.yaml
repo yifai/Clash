@@ -1,6 +1,6 @@
 # NAME: PayPal
 payload:
-  - DOMAIN-SUFFIX,amazon.com
+  #- DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,account-paypal.info
   - DOMAIN-SUFFIX,account-paypal.net
   - DOMAIN-SUFFIX,account-paypal.org
