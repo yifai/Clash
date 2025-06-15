@@ -275,7 +275,5 @@ rules:
   [@ricky9w](https://gist.github.com/ricky9w/31fffc1b6eadadba2603f323dc92bebf)
 
   [@Dreamacro](https://github.com/Dreamacro/clash/wiki/configuration#proxy-groups)
-  
-  [@justdoiting](https://github.com/justdoiting/clash-rule)
 
   [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
