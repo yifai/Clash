@@ -3861,6 +3861,7 @@ payload:
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-SUFFIX,.cn
   - DOMAIN-KEYWORD,.cn
+  - DOMAIN-KEYWORD,/cn
 
   - PROCESS-NAME,hysteria
   - PROCESS-NAME,hysteria.exe
