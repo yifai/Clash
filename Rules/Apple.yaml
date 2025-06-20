@@ -187,7 +187,7 @@ payload:
   - DOMAIN-SUFFIX,macruby.com
   - DOMAIN-SUFFIX,macruby.net
   - DOMAIN-SUFFIX,macruby.org
-  - DOMAIN-SUFFIX,akamaized.net
+  #- DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,researchandcare.org
   - DOMAIN-SUFFIX,researchkit.cn
   - DOMAIN-SUFFIX,researchkit.com.cn
