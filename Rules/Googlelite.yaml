@@ -436,6 +436,30 @@ payload:
   - IP-CIDR,74.125.203.188/32,no-resolve
   - IP-CIDR,74.125.204.188/32,no-resolve
   - IP-CIDR,74.125.206.188/32,no-resolve
+  - IP-CIDR,74.125.38.240/27,no-resolve
+  - IP-CIDR,74.125.39.21/32,no-resolve
+  - IP-CIDR,74.125.39.22/32,no-resolve
+  - IP-CIDR,74.125.39.23/32,no-resolve
+  - IP-CIDR,74.125.39.24/30,no-resolve
+  - IP-CIDR,74.125.39.28/32,no-resolve
+  - IP-CIDR,74.125.39.29/31,no-resolve
+  - IP-CIDR,74.125.39.31/32,no-resolve
+  - IP-CIDR,74.125.39.32/30,no-resolve
+  - IP-CIDR,74.125.39.36/31,no-resolve
+  - IP-CIDR,74.125.39.38/32,no-resolve
+  - IP-CIDR,74.125.39.39/32,no-resolve
+  - IP-CIDR,74.125.39.40/32,no-resolve
+  - IP-CIDR,74.125.39.41/30,no-resolve
+  - IP-CIDR,74.125.39.46/32,no-resolve
+  - IP-CIDR,74.125.39.47/32,no-resolve
+  - IP-CIDR,74.125.39.48/32,no-resolve
+  - IP-CIDR,74.125.39.49/32,no-resolve
+  - IP-CIDR,74.125.39.50/31,no-resolve
+  - IP-CIDR,74.125.39.52/30,no-resolve
+  - IP-CIDR,74.125.39.57/32,no-resolve
+  - IP-CIDR,74.125.39.58/30,no-resolve
+  - IP-CIDR,74.125.39.62/31,no-resolve
+  - IP-CIDR,74.125.39.64/25,no-resolve
   - IP-CIDR,120.232.181.162/32,no-resolve
   - IP-CIDR,120.241.147.226/32,no-resolve
   - IP-CIDR,120.253.253.226/32,no-resolve
