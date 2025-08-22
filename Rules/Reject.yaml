@@ -1,4 +1,4 @@
-hi# Reject,屏蔽追踪/去广告
+# Reject,屏蔽追踪/去广告
 
 payload:
   - DOMAIN,adsense.google.cn
@@ -51,8 +51,10 @@ payload:
   - DOMAIN,tracker.baidu.com
   - DOMAIN,tracker.yhd.com
   - DOMAIN,tracker.tgbus.com
-  - IP-CIDR,221.228.32.13/24,no-resolve # 江苏电信
-  - DOMAIN-KEYWORD,96110
+  - IP-CIDR,38.55.144.167/32,REJECT,no-resolve # 诈骗网站的IP，这个服务器上全是诈骗网站
+  - IP-CIDR,221.228.32.13/32,REJECT,no-resolve # 江苏电信
+  - IP-CIDR,183.192.65.101/32,REJECT,no-resolve # 江苏移动
+  - DOMAIN-KEYWORD,96110,REJECT # 江苏移动
   - PROCESS-NAME,com.iqoo.secure
   
   # 禁止PCDN
