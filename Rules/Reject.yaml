@@ -55,6 +55,7 @@ payload:
   - IP-CIDR,221.228.32.13/32,REJECT,no-resolve # 江苏电信
   - IP-CIDR,183.192.65.101/32,REJECT,no-resolve # 江苏移动
   - DOMAIN-KEYWORD,96110,REJECT # 江苏移动
+  - DOMAIN,snssdk.com,  #头条
   - PROCESS-NAME,com.iqoo.secure
   
   # 禁止PCDN
