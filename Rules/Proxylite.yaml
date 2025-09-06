@@ -294,8 +294,7 @@ payload:
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,zoho.com
   - DOMAIN-SUFFIX,aol.com
-  - DOMAIN-SUFFIX,speedtest.com
-  - DOMAIN-SUFFIX,speedtest.net
+
   - DOMAIN-SUFFIX,onetrust.com
   - DOMAIN-SUFFIX,52.mk
   - DOMAIN-SUFFIX,nxtlnodes.com
@@ -306,7 +305,9 @@ payload:
   - DOMAIN-SUFFIX,oneplus.net
   - DOMAIN-SUFFIX,mastodon.world
   - DOMAIN-KEYWORD,mastodon
-  - DOMAIN-KEYWORD,speedtest
+  #- DOMAIN-KEYWORD,speedtest
+  #- DOMAIN-SUFFIX,speedtest.com
+  #- DOMAIN-SUFFIX,speedtest.net  
   - DOMAIN-SUFFIX,ixpsge.com
   - IP-CIDR,155.248.192.0/19,no-resolve
   - IP-CIDR,103.200.28.0/22,no-resolve
