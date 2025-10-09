@@ -142,6 +142,7 @@ payload:
   #- PROCESS-NAME,
   ########
   
+  - DOMAIN-SUFFIX,lanosso.com
   - DOMAIN-SUFFIX,welife001.com
   - DOMAIN-SUFFIX,wxgateway.com
   - DOMAIN-SUFFIX,banjixiaoguanjia.com
