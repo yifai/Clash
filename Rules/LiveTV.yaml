@@ -37,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,Hongkong
   - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,Hongkong
   - PROCESS-NAME,com.vuclip.viu,Hongkong
+  
   # RTHK
   - DOMAIN,rthklive2-lh.akamaihd.net,Hongkong
   - DOMAIN,rthkradio1-live.akamaized.net,Hongkong
@@ -52,7 +53,7 @@ payload:
   - DOMAIN-SUFFIX,etvonline.hk,Hongkong
   - DOMAIN-SUFFIX,rthk.hk,Hongkong
   - DOMAIN-SUFFIX,rthk.org.hk,Hongkong
-  # Now TV
+  # Nowe
   - DOMAIN-SUFFIX,nowe.com,Hongkong
   - DOMAIN-SUFFIX,nowestatic.com,Hongkong
   - DOMAIN-SUFFIX,now-ashare.com,Hongkong
@@ -60,6 +61,7 @@ payload:
   - DOMAIN-SUFFIX,now.com.hk,Hongkong
   - DOMAIN-SUFFIX,nowe.hk,Hongkong
   - DOMAIN-SUFFIX,hoy.tv,Hongkong
+  - DOMAIN-SUFFIX,edge.media.seaovers.live,Hongkong
   # 其它
   - DOMAIN-SUFFIX,ofissaifreepc.akamaized.net,Taiwan
   - DOMAIN-SUFFIX,kktv.com.tw,Taiwan
