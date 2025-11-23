@@ -135,6 +135,9 @@ payload:
   - DOMAIN-SUFFIX,apple-livephotoskit.com
   - DOMAIN-SUFFIX,apzones.com
   - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
+  - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+  - DOMAIN-SUFFIX,cp4.cloudflare.com
   - DOMAIN-KEYWORD,apple.com.edgekey.net
   - DOMAIN-KEYWORD,testflight
   - IP-CIDR,139.178.128.0/18,no-resolve
