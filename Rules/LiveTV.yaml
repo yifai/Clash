@@ -52,7 +52,7 @@ payload:
   - DOMAIN-SUFFIX,etvonline.hk,Hongkong
   - DOMAIN-SUFFIX,rthk.hk,Hongkong
   - DOMAIN-SUFFIX,rthk.org.hk,Hongkong
-  # Nowe
+  # Now TV
   - DOMAIN-SUFFIX,nowe.com,Hongkong
   - DOMAIN-SUFFIX,nowestatic.com,Hongkong
   - DOMAIN-SUFFIX,now-ashare.com,Hongkong
