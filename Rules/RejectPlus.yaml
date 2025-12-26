@@ -87,6 +87,15 @@ payload:
   - DOMAIN,api-upgrade.coocaa.wasu.tv
   - IP-CIDR,193.112.97.61/32,no-resolve
   - IP-CIDR,175.178.207.92/32,no-resolve
+  - DOMAIN-SUFFIX-SUFFIX,ietheivaicai.com
+  - DOMAIN-SUFFIX-SUFFIX,nexusedgeio.com
+  - DOMAIN-SUFFIX-SUFFIX,tp2p.kg.qq.com
+  - DOMAIN-SUFFIX-SUFFIX,twns.p2ptun.qq.com
+  - DOMAIN-SUFFIX-SUFFIX,sd-gl.xinqiucc.com
+  - DOMAIN-SUFFIX-SUFFIX,,p2ptun.qq.com
+  - DOMAIN-SUFFIX-SUFFIX,,ac.dun.163.com
+  - DOMAIN-SUFFIX-SUFFIX,fp-upload.dun.163.com
+  
   #优酷
   - DOMAIN,atm.youku.com
   - DOMAIN,Fvid.atm.youku.com
