@@ -7,6 +7,7 @@ payload:
   - DOMAIN,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
   - DOMAIN,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
   - DOMAIN,entsrv-uk.vodafone.com
+  - DOMAIN-SUFFIX,gmcc234.pub.3gppnetwork.org
   - DOMAIN,vuk-gto.prod.ondemandconnectivity.com
   # CMLinkUK EE
   - IP-CIDR,46.68.0.0/17,no-resolve
