@@ -100,7 +100,7 @@ payload:
   - DOMAIN-SUFFIX,p2ptun.qq.com
   - DOMAIN-SUFFIX,ac.dun.163.com
   - DOMAIN-SUFFIX,fp-upload.dun.163.com
-
+  - DOMAIN,component-ota-in.allawnos.com
   #优酷
   - DOMAIN-SUFFIX,atm.youku.com
   - DOMAIN-SUFFIX,Fvid.atm.youku.com
