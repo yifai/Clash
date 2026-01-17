@@ -77,8 +77,7 @@ payload:
   - DOMAIN-SUFFIX,yishuyun.com
   - DOMAIN-SUFFIX,yixiaobang.com
   - DOMAIN-SUFFIX,daweilai211.com
-  - DOMAIN,www.shenxianfaka.top
-  - DOMAIN,m.shenxianfaka.top
+  - DOMAIN-SUFFIX,shenxianfaka.top
   - DOMAIN-SUFFIX,fqnovel.com
   - DOMAIN-SUFFIX,qishuta.la
   - DOMAIN-SUFFIX,guodongxsw.com
@@ -140,9 +139,22 @@ payload:
   - PROCESS-NAME,localsend
   - PROCESS-NAME,com.eg.android.AlipayGphone
   #- PROCESS-NAME,
-  ########
-  
-  - DOMAIN-SUFFIX,lanosso.com
+  ### 常用PT下载
+  - DOMAIN-SUFFIX,discfan.net
+  - DOMAIN-SUFFIX,discfan.xyz
+  - DOMAIN-SUFFIX,0ff.cc
+  - DOMAIN-SUFFIX,bt0.com
+  - DOMAIN-SUFFIX,a4apt.com
+  - DOMAIN-SUFFIX,okpt.top
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,halomt.com
+  - DOMAIN-SUFFIX,manfuz.co
+  - DOMAIN-KEYWORD,announce.php  
+  - DOMAIN-SUFFIX,yifai999.shop
+  - DOMAIN-SUFFIX,authy.com
+  - DOMAIN-SUFFIX,uicdqg.xyz
+  ####
   - DOMAIN-SUFFIX,welife001.com
   - DOMAIN-SUFFIX,wxgateway.com
   - DOMAIN-SUFFIX,banjixiaoguanjia.com
@@ -431,7 +443,6 @@ payload:
   - DOMAIN-SUFFIX,jpopsuki.eu
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,leaguehd.com
-  - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,msg.vg
   - DOMAIN-SUFFIX,nanyangpt.com
@@ -3859,7 +3870,7 @@ payload:
   - DOMAIN-KEYWORD,BitComet
   - DOMAIN-SUFFIX,BitComet
   - DOMAIN-KEYWORD,bittorrent
-  - DOMAIN-KEYWORD,qbittorrent
+  #- DOMAIN-KEYWORD,qbittorrent
   - DOMAIN-KEYWORD,-cn
   - DOMAIN-SUFFIX,.cn
   - DOMAIN-KEYWORD,.cn
