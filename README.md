@@ -167,8 +167,6 @@ rules:
   - DOMAIN-SUFFIX,manfuz.co,DIRECT
   - DOMAIN-KEYWORD,announce.php,DIRECT
   #其它⬇️⬇️
-  - DOMAIN-SUFFIX,yifai999.shop,DIRECT
-  - DOMAIN-SUFFIX,livednow.com,Select
   - DOMAIN-SUFFIX,cnbeta.com.tw,Select
   - DOMAIN-SUFFIX,huaweicloud.com,DIRECT
   - DOMAIN,component-ota-in.allawnos.com,REJECT
@@ -238,4 +236,5 @@ rules:
   [@Dreamacro](https://github.com/Dreamacro/clash/wiki/configuration#proxy-groups)
 
   [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
+
 
