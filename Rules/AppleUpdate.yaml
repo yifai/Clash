@@ -5,7 +5,7 @@ payload:
   #- DOMAIN,appldnld.apple.com
   #- DOMAIN,mesu.apple.com
   - DOMAIN,bpapi.apple.com
-  - DOMAIN,updates-http.cdn-apple.com
+  #- DOMAIN,updates-http.cdn-apple.com
   - DOMAIN,ocsp2.apple.com
   #- DOMAIN,world-gen.g.aaplimg.com
   #- DOMAIN,gdmf.apple.com
