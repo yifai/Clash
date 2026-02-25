@@ -4,12 +4,12 @@ payload:
 
   #- DOMAIN,appldnld.apple.com
   #- DOMAIN,mesu.apple.com
-  - DOMAIN,xp.apple.com
-  - DOMAIN,bpapi.apple.com
+  #- DOMAIN,xp.apple.com
+  #- DOMAIN,bpapi.apple.com
   #- DOMAIN,updates-http.cdn-apple.com
-  - DOMAIN,ocsp2.apple.com
+  #- DOMAIN,ocsp2.apple.com
   #- DOMAIN,world-gen.g.aaplimg.com
-  #- DOMAIN,gdmf.apple.com
+  - DOMAIN,gdmf.apple.com
   ##以下域名或者无需使用
   #- DOMAIN,iphone-ld.apple.com
   
