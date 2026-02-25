@@ -4,9 +4,9 @@ payload:
 
   #- DOMAIN,appldnld.apple.com
   #- DOMAIN,mesu.apple.com
-  - DOMAIN,updates.cdn-apple.com
-  - DOMAIN,updates-http.cdn-apple.com
-  #- DOMAIN,ocsp.apple.com
+  #- DOMAIN,updates.cdn-apple.com
+  #- DOMAIN,updates-http.cdn-apple.com
+  - DOMAIN,ocsp.apple.com
   #- DOMAIN,world-gen.g.aaplimg.com
   #- DOMAIN,gdmf.apple.com
   ##以下域名或者无需使用
