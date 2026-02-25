@@ -4,22 +4,14 @@ payload:
 
   #- DOMAIN,appldnld.apple.com
   #- DOMAIN,mesu.apple.com
-  #- DOMAIN,updates.cdn-apple.com
-  #- DOMAIN,updates-http.cdn-apple.com
-  - DOMAIN,ocsp.apple.com
+  - DOMAIN,bpapi.apple.com
+  - DOMAIN,updates-http.cdn-apple.com
+  - DOMAIN,ocsp2.apple.com
   #- DOMAIN,world-gen.g.aaplimg.com
   #- DOMAIN,gdmf.apple.com
   ##以下域名或者无需使用
-  #- DOMAIN,appldnld-lb.apple.com.akadns.net
-  #- DOMAIN,appldnld.apple.com.akadns.net
-  #- DOMAIN,appldnld.g.aaplimg.com
-  #- DOMAIN,gdmf.apple.com.akadns.net
-  #- DOMAIN,mesu-cdn.apple.com.akadns.net
-  #- DOMAIN,mesu-cdn.origin-apple.com.akadns.net
-  #- DOMAIN,mesu.g.aaplimg.com
-  #- DOMAIN,ns.itunes.apple.com  
-  #- DOMAIN,ocsp-lb.apple.com.akadns.net
-  #- DOMAIN,xp.apple.com
-  #- DOMAIN,ocsp.g.aaplimg.com
-  #- DOMAIN,gg.apple.com
-  #- DOMAIN,swscan.apple.com
+  #- DOMAIN,iphone-ld.apple.com
+  - DOMAIN,xp.apple.com
+
+  #- DOMAIN,11-courier.push.apple.com
+  
