@@ -140,22 +140,7 @@ payload:
   - DOMAIN-SUFFIX,cp4.cloudflare.com
   - DOMAIN-KEYWORD,apple.com.edgekey.net
   - DOMAIN-KEYWORD,testflight
-  - IP-CIDR,139.178.128.0/18,no-resolve
-  - IP-CIDR,144.178.0.0/19,no-resolve
-  - IP-CIDR,144.178.36.0/22,no-resolve
-  - IP-CIDR,144.178.48.0/20,no-resolve
-  - IP-CIDR,17.0.0.0/8,no-resolve
-  - IP-CIDR,192.35.50.0/24,no-resolve
-  - IP-CIDR,198.183.17.0/24,no-resolve
-  - IP-CIDR,205.180.175.0/24,no-resolve
-  - IP-CIDR,63.92.224.0/19,no-resolve
-  - IP-CIDR,65.199.22.0/23,no-resolve
-  - PROCESS-NAME,storedownloadd
-  - PROCESS-NAME,com.apple.geod
-  - PROCESS-NAME,music
-  - PROCESS-NAME,news
-  - PROCESS-NAME,lookupviewservice
-  - PROCESS-NAME,tv
+  
 # NAME: iCloud
   - DOMAIN-SUFFIX,appleicloud.cn
   - DOMAIN-SUFFIX,icloudads.net
@@ -327,12 +312,14 @@ payload:
   - DOMAIN-SUFFIX,macbook.tw
   - DOMAIN-SUFFIX,macbookair.com
   - DOMAIN-SUFFIX,macbookpro.com
-  - DOMAIN-SUFFIX,macbookpro.com.au
   - DOMAIN-SUFFIX,macbookpro.net
   - DOMAIN-SUFFIX,macbookpro.us
   - DOMAIN-SUFFIX,macbookpros.com
   - DOMAIN-SUFFIX,macbooksale.com
   - DOMAIN-SUFFIX,myipod.net
+  - IP-CIDR6,2403:300::/32,no-resolve
+  - IP-CIDR6,2620:149::/32,no-resolve
+  - IP-CIDR6,2a01:b740::/32,no-resolve
 # NAME: AppleMedia
   - DOMAIN-SUFFIX,applemusic.berlin
   - DOMAIN-SUFFIX,applemusic.co
@@ -340,3 +327,8 @@ payload:
   - DOMAIN-KEYWORD,applestore
   - DOMAIN-KEYWORD,itunes
   - DOMAIN-KEYWORD,icloud
+  - DOMAIN-KEYWORD,iphoto
+  - DOMAIN-KEYWORD,apple-support.akadns.net
+  - DOMAIN-KEYWORD,apple.com.akadns.net
+  - DOMAIN-KEYWORD,buy.itunes.apple.com
+  - DOMAIN-KEYWORD,smp-device
