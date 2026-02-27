@@ -1,18 +1,16 @@
 ## NAME:AppleUpdate
 ## 屏蔽苹果系统更新，OpenClash或Stash使用
 payload:
-
-  #- DOMAIN,appldnld.apple.com
-  #- DOMAIN,mesu.apple.com
-  #- DOMAIN,xp.apple.com
-  #- DOMAIN,bpapi.apple.com
-  #- DOMAIN,updates-http.cdn-apple.com
+  - DOMAIN,mesu.apple.com
+  - DOMAIN,ocsp.apple.com
+  - DOMAIN,crl.apple.com
+  ##以下域名或者无需使用
   #- DOMAIN,ocsp2.apple.com
   #- DOMAIN,world-gen.g.aaplimg.com
-  - DOMAIN,gdmf.apple.com
-  ##以下域名或者无需使用
+  #- DOMAIN,gdmf.apple.com
   #- DOMAIN,iphone-ld.apple.com
-  
-
+  #- DOMAIN,appldnld.apple.com
+  #- DOMAIN,xp.apple.com
   #- DOMAIN,11-courier.push.apple.com
-  
+  #- DOMAIN,bpapi.apple.com
+  #- DOMAIN,updates-http.cdn-apple.com
