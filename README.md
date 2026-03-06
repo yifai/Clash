@@ -236,5 +236,6 @@ rules:
   [@Dreamacro](https://github.com/Dreamacro/clash/wiki/configuration#proxy-groups)
 
   [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
+  [@AWAvenue-Ads-Rule](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml)
 
 
