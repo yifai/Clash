@@ -86,11 +86,12 @@ dns:
     
   #⬇️后备域名解析器筛选，满足条件的将使用 fallback结果或只使用 fallback解析⬇️
   #fallback-filter: {geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 127.0.0.1/32], domain: ['+.facebook.com', '+.twitter.com', '+.google.com', '+.googleapis.com', '+.youtube.com']}  
+#只使用机场节点
 proxy-providers:
   Sub1:
     type: http
     path: ./providers/proxy/Sub1.yaml
-    url: "https://......"
+    url: "机场Calsh订阅1"
     interval: 864000
     override:
       proxy-name:
@@ -101,18 +102,18 @@ proxy-providers:
       url: "https://i.ytimg.com/generate_204"
       interval: 3600
     #filter: "(英国.*SS|SS.*英国)"  #筛选同时包"含SS和英国" 的节点
-    filter: "🇬🇧|英国|香港|台湾|日本|新加坡|狮城|美国"     
-    benchmark-url: https://i.ytimg.com/generate_204
+    #filter: "🇬🇧|英国|香港|台湾|日本|新加坡|狮城|美国"     
+    
   Sub2:
     type: http
     path: ./providers/proxy/Sub2.yaml
-    url: "https://....."
+    url: "机场Calsh订阅2"
     interval: 86400
     health-check:
       enable: true
       url: "https://i.ytimg.com/generate_204"
       interval: 3600
-    filter: "🇬🇧|英国" #筛选包含关键字的节点
+    #filter: "🇬🇧|英国" #筛选包含关键字的节点
     #filter: "^(?!.*?海外).*(香港|台湾|日本|新加坡|美国)" #筛选包含关键字及排队包含“海外”的节点
     #filter: "🇬🇧|英国|香港|台湾|日本|新加坡|狮城|美国" 
 # proxies，自建节点⬇️⬇️
@@ -140,7 +141,6 @@ rule-providers:
   China: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/China.yaml', path: ./providers/rule/China.yaml, nterval: 864000}
   Google: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/Googlelite.yaml', path: ./providers/rule/Googlelite.yaml, interval: 864000}
   Apple: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/Apple.yaml', path: ./providers/rule/Apple.yaml, interval: 864000}
-  AppleUpdate: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/AppleUpdate.yaml', path: ./providers/rule/AppleUpdate.yaml, interval: 864000}
   Microsoft: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/Microsoft.yaml', path: ./providers/rule/Microsoft.yaml, interval: 864000}
   PayPal: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/PayPal.yaml', path: ./providers/rule/PayPal.yaml, interval: 864000}
   Giffgaff: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/Giffgaff.yaml', path: ./providers/rule/Giffgaff.yaml, interval: 864000}
@@ -157,10 +157,6 @@ rules:
   #pt/bt⬇️⬇️
   - DOMAIN-SUFFIX,discfan.net,DIRECT
   - DOMAIN-SUFFIX,discfan.xyz,DIRECT
-  - DOMAIN-SUFFIX,0ff.cc,DIRECT
-  - DOMAIN-SUFFIX,bt0.com,DIRECT
-  - DOMAIN-SUFFIX,a4apt.com,DIRECT
-  - DOMAIN-SUFFIX,okpt.top,DIRECT
   - DOMAIN-SUFFIX,m-team.cc,DIRECT
   - DOMAIN-SUFFIX,m-team.io,DIRECT
   - DOMAIN-SUFFIX,halomt.com,DIRECT
@@ -169,7 +165,7 @@ rules:
   #其它⬇️⬇️
   - DOMAIN-SUFFIX,cnbeta.com.tw,Select
   - DOMAIN-SUFFIX,huaweicloud.com,DIRECT
-  - DOMAIN,component-ota-in.allawnos.com,REJECT
+  #- DOMAIN,component-ota-in.allawnos.com,REJECT
   - PROCESS-NAME,org.localsend.localsend_app,DIRECT
   - PROCESS-NAME,localsend,DIRECT
   #NAS
@@ -178,7 +174,7 @@ rules:
   - DOMAIN-KEYWORD,myqnapcloud,Hongkong
   - DOMAIN-SUFFIX,qnap.com,Hongkong
   - DOMAIN-SUFFIX,qlink.to,Hongkong
-  - SRC-IP-CIDR,192.168.55.113/32,DIRECT,no-resolve  #指定内设备ip直连
+  #- SRC-IP-CIDR,192.168.1.113/32,DIRECT,no-resolve  #指定内设备ip直连
   # iptv⬇️⬇️
   - DOMAIN-SUFFIX,kktv.com.tw,Taiwan
   - DOMAIN-SUFFIX,kktv.me,Taiwan
@@ -199,8 +195,8 @@ rules:
   - DOMAIN-KEYWORD,hinet,Taiwan
   - DOMAIN-KEYWORD,4gtv,Taiwan
   - DOMAIN-SUFFIX,astro.com.my,Singapore
-  # 策略分流RULE-SET⬇️⬇️
-  - RULE-SET,AppleUpdate,REJECT
+
+# 策略分流RULE-SET⬇️⬇️
   - RULE-SET,Reject,REJECT
   - RULE-SET,Google,Google
   - RULE-SET,Apple,Apple
@@ -238,6 +234,7 @@ rules:
   [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
   
   [@AWAvenue-Ads-Rule](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule)
+
 
 
 
