@@ -17,8 +17,8 @@ allow-lan: false # 是否允许局域网链接(false/true)
 unified-delay: false # 統一延遲
 tcp-concurrent: true
 # ⬇️⬇️控制面板⬇️⬇️
-external-controller: 127.0.0.1:9236
-secret: "xvs32HDRY"
+external-controller: 0.0.0.1:9236
+secret: "swuhydg12"
 external-ui: ui
 external-ui-name: metacubexd
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
@@ -67,7 +67,7 @@ dns:
   ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  listen: 127.0.0.1:1853
+  listen: 0.0.0.1:1853
   
   #⬇️默认dns, 用于解析域名类DNS的域名，只允许ip⬇️
   default-nameserver: ['223.5.5.5', '119.29.29.29']
@@ -238,6 +238,7 @@ rules:
   [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
   
   [@AWAvenue-Ads-Rule](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule)
+
 
 
 
