@@ -292,7 +292,9 @@ payload:
   - DOMAIN-SUFFIX,time.android.com
   - DOMAIN-SUFFIX,wasabisys.com
   - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,yahoo.com.cn
   - DOMAIN-SUFFIX,zoho.com
+  - DOMAIN-SUFFIX,zoho.com.cn
   - DOMAIN-SUFFIX,aol.com
 
   - DOMAIN-SUFFIX,onetrust.com
