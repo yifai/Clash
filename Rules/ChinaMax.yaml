@@ -81,7 +81,8 @@ payload:
   - DOMAIN-SUFFIX,yishuyun.com
   - DOMAIN-SUFFIX,yixiaobang.com
   - DOMAIN-SUFFIX,daweilai211.com
-  - DOMAIN-SUFFIX,shenxianfaka.top
+  - DOMAIN,www.shenxianfaka.top
+  - DOMAIN,m.shenxianfaka.top
   - DOMAIN-SUFFIX,fqnovel.com
   - DOMAIN-SUFFIX,qishuta.la
   - DOMAIN-SUFFIX,guodongxsw.com
@@ -134,23 +135,6 @@ payload:
   - DOMAIN-SUFFIX,tanx.com
   - DOMAIN-SUFFIX,jjh9999.com
   - DOMAIN-SUFFIX,ipshu.com
-  ### 常用PT下载
-  - DOMAIN-SUFFIX,discfan.net
-  - DOMAIN-SUFFIX,discfan.xyz
-  - DOMAIN-SUFFIX,0ff.cc
-  - DOMAIN-SUFFIX,bt0.com
-  - DOMAIN-SUFFIX,a4apt.com
-  - DOMAIN-SUFFIX,okpt.top
-  - DOMAIN-SUFFIX,m-team.cc
-  - DOMAIN-SUFFIX,m-team.io
-  - DOMAIN-SUFFIX,halomt.com
-  - DOMAIN-SUFFIX,manfuz.co
-  - DOMAIN-KEYWORD,announce.php  
-  - DOMAIN-SUFFIX,yifai999.shop
-  - DOMAIN-SUFFIX,authy.com
-  - DOMAIN-SUFFIX,uicdqg.xyz
-
-  #####
   
   - PROCESS-NAME,org.localsend.localsend_app
   - PROCESS-NAME,localsend
@@ -171,6 +155,7 @@ payload:
   - DOMAIN-KEYWORD,alipay
   - DOMAIN-KEYWORD,taobao
   - DOMAIN-SUFFIX,BitComet
+  - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
   - DOMAIN-KEYWORD,qbittorrent
   #############
@@ -254,6 +239,7 @@ payload:
   - PROCESS-NAME,xdman.exe
   ############
   - DOMAIN-SUFFIX,lg3h.org
+  - DOMAIN-SUFFIX,serveftp.net
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
   - DOMAIN-SUFFIX,strava.com
