@@ -45,8 +45,8 @@ hosts: {mtalk.google.com: 108.177.97.188}
 sniffer:
   enable: true
   #force-dns-mapping: true #对 redir-host 类型识别的流量进行强制嗅探
-  parse-pure-ip: true #对所有未获取到域名的流量进行强制嗅探
-  #override-destination: false #是否使用嗅探结果作为实际访问，默认为 true
+  parse-pure-ip: false #对所有未获取到域名的流量进行强制嗅探
+  #override-destination: true #是否使用嗅探结果作为实际访问，默认为 true
   sniff:
     TLS: {ports: [1-65535], override-destination: true}
     HTTP: {ports: [1-65535], override-destination: true}
@@ -55,9 +55,9 @@ sniffer:
     - +.v2ex.com
   skip-domain: #跳过嗅探的域名列表，使用域名通配⬇️⬇️
     - Mijia Cloud
-    #skip-src-address:  #跳过嗅探的来源 IP 段列表⬇️⬇️
+  #skip-src-address:  #跳过嗅探的来源 IP 段列表⬇️⬇️
     #- 192.168.55.211/32
-    #skip-dst-address:  #跳过嗅探的目标 IP 段列表⬇️⬇️
+  #skip-dst-address:  #跳过嗅探的目标 IP 段列表⬇️⬇️
     #- 192.168.55.201/32
 #⬇️⬇️bypass：绕过Clash 系统代理⬇️⬇️
 bypass: [<local>, localhost, 127.*, 10.*, 172.16.*, 172.17.*, 172.18.*, 172.19.*, 172.20.*, 172.21.*, 172.22.*, 172.23.*, 172.24.*, 172.25.*, 172.26.*, 172.27.*, 172.28.*, 172.29.*, 172.30.*, 172.31.*, '*.163.com', '*.126.com', '*.126.net', 'music.163.com', '*.music.126.net', '*.msftncsi.com', '*.kuwo.cn', '*.iqiyi.com', 192.168.*]
