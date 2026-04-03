@@ -82,7 +82,7 @@ dns:
   #fallback: ['https://1.1.1.1/dns-query', 'https://dns.twnic.tw/dns-query', 'https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query']
   
   # ⬇️在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址⬇️
-  fake-ip-filter: ['*.lan', '*.localdomain', '*.example', '*.invalid', '*.localhost', '*.test', '*.local', '*.home.arpa', time.*.com, time.*.gov, time.*.edu.cn, time.*.apple.com, time1.*.com, time2.*.com, time3.*.com, time4.*.com, time5.*.com, time6.*.com, time7.*.com, ntp.*.com, ntp1.*.com, ntp2.*.com, ntp3.*.com, ntp4.*.com, ntp5.*.com, ntp6.*.com, ntp7.*.com, '*.time.edu.cn', '*.ntp.org.cn', +.pool.ntp.org, time1.cloud.tencent.com, stun.*.*, stun.*.*.*, swscan.apple.com, mesu.apple.com, music.163.com, '*.music.163.com', '*.126.net', musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, '*.kuwo.cn', api-jooxtt.sanook.com, api.joox.com, y.qq.com, '*.y.qq.com', streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, localhost.ptlogin2.qq.com, '*.msftconnecttest.com', '*.msftncsi.com', '*.xiami.com', '*.music.migu.cn', music.migu.cn, +.wotgame.cn, +.wggames.cn, +.wowsgame.cn, +.wargaming.net, '*.*.*.srv.nintendo.net', '*.*.stun.playstation.net', '+.playstation.com', '+.playstation.net', '+.xboxlive.com', '+.microsoft.com' , xbox.*.*.microsoft.com, '*.*.xboxlive.com', '*.ipv6.microsoft.com', teredo.*.*.*, teredo.*.*, speedtest.cros.wr.pvp.net, +.jjvip8.com, www.douyu.com, activityapi.huya.com, activityapi.huya.com.w.cdngslb.com, www.bilibili.com, api.bilibili.com, a.w.bilicdn1.com, discfan.net, discfan.xyz, pt.0ff.cc]
+  fake-ip-filter: ['*.lan', '*.localdomain', '*.example', '*.invalid', '*.localhost', '*.test', '*.local', '*.home.arpa', time.*.com, time.*.gov, time.*.edu.cn, time.*.apple.com, time1.*.com, time2.*.com, time3.*.com, time4.*.com, time5.*.com, time6.*.com, time7.*.com, ntp.*.com, ntp1.*.com, ntp2.*.com, ntp3.*.com, ntp4.*.com, ntp5.*.com, ntp6.*.com, ntp7.*.com, '*.time.edu.cn', '*.ntp.org.cn', +.pool.ntp.org, time1.cloud.tencent.com, stun.*.*, stun.*.*.*, swscan.apple.com, mesu.apple.com, music.163.com, '*.music.163.com', '*.126.net', musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, '*.kuwo.cn', api-jooxtt.sanook.com, api.joox.com, y.qq.com, '*.y.qq.com', streamoc.music.tc.qq.com, mobileoc.music.tc.qq.com, isure.stream.qqmusic.qq.com, dl.stream.qqmusic.qq.com, aqqmusic.tc.qq.com, amobile.music.tc.qq.com, localhost.ptlogin2.qq.com, '*.msftconnecttest.com', '*.msftncsi.com', '*.xiami.com', '*.music.migu.cn', music.migu.cn, +.wotgame.cn, +.wggames.cn, +.wowsgame.cn, +.wargaming.net, '*.*.*.srv.nintendo.net', '*.*.stun.playstation.net', '+.playstation.com', '+.playstation.net', '+.xboxlive.com', '+.microsoft.com' , xbox.*.*.microsoft.com, '*.*.xboxlive.com', '*.ipv6.microsoft.com', teredo.*.*.*, teredo.*.*, speedtest.cros.wr.pvp.net, +.jjvip8.com, www.douyu.com, activityapi.huya.com, activityapi.huya.com.w.cdngslb.com, www.bilibili.com, api.bilibili.com, a.w.bilicdn1.com]
     
   #⬇️后备域名解析器筛选，满足条件的将使用 fallback结果或只使用 fallback解析⬇️
   #fallback-filter: {geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 127.0.0.1/32], domain: ['+.facebook.com', '+.twitter.com', '+.google.com', '+.googleapis.com', '+.youtube.com']}  
@@ -155,25 +155,17 @@ rules:
   #- DOMAIN-SUFFIX,lan,DIRECT,no-resolve
   - IP-CIDR,84.54.0.0/22,Select,no-resolve
   #pt/bt⬇️⬇️
-  - DOMAIN-SUFFIX,discfan.net,DIRECT
-  - DOMAIN-SUFFIX,discfan.xyz,DIRECT
-  - DOMAIN-SUFFIX,m-team.cc,DIRECT
-  - DOMAIN-SUFFIX,m-team.io,DIRECT
-  - DOMAIN-SUFFIX,halomt.com,DIRECT
-  - DOMAIN-SUFFIX,manfuz.co,DIRECT
   - DOMAIN-KEYWORD,announce.php,DIRECT
   #其它⬇️⬇️
   - DOMAIN-SUFFIX,cnbeta.com.tw,Select
   - DOMAIN-SUFFIX,huaweicloud.com,DIRECT
-  #- DOMAIN,component-ota-in.allawnos.com,REJECT
   - PROCESS-NAME,org.localsend.localsend_app,DIRECT
   - PROCESS-NAME,localsend,DIRECT
   #NAS
   - DOMAIN-SUFFIX,myqnapcloud.io,Hongkong
   - DOMAIN-SUFFIX,myqnapcloud.com,Hongkong
-  - DOMAIN-KEYWORD,myqnapcloud,Hongkong
   - DOMAIN-SUFFIX,qnap.com,Hongkong
-  - DOMAIN-SUFFIX,qlink.to,Hongkong
+  - DOMAIN-KEYWORD,myqnapcloud,Hongkong
   #- SRC-IP-CIDR,192.168.1.113/32,DIRECT,no-resolve  #指定内设备ip直连
   # iptv⬇️⬇️
   - DOMAIN-SUFFIX,kktv.com.tw,Taiwan
