@@ -1,7 +1,6 @@
 #NAME: ChinaMax 直连 包括大部分国内域名及ip，网络收集整理
 payload:	
-  - DOMAIN-KEYWORD,Authy
-  - DOMAIN-SUFFIX,Authy.com
+  - DOMAIN-SUFFIX,authy.com
   - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,weibo.cn
@@ -135,13 +134,23 @@ payload:
   - DOMAIN-SUFFIX,tanx.com
   - DOMAIN-SUFFIX,jjh9999.com
   - DOMAIN-SUFFIX,ipshu.com
-  
+  - DOMAIN-SUFFIX,ybypark.com
+  #########
+  - DOMAIN-SUFFIX,discfan.net
+  - DOMAIN-SUFFIX,discfan.xyz
+  - DOMAIN-SUFFIX,0ff.cc
+  - DOMAIN-SUFFIX,bt0.com
+  - DOMAIN-SUFFIX,a4apt.com
+  - DOMAIN-SUFFIX,okpt.top
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,halomt.com
+  - DOMAIN-SUFFIX,manfuz.co
+  - DOMAIN-KEYWORD,announce.php  
+  - DOMAIN-SUFFIX,yifai999.shop
   - PROCESS-NAME,org.localsend.localsend_app
   - PROCESS-NAME,localsend
   - PROCESS-NAME,com.eg.android.AlipayGphone
-  - DOMAIN-SUFFIX,jvod.300hu.com
-  - DOMAIN-SUFFIX,nstool.haowu.link
-  - DOMAIN-SUFFIX,doordu.sobot.com
   - DOMAIN-SUFFIX,youzhanjia.com
   - DOMAIN-KEYWORD,uTorrent
   - DOMAIN-KEYWORD,aria2
@@ -155,7 +164,6 @@ payload:
   - DOMAIN-KEYWORD,alipay
   - DOMAIN-KEYWORD,taobao
   - DOMAIN-SUFFIX,BitComet
-  - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-KEYWORD,bittorrent
   - DOMAIN-KEYWORD,qbittorrent
   #############
@@ -515,7 +523,6 @@ payload:
   - DOMAIN-SUFFIX,jpopsuki.eu
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,leaguehd.com
-  - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,msg.vg
   - DOMAIN-SUFFIX,nanyangpt.com
