@@ -1,7 +1,6 @@
 #NAME: China  直连，部分网络收集
 payload:
-  - DOMAIN-KEYWORD,Authy
-  - DOMAIN-SUFFIX,Authy.com
+  - DOMAIN-SUFFIX,authy.com
   - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,weibo.cn
@@ -138,6 +137,7 @@ payload:
   - PROCESS-NAME,org.localsend.localsend_app
   - PROCESS-NAME,localsend
   - PROCESS-NAME,com.eg.android.AlipayGphone
+  - DOMAIN-SUFFIX,yifai999.shop
   #- PROCESS-NAME,
   ### 常用PT下载
   - DOMAIN-SUFFIX,discfan.net
@@ -151,9 +151,8 @@ payload:
   - DOMAIN-SUFFIX,halomt.com
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-KEYWORD,announce.php  
-  - DOMAIN-SUFFIX,yifai999.shop
-  - DOMAIN-SUFFIX,ybypark.com
   ####
+  - DOMAIN-SUFFIX,ybypark.com
   - DOMAIN-SUFFIX,welife001.com
   - DOMAIN-SUFFIX,wxgateway.com
   - DOMAIN-SUFFIX,banjixiaoguanjia.com
@@ -419,7 +418,6 @@ payload:
   - DOMAIN-SUFFIX,zmzfile.com
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
-  - DOMAIN-KEYWORD,tracker
   - DOMAIN-KEYWORD,peer_id=
   - DOMAIN-KEYWORD,info_hash
   - DOMAIN-KEYWORD,get_peers
@@ -431,7 +429,6 @@ payload:
   - DOMAIN-SUFFIX,bittorrent.com
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,chdbits.co
-  - DOMAIN-SUFFIX,classix-unlimited.co.uk
   - DOMAIN-SUFFIX,empornium.me
   - DOMAIN-SUFFIX,hd4fans.org
   - DOMAIN-SUFFIX,hdchina.org
