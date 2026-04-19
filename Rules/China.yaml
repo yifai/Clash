@@ -138,6 +138,7 @@ payload:
   - PROCESS-NAME,localsend
   - PROCESS-NAME,com.eg.android.AlipayGphone
   - DOMAIN-SUFFIX,getui.net
+  - DOMAIN-SUFFIX,gepush.com
   - DOMAIN-SUFFIX,yifai999.shop
 
   #- PROCESS-NAME,
