@@ -137,7 +137,9 @@ payload:
   - PROCESS-NAME,org.localsend.localsend_app
   - PROCESS-NAME,localsend
   - PROCESS-NAME,com.eg.android.AlipayGphone
+  - DOMAIN-SUFFIX,getui.net
   - DOMAIN-SUFFIX,yifai999.shop
+
   #- PROCESS-NAME,
   ### 常用PT下载
   - DOMAIN-SUFFIX,discfan.net
