@@ -1288,7 +1288,6 @@ payload:
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,acplay.net
   - DOMAIN-SUFFIX,acwing.com
-
   - DOMAIN-SUFFIX,admin5.com
   - DOMAIN-SUFFIX,adxvip.com
   - DOMAIN-SUFFIX,afdian.net
@@ -3914,6 +3913,8 @@ payload:
   - DOMAIN-SUFFIX,zyh365.com
   - DOMAIN-SUFFIX,zzdtec.com
   - DOMAIN-SUFFIX,wang
+  - DOMAIN-SUFFIX,getui.net
+  #####################
   - DOMAIN-SUFFIX,jowto.com
   - DOMAIN-SUFFIX,malingguzhai.com
   - DOMAIN-SUFFIX,05eg.com
