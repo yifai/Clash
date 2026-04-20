@@ -246,6 +246,7 @@ payload:
   - PROCESS-NAME,xdman
   - PROCESS-NAME,xdman.exe
   ############
+  - DOMAIN-KEYWORD,9999,DIRECT
   - DOMAIN-SUFFIX,lg3h.org
   - DOMAIN-SUFFIX,serveftp.net
   - DOMAIN-SUFFIX,getui.com
