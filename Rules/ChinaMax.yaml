@@ -93788,6 +93788,7 @@ payload:
   - IP-CIDR,47.92.0.0/14,no-resolve
   - IP-CIDR,47.96.0.0/11,no-resolve
   - IP-CIDR,47.96.0.0/14,no-resolve
+  - IP-CIDR,47.115.0.0/17,no-resolve
   - IP-CIDR,47.235.0.0/16,no-resolve
   - IP-CIDR,47.236.0.0/14,no-resolve
   - IP-CIDR,47.240.0.0/14,no-resolve
