@@ -35,7 +35,7 @@ payload:
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,eple1.top
-  #####
+  ##############################
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,doordu.com
   - DOMAIN-SUFFIX,ip138.com
@@ -140,9 +140,10 @@ payload:
   - DOMAIN-SUFFIX,getui.net
   - DOMAIN-SUFFIX,gepush.com
   - DOMAIN-SUFFIX,yifai999.shop
+  - DOMAIN-SUFFIX,rumt-zh.com
 
   #- PROCESS-NAME,
-  ### 常用PT下载
+  ############### 常用PT下载
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-SUFFIX,discfan.xyz
   - DOMAIN-SUFFIX,0ff.cc
@@ -154,7 +155,7 @@ payload:
   - DOMAIN-SUFFIX,halomt.com
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-KEYWORD,announce.php  
-  ####
+  #############
   - DOMAIN-SUFFIX,ybypark.com
   - DOMAIN-SUFFIX,welife001.com
   - DOMAIN-SUFFIX,wxgateway.com
