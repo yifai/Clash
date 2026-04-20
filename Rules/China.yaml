@@ -156,6 +156,7 @@ payload:
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-KEYWORD,announce.php  
   #############
+  - DOMAIN-KEYWORD,9999,DIRECT
   - DOMAIN-SUFFIX,ybypark.com
   - DOMAIN-SUFFIX,welife001.com
   - DOMAIN-SUFFIX,wxgateway.com
