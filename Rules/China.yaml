@@ -141,6 +141,7 @@ payload:
   - DOMAIN-SUFFIX,gepush.com
   - DOMAIN-SUFFIX,yifai999.shop
   - DOMAIN-SUFFIX,rumt-zh.com
+  - DOMAIN-SUFFIX,tlink.io
 
   #- PROCESS-NAME,
   ############### 常用PT下载
