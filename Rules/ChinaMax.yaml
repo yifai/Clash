@@ -148,6 +148,7 @@ payload:
   - DOMAIN-SUFFIX,halomt.com
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-KEYWORD,announce.php  
+  - DOMAIN-KEYWORD,passkey=
   - DOMAIN-SUFFIX,yifai999.shop
   - PROCESS-NAME,org.localsend.localsend_app
   - PROCESS-NAME,localsend
@@ -1016,7 +1017,6 @@ payload:
   - DOMAIN-SUFFIX,zgslb.net
   - DOMAIN-SUFFIX,zhangle.com
   - DOMAIN-KEYWORD,beplay
-  - DOMAIN-KEYWORD,officecdn
   - DOMAIN-SUFFIX,dm0.cc
   - DOMAIN,router.asus.com
   - DOMAIN-SUFFIX,hiwifi.com
@@ -1038,10 +1038,7 @@ payload:
   - DOMAIN-SUFFIX,bokecc.com
   - DOMAIN-SUFFIX,chaipip.com
   - DOMAIN,cdp.cloud.unity3d.com
-  - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN-SUFFIX,kexinshe.com
-  - DOMAIN,origin-a.akamaihd.ne
-  - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,libvideo.com
   - DOMAIN-SUFFIX,yxssp.com
   - DOMAIN-SUFFIX,0123456789.com

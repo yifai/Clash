@@ -424,6 +424,7 @@ payload:
   - DOMAIN-SUFFIX,zmzfile.com
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,passkey=
   - DOMAIN-KEYWORD,peer_id=
   - DOMAIN-KEYWORD,info_hash
   - DOMAIN-KEYWORD,get_peers
@@ -432,7 +433,6 @@ payload:
   - DOMAIN-SUFFIX,animetorrents.me
   - DOMAIN-SUFFIX,awesome-hd.me
   - DOMAIN-SUFFIX,beitai.pt
-  - DOMAIN-SUFFIX,bittorrent.com
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,empornium.me
@@ -937,7 +937,6 @@ payload:
   - DOMAIN-SUFFIX,zgslb.net
   - DOMAIN-SUFFIX,zhangle.com
   - DOMAIN-KEYWORD,beplay
-  - DOMAIN-KEYWORD,officecdn
   - DOMAIN-SUFFIX,dm0.cc
   - DOMAIN,router.asus.com
   - DOMAIN-SUFFIX,hiwifi.com
@@ -958,13 +957,9 @@ payload:
   - DOMAIN-SUFFIX,423down.com
   - DOMAIN-SUFFIX,bokecc.com
   - DOMAIN-SUFFIX,chaipip.com
-  - DOMAIN,cdp.cloud.unity3d.com
-  - DOMAIN,images-cn.ssl-images-amazon.com
-  - DOMAIN,kc.kexinshe.com
-  - DOMAIN,origin-a.akamaihd.ne
-  - DOMAIN,steamcommunity-a.akamaihd.net
-  - DOMAIN,www.libvideo.com
-  - DOMAIN,www.yxssp.com
+  - DOMAIN-SUFFIX,kexinshe.com
+  - DOMAIN-SUFFIX,libvideo.com
+  - DOMAIN-SUFFIX,yxssp.com
   - DOMAIN-SUFFIX,0123456789.com
   - DOMAIN-SUFFIX,slooong.com
   - DOMAIN-SUFFIX,0379home.com
@@ -3935,9 +3930,6 @@ payload:
   - PROCESS-NAME,NeatDM.exe
   - PROCESS-NAME,NetTransport
   - PROCESS-NAME,NetTransport.exe
-  - PROCESS-NAME,Thunder
-  - PROCESS-NAME,Thunder.exe
-  - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,Transmission
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent.exe
