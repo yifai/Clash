@@ -1896,9 +1896,6 @@ payload:
   - DOMAIN-SUFFIX,doc88.com
   - DOMAIN-SUFFIX,docer.com
   - DOMAIN-SUFFIX,docin.com
-  - DOMAIN-SUFFIX,dockerone.com
-  - DOMAIN-SUFFIX,dockone.io
-  - DOMAIN-SUFFIX,doctoryou.ai
   - DOMAIN-SUFFIX,dogedoge.com
   - DOMAIN-SUFFIX,doh.pub
   - DOMAIN-SUFFIX,donews.com
@@ -4468,7 +4465,6 @@ payload:
   - DOMAIN-SUFFIX,119120.org
   - DOMAIN-SUFFIX,119958.com
   - DOMAIN-SUFFIX,119tx.com
-  - DOMAIN-SUFFIX,11cdocker402.com
   - DOMAIN-SUFFIX,11dns.com
   - DOMAIN-SUFFIX,11dream.net
   - DOMAIN-SUFFIX,11fdj.com
@@ -11535,7 +11531,6 @@ payload:
   - DOMAIN-SUFFIX,abc4game.com
   - DOMAIN-SUFFIX,abcache.com
   - DOMAIN-SUFFIX,abcdao.com
-  - DOMAIN-SUFFIX,abcdocker.com
   - DOMAIN-SUFFIX,abcdv.net
   - DOMAIN-SUFFIX,abcfintech.com
   - DOMAIN-SUFFIX,abcgonglue.com
@@ -26742,7 +26737,6 @@ payload:
   - DOMAIN-SUFFIX,docexcel.net
   - DOMAIN-SUFFIX,docin365.com
   - DOMAIN-SUFFIX,dockerinfo.net
-  - DOMAIN-SUFFIX,dockerproxy.com
   - DOMAIN-SUFFIX,dockx.app
   - DOMAIN-SUFFIX,doclass.com
   - DOMAIN-SUFFIX,docn.net
@@ -85803,7 +85797,6 @@ payload:
   - DOMAIN-SUFFIX,yfiot.com
   - DOMAIN-SUFFIX,yfjiakao.com
   - DOMAIN-SUFFIX,yfklxz.com
-  - DOMAIN-SUFFIX,yfldocker.com
   - DOMAIN-SUFFIX,yflive.net
   - DOMAIN-SUFFIX,yfm99.com
   - DOMAIN-SUFFIX,yfmac.com
