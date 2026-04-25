@@ -142,7 +142,7 @@ payload:
   - DOMAIN-SUFFIX,yifai999.shop
   - DOMAIN-SUFFIX,rumt-zh.com
   - DOMAIN-SUFFIX,tlink.io
-  - DOMAIN-SUFFIX,doubao.com
+  
 
   #- PROCESS-NAME,
   ############### 常用PT下载
@@ -468,6 +468,8 @@ payload:
   - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,upaiyun.com
   - DOMAIN-SUFFIX,10010.com
+  - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,doubao.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,12306.com
   - DOMAIN-SUFFIX,17173.com
