@@ -3,3 +3,10 @@
 payload:
   - DOMAIN,updates.cdn-apple.com
   - DOMAIN,gdmf.apple.com
+  - DOMAIN,mesu.apple.com,REJECT
+
+  # mesu.apple.com: 核心域名，用于查询是否有新的 iOS 版本。
+  # gdmf.apple.com: 设备管理框架域名，用于下发更新描述文件。
+  # updates-http.cdn-apple.com: 实际下载更新固件包的 CDN 服务器。
+  # xp.apple.com: 处理系统诊断和某些更新指令的上报。
+  # appldnld.apple.com: 较旧版本的 Apple 软件更新下载地址
