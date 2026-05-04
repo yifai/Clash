@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,gvt6.com
   - DOMAIN-SUFFIX,gvt7.com
   - DOMAIN-SUFFIX,gvt9.com
+  - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,chrome.com
   - DOMAIN-SUFFIX,chromeos.google
   - DOMAIN-SUFFIX,c.admob.com
