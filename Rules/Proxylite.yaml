@@ -52,7 +52,6 @@ payload:
   - IP-CIDR6,2400:6680:f000::/36,no-resolve
   - IP-CIDR6,2606:1f80:f000::/36,no-resolve
   - IP-CIDR6,2a04:9d40:f000::/36,no-resolve
-  
   # Telegram
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,contest.com
@@ -78,11 +77,14 @@ payload:
   - DOMAIN-KEYWORD,telegram
   #DC5,新加坡
   - IP-CIDR,91.108.16.0/21,no-resolve
+  - IP-CIDR,91.108.56.0/24,no-resolve
   - IP-CIDR,91.108.56.0/23,no-resolve
   - IP-CIDR,149.154.168.0/22,no-resolve
   - IP-CIDR6,2001:b28:f23c::/48,no-resolve
   #DC1,美国
+  - IP-CIDR,57.144.252.0/23,no-resolve
   - IP-CIDR,91.108.12.0/22,no-resolve
+  - IP-CIDR,161.129.35.0/24,no-resolve
   - IP-CIDR,149.154.172.0/22,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,no-resolve
   #DC2和DC4,欧洲
@@ -94,14 +96,21 @@ payload:
   - IP-CIDR,95.161.64.0/20,no-resolve
   - IP-CIDR,109.239.140.0/24,no-resolve
   - IP-CIDR,149.154.160.0/21,no-resolve
+  - IP-CIDR,149.154.167.0/24,no-resolve
+  - IP-CIDR,149.154.168.0/21,no-resolve
   - IP-CIDR,185.76.151.0/24,no-resolve
+  - IP-CIDR,194.221.56.0/21,no-resolve
   - IP-CIDR6,2001:67c:4e8::/48,no-resolve
   - IP-CIDR6,2a0a:f280:203::/48,no-resolve
+  - IP-CIDR,91.108.16.0/22,no-resolve
+  - IP-CIDR,149.154.175.0/24,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve
+  ###########
   - PROCESS-NAME,nekox.messenger
   - PROCESS-NAME,org.telegram.messenger
   - PROCESS-NAME,telegram.exe
   - PROCESS-NAME,telegram-desktop
-  
+  ##3
   # Meta(Facebook、Whatsapp)
   - DOMAIN-SUFFIX,facebook.com
   - DOMAIN-SUFFIX,facebook.net
@@ -250,7 +259,6 @@ payload:
   - DOMAIN-KEYWORD,github
   - DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
   - DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
-  
   # MyList & Other
   - DOMAIN-SUFFIX,compose-spec.io
   - DOMAIN-SUFFIX,docker.com
@@ -298,7 +306,6 @@ payload:
   - DOMAIN-SUFFIX,zoho.com
   - DOMAIN-SUFFIX,zoho.com.cn
   - DOMAIN-SUFFIX,aol.com
-
   - DOMAIN-SUFFIX,onetrust.com
   - DOMAIN-SUFFIX,52.mk
   - DOMAIN-SUFFIX,nxtlnodes.com
@@ -309,6 +316,7 @@ payload:
   - DOMAIN-SUFFIX,oneplus.net
   - DOMAIN-SUFFIX,mastodon.world
   - DOMAIN-KEYWORD,mastodon
+  #- DOMAIN-KEYWORD,speedtest
   #- DOMAIN-SUFFIX,speedtest.com
   #- DOMAIN-SUFFIX,speedtest.net  
   - DOMAIN-SUFFIX,ixpsge.com
@@ -346,7 +354,6 @@ payload:
   - IP-CIDR,172.69.132.0/22,no-resolve
   - IP-CIDR,172.71.0.0/16,no-resolve
   - IP-CIDR,172.69.16.0/20,no-resolve
-  
   # Amazon
   - IP-CIDR,13.32.0.0/15,no-resolve
   - IP-CIDR,13.35.0.0/17,no-resolve
@@ -363,17 +370,14 @@ payload:
   - IP-CIDR,54.156.0.0/14,no-resolve
   - IP-CIDR,54.226.0.0/15,no-resolve
   - IP-CIDR,54.230.156.0/22,no-resolve
-  
   # Qnap NAS
   - DOMAIN-SUFFIX,myqnapcloud.io
   - DOMAIN-SUFFIX,myqnapcloud.com
-  - DOMAIN-KEYWORD,myqnapcloud
+  #- DOMAIN-KEYWORD,myqnapcloud
   - DOMAIN-SUFFIX,qnap.com
-  
   # BBC
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-SUFFIX,bbc.co
-  
   # Line
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line-cdn.net
@@ -384,7 +388,6 @@ payload:
   - IP-CIDR,119.235.235.0/24,no-resolve
   - IP-CIDR,147.92.128.0/17,no-resolve
   - IP-CIDR,203.104.128.0/19,no-resolve
-  
   # Wikipedia 维基相关域名
   - DOMAIN-SUFFIX,mediawiki.org
   - DOMAIN-SUFFIX,wikibooks.org
@@ -392,4 +395,3 @@ payload:
   - DOMAIN-SUFFIX,wikiversity.org
   - DOMAIN-SUFFIX,wikivoyage.org
   - DOMAIN-SUFFIX,wikipedia.org
-  
