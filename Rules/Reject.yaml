@@ -56,6 +56,7 @@ payload:
   - IP-CIDR,183.192.65.101/32,no-resolve # 江苏移动
   - DOMAIN-KEYWORD,96110 # 江苏移动
   - DOMAIN,snssdk.com  #头条
+  - DOMAIN,app.adjust.com
   - PROCESS-NAME,com.iqoo.secure
   
   # 禁止PCDN
