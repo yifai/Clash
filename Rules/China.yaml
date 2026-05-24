@@ -143,8 +143,19 @@ payload:
   - DOMAIN-SUFFIX,rumt-zh.com
   - DOMAIN-SUFFIX,tlink.io
   
+  ## 路由器后台管理
+  - DOMAIN,ruiyi.cn
+  - DOMAIN,tplogin.cn
+  - DOMAIN,miwifi.com
+  - DOMAIN,tendawifi.com
+  - DOMAIN,melogin.cn
+  - DOMAIN,luyou.360.cn
+  - DOMAIN,router.asus.com
+  - DOMAIN,leike.cc
+  - DOMAIN,falogin.cn
+  - DOMAIN,wifi.wavlink.com
+  - DOMAIN,linksyssmartwifi.com
 
-  #- PROCESS-NAME,
   ############### 常用PT下载
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-SUFFIX,discfan.xyz
