@@ -46,6 +46,7 @@ payload:
   ###- DOMAIN,ifs.tanx.com
   - DOMAIN,tracker.sns.iqiyi.com
   - DOMAIN,adeventtracker.spotify.com
+  - DOMAIN-SUFFIX,sb.scorecardresearch.com
   - DOMAIN,epowernetworktrackerimages.s3.amazonaws.com
   - DOMAIN,eviltracker.net
   - DOMAIN,tracker.baidu.com
