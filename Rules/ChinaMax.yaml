@@ -199,6 +199,19 @@ payload:
   - PROCESS-NAME,xdm.exe
   - PROCESS-NAME,xdman
   - PROCESS-NAME,xdman.exe
+    ## 路由器后台管理
+  - DOMAIN,ruiyi.cn
+  - DOMAIN,tplogin.cn
+  - DOMAIN,miwifi.com
+  - DOMAIN,tendawifi.com
+  - DOMAIN,melogin.cn
+  - DOMAIN,luyou.360.cn
+  - DOMAIN,router.asus.com
+  - DOMAIN,leike.cc
+  - DOMAIN,falogin.cn
+  - DOMAIN,wifi.wavlink.com
+  - DOMAIN,linksyssmartwifi.com
+  
   ############
   - DOMAIN-KEYWORD,9999,DIRECT
   - DOMAIN-SUFFIX,lg3h.org
