@@ -85,6 +85,8 @@ payload:
   - DOMAIN-SUFFIX,xboxstudios.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
+  - DOMAIN-SUFFIX,msftstatic.com
+  - DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-KEYWORD,windows
