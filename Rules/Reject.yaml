@@ -315,16 +315,16 @@ payload:
   - DOMAIN,adxlog-adnet.vivo.com.cn
   - DOMAIN,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
   #########
-  - DOMAIN,adashbc.ut.taobao.com
-  - DOMAIN,audid-api.taobao.com
-  - DOMAIN,h-adashx.ut.taobao.com
-  - DOMAIN,umengjmacs.m.taobao.com
-  - DOMAIN,youku-acs.m.taobao.com
-  - DOMAIN,adashx.m.taobao.com
-  - DOMAIN,adashxgc.ut.taobao.com
-  - DOMAIN,*.log.aliyuncs.com
-  - DOMAIN,adsfilebssdlbig.ali.kugou.com
-  - DOMAIN,ali-ad.a.yximgs.com
+  #- DOMAIN,adashbc.ut.taobao.com
+  #- DOMAIN,audid-api.taobao.com
+  #- DOMAIN,h-adashx.ut.taobao.com
+  #- DOMAIN,umengjmacs.m.taobao.com
+  #- DOMAIN,youku-acs.m.taobao.com
+  #- DOMAIN,adashx.m.taobao.com
+  #- DOMAIN,adashxgc.ut.taobao.com
+  #- DOMAIN,*.log.aliyuncs.com
+  #- DOMAIN,adsfilebssdlbig.ali.kugou.com
+  #- DOMAIN,ali-ad.a.yximgs.com
   ###- DOMAIN,cdn.ynuf.aliapp.org
   ###- DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com
   - DOMAIN,tnc3-aliec1.toutiaoapi.com
