@@ -55,6 +55,7 @@ payload:
   - IP-CIDR,38.55.144.167/32,no-resolve # 诈骗网站的IP，这个服务器上全是诈骗网站
   - IP-CIDR,221.228.32.13/32,no-resolve # 江苏电信
   - IP-CIDR,183.192.65.101/32,no-resolve # 江苏移动
+  - DOMAIN,app.adjust.com
   - DOMAIN-KEYWORD,96110 # 江苏移动
   - DOMAIN,snssdk.com  ###头条
   - PROCESS-NAME,com.iqoo.secure
