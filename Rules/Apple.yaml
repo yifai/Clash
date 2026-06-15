@@ -138,6 +138,7 @@ payload:
   - DOMAIN-SUFFIX,apple-relay.cloudflare.com
   - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
   - DOMAIN-SUFFIX,cp4.cloudflare.com
+  - DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com
   
 # NAME: iCloud
   - DOMAIN-SUFFIX,appleicloud.cn
