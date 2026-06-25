@@ -59,6 +59,7 @@ payload:
   - DOMAIN-KEYWORD,96110 # 江苏移动
   - DOMAIN,snssdk.com  ###头条
   - PROCESS-NAME,com.iqoo.secure
+  - DOMAIN,msmp.abchina.com.cn
   
   ##### 禁止PCDN
   - DOMAIN,api.app.skysrt.com
