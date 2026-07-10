@@ -203,10 +203,8 @@ payload:
   - DOMAIN,ruiyi.cn
   - DOMAIN,tplogin.cn
   - DOMAIN,miwifi.com
-  - DOMAIN,tendawifi.com
   - DOMAIN,melogin.cn
   - DOMAIN,luyou.360.cn
-  - DOMAIN,router.asus.com
   - DOMAIN,leike.cc
   - DOMAIN,falogin.cn
   - DOMAIN,wifi.wavlink.com
@@ -678,6 +676,7 @@ payload:
   - DOMAIN-SUFFIX,ruguoapp.com
   - DOMAIN-SUFFIX,runoob.com
   - DOMAIN-SUFFIX,sankuai.com
+  - DOMAIN-SUFFIX,neixin.cn
   - DOMAIN-SUFFIX,segmentfault.com
   - DOMAIN-SUFFIX,sf-express.com
   - DOMAIN-SUFFIX,shumilou.net

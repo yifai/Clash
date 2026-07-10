@@ -146,11 +146,8 @@ payload:
   ## 路由器后台管理
   - DOMAIN,ruiyi.cn
   - DOMAIN,tplogin.cn
-  - DOMAIN,miwifi.com
-  - DOMAIN,tendawifi.com
   - DOMAIN,melogin.cn
   - DOMAIN,luyou.360.cn
-  - DOMAIN,router.asus.com
   - DOMAIN,leike.cc
   - DOMAIN,falogin.cn
   - DOMAIN,wifi.wavlink.com
@@ -3274,6 +3271,7 @@ payload:
   - DOMAIN-SUFFIX,taptap.com
   - DOMAIN-SUFFIX,tbcache.com
   - DOMAIN-SUFFIX,tburl.in
+  - DOMAIN-SUFFIX,tcl.com
   - DOMAIN-SUFFIX,tcdlive.com
   - DOMAIN-SUFFIX,tcdnhw.com
   - DOMAIN-SUFFIX,tcdnkcbak.com
