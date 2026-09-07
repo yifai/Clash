@@ -199,18 +199,15 @@ payload:
   - PROCESS-NAME,xdm.exe
   - PROCESS-NAME,xdman
   - PROCESS-NAME,xdman.exe
-  ## 路由器后台管理
+    ## 路由器后台管理
   - DOMAIN,ruiyi.cn
   - DOMAIN,tplogin.cn
-  - DOMAIN,melogin.cn
-  - DOMAIN,falogin.cn
-  - DOMAIN,leike.cc
   - DOMAIN,miwifi.com
-  - DOMAIN,routerlogin.com
-  - DOMAIN,router.asus.com
-  - DOMAIN-SUFFIX,zte.home
+  - DOMAIN,melogin.cn
+  - DOMAIN,luyou.360.cn
+  - DOMAIN,leike.cc
+  - DOMAIN,falogin.cn
   - DOMAIN,wifi.wavlink.com
-  - DOMAIN-SUFFIX,myrouter.local
   - DOMAIN,linksyssmartwifi.com
   
   ############
@@ -985,9 +982,16 @@ payload:
   - DOMAIN-SUFFIX,zhangle.com
   - DOMAIN-KEYWORD,beplay
   - DOMAIN-SUFFIX,dm0.cc
+  - DOMAIN,router.asus.com
   - DOMAIN-SUFFIX,hiwifi.com
+  - DOMAIN-SUFFIX,leike.cc
+  - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN-SUFFIX,my.router
   - DOMAIN-SUFFIX,peiluyou.com
   - DOMAIN-SUFFIX,phicomm.me
+  - DOMAIN-SUFFIX,routerlogin.com
+  - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,zte.home
   - DOMAIN-SUFFIX,p.to
   - DOMAIN-SUFFIX,ocsp.pki.goog
   - DOMAIN-SUFFIX,recaptcha.net
@@ -1680,12 +1684,6 @@ payload:
   - DOMAIN-SUFFIX,clouddalian.com
   - DOMAIN-SUFFIX,clouddatong.com
   - DOMAIN-SUFFIX,clouddongying.com
-  - DOMAIN-SUFFIX,cloudflare-cn.com
-  - DOMAIN-SUFFIX,cloudflarecn.net
-  - DOMAIN-SUFFIX,cloudflareinsights-cn.com
-  - DOMAIN-SUFFIX,cloudflareprod.com
-  - DOMAIN-SUFFIX,cloudflarestaging.com
-  - DOMAIN-SUFFIX,cloudflarestoragegw.com
   - DOMAIN-SUFFIX,cloudfoshan.com
   - DOMAIN-SUFFIX,cloudfront-cn.net
   - DOMAIN-SUFFIX,cloudfuqing.com
@@ -17338,7 +17336,6 @@ payload:
   - DOMAIN-SUFFIX,bodu.com
   - DOMAIN-SUFFIX,boduhappiness.com
   - DOMAIN-SUFFIX,boe.com
-  - DOMAIN-SUFFIX,boeyu.com
   - DOMAIN-SUFFIX,boendejc.com
   - DOMAIN-SUFFIX,bof98.com
   - DOMAIN-SUFFIX,bofangw.com
@@ -21999,9 +21996,6 @@ payload:
   - DOMAIN-SUFFIX,clouddns1.vip
   - DOMAIN-SUFFIX,clouddream.net
   - DOMAIN-SUFFIX,cloudencent.com
-  - DOMAIN-SUFFIX,cloudflareanycast.net
-  - DOMAIN-SUFFIX,cloudflareglobal.net
-  - DOMAIN-SUFFIX,cloudflareperf.com
   - DOMAIN-SUFFIX,cloudgap.net
   - DOMAIN-SUFFIX,cloudgfw.com
   - DOMAIN-SUFFIX,cloudgfw.net
@@ -92644,12 +92638,6 @@ payload:
   - DOMAIN-SUFFIX,lx.cok.elexapp.com
   - DOMAIN-SUFFIX,lx3.cok.elexapp.com
   - DOMAIN-SUFFIX,neofussvr.sslcs.cdngc.net
-  - DOMAIN-SUFFIX,oemssl.cn.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,p.cdn.persaas.dell.com
-  - DOMAIN-SUFFIX,lenovo.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,gst.prod.dl.playstation.net
-  - DOMAIN-SUFFIX,qualcomm.cn.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,sectigochina.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,sgst.prod.dl.playstation.net
   - DOMAIN-SUFFIX,dcn01.ps5.update.playstation.net
   - DOMAIN-SUFFIX,dcn01.ps4.update.playstation.net
