@@ -80,13 +80,14 @@ payload:
   - DOMAIN-SUFFIX,xn--ggle-55da.com
   - DOMAIN-SUFFIX,xn--gogl-0nd52e.com
   - DOMAIN-SUFFIX,xn--gogl-1nd42e.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
   - DOMAIN-SUFFIX,xplr.co
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,youtubekids.com
   - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,redirector.xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
   - DOMAIN-SUFFIX,service.urchin.com
   - DOMAIN-SUFFIX,sup.corp.google.com
   - DOMAIN-SUFFIX,test.gbugs-qa.chromium.org
