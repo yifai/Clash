@@ -505,6 +505,9 @@ payload:
   - DOMAIN-SUFFIX,gvt6.com
   - DOMAIN-SUFFIX,gvt7.com
   - DOMAIN-SUFFIX,gvt9.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com
   - DOMAIN-SUFFIX,gwtproject.org
   - DOMAIN-SUFFIX,hdrplusdata.org
   - DOMAIN-SUFFIX,hey.gle
