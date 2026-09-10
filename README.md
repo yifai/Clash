@@ -113,7 +113,6 @@ proxy-providers:
       enable: true
       url: "https://i.ytimg.com/generate_204"
       interval: 3600
-    #filter: "🇬🇧|英国" #筛选包含关键字的节点
     #filter: "^(?!.*?海外).*(香港|台湾|日本|新加坡|美国)" #筛选包含关键字及排队包含“海外”的节点
     #filter: "🇬🇧|英国|香港|台湾|日本|新加坡|狮城|美国" 
 # proxies，自建节点⬇️⬇️
@@ -134,7 +133,7 @@ proxy-groups:
   - {name: Singapore, icon: 'https://raw.githubusercontent.com/yeefaye/QuanX/main/icon/SG.png', type: url-test, filter: '(?i)新加坡|Singapore', use: [Sub1], health-check: {enable: true, url: 'https://i.ytimg.com/generate_204', interval: 3600, tolerance: 50}}
   - {name: Japan, icon: 'https://raw.githubusercontent.com/yeefaye/QuanX/main/icon/JP.png', type: url-test, filter: '(?i)日本|Japan', use: [Sub1], health-check: {enable: true, url: 'https://i.ytimg.com/generate_204', interval: 3600, tolerance: 50}}
   - {name: United States, icon: 'https://raw.githubusercontent.com/yeefaye/QuanX/main/icon/US_1.png', type: url-test, filter: '美|United States|USA', use: [Sub1], health-check: {enable: true, url: 'https://i.ytimg.com/generate_204', interval: 3600, tolerance: 50}}
-  - {name: United Kingdom, icon: 'https://raw.githubusercontent.com/yeefaye/QuanX/main/icon/UK_1.png', type: select, use: [Sub2, Sub1], filter: '🇬🇧|UK|英国', health-check: {enable: true, url: 'https://i.ytimg.com/generate_204', hidden: true, interval: 3600, tolerance: 50}}
+  
 # rule-providers，远程分流规则（规则集）⬇️⬇️
 rule-providers:
   Reject: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/refs/heads/main/Rules/Reject.yaml', path: ./providers/rule/Reject.yaml, interval: 864000}
@@ -143,16 +142,9 @@ rule-providers:
   Apple: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/Apple.yaml', path: ./providers/rule/Apple.yaml, interval: 864000}
   Microsoft: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/Microsoft.yaml', path: ./providers/rule/Microsoft.yaml, interval: 864000}
   PayPal: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/PayPal.yaml', path: ./providers/rule/PayPal.yaml, interval: 864000}
-  Giffgaff: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/Giffgaff.yaml', path: ./providers/rule/Giffgaff.yaml, interval: 864000}
   Proxy: {type: http, behavior: classical, url: 'https://raw.githubusercontent.com/yeefaye/Clash/main/Rules/Proxylite.yaml', path: ./providers/rule/Proxylite.yaml, interval: 864000}
 # ⬇️⬇️rules：规则由上往下，如规则命中，不再往下处理⬇️⬇️
 rules:
-  #本地/局域网⬇️⬇️
-  #- DOMAIN-SUFFIX,ip6-localhost,DIRECT,no-resolve
-  #- DOMAIN-SUFFIX,ip6-loopback,DIRECT,no-resolve
-  #- DOMAIN-SUFFIX,local,DIRECT,no-resolve
-  #- DOMAIN-SUFFIX,localhost,DIRECT,no-resolve
-  #- DOMAIN-SUFFIX,lan,DIRECT,no-resolve
   - IP-CIDR,84.54.0.0/22,Select,no-resolve
   #pt/bt⬇️⬇️
   - DOMAIN-KEYWORD,announce.php,DIRECT
@@ -168,24 +160,7 @@ rules:
   - DOMAIN-KEYWORD,myqnapcloud,Hongkong
   #- SRC-IP-CIDR,192.168.1.113/32,DIRECT,no-resolve  #指定内设备ip直连
   # iptv⬇️⬇️
-  - DOMAIN-SUFFIX,kktv.com.tw,Taiwan
-  - DOMAIN-SUFFIX,kktv.me,Taiwan
-  - DOMAIN-SUFFIX,kk.stream,Taiwan
-  - DOMAIN-SUFFIX,chocotv.com.tw,Taiwan
-  - DOMAIN-SUFFIX,line-cdn.net,Taiwan
-  - DOMAIN-SUFFIX,line-scdn.net,Taiwan
-  - DOMAIN-SUFFIX,linetv.tw,Taiwan
-  - DOMAIN-SUFFIX,litv.tv,Taiwan
-  - DOMAIN-SUFFIX,LiTV.tv,Taiwan
-  - DOMAIN-SUFFIX,chinet.net,Taiwan
-  - DOMAIN-SUFFIX,hinet.net,Taiwan
-  - DOMAIN-SUFFIX,4gtv.tv,Taiwan
-  - DOMAIN-SUFFIX,ntdofifreepc.akamaized.net,Taiwan
-  - DOMAIN-SUFFIX,ntdofifreepocpc.akamaized.net,Taiwan
-  - DOMAIN-SUFFIX,ntdofifreevcpc.akamaized.net,Taiwan
-  - DOMAIN-KEYWORD,hamivideo,Taiwan
-  - DOMAIN-KEYWORD,hinet,Taiwan
-  - DOMAIN-KEYWORD,4gtv,Taiwan
+  - DOMAIN-SUFFIX,TVB.com,Hongkong
   - DOMAIN-SUFFIX,astro.com.my,Singapore
 
 # 策略分流RULE-SET⬇️⬇️
@@ -193,7 +168,6 @@ rules:
   - RULE-SET,Google,Google
   - RULE-SET,Apple,Apple
   - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,Giffgaff,United Kingdom
   - RULE-SET,PayPal,PayPal
   - RULE-SET,Proxy,Global
   - RULE-SET,China,DIRECT
@@ -225,7 +199,7 @@ rules:
 
   [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
   
-  [@AWAvenue-Ads-Rule](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule)
+  [@AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
 
 
 
