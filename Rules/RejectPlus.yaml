@@ -1,4 +1,5 @@
 #NAME: RejectPlus 屏蔽追踪/去广告,网络收集
+##部分引用 https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml
 payload:
   - DOMAIN,adsense.google.cn
   - DOMAIN,ads.google.cn
