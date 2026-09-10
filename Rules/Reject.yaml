@@ -1,4 +1,5 @@
 #### Reject,屏蔽追踪/去广告
+##部分引用 https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml
 
 payload:
   - DOMAIN,adsense.google.cn
