@@ -62,6 +62,194 @@ payload:
   - DOMAIN,msmp.abchina.com.cn
   
   ##### 禁止PCDN
+  - DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
+  - DOMAIN-SUFFIX,bvmlt.top
+  - DOMAIN-SUFFIX,gjfzpt.cn
+  - DOMAIN-SUFFIX,p2cdn.com
+  - DOMAIN-SUFFIX,uhabo.com
+  - DOMAIN-SUFFIX,xycdn.com
+  - DOMAIN-SUFFIX,yfcdn.net
+  - DOMAIN-SUFFIX,yfp2p.net
+  - DOMAIN-SUFFIX,bsccdn.net
+  - DOMAIN-SUFFIX,p2p.qq.com
+  - DOMAIN-SUFFIX,ppio.cloud
+  - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,saxysec.com
+  - DOMAIN-SUFFIX,yfcloud.com
+  - DOMAIN-SUFFIX,kuiniuca.com
+  - DOMAIN-SUFFIX,p2p.huya.com
+  - DOMAIN-SUFFIX,pkoplink.com
+  - DOMAIN-SUFFIX,cdnnodedns.cn
+  - DOMAIN-SUFFIX,p2ptun.qq.com
+  - DOMAIN-SUFFIX,tianwenca.com
+  - DOMAIN-SUFFIX,mountaintoys.cn
+  - DOMAIN-SUFFIX,nexusedgeio.com
+  - DOMAIN-SUFFIX,onethingpcs.com
+  - DOMAIN-SUFFIX,pcdn.yximgs.com
+  - DOMAIN-SUFFIX,ietheivaicai.com
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,p2plog.douyucdn.cn
+  - DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn
+  - DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com
+  - DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com
+  - DOMAIN,livewebbs2pcdn.msstatic.com
+  - DOMAIN,qn-cdnfile1pcdn.msstatic.com
+  - DOMAIN,upos-sz-302kodo.bilivideo.com
+  - DOMAIN-SUFFIX,p2p*.qq.com
+  - DOMAIN-SUFFIX,p2p-*.douyucdn.cn
+  - DOMAIN-SUFFIX,p2pchunk-*.douyucdn.cn
+  - DOMAIN-SUFFIX,dyp2p-*.douyucdn.cn
+  - DOMAIN-SUFFIX,p2plive-*.douyucdn.cn
+  - DOMAIN-SUFFIX,stun*.douyucdn.cn
+  - DOMAIN-SUFFIX,upos-sz-302*.bilivideo.com
+##拦截一些p2pcdn的相关规则
+##主要是防止自己成为p2p cdn的节点为主
+## 腾讯
+  - DOMAIN,stun.qqlive.qq.com
+  - DOMAIN,musicstun.p2p.qq.com
+  - DOMAIN,*.p2ptun.qq.com
+# 上面两个的cname解析结果
+  - DOMAIN,stun-a1.qq.com
+# 疑似腾讯云stun服务器
+  - DOMAIN,signal.qvb.qcloud.com
+  - DOMAIN,stun*.qvb.qcloud.com
+## 快手
+  - DOMAIN,config-p2p-*.vcloud.ks-live.com
+  - DOMAIN,slb-p2p.vcloud.ks-live.com
+# 疑似p2p cdn文件
+  - DOMAIN,yximgs-webrtc.liveplay.myqcloud.com
+# xxpkg系 疑似快手关联公司
+  - DOMAIN,*pcdn*.xxpkg.com
+  - DOMAIN,p2p-punch.xxpkg.com
+  - DOMAIN,p2p-punch-*.xxpkg.com
+  - DOMAIN-SUFFIX,bjfesdk.douyucdn.cn
+  - DOMAIN-SUFFIX,dotcounter.douyucdn.cn
+  - DOMAIN-SUFFIX,sdkapi.douyucdn.cn
+  - DOMAIN-SUFFIX,p2pable-*.douyucdn.cn
+  - DOMAIN-SUFFIX,dyp2p-*.douyucdn2.cn
+## 56网/搜狐视频
+  - DOMAIN-SUFFIX,p2p.tracker.tv.sohu.com
+## bilibili
+  - DOMAIN-SUFFIX,*-pcdn-*.biliapi.net
+  - DOMAIN-SUFFIX,stun*.chat.bilibili.com
+  - DOMAIN-SUFFIX,*-p2p-*.chat.bilibili.com
+## 金山云
+  - DOMAIN-SUFFIX,*.stun.yfp2p.net
+###########
+  # 通用 CDN 域名
+  - DOMAIN-SUFFIX,jomodns.cn
+  # 视频平台 CDN
+  - DOMAIN-SUFFIX,pcdn.xmcdn.com
+  - DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com
+  # P2P 相关域名
+  - DOMAIN,p2p.qq.com
+  - DOMAIN,p2ptun.qq.com
+  - DOMAIN,p2pupdate.gamedl.qq.com
+  - DOMAIN,p2pupgrade.gamedl.qq.com
+  - DOMAIN,stun.hitv.com
+# 正则匹配规则
+  - DOMAIN-REGEX,.*pcdn.*biliapi.net
+  - DOMAIN-REGEX,.*pcdn.*youku.com
+  - DOMAIN-REGEX,.*p2p.*qq.com
+# 斗鱼规则
+  - DOMAIN-SUFFIX,stun.douyucdn.cn
+  - DOMAIN-SUFFIX,stun1.douyucdn.cn
+  - DOMAIN-SUFFIX,dyp2p-ali.douyucdn.cn
+  - DOMAIN-SUFFIX,dyp2p-hw.douyucdn.cn
+  - DOMAIN-SUFFIX,p2p-ali.douyucdn.cn
+  - DOMAIN-SUFFIX,p2pchunk-hw.douyucdn.cn
+  - DOMAIN-SUFFIX,p2pchunk-table.douyucdn.cn
+  - DOMAIN-SUFFIX,p2pchunk-ws.douyucdn.cn
+  - DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn
+  - DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn
+  - DOMAIN-SUFFIX,p2pvod-ws.douyucdn.cn
+# Common PCDN
+  - DOMAIN:bsclink.cn
+  - DOMAIN:bsgslb.cn
+  - DOMAIN:kspcdn.com
+  - DOMAIN:ws-p2p.com
+# --------- iQIYI (爱奇艺) ---------
+  - DOMAIN:data-qvs.iqiyi.com
+  - DOMAIN:m-pcdn-info.iqiyi.com
+  - DOMAIN:m-pcdn-info.is.iqiyi.com
+  - DOMAIN:pcdn-ali.iqiyi.com
+  - DOMAIN:pcdn-bj.iqiyi.com
+  - DOMAIN:pcdn-clients.iqiyi.com
+  - DOMAIN:pcdn-dispatch.iqiyi.com
+  - DOMAIN:pcdn.iqiyi.com
+  - DOMAIN-REGEX:.*pcdn.*\.iqiyi\.com
+# --------- Alibaba (Youku, etc. - 优酷) ---------
+  - DOMAIN:acs.youku.com
+  - DOMAIN:pcdn.livelive.cn
+  - DOMAIN:pcdn.volcvideo.com
+  - DOMAIN:cibn-pcdn.youku.com
+  - DOMAIN:p2p.youku.com
+  - DOMAIN:pcdn-ali.youku.com
+  - DOMAIN:pcdn.youku.com
+  - DOMAIN-REGEX:.*p2p.*\.youku\.com
+  - DOMAIN-REGEX:.*pcdn.*\.youku\.com
+# --------- Tencent (腾讯) ---------
+  - DOMAIN:p.tencentmusic.com
+  - DOMAIN:vlivep2p.tc.qq.com
+  - DOMAIN:musicps.p2p.qq.com
+  - DOMAIN:p2p.l.qq.com
+  - DOMAIN:p2p.qq.com
+  - DOMAIN:p2p.vod.v.qq.com
+  - DOMAIN:p2ptun.qq.com
+  - DOMAIN:p2pupdate.gamedl.qq.com
+  - DOMAIN:p2pupgrade.gamedl.qq.com
+  - DOMAIN:twns.p2ptun.qq.com
+  - DOMAIN-REGEX:.*p2p.*\.qq\.com
+  - DOMAIN:pcdn-a.l.qq.com
+  - DOMAIN:pcdn-rt.l.qq.com
+  - DOMAIN:pcdn.l.qq.com
+  - DOMAIN-REGEX:.*pcdn.*\.l\.qq\.com
+## --------- Bilibili (B站) ---------
+  - DOMAIN:p2p.bilibili.com
+  - DOMAIN:pcdn.bilibili.com
+  - DOMAIN:upos-bstar-pcdn.bilivideo.com
+  - DOMAIN:upos-sz-pcdn.bilivideo.com
+  - DOMAIN-REGEX:.*pcdn.*\.bilivideo\.com
+--------- Xunlei (迅雷) ---------
+  - DOMAIN:down.sandai.net
+  - DOMAIN:hub.p2p.xunlei.com
+  - DOMAIN:p2p.xunlei.com
+  - DOMAIN:pcdn.cloud.xunlei.com
+### --------- Baidu (百度) ---------
+  - DOMAIN:d.pcs.baidu.com
+  - DOMAIN:p.bokecc.com
+  - DOMAIN:p2p.baidupcs.com
+# --------- Douyu / Huya (斗鱼 / 虎牙) ---------
+  - DOMAIN:stun.hitv.com
+  - DOMAIN:dyp2p-ali.douyucdn.cn
+  - DOMAIN:dyp2p-hw.douyucdn.cn
+  - DOMAIN:p2p-ali.douyucdn.cn
+  - DOMAIN:p2pchunk-hw.douyucdn.cn
+  - DOMAIN:p2pchunk-table.douyucdn.cn
+  - DOMAIN:p2pchunk-ws.douyucdn.cn
+  - DOMAIN:p2perrorlog.douyucdn.cn
+  - DOMAIN:p2plive-ali.douyucdn.cn
+  - DOMAIN:p2plive-ws.douyucdn.cn
+  - DOMAIN:p2plog.douyucdn.cn
+  - DOMAIN:p2pvod-ws.douyucdn.cn
+  - DOMAIN-REGEX:.*p2p.*douyucdn\.cn
+# --------- 其他视频平台 ---------
+  - DOMAIN:pcdn.xmcdn.com
+  - DOMAIN:pcdn.ksyun.com
+  - DOMAIN:pcdn.mgtv.com
+  - DOMAIN:p2p.wasu.cn
+  - DOMAIN:pcdn.wasu.cn
+  - DOMAIN:p2p.cctv.cn
+# --------- 游戏平台 ---------
+  - DOMAIN:p2p.wanmei.com
+# --------- 智能硬件 (IoT) ---------
+  - DOMAIN:gw.smart.jd.com
+  - DOMAIN:router-app-api.jd.com
+  - DOMAIN:miwifi.com
+  - DOMAIN:pandora.xiaomi.com
+  - DOMAIN:p2p.mi.com
+  - DOMAIN:data.mistat.xiaomi.com
+  #############
   - DOMAIN,api.app.skysrt.com
   - DOMAIN,api.upgrade.skysrt.com
   - DOMAIN,update01.skyworth-cloud.com
@@ -106,7 +294,6 @@ payload:
   - DOMAIN,tp2p.kg.qq.com
   - DOMAIN,twns.p2ptun.qq.com
   - DOMAIN,sd-gl.xinqiucc.com
-  - DOMAIN,p2ptun.qq.com
   - DOMAIN,ac.dun.163.com
   - DOMAIN,fp-upload.dun.163.com
   - DOMAIN,component-ota-in.allawnos.com
@@ -116,62 +303,14 @@ payload:
   - DOMAIN-SUFFIX,ac.dun.163.com
   - DOMAIN-SUFFIX,fp-upload.dun.163.com
   - DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
-  - DOMAIN-SUFFIX,ppio.cloud
-  - DOMAIN-SUFFIX,bsccdn.net
-  - DOMAIN-SUFFIX,yfp2p.net
-  - DOMAIN-SUFFIX,yfcdn.net
-  - DOMAIN-SUFFIX,ietheivaicai.com
-  - DOMAIN-SUFFIX,onethingpcs.com
-  - DOMAIN-SUFFIX,nexusedgeio.com
-  - DOMAIN-SUFFIX,tianwenca.com
   - DOMAIN,upos-sz-302ppio.bilivideo.com
-  - DOMAIN,upos-sz-302kodo.bilivideo.com
-  - DOMAIN-SUFFIX,pkoplink.com
-  - DOMAIN,qn-cdnfile1pcdn.msstatic.com
-  - DOMAIN,livewebbs2pcdn.msstatic.com
-  - DOMAIN-SUFFIX,kuiniuca.com
-  - DOMAIN-SUFFIX,yfcloud.com
-  - DOMAIN-SUFFIX,saxysec.com
-  - DOMAIN-SUFFIX,pcdn.yximgs.com
-  - DOMAIN-SUFFIX,szbdyd.com
-  - DOMAIN-SUFFIX,xycdn.com
-  - DOMAIN-SUFFIX,uhabo.com
-  - DOMAIN-SUFFIX,p2cdn.com
-  - DOMAIN-SUFFIX,p2p.huya.com
-  - DOMAIN-SUFFIX,p2ptun.qq.com
-  - DOMAIN-SUFFIX,p2pupgrade.gamedl.qq.com
-  - DOMAIN-SUFFIX,p2pupdate.gamedl.qq.com
-  - DOMAIN-SUFFIX,p2p.qq.com
-  - DOMAIN-SUFFIX,mountaintoys.cn
-  - DOMAIN-SUFFIX,cdnnodedns.cn
-  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
-  - DOMAIN-SUFFIX,p2perrorlog.douyucdn.cn
-  - DOMAIN-SUFFIX,p2plog.douyucdn.cn
-  - DOMAIN-SUFFIX,gjfzpt.cn
   - DOMAIN-KEYWORD,-p2p.pull.yximgs.com
   - DOMAIN-KEYWORD,-p2p-v2.pull.yximgs.com
-  - DOMAIN-WILDCARD,p2p*.qq.com
-  - DOMAIN-WILDCARD,p2p-*.douyucdn.cn
-  - DOMAIN-WILDCARD,p2pchunk-*.douyucdn.cn
-  - DOMAIN-WILDCARD,dyp2p-*.douyucdn.cn
-  - DOMAIN-WILDCARD,p2plive-*.douyucdn.cn
-  - DOMAIN-WILDCARD,stun*.douyucdn.cn
   ###优酷
   - DOMAIN-SUFFIX,atm.youku.com
-  - DOMAIN-SUFFIX,Fvid.atm.youku.com
-  - DOMAIN-SUFFIX,html.atm.youku.com
-  - DOMAIN-SUFFIX,valb.atm.youku.com
-  - DOMAIN-SUFFIX,valf.atm.youku.com
-  - DOMAIN-SUFFIX,valo.atm.youku.com
-  - DOMAIN-SUFFIX,valp.atm.youku.com
   - DOMAIN-SUFFIX,lstat.youku.com
-  - DOMAIN-SUFFIX,speed.Istat.youku.com
-  - DOMAIN-SUFFIX,urchin.Istat.youku.com
+  - DOMAIN-SUFFIX,Istat.youku.com
   - DOMAIN-SUFFIX,stat.youku.com
-  - DOMAIN-SUFFIX,static.lstat.youku.com
-  - DOMAIN-SUFFIX,valc.atm.youku.com
-  - DOMAIN-SUFFIX,vid.atm.youku.com
-  - DOMAIN-SUFFIX,walp.atm.youku.com
   ###爱奇艺
   - DOMAIN,afp.qiyi.com
   - DOMAIN,focusbaiduafp.allyes.com
@@ -219,24 +358,9 @@ payload:
   - DOMAIN-SUFFIX,d.cntv.cn
   - DOMAIN-SUFFIX,adguanggao.eee114.com
   - DOMAIN-SUFFIX,cctv.adsunion.com
-  #############
   #####  https://thhbdd.github.io/Block-pcdn-domains/ban.txt
   #####  https://cdn.jsdelivr.net/gh/susetao/PCDNFilter-CHN-@main/PCDNFilter.txt
-  - DOMAIN-SUFFIX,jomodns.cn
-  - DOMAIN-SUFFIX,stun.douyucdn.cn
   - DOMAIN-SUFFIX,stun.hitv.com
-  - DOMAIN-SUFFIX,stun1.douyucdn.cn
-  - DOMAIN-SUFFIX,tpa-hcdn.iqiyi.com
-  - DOMAIN-SUFFIX,pcdn.xmcdn.com
-  - DOMAIN-SUFFIX,dyp2p-ali.douyucdn.cn
-  - DOMAIN-SUFFIX,dyp2p-hw.douyucdn.cn
-  - DOMAIN-SUFFIX,p2p-ali.douyucdn.cn
-  - DOMAIN-SUFFIX,p2pchunk-hw.douyucdn.cn
-  - DOMAIN-SUFFIX,p2pchunk-table.douyucdn.cn
-  - DOMAIN-SUFFIX,p2pchunk-ws.douyucdn.cn
-  - DOMAIN-SUFFIX,p2plive-ali.douyucdn.cn
-  - DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn
-  - DOMAIN-SUFFIX,p2pvod-ws.douyucdn.cn
   ##### https://api.bilibili.com/x/pd-proxy/tracker?channel=release
   - DOMAIN,hw-edge.biliapi.net
   - DOMAIN,ali-edge.biliapi.net
@@ -256,18 +380,6 @@ payload:
   - IP-CIDR6,240e:96c:200:6004:50:5500:e008:c9ef/128,no-resolve
   - IP-CIDR6,2402:4e00:140c:a000:0:9e09:36d8:765f/128,no-resolve
   - IP-CIDR6,2402:4e00:140c:a000:0:9e09:3950:74c7/128,no-resolve
-  ### 视频平台 CDN
-  ### P2P 相关域名
-  - DOMAIN,p2p.huya.com
-  - DOMAIN,p2p.qq.com
-  - DOMAIN,p2pupdate.gamedl.qq.com
-  - DOMAIN,p2pupgrade.gamedl.qq.com
-  - DOMAIN,pcdn.yximgs.com
-  - DOMAIN,stun.hitv.com
-  ### 正则匹配规则
-  - DOMAIN-REGEX,.*pcdn.*biliapi.net
-  - DOMAIN-REGEX,.*pcdn.*youku.com
-  - DOMAIN-REGEX,.*p2p.*qq.com
   ### 斗鱼规则
   ########
   - DOMAIN,tx-gz-live-p2p-01.chat.bilibili.com
@@ -314,7 +426,6 @@ payload:
   - DOMAIN,st.360safe.company
   - DOMAIN,reverse.wcsset.com
   - DOMAIN,agt.wcsset.com
-  
   #######
   - DOMAIN-SUFFIX,ads.oppomobile.com
   - DOMAIN-SUFFIX,adsfs.oppomobile.com
@@ -547,7 +658,6 @@ payload:
   - IP-CIDR,211.161.101.110/32,no-resolve
   - IP-CIDR,220.115.251.25/32,no-resolve
   - IP-CIDR,222.73.156.235/32,no-resolve
-
 #Title: AWAvenue Ads Rule
 #--------------------------------------
 #Update time: 2026-09-09 23:35:30 UTC+8
@@ -1179,7 +1289,6 @@ payload:
   - DOMAIN,sigmob.com
   - DOMAIN,skdisplay.jd.com
   - DOMAIN,sl.hpplay.cn
-  - DOMAIN,slb-p2p.vcloud.ks-live.com
   - DOMAIN,smad.ms.zhangyue.net
   - DOMAIN,smartad.10010.com
   - DOMAIN,smetrics.samsung.com
