@@ -1,4 +1,4 @@
-#### Reject,屏蔽追踪/去广告,部分引用AWAvenue Ads Rule
+#### Reject,屏蔽追踪/去广告,网络收集整理
 
 payload:
   - DOMAIN,adsense.google.cn
