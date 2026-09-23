@@ -136,6 +136,9 @@ payload:
   - DOMAIN-SUFFIX,ybypark.com
   - DOMAIN-SUFFIX,rumt-zh.com
   - DOMAIN-SUFFIX,tlink.io
+  - DOMAIN-SUFFIX,yifai999.top
+  - DOMAIN-SUFFIX,liicon.com
+  - DOMAIN-SUFFIX,youzhanjia.com
   #########
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-SUFFIX,discfan.xyz
@@ -148,12 +151,10 @@ payload:
   - DOMAIN-SUFFIX,halomt.com
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-KEYWORD,announce.php  
-  - DOMAIN-KEYWORD,passkey=
-  - DOMAIN-SUFFIX,yifai999.top
+  - DOMAIN-KEYWORD,passkey= 
   - PROCESS-NAME,org.localsend.localsend_app
   - PROCESS-NAME,localsend
   - PROCESS-NAME,com.eg.android.AlipayGphone
-  - DOMAIN-SUFFIX,youzhanjia.com
   - DOMAIN-KEYWORD,uTorrent
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,DownloadService
