@@ -142,20 +142,21 @@ payload:
   - DOMAIN-SUFFIX,yifai999.top
   - DOMAIN-SUFFIX,rumt-zh.com
   - DOMAIN-SUFFIX,tlink.io
+  - DOMAIN-SUFFIX,liicon.com
   
   ## 路由器后台管理
-  - DOMAIN,ruiyi.cn
-  - DOMAIN,tplogin.cn
-  - DOMAIN,melogin.cn
-  - DOMAIN,falogin.cn
-  - DOMAIN,leike.cc
-  - DOMAIN,miwifi.com
-  - DOMAIN,routerlogin.com
-  - DOMAIN,router.asus.com
+  - DOMAIN-SUFFIX,ruiyi.cn
+  - DOMAIN-SUFFIX,tplogin.cn
+  - DOMAIN-SUFFIX,melogin.cn
+  - DOMAIN-SUFFIX,falogin.cn
+  - DOMAIN-SUFFIX,leike.cc
+  - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN-SUFFIX,routerlogin.com
+  - DOMAIN-SUFFIX,router.asus.com
   - DOMAIN-SUFFIX,zte.home
-  - DOMAIN,wifi.wavlink.com
+  - DOMAIN-SUFFIX,wifi.wavlink.com
   - DOMAIN-SUFFIX,myrouter.local
-  - DOMAIN,linksyssmartwifi.com
+  - DOMAIN-SUFFIX,linksyssmartwifi.com
 
   ############### 常用PT下载
   - DOMAIN-SUFFIX,discfan.net
@@ -170,7 +171,6 @@ payload:
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-KEYWORD,announce.php  
   #############
-  - DOMAIN-KEYWORD,9999,DIRECT
   - DOMAIN-SUFFIX,ybypark.com
   - DOMAIN-SUFFIX,welife001.com
   - DOMAIN-SUFFIX,wxgateway.com
