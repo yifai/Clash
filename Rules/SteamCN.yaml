@@ -1,4 +1,7 @@
-- DOMAIN,csgo.wmsj.cn
+# NAME SteamCN
+payload:
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN,csgo.wmsj.cn
   - DOMAIN,dl.steam.clngaa.com
   - DOMAIN,dl.steam.ksyna.com
   - DOMAIN,dota2.wmsj.cn
