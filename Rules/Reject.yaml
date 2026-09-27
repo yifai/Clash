@@ -1,4 +1,4 @@
-#### Reject,屏蔽追踪/去广告,网络收集整理
+#### Reject,屏蔽追踪/去广告,网络收集整理，部分引用AWAvenue Ads Rule
 
 payload:
   - DOMAIN,adsense.google.cn
@@ -164,91 +164,91 @@ payload:
   - DOMAIN-SUFFIX,p2plive-ws.douyucdn.cn
   - DOMAIN-SUFFIX,p2pvod-ws.douyucdn.cn
 # Common PCDN
-  - DOMAIN:bsclink.cn
-  - DOMAIN:bsgslb.cn
-  - DOMAIN:kspcdn.com
-  - DOMAIN:ws-p2p.com
+  - DOMAIN,bsclink.cn
+  - DOMAIN,bsgslb.cn
+  - DOMAIN,kspcdn.com
+  - DOMAIN,ws-p2p.com
 # --------- iQIYI (爱奇艺) ---------
-  - DOMAIN:data-qvs.iqiyi.com
-  - DOMAIN:m-pcdn-info.iqiyi.com
-  - DOMAIN:m-pcdn-info.is.iqiyi.com
-  - DOMAIN:pcdn-ali.iqiyi.com
-  - DOMAIN:pcdn-bj.iqiyi.com
-  - DOMAIN:pcdn-clients.iqiyi.com
-  - DOMAIN:pcdn-dispatch.iqiyi.com
-  - DOMAIN:pcdn.iqiyi.com
-  - DOMAIN-REGEX:.*pcdn.*\.iqiyi\.com
+  - DOMAIN,data-qvs.iqiyi.com
+  - DOMAIN,m-pcdn-info.iqiyi.com
+  - DOMAIN,m-pcdn-info.is.iqiyi.com
+  - DOMAIN,pcdn-ali.iqiyi.com
+  - DOMAIN,pcdn-bj.iqiyi.com
+  - DOMAIN,pcdn-clients.iqiyi.com
+  - DOMAIN,pcdn-dispatch.iqiyi.com
+  - DOMAIN,pcdn.iqiyi.com
+  - DOMAIN-REGEX,.*pcdn.*\.iqiyi\.com
 # --------- Alibaba (Youku, etc. - 优酷) ---------
-  - DOMAIN:acs.youku.com
-  - DOMAIN:pcdn.livelive.cn
-  - DOMAIN:pcdn.volcvideo.com
-  - DOMAIN:cibn-pcdn.youku.com
-  - DOMAIN:p2p.youku.com
-  - DOMAIN:pcdn-ali.youku.com
-  - DOMAIN:pcdn.youku.com
-  - DOMAIN-REGEX:.*p2p.*\.youku\.com
-  - DOMAIN-REGEX:.*pcdn.*\.youku\.com
+  - DOMAIN,acs.youku.com
+  - DOMAIN,pcdn.livelive.cn
+  - DOMAIN,pcdn.volcvideo.com
+  - DOMAIN,cibn-pcdn.youku.com
+  - DOMAIN,p2p.youku.com
+  - DOMAIN,pcdn-ali.youku.com
+  - DOMAIN,pcdn.youku.com
+  - DOMAIN-REGEX,.*p2p.*\.youku\.com
+  - DOMAIN-REGEX,.*pcdn.*\.youku\.com
 # --------- Tencent (腾讯) ---------
-  - DOMAIN:p.tencentmusic.com
-  - DOMAIN:vlivep2p.tc.qq.com
-  - DOMAIN:musicps.p2p.qq.com
-  - DOMAIN:p2p.l.qq.com
-  - DOMAIN:p2p.qq.com
-  - DOMAIN:p2p.vod.v.qq.com
-  - DOMAIN:p2ptun.qq.com
-  - DOMAIN:p2pupdate.gamedl.qq.com
-  - DOMAIN:p2pupgrade.gamedl.qq.com
-  - DOMAIN:twns.p2ptun.qq.com
-  - DOMAIN-REGEX:.*p2p.*\.qq\.com
-  - DOMAIN:pcdn-a.l.qq.com
-  - DOMAIN:pcdn-rt.l.qq.com
-  - DOMAIN:pcdn.l.qq.com
-  - DOMAIN-REGEX:.*pcdn.*\.l\.qq\.com
+  - DOMAIN,p.tencentmusic.com
+  - DOMAIN,vlivep2p.tc.qq.com
+  - DOMAIN,musicps.p2p.qq.com
+  - DOMAIN,p2p.l.qq.com
+  - DOMAIN,p2p.qq.com
+  - DOMAIN,p2p.vod.v.qq.com
+  - DOMAIN,p2ptun.qq.com
+  - DOMAIN,p2pupdate.gamedl.qq.com
+  - DOMAIN,p2pupgrade.gamedl.qq.com
+  - DOMAIN,twns.p2ptun.qq.com
+  - DOMAIN-REGEX,.*p2p.*\.qq\.com
+  - DOMAIN,pcdn-a.l.qq.com
+  - DOMAIN,pcdn-rt.l.qq.com
+  - DOMAIN,pcdn.l.qq.com
+  - DOMAIN-REGEX,.*pcdn.*\.l\.qq\.com
 ## --------- Bilibili (B站) ---------
-  - DOMAIN:p2p.bilibili.com
-  - DOMAIN:pcdn.bilibili.com
-  - DOMAIN:upos-bstar-pcdn.bilivideo.com
-  - DOMAIN:upos-sz-pcdn.bilivideo.com
-  - DOMAIN-REGEX:.*pcdn.*\.bilivideo\.com
+  - DOMAIN,p2p.bilibili.com
+  - DOMAIN,pcdn.bilibili.com
+  - DOMAIN,upos-bstar-pcdn.bilivideo.com
+  - DOMAIN,upos-sz-pcdn.bilivideo.com
+  - DOMAIN-REGEX,.*pcdn.*\.bilivideo\.com
 --------- Xunlei (迅雷) ---------
-  - DOMAIN:down.sandai.net
-  - DOMAIN:hub.p2p.xunlei.com
-  - DOMAIN:p2p.xunlei.com
-  - DOMAIN:pcdn.cloud.xunlei.com
+  - DOMAIN,down.sandai.net
+  - DOMAIN,hub.p2p.xunlei.com
+  - DOMAIN,p2p.xunlei.com
+  - DOMAIN,pcdn.cloud.xunlei.com
 ### --------- Baidu (百度) ---------
-  - DOMAIN:d.pcs.baidu.com
-  - DOMAIN:p.bokecc.com
-  - DOMAIN:p2p.baidupcs.com
+  - DOMAIN,d.pcs.baidu.com
+  - DOMAIN,p.bokecc.com
+  - DOMAIN,p2p.baidupcs.com
 # --------- Douyu / Huya (斗鱼 / 虎牙) ---------
-  - DOMAIN:stun.hitv.com
-  - DOMAIN:dyp2p-ali.douyucdn.cn
-  - DOMAIN:dyp2p-hw.douyucdn.cn
-  - DOMAIN:p2p-ali.douyucdn.cn
-  - DOMAIN:p2pchunk-hw.douyucdn.cn
-  - DOMAIN:p2pchunk-table.douyucdn.cn
-  - DOMAIN:p2pchunk-ws.douyucdn.cn
-  - DOMAIN:p2perrorlog.douyucdn.cn
-  - DOMAIN:p2plive-ali.douyucdn.cn
-  - DOMAIN:p2plive-ws.douyucdn.cn
-  - DOMAIN:p2plog.douyucdn.cn
-  - DOMAIN:p2pvod-ws.douyucdn.cn
-  - DOMAIN-REGEX:.*p2p.*douyucdn\.cn
+  - DOMAIN,stun.hitv.com
+  - DOMAIN,dyp2p-ali.douyucdn.cn
+  - DOMAIN,dyp2p-hw.douyucdn.cn
+  - DOMAIN,p2p-ali.douyucdn.cn
+  - DOMAIN,p2pchunk-hw.douyucdn.cn
+  - DOMAIN,p2pchunk-table.douyucdn.cn
+  - DOMAIN,p2pchunk-ws.douyucdn.cn
+  - DOMAIN,p2perrorlog.douyucdn.cn
+  - DOMAIN,p2plive-ali.douyucdn.cn
+  - DOMAIN,p2plive-ws.douyucdn.cn
+  - DOMAIN,p2plog.douyucdn.cn
+  - DOMAIN,p2pvod-ws.douyucdn.cn
+  - DOMAIN-REGEX,.*p2p.*douyucdn\.cn
 # --------- 其他视频平台 ---------
-  - DOMAIN:pcdn.xmcdn.com
-  - DOMAIN:pcdn.ksyun.com
-  - DOMAIN:pcdn.mgtv.com
-  - DOMAIN:p2p.wasu.cn
-  - DOMAIN:pcdn.wasu.cn
-  - DOMAIN:p2p.cctv.cn
+  - DOMAIN,pcdn.xmcdn.com
+  - DOMAIN,pcdn.ksyun.com
+  - DOMAIN,pcdn.mgtv.com
+  - DOMAIN,p2p.wasu.cn
+  - DOMAIN,pcdn.wasu.cn
+  - DOMAIN,p2p.cctv.cn
 # --------- 游戏平台 ---------
-  - DOMAIN:p2p.wanmei.com
+  - DOMAIN,p2p.wanmei.com
 # --------- 智能硬件 (IoT) ---------
-  - DOMAIN:gw.smart.jd.com
-  - DOMAIN:router-app-api.jd.com
-  - DOMAIN:miwifi.com
-  - DOMAIN:pandora.xiaomi.com
-  - DOMAIN:p2p.mi.com
-  - DOMAIN:data.mistat.xiaomi.com
+  - DOMAIN,gw.smart.jd.com
+  - DOMAIN,router-app-api.jd.com
+  - DOMAIN,miwifi.com
+  - DOMAIN,pandora.xiaomi.com
+  - DOMAIN,p2p.mi.com
+  - DOMAIN,data.mistat.xiaomi.com
   #############
   - DOMAIN,api.app.skysrt.com
   - DOMAIN,api.upgrade.skysrt.com
