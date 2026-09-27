@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,kgimg.com
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,eple1.top
+  
   ##############################
   - DOMAIN-SUFFIX,ksepton.com
   - DOMAIN-SUFFIX,doordu.com
@@ -143,6 +144,8 @@ payload:
   - DOMAIN-SUFFIX,rumt-zh.com
   - DOMAIN-SUFFIX,tlink.io
   - DOMAIN-SUFFIX,liicon.com
+  - DOMAIN-SUFFIX,lg3h.org
+  - DOMAIN-SUFFIX,lg3h.com
   
   ## 路由器后台管理
   - DOMAIN-SUFFIX,ruiyi.cn
@@ -175,7 +178,6 @@ payload:
   - DOMAIN-SUFFIX,welife001.com
   - DOMAIN-SUFFIX,wxgateway.com
   - DOMAIN-SUFFIX,banjixiaoguanjia.com
-  - DOMAIN-SUFFIX,lg3h.com
   - DOMAIN-SUFFIX,szsti.org
   - DOMAIN-SUFFIX,getui.com
   - DOMAIN-SUFFIX,pauyun.gd.cn
@@ -323,7 +325,6 @@ payload:
   - DOMAIN-SUFFIX,iflytek.com
   - DOMAIN-SUFFIX,71.am
   #- DOMAIN-SUFFIX,serveftp.net
-  - DOMAIN-SUFFIX,lg3h.org
   - DOMAIN-SUFFIX,71edge.com
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,iqiyipic.com
@@ -722,6 +723,25 @@ payload:
   - DOMAIN,file-igamecj.akamaized.net
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,sms.imagetasks.com
+  ####### SteamCN
+  - DOMAIN,csgo.wmsj.cn
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,dota2.wmsj.cn
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,st.dl.pinyuncloud.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  - DOMAIN,steampowered.com.8686c.com
+  - DOMAIN,steamstatic.com.8686c.com
+  - DOMAIN,wmsjsteam.com
+  - DOMAIN,xz.pphimalayanrt.com
+  - DOMAIN-SUFFIX,cm.steampowered.com
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamserver.net
+  #- DOMAIN-SUFFIX,steamusercontent.com
+  ##################
   - DOMAIN-SUFFIX,10089.cn
   - DOMAIN-SUFFIX,12306.cn
   - DOMAIN-SUFFIX,17jita.com
