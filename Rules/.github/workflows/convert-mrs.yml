@@ -1,0 +1,62 @@
+name: Convert Classical Ruleset to MRS
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'rules/**.yaml' # 严格限制：只有 rules 目录下的 .yaml 文件变动才触发
+      - 'rules/**.yml'  # 严格限制：只有 rules 目录下的 .yml 文件变动才触发
+  workflow_dispatch:   # 保留手动触发按钮，方便你偶尔想手动强制运行一次
+
+jobs:
+  convert-rules:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 赋予 Actions 推送代码回仓库的权限
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Latest Mihomo
+        run: |
+          # 动态获取 Mihomo 最新版本号并下载核心
+          VERSION=$(curl -s https://github.com | grep tag_name | cut -d '"' -f 4)
+          echo "Latest Mihomo version is $VERSION"
+          curl -L -o mihomo.gz "https://github.com{VERSION}/mihomo-linux-amd64-${VERSION}.gz"
+          gzip -d mihomo.gz
+          chmod +x mihomo
+          sudo mv mihomo /usr/local/bin/
+
+      - name: Process Rulesets (Classical Mode)
+        run: |
+          mkdir -p output
+          
+          # 遍历 rules 目录，仅处理引发变动的 yaml 文件
+          if [ -d "rules" ] && [ "$(ls -A rules 2>/dev/null)" ]; then
+            for f in rules/*.yaml rules/*.yml; do
+              [ -e "$f" ] || continue
+              filename=$(basename "$f" | sed 's/\.ya\?ml$//')
+              echo "Converting modified ruleset: $filename"
+              
+              # 使用 classical 模式转换
+              mihomo convert-ruleset classical text "$f" "output/${filename}.mrs"
+            done
+          else
+            echo "No YAML files found in rules/ directory."
+            exit 1
+          fi
+
+      - name: Commit and Push MRS
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          
+          # 检查 output 文件夹是否有文件产生或更新，避免空提交报错
+          if git status --porcelain output/ | grep -q 'output/'; then
+            git add output/*.mrs
+            git commit -m "chore: auto-convert changed classical yaml to mrs [skip ci]"
+            git push
+          else
+            echo "No changes detected in the generated MRS files."
+          fi
