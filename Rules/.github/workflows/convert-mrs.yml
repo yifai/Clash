@@ -2,11 +2,10 @@ name: Convert Classical Ruleset to MRS
 
 on:
   push:
-    branches: [ main ]
-    paths:
-      - 'rules/**.yaml' # 严格限制：只有 rules 目录下的 .yaml 文件变动才触发
-      - 'rules/**.yml'  # 严格限制：只有 rules 目录下的 .yml 文件变动才触发
-  workflow_dispatch:   # 保留手动触发按钮，方便你偶尔想手动强制运行一次
+    branches: [ main ] # 只要 main 分支有任何推送，立即转换
+  schedule:
+    - cron: '0 20 * * *' # 每天北京时间凌晨 4:00 (UTC 20:00) 自动定时更新
+  workflow_dispatch: # 支持在 GitHub 页面上手动一键运行
 
 jobs:
   convert-rules:
@@ -30,16 +29,18 @@ jobs:
 
       - name: Process Rulesets (Classical Mode)
         run: |
+          # 无论如何，先清空或创建全新的 output 目录，确保每次都是重新生成
+          rm -rf output
           mkdir -p output
           
-          # 遍历 rules 目录，仅处理引发变动的 yaml 文件
+          # 检查 rules 目录是否存在且不为空
           if [ -d "rules" ] && [ "$(ls -A rules 2>/dev/null)" ]; then
             for f in rules/*.yaml rules/*.yml; do
               [ -e "$f" ] || continue
               filename=$(basename "$f" | sed 's/\.ya\?ml$//')
-              echo "Converting modified ruleset: $filename"
+              echo "Forcing conversion for: $filename"
               
-              # 使用 classical 模式转换
+              # 强制进行转换
               mihomo convert-ruleset classical text "$f" "output/${filename}.mrs"
             done
           else
@@ -52,11 +53,9 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@://github.com"
           
-          # 检查 output 文件夹是否有文件产生或更新，避免空提交报错
-          if git status --porcelain output/ | grep -q 'output/'; then
-            git add output/*.mrs
-            git commit -m "chore: auto-convert changed classical yaml to mrs [skip ci]"
-            git push
-          else
-            echo "No changes detected in the generated MRS files."
-          fi
+          # 无论内容有无实质变化，只要生成了文件就执行添加
+          git add output/*.mrs
+          
+          # 如果内容完全一致导致 git commit 没有新提交，使用 || true 允许工作流正常通过不报错
+          git commit -m "chore: force re-convert classical yaml to mrs [skip ci]" || echo "No actual content changes, skipping commit."
+          git push || echo "No changes to push."
