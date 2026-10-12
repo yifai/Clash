@@ -119,6 +119,8 @@ payload:
   - DOMAIN-SUFFIX,cndfacebook.com
   - DOMAIN-SUFFIX,fb.com
   - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,meta.ai
+
   - DOMAIN-SUFFIX,fbcdn.com
   - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,fbsbx.com
