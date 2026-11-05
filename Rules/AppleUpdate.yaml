@@ -3,7 +3,8 @@
 payload:
   - DOMAIN,mesu.apple.com
   - DOMAIN,gdmf.apple.com
-  - DOMAIN,updates.cdn-apple.com
+  
+  #- DOMAIN,updates.cdn-apple.com #系统app，不可屏蔽
 
   # mesu.apple.com: 核心域名，用于查询是否有新的 iOS 版本。
   # gdmf.apple.com: 设备管理框架域名，用于下发更新描述文件。
