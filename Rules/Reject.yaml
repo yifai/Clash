@@ -63,9 +63,9 @@ payload:
   - DOMAIN,snssdk.com  ###头条
   - PROCESS-NAME,com.iqoo.secure
   - DOMAIN,msmp.abchina.com.cn
-  - DOMAIN,fraud-detection.engine.miui.com #小米反诈服务器
-  - DOMAIN,flash.sec.miui.com #小米反诈服务器
-  - DOMAIN,dm.wo.com.cn #联通SystemHelper
+  - DOMAIN,fraud-detection.engine.miui.com #SystemHelper
+  - DOMAIN,flash.sec.miui.com #SystemHelper
+  - DOMAIN,dm.wo.com.cn #SystemHelper
   
   ##### 禁止PCDN
   - DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
